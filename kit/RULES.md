@@ -76,6 +76,19 @@ Separate the post body from the footer with one empty line. Whole caption ≤ 10
   e.g. "Как бы вы ответили?"); Wed/Sat **Admission** (Academy branch IELTS / General English courses,
   free trial lesson, "IELTS 9.0 darajali o'qituvchilar", call to action with the link in the footer).
 
+## Design library
+`library/academy/` holds finished Academy posts the owner approved as on-brand; `library/references/` holds the
+owner's reference posters (style ideas only — never post them, they carry other branches' contacts). For 20:00
+Admission days you may post one of `library/academy/` images (rotate, check the log so the same one is not reused
+within 14 days) instead of rendering a new card. Facts you may state about the branch: General English and IELTS
+courses, Beginner and Elementary groups at 09:30, free trial lesson, teachers up to IELTS 9.0, Mr Johns
+(English instructor, IELTS 7.5, 9 years, 2,700+ students). Do not invent prices, durations, dates or other courses.
+
+## Owner videos
+Use the owner's caption, but if it names a past month or date (e.g. "sentyabr oyi uchun qabul" in October) rewrite
+that part to be current or remove it, and always replace the footer with the exact footer above. Keep any bot or
+registration link the owner included.
+
 ## Log
 Append one JSON line per post to `log/posted.jsonl`:
 `{"date":"YYYY-MM-DD","slot":"08:00","style":[1,4],"topic":"...","quotes":["Author: first words..."],"message_ids":[...]}`
