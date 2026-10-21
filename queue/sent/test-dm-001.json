@@ -1,0 +1,81 @@
+{
+ "id": "test-dm-001",
+ "steps": [
+  {
+   "method": "sendPhoto",
+   "params": {
+    "chat_id": "5663766757",
+    "photo": "https://raw.githubusercontent.com/registan-academy-post/registan-mediaa/main/library/academy/02_general_english_qabul.jpg",
+    "parse_mode": "HTML",
+    "caption": "✅ <b>Sinov: bepul tizim ishlayapti!</b>\n\nBu xabarni GitHub Actions yubordi. Bu faqat sizga, kanalga emas."
+   }
+  }
+ ],
+ "results": [
+  {
+   "ok": true,
+   "result": {
+    "message_id": 10,
+    "from": {
+     "id": 8968527786,
+     "is_bot": true,
+     "first_name": "reg_academy_post",
+     "username": "Registan_Academy_Post_bot"
+    },
+    "chat": {
+     "id": 5663766757,
+     "first_name": "Komronbek Yuldashev",
+     "username": "Komron_Yuldashev",
+     "type": "private"
+    },
+    "date": 1792556795,
+    "photo": [
+     {
+      "file_id": "AgACAgQAAxkDAAMKatg--wGhkgelPfgO3EykdUnXU-UAAuMPaxuvUsVSrLlzDUyHg8QBAAMCAANzAAM9BA",
+      "file_unique_id": "AQAD4w9rG69SxVJ4",
+      "file_size": 1575,
+      "width": 72,
+      "height": 90
+     },
+     {
+      "file_id": "AgACAgQAAxkDAAMKatg--wGhkgelPfgO3EykdUnXU-UAAuMPaxuvUsVSrLlzDUyHg8QBAAMCAANtAAM9BA",
+      "file_unique_id": "AQAD4w9rG69SxVJy",
+      "file_size": 18206,
+      "width": 256,
+      "height": 320
+     },
+     {
+      "file_id": "AgACAgQAAxkDAAMKatg--wGhkgelPfgO3EykdUnXU-UAAuMPaxuvUsVSrLlzDUyHg8QBAAMCAAN4AAM9BA",
+      "file_unique_id": "AQAD4w9rG69SxVJ9",
+      "file_size": 72187,
+      "width": 640,
+      "height": 800
+     },
+     {
+      "file_id": "AgACAgQAAxkDAAMKatg--wGhkgelPfgO3EykdUnXU-UAAuMPaxuvUsVSrLlzDUyHg8QBAAMCAAN5AAM9BA",
+      "file_unique_id": "AQAD4w9rG69SxVJ-",
+      "file_size": 142709,
+      "width": 1024,
+      "height": 1280
+     },
+     {
+      "file_id": "AgACAgQAAxkDAAMKatg--wGhkgelPfgO3EykdUnXU-UAAuMPaxuvUsVSrLlzDUyHg8QBAAMCAAN3AAM9BA",
+      "file_unique_id": "AQAD4w9rG69SxVJ8",
+      "file_size": 367468,
+      "width": 2048,
+      "height": 2560
+     }
+    ],
+    "caption": "✅ Sinov: bepul tizim ishlayapti!\n\nBu xabarni GitHub Actions yubordi. Bu faqat sizga, kanalga emas.",
+    "caption_entities": [
+     {
+      "offset": 2,
+      "length": 30,
+      "type": "bold"
+     }
+    ]
+   }
+  }
+ ],
+ "posted_at": "2026-10-21T04:26:35.492818+00:00"
+}
