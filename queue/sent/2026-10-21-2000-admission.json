@@ -1,0 +1,111 @@
+{
+ "id": "2026-10-21-2000-admission",
+ "steps": [
+  {
+   "method": "sendPhoto",
+   "params": {
+    "chat_id": "@RegistanLC_Academy",
+    "parse_mode": "HTML",
+    "photo": "https://raw.githubusercontent.com/registan-academy-post/registan-mediaa/main/library/academy/02_general_english_qabul.jpg",
+    "caption": "Ingliz tilini \"keyingi oydan boshlayman\" deb yurganlar, izohda bir qo'l ko'tarib qo'ying 🙋\n\nAcademy filialimizda General English va IELTS guruhlariga qabul davom etyapti. Beginner va Elementary guruhlar ertalab soat 09:30 da. Darslarni IELTS 9.0 gacha natijaga ega o'qituvchilar olib boradi.\n\nIshonchingiz komil bo'lmasa, bepul sinov darsiga keling: muhitni ko'rasiz, o'qituvchi bilan tanishasiz, keyin o'zingiz qaror qilasiz. Ro'yxatdan o'tish uchun pastdagi havolani bosing.\n\n📌 <a href=\"https://registan.edutizim.uz/order/entry/?survey=s33\">https://registan.edutizim.uz/order/entry/?survey=s33</a>\n\n📞 +998935512700\n\n📱 <a href=\"https://t.me/Registan_LC\">Follow us on social media</a>:\n\n📱<a href=\"https://t.me/RegistanLC_Academy\">Telegram</a>   📱<a href=\"https://instagram.com/registanlc_academy\">Instagram</a>   📱<a href=\"https://goo.gl/maps/ziHA5ukgVtbGmwwR6\">Location</a>"
+   }
+  }
+ ],
+ "results": [
+  {
+   "ok": true,
+   "result": {
+    "message_id": 3558,
+    "sender_chat": {
+     "id": -1001675672165,
+     "title": "Registan LC | Academy filiali",
+     "username": "RegistanLC_Academy",
+     "type": "channel"
+    },
+    "chat": {
+     "id": -1001675672165,
+     "title": "Registan LC | Academy filiali",
+     "username": "RegistanLC_Academy",
+     "type": "channel"
+    },
+    "date": 1792594527,
+    "photo": [
+     {
+      "file_id": "AgACAgQAAxkDAAMKatg--wGhkgelPfgO3EykdUnXU-UAAuMPaxuvUsVSrLlzDUyHg8QBAAMCAANzAAM9BA",
+      "file_unique_id": "AQAD4w9rG69SxVJ4",
+      "file_size": 1575,
+      "width": 72,
+      "height": 90
+     },
+     {
+      "file_id": "AgACAgQAAxkDAAMKatg--wGhkgelPfgO3EykdUnXU-UAAuMPaxuvUsVSrLlzDUyHg8QBAAMCAANtAAM9BA",
+      "file_unique_id": "AQAD4w9rG69SxVJy",
+      "file_size": 18206,
+      "width": 256,
+      "height": 320
+     },
+     {
+      "file_id": "AgACAgQAAxkDAAMKatg--wGhkgelPfgO3EykdUnXU-UAAuMPaxuvUsVSrLlzDUyHg8QBAAMCAAN4AAM9BA",
+      "file_unique_id": "AQAD4w9rG69SxVJ9",
+      "file_size": 72187,
+      "width": 640,
+      "height": 800
+     },
+     {
+      "file_id": "AgACAgQAAxkDAAMKatg--wGhkgelPfgO3EykdUnXU-UAAuMPaxuvUsVSrLlzDUyHg8QBAAMCAAN5AAM9BA",
+      "file_unique_id": "AQAD4w9rG69SxVJ-",
+      "file_size": 142709,
+      "width": 1024,
+      "height": 1280
+     },
+     {
+      "file_id": "AgACAgQAAxkDAAMKatg--wGhkgelPfgO3EykdUnXU-UAAuMPaxuvUsVSrLlzDUyHg8QBAAMCAAN3AAM9BA",
+      "file_unique_id": "AQAD4w9rG69SxVJ8",
+      "file_size": 367468,
+      "width": 2048,
+      "height": 2560
+     }
+    ],
+    "caption": "Ingliz tilini \"keyingi oydan boshlayman\" deb yurganlar, izohda bir qo'l ko'tarib qo'ying 🙋\n\nAcademy filialimizda General English va IELTS guruhlariga qabul davom etyapti. Beginner va Elementary guruhlar ertalab soat 09:30 da. Darslarni IELTS 9.0 gacha natijaga ega o'qituvchilar olib boradi.\n\nIshonchingiz komil bo'lmasa, bepul sinov darsiga keling: muhitni ko'rasiz, o'qituvchi bilan tanishasiz, keyin o'zingiz qaror qilasiz. Ro'yxatdan o'tish uchun pastdagi havolani bosing.\n\n📌 https://registan.edutizim.uz/order/entry/?survey=s33\n\n📞 +998935512700\n\n📱 Follow us on social media:\n\n📱Telegram   📱Instagram   📱Location",
+    "caption_entities": [
+     {
+      "offset": 482,
+      "length": 52,
+      "type": "text_link",
+      "url": "https://registan.edutizim.uz/order/entry/?survey=s33"
+     },
+     {
+      "offset": 539,
+      "length": 13,
+      "type": "phone_number"
+     },
+     {
+      "offset": 557,
+      "length": 25,
+      "type": "text_link",
+      "url": "https://t.me/Registan_LC"
+     },
+     {
+      "offset": 587,
+      "length": 8,
+      "type": "text_link",
+      "url": "https://t.me/RegistanLC_Academy"
+     },
+     {
+      "offset": 600,
+      "length": 9,
+      "type": "text_link",
+      "url": "https://instagram.com/registanlc_academy"
+     },
+     {
+      "offset": 614,
+      "length": 8,
+      "type": "text_link",
+      "url": "https://goo.gl/maps/ziHA5ukgVtbGmwwR6"
+     }
+    ]
+   }
+  }
+ ],
+ "posted_at": "2026-10-21T14:55:27.685951+00:00"
+}
