@@ -85,14 +85,15 @@ Separate the post body from the footer with one empty line. Whole caption ≤ 10
   rotate Word of the Day (meaning, Uzbek translation, example, synonyms), grammar rule with examples,
   IELTS Speaking/Writing tip, common mistakes ("Don't say / Say"), collocations, phrasal verbs, idioms.
   Image: kind `card`, eyebrow = topic, text = the key item, sub = one-line Uzbek hook, tag "English Tip".
-- **15:00 Video** — take the oldest `inbox/index.jsonl` line with `"type":"video","used":false`. Look at it once
+- **15:00 Video** — post an owner video ONLY if the owner's caption or a note in `inbox/index.jsonl` clearly asks
+  to publish it; the owner said videos he sends are not automatically for the channel. Otherwise treat it as
+  "no video". If allowed: take the oldest `inbox/index.jsonl` line with `"type":"video","used":false` and no `skip`. Look at it once
   (ffmpeg: one frame every 5 s tiled into a strip, then Read) so the caption matches the content. Queue
   `sendVideo` with `video` = its file_id, `supports_streaming` true, parse_mode HTML, caption per "Owner videos"
   below + footer. After it is sent, set that line's `"used": true` and push.
   If no unused video exists: post one original, light, education-themed humour image instead
   (kind `card`, tag "Fun Break"; relatable student life, e.g. "IELTS kunidan oldingi kecha"), and send the
-  owner a short private note (a second step: sendMessage to `5663766757`):
-  "15:00 uchun video qolmadi — botga yangi video yuboring 🎬".
+  Do NOT message the owner about missing videos.
 - **20:00 Engagement** — by weekday: Mon/Thu **Math** (image with the problem + caption, then a
   `sendPoll` quiz (type "quiz") with 4 options, `correct_option_id`, short Uzbek `explanation`);
   Tue/Fri/Sun **Russian** (a fun Russian phrase or question that invites comments, with Uzbek explanation,
