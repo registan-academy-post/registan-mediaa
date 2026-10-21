@@ -1,0 +1,11 @@
+{
+  "id": "test-dm-001",
+  "steps": [
+    {"method": "sendPhoto", "params": {
+      "chat_id": "5663766757",
+      "photo": "https://raw.githubusercontent.com/registan-academy-post/registan-mediaa/main/library/academy/02_general_english_qabul.jpg",
+      "parse_mode": "HTML",
+      "caption": "✅ <b>Sinov: bepul tizim ishlayapti!</b>\n\nBu xabarni GitHub Actions yubordi. Bu faqat sizga, kanalga emas."
+    }}
+  ]
+}
