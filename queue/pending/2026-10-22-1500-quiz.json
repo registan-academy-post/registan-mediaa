@@ -1,0 +1,96 @@
+{
+ "id": "2026-10-22-1500-quiz",
+ "steps": [
+  {
+   "method": "sendMessage",
+   "params": {
+    "chat_id": "@RegistanLC_Academy",
+    "text": "Bugun Elementary guruhlar uchun test: to be (am, is, are) va davlatlar, millatlar.\n5 ta savol, oxirgilari biroz qiyinroq. Javobni tanlang, keyin izohini ham o'qib chiqing 🙂"
+   }
+  },
+  {
+   "method": "sendPoll",
+   "params": {
+    "chat_id": "@RegistanLC_Academy",
+    "question": "Fill the gap: Maria ___ from Italy. She's Italian.",
+    "options": [
+     "am",
+     "are",
+     "is"
+    ],
+    "type": "quiz",
+    "is_anonymous": true,
+    "correct_option_id": 2,
+    "explanation": "She, he, it bilan is ishlatiladi: she is, qisqasi she's. Am faqat I bilan, are esa you, we, they bilan keladi."
+   }
+  },
+  {
+   "method": "sendPoll",
+   "params": {
+    "chat_id": "@RegistanLC_Academy",
+    "question": "People from Japan are ___.",
+    "options": [
+     "Japan",
+     "Japanese",
+     "Japanian",
+     "Japanish"
+    ],
+    "type": "quiz",
+    "is_anonymous": true,
+    "correct_option_id": 1,
+    "explanation": "Japan davlat nomi, Japanese esa millat va til: yaponiyalik. Japanian, Japanish degan so'zlar ingliz tilida yo'q."
+   }
+  },
+  {
+   "method": "sendPoll",
+   "params": {
+    "chat_id": "@RegistanLC_Academy",
+    "question": "Choose the correct sentence.",
+    "options": [
+     "We aren't from Spain.",
+     "We isn't from Spain.",
+     "We not are from Spain.",
+     "We don't are from Spain."
+    ],
+    "type": "quiz",
+    "is_anonymous": true,
+    "correct_option_id": 0,
+    "explanation": "We bilan are keladi, inkori are not, qisqasi aren't. Not fe'ldan keyin turadi, oldin emas. To be bilan don't ishlatilmaydi."
+   }
+  },
+  {
+   "method": "sendPoll",
+   "params": {
+    "chat_id": "@RegistanLC_Academy",
+    "question": "Find the mistake: My friends is Brazilian, but I'm not.",
+    "options": [
+     "Brazilian → Brazil",
+     "I'm not → I not",
+     "No mistake",
+     "is → are"
+    ],
+    "type": "quiz",
+    "is_anonymous": true,
+    "correct_option_id": 3,
+    "explanation": "My friends ko'plik (they), shuning uchun are kerak: My friends are Brazilian. Brazilian millat sifatida to'g'ri, I'm not ham to'g'ri."
+   }
+  },
+  {
+   "method": "sendPoll",
+   "params": {
+    "chat_id": "@RegistanLC_Academy",
+    "question": "Which sentence is correct?",
+    "options": [
+     "Ali and I am from Uzbekistan. We're Uzbek.",
+     "Ali and I are from Uzbek. We're Uzbekistan.",
+     "Ali and I are from Uzbekistan. We're Uzbek.",
+     "Ali and I is from Uzbekistan. We're Uzbek."
+    ],
+    "type": "quiz",
+    "is_anonymous": true,
+    "correct_option_id": 2,
+    "explanation": "Ali and I = we, demak are. From dan keyin davlat nomi (Uzbekistan), we're dan keyin esa millat (Uzbek) keladi."
+   }
+  }
+ ]
+}
