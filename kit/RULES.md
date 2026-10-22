@@ -101,15 +101,8 @@ The owner does not want readers to feel posts are machine-made. Write like the b
   rotate Word of the Day (meaning, Uzbek translation, example, synonyms), grammar rule with examples,
   IELTS Speaking/Writing tip, common mistakes ("Don't say / Say"), collocations, phrasal verbs, idioms.
   Image: kind `card`, eyebrow = topic, text = the key item, sub = one-line Uzbek hook, short Uzbek tag or none.
-- **15:00 Video** — post an owner video ONLY if the owner's caption or a note in `inbox/index.jsonl` clearly asks
-  to publish it; the owner said videos he sends are not automatically for the channel. Otherwise treat it as
-  "no video". If allowed: take the oldest `inbox/index.jsonl` line with `"type":"video","used":false` and no `skip`. Look at it once
-  (ffmpeg: one frame every 5 s tiled into a strip, then Read) so the caption matches the content. Queue
-  `sendVideo` with `video` = its file_id, `supports_streaming` true, parse_mode HTML, caption per "Owner videos"
-  below + footer. After it is sent, set that line's `"used": true` and push.
-  If no unused video exists: post one original, light, education-themed humour image instead
-  (kind `card`, no English tag; relatable student life, e.g. "IELTS kunidan oldingi kecha"), and send the
-  Do NOT message the owner about missing videos.
+- **15:00 Quiz** — daily 5-question English quiz exactly as `kit/QUIZ.md` describes (intro message + 5 quiz polls).
+  Owner videos are posted only if the owner explicitly asks for a specific video; never otherwise.
 - **20:00 Engagement** — by weekday: Mon/Thu **Math** (image with the problem + caption, then a
   `sendPoll` quiz (type "quiz") with 4 options, `correct_option_id`, short Uzbek `explanation`);
   Tue/Fri/Sun **Russian** (a fun Russian phrase or question that invites comments, with Uzbek explanation,
