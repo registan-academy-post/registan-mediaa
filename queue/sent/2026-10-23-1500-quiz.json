@@ -1,0 +1,404 @@
+{
+ "id": "2026-10-23-1500-quiz",
+ "steps": [
+  {
+   "method": "sendMessage",
+   "params": {
+    "chat_id": "@RegistanLC_Academy",
+    "text": "Bugun Beginner guruhlar uchun kichik test: I am, you are va davlat nomlari.\n5 ta savol, boshlanishi oson, oxiri biroz o'ylantiradi. Omad 🙂"
+   }
+  },
+  {
+   "method": "sendPoll",
+   "params": {
+    "chat_id": "@RegistanLC_Academy",
+    "question": "Fill the gap: Hi, I ___ Aziz. I'm from Samarkand.",
+    "options": [
+     "is",
+     "am",
+     "are"
+    ],
+    "type": "quiz",
+    "is_anonymous": true,
+    "correct_option_id": 1,
+    "explanation": "I bilan doim am ishlatiladi: I am, qisqasi I'm. Is he, she, it bilan, are esa you bilan keladi."
+   }
+  },
+  {
+   "method": "sendPoll",
+   "params": {
+    "chat_id": "@RegistanLC_Academy",
+    "question": "Which word is a country?",
+    "options": [
+     "Chinese",
+     "German",
+     "Egypt",
+     "French"
+    ],
+    "type": "quiz",
+    "is_anonymous": true,
+    "correct_option_id": 2,
+    "explanation": "Egypt (Misr) davlat nomi. Chinese, German, French esa millat yoki til: xitoylik, nemis, fransuz."
+   }
+  },
+  {
+   "method": "sendPoll",
+   "params": {
+    "chat_id": "@RegistanLC_Academy",
+    "question": "Fill the gap: ___ you from Korea?",
+    "options": [
+     "Is",
+     "Am",
+     "Do",
+     "Are"
+    ],
+    "type": "quiz",
+    "is_anonymous": true,
+    "correct_option_id": 3,
+    "explanation": "You bilan are keladi. Savolda are gap boshiga chiqadi: Are you from Korea? To be bilan do ishlatilmaydi."
+   }
+  },
+  {
+   "method": "sendPoll",
+   "params": {
+    "chat_id": "@RegistanLC_Academy",
+    "question": "A: Are you from India?\nB: No, ___.",
+    "options": [
+     "I'm not",
+     "I amn't",
+     "I not",
+     "you aren't"
+    ],
+    "type": "quiz",
+    "is_anonymous": true,
+    "correct_option_id": 0,
+    "explanation": "Inkor shakli: I am not, qisqasi I'm not. Amn't degan shakl yo'q, am ni tushirib qoldirish ham xato."
+   }
+  },
+  {
+   "method": "sendPoll",
+   "params": {
+    "chat_id": "@RegistanLC_Academy",
+    "question": "Find the mistake: Are you from Brazil? Yes, I'm.",
+    "options": [
+     "Are → Is",
+     "Brazil → Brazilian",
+     "Yes, I'm → Yes, I am",
+     "No mistake"
+    ],
+    "type": "quiz",
+    "is_anonymous": true,
+    "correct_option_id": 2,
+    "explanation": "Qisqa ijobiy javob oxirida qisqartma ishlatilmaydi: Yes, I am. Inkorda esa mumkin: No, I'm not."
+   }
+  }
+ ],
+ "results": [
+  {
+   "ok": true,
+   "result": {
+    "message_id": 3592,
+    "sender_chat": {
+     "id": -1001675672165,
+     "title": "Registan LC | Academy filiali",
+     "username": "RegistanLC_Academy",
+     "type": "channel"
+    },
+    "chat": {
+     "id": -1001675672165,
+     "title": "Registan LC | Academy filiali",
+     "username": "RegistanLC_Academy",
+     "type": "channel"
+    },
+    "date": 1792749314,
+    "text": "Bugun Beginner guruhlar uchun kichik test: I am, you are va davlat nomlari.\n5 ta savol, boshlanishi oson, oxiri biroz o'ylantiradi. Omad 🙂"
+   }
+  },
+  {
+   "ok": true,
+   "result": {
+    "message_id": 3593,
+    "sender_chat": {
+     "id": -1001675672165,
+     "title": "Registan LC | Academy filiali",
+     "username": "RegistanLC_Academy",
+     "type": "channel"
+    },
+    "chat": {
+     "id": -1001675672165,
+     "title": "Registan LC | Academy filiali",
+     "username": "RegistanLC_Academy",
+     "type": "channel"
+    },
+    "date": 1792749315,
+    "poll": {
+     "id": "5393257430782055322",
+     "question": "Fill the gap: Hi, I ___ Aziz. I'm from Samarkand.",
+     "options": [
+      {
+       "persistent_id": "0",
+       "text": "is",
+       "voter_count": 0
+      },
+      {
+       "persistent_id": "1",
+       "text": "am",
+       "voter_count": 0
+      },
+      {
+       "persistent_id": "2",
+       "text": "are",
+       "voter_count": 0
+      }
+     ],
+     "total_voter_count": 0,
+     "is_closed": false,
+     "is_anonymous": true,
+     "allows_multiple_answers": false,
+     "allows_revoting": false,
+     "members_only": false,
+     "type": "quiz",
+     "correct_option_id": 1,
+     "correct_option_ids": [
+      1
+     ],
+     "explanation": "I bilan doim am ishlatiladi: I am, qisqasi I'm. Is he, she, it bilan, are esa you bilan keladi.",
+     "explanation_entities": []
+    }
+   }
+  },
+  {
+   "ok": true,
+   "result": {
+    "message_id": 3594,
+    "sender_chat": {
+     "id": -1001675672165,
+     "title": "Registan LC | Academy filiali",
+     "username": "RegistanLC_Academy",
+     "type": "channel"
+    },
+    "chat": {
+     "id": -1001675672165,
+     "title": "Registan LC | Academy filiali",
+     "username": "RegistanLC_Academy",
+     "type": "channel"
+    },
+    "date": 1792749315,
+    "poll": {
+     "id": "5393257430782055323",
+     "question": "Which word is a country?",
+     "options": [
+      {
+       "persistent_id": "0",
+       "text": "Chinese",
+       "voter_count": 0
+      },
+      {
+       "persistent_id": "1",
+       "text": "German",
+       "voter_count": 0
+      },
+      {
+       "persistent_id": "2",
+       "text": "Egypt",
+       "voter_count": 0
+      },
+      {
+       "persistent_id": "3",
+       "text": "French",
+       "voter_count": 0
+      }
+     ],
+     "total_voter_count": 0,
+     "is_closed": false,
+     "is_anonymous": true,
+     "allows_multiple_answers": false,
+     "allows_revoting": false,
+     "members_only": false,
+     "type": "quiz",
+     "correct_option_id": 2,
+     "correct_option_ids": [
+      2
+     ],
+     "explanation": "Egypt (Misr) davlat nomi. Chinese, German, French esa millat yoki til: xitoylik, nemis, fransuz.",
+     "explanation_entities": []
+    }
+   }
+  },
+  {
+   "ok": true,
+   "result": {
+    "message_id": 3595,
+    "sender_chat": {
+     "id": -1001675672165,
+     "title": "Registan LC | Academy filiali",
+     "username": "RegistanLC_Academy",
+     "type": "channel"
+    },
+    "chat": {
+     "id": -1001675672165,
+     "title": "Registan LC | Academy filiali",
+     "username": "RegistanLC_Academy",
+     "type": "channel"
+    },
+    "date": 1792749315,
+    "poll": {
+     "id": "5393257430782055324",
+     "question": "Fill the gap: ___ you from Korea?",
+     "options": [
+      {
+       "persistent_id": "0",
+       "text": "Is",
+       "voter_count": 0
+      },
+      {
+       "persistent_id": "1",
+       "text": "Am",
+       "voter_count": 0
+      },
+      {
+       "persistent_id": "2",
+       "text": "Do",
+       "voter_count": 0
+      },
+      {
+       "persistent_id": "3",
+       "text": "Are",
+       "voter_count": 0
+      }
+     ],
+     "total_voter_count": 0,
+     "is_closed": false,
+     "is_anonymous": true,
+     "allows_multiple_answers": false,
+     "allows_revoting": false,
+     "members_only": false,
+     "type": "quiz",
+     "correct_option_id": 3,
+     "correct_option_ids": [
+      3
+     ],
+     "explanation": "You bilan are keladi. Savolda are gap boshiga chiqadi: Are you from Korea? To be bilan do ishlatilmaydi.",
+     "explanation_entities": []
+    }
+   }
+  },
+  {
+   "ok": true,
+   "result": {
+    "message_id": 3596,
+    "sender_chat": {
+     "id": -1001675672165,
+     "title": "Registan LC | Academy filiali",
+     "username": "RegistanLC_Academy",
+     "type": "channel"
+    },
+    "chat": {
+     "id": -1001675672165,
+     "title": "Registan LC | Academy filiali",
+     "username": "RegistanLC_Academy",
+     "type": "channel"
+    },
+    "date": 1792749316,
+    "poll": {
+     "id": "5393257430782055325",
+     "question": "A: Are you from India?\nB: No, ___.",
+     "options": [
+      {
+       "persistent_id": "0",
+       "text": "I'm not",
+       "voter_count": 0
+      },
+      {
+       "persistent_id": "1",
+       "text": "I amn't",
+       "voter_count": 0
+      },
+      {
+       "persistent_id": "2",
+       "text": "I not",
+       "voter_count": 0
+      },
+      {
+       "persistent_id": "3",
+       "text": "you aren't",
+       "voter_count": 0
+      }
+     ],
+     "total_voter_count": 0,
+     "is_closed": false,
+     "is_anonymous": true,
+     "allows_multiple_answers": false,
+     "allows_revoting": false,
+     "members_only": false,
+     "type": "quiz",
+     "correct_option_id": 0,
+     "correct_option_ids": [
+      0
+     ],
+     "explanation": "Inkor shakli: I am not, qisqasi I'm not. Amn't degan shakl yo'q, am ni tushirib qoldirish ham xato.",
+     "explanation_entities": []
+    }
+   }
+  },
+  {
+   "ok": true,
+   "result": {
+    "message_id": 3597,
+    "sender_chat": {
+     "id": -1001675672165,
+     "title": "Registan LC | Academy filiali",
+     "username": "RegistanLC_Academy",
+     "type": "channel"
+    },
+    "chat": {
+     "id": -1001675672165,
+     "title": "Registan LC | Academy filiali",
+     "username": "RegistanLC_Academy",
+     "type": "channel"
+    },
+    "date": 1792749322,
+    "poll": {
+     "id": "5393257430782055326",
+     "question": "Find the mistake: Are you from Brazil? Yes, I'm.",
+     "options": [
+      {
+       "persistent_id": "0",
+       "text": "Are → Is",
+       "voter_count": 0
+      },
+      {
+       "persistent_id": "1",
+       "text": "Brazil → Brazilian",
+       "voter_count": 0
+      },
+      {
+       "persistent_id": "2",
+       "text": "Yes, I'm → Yes, I am",
+       "voter_count": 0
+      },
+      {
+       "persistent_id": "3",
+       "text": "No mistake",
+       "voter_count": 0
+      }
+     ],
+     "total_voter_count": 0,
+     "is_closed": false,
+     "is_anonymous": true,
+     "allows_multiple_answers": false,
+     "allows_revoting": false,
+     "members_only": false,
+     "type": "quiz",
+     "correct_option_id": 2,
+     "correct_option_ids": [
+      2
+     ],
+     "explanation": "Qisqa ijobiy javob oxirida qisqartma ishlatilmaydi: Yes, I am. Inkorda esa mumkin: No, I'm not.",
+     "explanation_entities": []
+    }
+   }
+  }
+ ],
+ "posted_at": "2026-10-23T09:55:22.603636+00:00"
+}
