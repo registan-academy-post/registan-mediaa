@@ -1,0 +1,177 @@
+{
+ "id": "2026-10-23-0800-motivation",
+ "steps": [
+  {
+   "method": "sendMediaGroup",
+   "params": {
+    "chat_id": "@RegistanLC_Academy",
+    "media": [
+     {
+      "type": "photo",
+      "media": "https://raw.githubusercontent.com/registan-academy-post/registan-mediaa/main/posts/2026-10-23/0800_questioning_einstein.jpg",
+      "caption": "Xayrli tong, aziz obunachilar 🌤\n\nKichkina bolalarni eslang: \"Nega osmon ko'k?\", \"Bu nima uchun kerak?\" Savollari tugamaydi. Katta bo'lganimiz sari bu savollar negadir kamayib qoladi.\n\nBugun o'zingizga bitta \"nega?\" qoldiring. Darsda, ishda yoki yo'lda, farqi yo'q. Qiziqish bilan boshlangan kun hech qachon zerikarli o'tmaydi.\n\n📌 <a href=\"https://registan.edutizim.uz/order/entry/?survey=s33\">https://registan.edutizim.uz/order/entry/?survey=s33</a>\n\n📞 +998935512700\n\n📱 <a href=\"https://t.me/Registan_LC\">Follow us on social media</a>:\n\n📱<a href=\"https://t.me/RegistanLC_Academy\">Telegram</a>   📱<a href=\"https://instagram.com/registanlc_academy\">Instagram</a>   📱<a href=\"https://goo.gl/maps/ziHA5ukgVtbGmwwR6\">Location</a>",
+      "parse_mode": "HTML"
+     },
+     {
+      "type": "photo",
+      "media": "https://raw.githubusercontent.com/registan-academy-post/registan-mediaa/main/posts/2026-10-23/0800_curiosity_johnson.jpg"
+     }
+    ]
+   }
+  }
+ ],
+ "results": [
+  {
+   "ok": true,
+   "result": [
+    {
+     "message_id": 3583,
+     "sender_chat": {
+      "id": -1001675672165,
+      "title": "Registan LC | Academy filiali",
+      "username": "RegistanLC_Academy",
+      "type": "channel"
+     },
+     "chat": {
+      "id": -1001675672165,
+      "title": "Registan LC | Academy filiali",
+      "username": "RegistanLC_Academy",
+      "type": "channel"
+     },
+     "date": 1792724131,
+     "media_group_id": "14341793049414666",
+     "photo": [
+      {
+       "file_id": "AgACAgQAAxUHatrMo0rxrJmHsFLwX5kCU5-s2wUAAgYQaxtNy9RS8QWYQtU9EasBAAMCAANzAAM9BA",
+       "file_unique_id": "AQADBhBrG03L1FJ4",
+       "file_size": 1411,
+       "width": 72,
+       "height": 90
+      },
+      {
+       "file_id": "AgACAgQAAxUHatrMo0rxrJmHsFLwX5kCU5-s2wUAAgYQaxtNy9RS8QWYQtU9EasBAAMCAANtAAM9BA",
+       "file_unique_id": "AQADBhBrG03L1FJy",
+       "file_size": 14692,
+       "width": 256,
+       "height": 320
+      },
+      {
+       "file_id": "AgACAgQAAxUHatrMo0rxrJmHsFLwX5kCU5-s2wUAAgYQaxtNy9RS8QWYQtU9EasBAAMCAAN4AAM9BA",
+       "file_unique_id": "AQADBhBrG03L1FJ9",
+       "file_size": 47945,
+       "width": 640,
+       "height": 800
+      },
+      {
+       "file_id": "AgACAgQAAxUHatrMo0rxrJmHsFLwX5kCU5-s2wUAAgYQaxtNy9RS8QWYQtU9EasBAAMCAAN5AAM9BA",
+       "file_unique_id": "AQADBhBrG03L1FJ-",
+       "file_size": 81762,
+       "width": 1024,
+       "height": 1280
+      },
+      {
+       "file_id": "AgACAgQAAxUHatrMo0rxrJmHsFLwX5kCU5-s2wUAAgYQaxtNy9RS8QWYQtU9EasBAAMCAAN3AAM9BA",
+       "file_unique_id": "AQADBhBrG03L1FJ8",
+       "file_size": 180785,
+       "width": 2048,
+       "height": 2560
+      }
+     ],
+     "caption": "Xayrli tong, aziz obunachilar 🌤\n\nKichkina bolalarni eslang: \"Nega osmon ko'k?\", \"Bu nima uchun kerak?\" Savollari tugamaydi. Katta bo'lganimiz sari bu savollar negadir kamayib qoladi.\n\nBugun o'zingizga bitta \"nega?\" qoldiring. Darsda, ishda yoki yo'lda, farqi yo'q. Qiziqish bilan boshlangan kun hech qachon zerikarli o'tmaydi.\n\n📌 https://registan.edutizim.uz/order/entry/?survey=s33\n\n📞 +998935512700\n\n📱 Follow us on social media:\n\n📱Telegram   📱Instagram   📱Location",
+     "caption_entities": [
+      {
+       "offset": 332,
+       "length": 52,
+       "type": "text_link",
+       "url": "https://registan.edutizim.uz/order/entry/?survey=s33"
+      },
+      {
+       "offset": 389,
+       "length": 13,
+       "type": "phone_number"
+      },
+      {
+       "offset": 407,
+       "length": 25,
+       "type": "text_link",
+       "url": "https://t.me/Registan_LC"
+      },
+      {
+       "offset": 437,
+       "length": 8,
+       "type": "text_link",
+       "url": "https://t.me/RegistanLC_Academy"
+      },
+      {
+       "offset": 450,
+       "length": 9,
+       "type": "text_link",
+       "url": "https://instagram.com/registanlc_academy"
+      },
+      {
+       "offset": 464,
+       "length": 8,
+       "type": "text_link",
+       "url": "https://goo.gl/maps/ziHA5ukgVtbGmwwR6"
+      }
+     ]
+    },
+    {
+     "message_id": 3584,
+     "sender_chat": {
+      "id": -1001675672165,
+      "title": "Registan LC | Academy filiali",
+      "username": "RegistanLC_Academy",
+      "type": "channel"
+     },
+     "chat": {
+      "id": -1001675672165,
+      "title": "Registan LC | Academy filiali",
+      "username": "RegistanLC_Academy",
+      "type": "channel"
+     },
+     "date": 1792724131,
+     "media_group_id": "14341793049414666",
+     "photo": [
+      {
+       "file_id": "AgACAgQAAxUHatrMozATj1wDg1a3a87RhMl9TSkAAnYOaxs3stxSOcSI04ySWi8BAAMCAANzAAM9BA",
+       "file_unique_id": "AQADdg5rGzey3FJ4",
+       "file_size": 1240,
+       "width": 72,
+       "height": 90
+      },
+      {
+       "file_id": "AgACAgQAAxUHatrMozATj1wDg1a3a87RhMl9TSkAAnYOaxs3stxSOcSI04ySWi8BAAMCAANtAAM9BA",
+       "file_unique_id": "AQADdg5rGzey3FJy",
+       "file_size": 16790,
+       "width": 256,
+       "height": 320
+      },
+      {
+       "file_id": "AgACAgQAAxUHatrMozATj1wDg1a3a87RhMl9TSkAAnYOaxs3stxSOcSI04ySWi8BAAMCAAN4AAM9BA",
+       "file_unique_id": "AQADdg5rGzey3FJ9",
+       "file_size": 60749,
+       "width": 640,
+       "height": 800
+      },
+      {
+       "file_id": "AgACAgQAAxUHatrMozATj1wDg1a3a87RhMl9TSkAAnYOaxs3stxSOcSI04ySWi8BAAMCAAN5AAM9BA",
+       "file_unique_id": "AQADdg5rGzey3FJ-",
+       "file_size": 115190,
+       "width": 1024,
+       "height": 1280
+      },
+      {
+       "file_id": "AgACAgQAAxUHatrMozATj1wDg1a3a87RhMl9TSkAAnYOaxs3stxSOcSI04ySWi8BAAMCAAN3AAM9BA",
+       "file_unique_id": "AQADdg5rGzey3FJ8",
+       "file_size": 325132,
+       "width": 2048,
+       "height": 2560
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "posted_at": "2026-10-23T02:55:31.301370+00:00"
+}
