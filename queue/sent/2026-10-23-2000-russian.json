@@ -1,0 +1,116 @@
+{
+ "id": "2026-10-23-2000-russian",
+ "steps": [
+  {
+   "method": "sendPhoto",
+   "params": {
+    "chat_id": "@RegistanLC_Academy",
+    "photo": "https://raw.githubusercontent.com/registan-academy-post/registan-mediaa/main/posts/2026-10-23/2000_ru_ruki_ne_dohodyat.jpg",
+    "caption": "Ruslar «руки не доходят» deyishadi, so'zma-so'z «qo'llar yetib bormayapti». Aslida bu bizning «qo'lim tegmayapti» bilan bir xil: qilmoqchisiz, lekin hech vaqt topolmayapsiz.\n\nMasalan, kimdir yanvardan beri «До английского всё никак руки не доходят» deb yuradi 😅\n\nSizda-chi? <b>До чего у вас руки не доходят?</b> Izohlarda ruscha yozib ko'ring, xato bo'lsa ham mayli, birga to'g'rilaymiz.\n\n📌 <a href=\"https://registan.edutizim.uz/order/entry/?survey=s33\">https://registan.edutizim.uz/order/entry/?survey=s33</a>\n\n📞 +998935512700\n\n📱 <a href=\"https://t.me/Registan_LC\">Follow us on social media</a>:\n\n📱<a href=\"https://t.me/RegistanLC_Academy\">Telegram</a>   📱<a href=\"https://instagram.com/registanlc_academy\">Instagram</a>   📱<a href=\"https://goo.gl/maps/ziHA5ukgVtbGmwwR6\">Location</a>",
+    "parse_mode": "HTML"
+   }
+  }
+ ],
+ "results": [
+  {
+   "ok": true,
+   "result": {
+    "message_id": 3600,
+    "sender_chat": {
+     "id": -1001675672165,
+     "title": "Registan LC | Academy filiali",
+     "username": "RegistanLC_Academy",
+     "type": "channel"
+    },
+    "chat": {
+     "id": -1001675672165,
+     "title": "Registan LC | Academy filiali",
+     "username": "RegistanLC_Academy",
+     "type": "channel"
+    },
+    "date": 1792767318,
+    "photo": [
+     {
+      "file_id": "AgACAgQAAx0EY-C6ZQACDhBq23VWgvWaUF44TEy0qUnbldXz1AACfw9rG5vl5VJDD1uPayedbQEAAwIAA3MAAz0E",
+      "file_unique_id": "AQADfw9rG5vl5VJ4",
+      "file_size": 929,
+      "width": 72,
+      "height": 90
+     },
+     {
+      "file_id": "AgACAgQAAx0EY-C6ZQACDhBq23VWgvWaUF44TEy0qUnbldXz1AACfw9rG5vl5VJDD1uPayedbQEAAwIAA20AAz0E",
+      "file_unique_id": "AQADfw9rG5vl5VJy",
+      "file_size": 9774,
+      "width": 256,
+      "height": 320
+     },
+     {
+      "file_id": "AgACAgQAAx0EY-C6ZQACDhBq23VWgvWaUF44TEy0qUnbldXz1AACfw9rG5vl5VJDD1uPayedbQEAAwIAA3gAAz0E",
+      "file_unique_id": "AQADfw9rG5vl5VJ9",
+      "file_size": 35952,
+      "width": 640,
+      "height": 800
+     },
+     {
+      "file_id": "AgACAgQAAx0EY-C6ZQACDhBq23VWgvWaUF44TEy0qUnbldXz1AACfw9rG5vl5VJDD1uPayedbQEAAwIAA3kAAz0E",
+      "file_unique_id": "AQADfw9rG5vl5VJ-",
+      "file_size": 66940,
+      "width": 1024,
+      "height": 1280
+     },
+     {
+      "file_id": "AgACAgQAAx0EY-C6ZQACDhBq23VWgvWaUF44TEy0qUnbldXz1AACfw9rG5vl5VJDD1uPayedbQEAAwIAA3cAAz0E",
+      "file_unique_id": "AQADfw9rG5vl5VJ8",
+      "file_size": 179621,
+      "width": 2048,
+      "height": 2560
+     }
+    ],
+    "caption": "Ruslar «руки не доходят» deyishadi, so'zma-so'z «qo'llar yetib bormayapti». Aslida bu bizning «qo'lim tegmayapti» bilan bir xil: qilmoqchisiz, lekin hech vaqt topolmayapsiz.\n\nMasalan, kimdir yanvardan beri «До английского всё никак руки не доходят» deb yuradi 😅\n\nSizda-chi? До чего у вас руки не доходят? Izohlarda ruscha yozib ko'ring, xato bo'lsa ham mayli, birga to'g'rilaymiz.\n\n📌 https://registan.edutizim.uz/order/entry/?survey=s33\n\n📞 +998935512700\n\n📱 Follow us on social media:\n\n📱Telegram   📱Instagram   📱Location",
+    "caption_entities": [
+     {
+      "offset": 275,
+      "length": 30,
+      "type": "bold"
+     },
+     {
+      "offset": 386,
+      "length": 52,
+      "type": "text_link",
+      "url": "https://registan.edutizim.uz/order/entry/?survey=s33"
+     },
+     {
+      "offset": 443,
+      "length": 13,
+      "type": "phone_number"
+     },
+     {
+      "offset": 461,
+      "length": 25,
+      "type": "text_link",
+      "url": "https://t.me/Registan_LC"
+     },
+     {
+      "offset": 491,
+      "length": 8,
+      "type": "text_link",
+      "url": "https://t.me/RegistanLC_Academy"
+     },
+     {
+      "offset": 504,
+      "length": 9,
+      "type": "text_link",
+      "url": "https://instagram.com/registanlc_academy"
+     },
+     {
+      "offset": 518,
+      "length": 8,
+      "type": "text_link",
+      "url": "https://goo.gl/maps/ziHA5ukgVtbGmwwR6"
+     }
+    ]
+   }
+  }
+ ],
+ "posted_at": "2026-10-23T14:55:18.180878+00:00"
+}
