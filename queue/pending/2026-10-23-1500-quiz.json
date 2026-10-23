@@ -1,0 +1,96 @@
+{
+ "id": "2026-10-23-1500-quiz",
+ "steps": [
+  {
+   "method": "sendMessage",
+   "params": {
+    "chat_id": "@RegistanLC_Academy",
+    "text": "Bugun Beginner guruhlar uchun kichik test: I am, you are va davlat nomlari.\n5 ta savol, boshlanishi oson, oxiri biroz o'ylantiradi. Omad 🙂"
+   }
+  },
+  {
+   "method": "sendPoll",
+   "params": {
+    "chat_id": "@RegistanLC_Academy",
+    "question": "Fill the gap: Hi, I ___ Aziz. I'm from Samarkand.",
+    "options": [
+     "is",
+     "am",
+     "are"
+    ],
+    "type": "quiz",
+    "is_anonymous": true,
+    "correct_option_id": 1,
+    "explanation": "I bilan doim am ishlatiladi: I am, qisqasi I'm. Is he, she, it bilan, are esa you bilan keladi."
+   }
+  },
+  {
+   "method": "sendPoll",
+   "params": {
+    "chat_id": "@RegistanLC_Academy",
+    "question": "Which word is a country?",
+    "options": [
+     "Chinese",
+     "German",
+     "Egypt",
+     "French"
+    ],
+    "type": "quiz",
+    "is_anonymous": true,
+    "correct_option_id": 2,
+    "explanation": "Egypt (Misr) davlat nomi. Chinese, German, French esa millat yoki til: xitoylik, nemis, fransuz."
+   }
+  },
+  {
+   "method": "sendPoll",
+   "params": {
+    "chat_id": "@RegistanLC_Academy",
+    "question": "Fill the gap: ___ you from Korea?",
+    "options": [
+     "Is",
+     "Am",
+     "Do",
+     "Are"
+    ],
+    "type": "quiz",
+    "is_anonymous": true,
+    "correct_option_id": 3,
+    "explanation": "You bilan are keladi. Savolda are gap boshiga chiqadi: Are you from Korea? To be bilan do ishlatilmaydi."
+   }
+  },
+  {
+   "method": "sendPoll",
+   "params": {
+    "chat_id": "@RegistanLC_Academy",
+    "question": "A: Are you from India?\nB: No, ___.",
+    "options": [
+     "I'm not",
+     "I amn't",
+     "I not",
+     "you aren't"
+    ],
+    "type": "quiz",
+    "is_anonymous": true,
+    "correct_option_id": 0,
+    "explanation": "Inkor shakli: I am not, qisqasi I'm not. Amn't degan shakl yo'q, am ni tushirib qoldirish ham xato."
+   }
+  },
+  {
+   "method": "sendPoll",
+   "params": {
+    "chat_id": "@RegistanLC_Academy",
+    "question": "Find the mistake: Are you from Brazil? Yes, I'm.",
+    "options": [
+     "Are → Is",
+     "Brazil → Brazilian",
+     "Yes, I'm → Yes, I am",
+     "No mistake"
+    ],
+    "type": "quiz",
+    "is_anonymous": true,
+    "correct_option_id": 2,
+    "explanation": "Qisqa ijobiy javob oxirida qisqartma ishlatilmaydi: Yes, I am. Inkorda esa mumkin: No, I'm not."
+   }
+  }
+ ]
+}
