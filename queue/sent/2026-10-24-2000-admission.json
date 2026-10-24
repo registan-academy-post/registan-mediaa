@@ -1,0 +1,111 @@
+{
+ "id": "2026-10-24-2000-admission",
+ "steps": [
+  {
+   "method": "sendPhoto",
+   "params": {
+    "chat_id": "@RegistanLC_Academy",
+    "parse_mode": "HTML",
+    "photo": "https://raw.githubusercontent.com/registan-academy-post/registan-mediaa/main/library/academy/07_ingliz_tili_white.jpg",
+    "caption": "\"Ustoz, men noldan boshlasam bo'ladimi?\"\nShu savolni haftada bir necha marta eshitamiz. Javobimiz doim bir xil: albatta bo'ladi.\n\nAcademy filialida Beginner va Elementary guruhlar ertalab 09:30 da. Mr Johns bilan General English yoki IELTS, u 9 yildan beri dars beradi va 2 700 dan ortiq o'quvchini o'qitgan.\n\nAvval bepul sinov darsiga kelib ko'ring, yoqsa davom etasiz. Joy band qilish uchun pastdagi havola.\n\nSizni ingliz tilini boshlashdan nima to'xtatib turibdi? Izohda yozing, birga yechim topamiz 🙂\n\n📌 <a href=\"https://registan.edutizim.uz/order/entry/?survey=s33\">https://registan.edutizim.uz/order/entry/?survey=s33</a>\n\n📞 +998935512700\n\n📱 <a href=\"https://t.me/Registan_LC\">Follow us on social media</a>:\n\n📱<a href=\"https://t.me/RegistanLC_Academy\">Telegram</a>   📱<a href=\"https://instagram.com/registanlc_academy\">Instagram</a>   📱<a href=\"https://goo.gl/maps/ziHA5ukgVtbGmwwR6\">Location</a>"
+   }
+  }
+ ],
+ "results": [
+  {
+   "ok": true,
+   "result": {
+    "message_id": 3610,
+    "sender_chat": {
+     "id": -1001675672165,
+     "title": "Registan LC | Academy filiali",
+     "username": "RegistanLC_Academy",
+     "type": "channel"
+    },
+    "chat": {
+     "id": -1001675672165,
+     "title": "Registan LC | Academy filiali",
+     "username": "RegistanLC_Academy",
+     "type": "channel"
+    },
+    "date": 1792853663,
+    "photo": [
+     {
+      "file_id": "AgACAgQAAx0EY-C6ZQACDhpq3MafyecTH0SxhjmVQsxjRVfqRwACVA9rG_9S7VJrcc65i8ZAHwEAAwIAA3MAAz0E",
+      "file_unique_id": "AQADVA9rG_9S7VJ4",
+      "file_size": 1696,
+      "width": 72,
+      "height": 90
+     },
+     {
+      "file_id": "AgACAgQAAx0EY-C6ZQACDhpq3MafyecTH0SxhjmVQsxjRVfqRwACVA9rG_9S7VJrcc65i8ZAHwEAAwIAA20AAz0E",
+      "file_unique_id": "AQADVA9rG_9S7VJy",
+      "file_size": 18600,
+      "width": 256,
+      "height": 320
+     },
+     {
+      "file_id": "AgACAgQAAx0EY-C6ZQACDhpq3MafyecTH0SxhjmVQsxjRVfqRwACVA9rG_9S7VJrcc65i8ZAHwEAAwIAA3gAAz0E",
+      "file_unique_id": "AQADVA9rG_9S7VJ9",
+      "file_size": 73911,
+      "width": 640,
+      "height": 800
+     },
+     {
+      "file_id": "AgACAgQAAx0EY-C6ZQACDhpq3MafyecTH0SxhjmVQsxjRVfqRwACVA9rG_9S7VJrcc65i8ZAHwEAAwIAA3kAAz0E",
+      "file_unique_id": "AQADVA9rG_9S7VJ-",
+      "file_size": 156455,
+      "width": 1024,
+      "height": 1280
+     },
+     {
+      "file_id": "AgACAgQAAx0EY-C6ZQACDhpq3MafyecTH0SxhjmVQsxjRVfqRwACVA9rG_9S7VJrcc65i8ZAHwEAAwIAA3cAAz0E",
+      "file_unique_id": "AQADVA9rG_9S7VJ8",
+      "file_size": 424583,
+      "width": 2048,
+      "height": 2560
+     }
+    ],
+    "caption": "\"Ustoz, men noldan boshlasam bo'ladimi?\"\nShu savolni haftada bir necha marta eshitamiz. Javobimiz doim bir xil: albatta bo'ladi.\n\nAcademy filialida Beginner va Elementary guruhlar ertalab 09:30 da. Mr Johns bilan General English yoki IELTS, u 9 yildan beri dars beradi va 2 700 dan ortiq o'quvchini o'qitgan.\n\nAvval bepul sinov darsiga kelib ko'ring, yoqsa davom etasiz. Joy band qilish uchun pastdagi havola.\n\nSizni ingliz tilini boshlashdan nima to'xtatib turibdi? Izohda yozing, birga yechim topamiz 🙂\n\n📌 https://registan.edutizim.uz/order/entry/?survey=s33\n\n📞 +998935512700\n\n📱 Follow us on social media:\n\n📱Telegram   📱Instagram   📱Location",
+    "caption_entities": [
+     {
+      "offset": 510,
+      "length": 52,
+      "type": "text_link",
+      "url": "https://registan.edutizim.uz/order/entry/?survey=s33"
+     },
+     {
+      "offset": 567,
+      "length": 13,
+      "type": "phone_number"
+     },
+     {
+      "offset": 585,
+      "length": 25,
+      "type": "text_link",
+      "url": "https://t.me/Registan_LC"
+     },
+     {
+      "offset": 615,
+      "length": 8,
+      "type": "text_link",
+      "url": "https://t.me/RegistanLC_Academy"
+     },
+     {
+      "offset": 628,
+      "length": 9,
+      "type": "text_link",
+      "url": "https://instagram.com/registanlc_academy"
+     },
+     {
+      "offset": 642,
+      "length": 8,
+      "type": "text_link",
+      "url": "https://goo.gl/maps/ziHA5ukgVtbGmwwR6"
+     }
+    ]
+   }
+  }
+ ],
+ "posted_at": "2026-10-24T14:54:23.317092+00:00"
+}
