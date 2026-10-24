@@ -1,0 +1,404 @@
+{
+ "id": "2026-10-24-1500-quiz",
+ "steps": [
+  {
+   "method": "sendMessage",
+   "params": {
+    "chat_id": "@RegistanLC_Academy",
+    "text": "Elementary guruhlar, bugungi test sizga: am, is, are, inkor shakllari va millatlar.\nBeshinchi savolda xaritani ham eslab ko'rasiz 🙂"
+   }
+  },
+  {
+   "method": "sendPoll",
+   "params": {
+    "chat_id": "@RegistanLC_Academy",
+    "question": "Fill the gap: My brother ___ a student. He isn't a teacher.",
+    "options": [
+     "is",
+     "are",
+     "am"
+    ],
+    "type": "quiz",
+    "is_anonymous": true,
+    "correct_option_id": 0,
+    "explanation": "My brother bu he degani, he bilan is ishlatiladi. Are you, we, they bilan, am faqat I bilan keladi."
+   }
+  },
+  {
+   "method": "sendPoll",
+   "params": {
+    "chat_id": "@RegistanLC_Academy",
+    "question": "Someone from Turkey is ___.",
+    "options": [
+     "Turkey",
+     "Turkian",
+     "Turkese",
+     "Turkish"
+    ],
+    "type": "quiz",
+    "is_anonymous": true,
+    "correct_option_id": 3,
+    "explanation": "Turkey davlat nomi, millat esa Turkish: turk. Turkian va Turkese degan so'zlar ingliz tilida yo'q."
+   }
+  },
+  {
+   "method": "sendPoll",
+   "params": {
+    "chat_id": "@RegistanLC_Academy",
+    "question": "Choose the correct sentence.",
+    "options": [
+     "She not is Canadian.",
+     "She isn't Canadian.",
+     "She aren't Canadian.",
+     "She no Canadian."
+    ],
+    "type": "quiz",
+    "is_anonymous": true,
+    "correct_option_id": 1,
+    "explanation": "Inkor: is + not = isn't. She bilan aren't emas, isn't keladi. Not doim is dan keyin turadi, no bu yerda ishlatilmaydi."
+   }
+  },
+  {
+   "method": "sendPoll",
+   "params": {
+    "chat_id": "@RegistanLC_Academy",
+    "question": "Find the mistake: I'm from Germany. I'm German. My wife is from France. She's France.",
+    "options": [
+     "I'm → I am",
+     "Germany → German",
+     "She's France → She's French",
+     "No mistake"
+    ],
+    "type": "quiz",
+    "is_anonymous": true,
+    "correct_option_id": 2,
+    "explanation": "France davlat nomi. Kim ekanini aytganda millat kerak: She's French. I'm German esa to'g'ri, I'm qisqartmasi ham xato emas."
+   }
+  },
+  {
+   "method": "sendPoll",
+   "params": {
+    "chat_id": "@RegistanLC_Academy",
+    "question": "Fill the gaps: Uzbekistan and Tajikistan ___ in Europe. They ___ in Central Asia.",
+    "options": [
+     "are / aren't",
+     "aren't / are",
+     "isn't / is",
+     "is / isn't"
+    ],
+    "type": "quiz",
+    "is_anonymous": true,
+    "correct_option_id": 1,
+    "explanation": "Ikki davlat, ya'ni they, shuning uchun are/aren't. Ular Yevropada emas, Markaziy Osiyoda: avval aren't, keyin are."
+   }
+  }
+ ],
+ "results": [
+  {
+   "ok": true,
+   "result": {
+    "message_id": 3604,
+    "sender_chat": {
+     "id": -1001675672165,
+     "title": "Registan LC | Academy filiali",
+     "username": "RegistanLC_Academy",
+     "type": "channel"
+    },
+    "chat": {
+     "id": -1001675672165,
+     "title": "Registan LC | Academy filiali",
+     "username": "RegistanLC_Academy",
+     "type": "channel"
+    },
+    "date": 1792835687,
+    "text": "Elementary guruhlar, bugungi test sizga: am, is, are, inkor shakllari va millatlar.\nBeshinchi savolda xaritani ham eslab ko'rasiz 🙂"
+   }
+  },
+  {
+   "ok": true,
+   "result": {
+    "message_id": 3605,
+    "sender_chat": {
+     "id": -1001675672165,
+     "title": "Registan LC | Academy filiali",
+     "username": "RegistanLC_Academy",
+     "type": "channel"
+    },
+    "chat": {
+     "id": -1001675672165,
+     "title": "Registan LC | Academy filiali",
+     "username": "RegistanLC_Academy",
+     "type": "channel"
+    },
+    "date": 1792835687,
+    "poll": {
+     "id": "5395835222908475452",
+     "question": "Fill the gap: My brother ___ a student. He isn't a teacher.",
+     "options": [
+      {
+       "persistent_id": "0",
+       "text": "is",
+       "voter_count": 0
+      },
+      {
+       "persistent_id": "1",
+       "text": "are",
+       "voter_count": 0
+      },
+      {
+       "persistent_id": "2",
+       "text": "am",
+       "voter_count": 0
+      }
+     ],
+     "total_voter_count": 0,
+     "is_closed": false,
+     "is_anonymous": true,
+     "allows_multiple_answers": false,
+     "allows_revoting": false,
+     "members_only": false,
+     "type": "quiz",
+     "correct_option_id": 0,
+     "correct_option_ids": [
+      0
+     ],
+     "explanation": "My brother bu he degani, he bilan is ishlatiladi. Are you, we, they bilan, am faqat I bilan keladi.",
+     "explanation_entities": []
+    }
+   }
+  },
+  {
+   "ok": true,
+   "result": {
+    "message_id": 3606,
+    "sender_chat": {
+     "id": -1001675672165,
+     "title": "Registan LC | Academy filiali",
+     "username": "RegistanLC_Academy",
+     "type": "channel"
+    },
+    "chat": {
+     "id": -1001675672165,
+     "title": "Registan LC | Academy filiali",
+     "username": "RegistanLC_Academy",
+     "type": "channel"
+    },
+    "date": 1792835688,
+    "poll": {
+     "id": "5395835222908475453",
+     "question": "Someone from Turkey is ___.",
+     "options": [
+      {
+       "persistent_id": "0",
+       "text": "Turkey",
+       "voter_count": 0
+      },
+      {
+       "persistent_id": "1",
+       "text": "Turkian",
+       "voter_count": 0
+      },
+      {
+       "persistent_id": "2",
+       "text": "Turkese",
+       "voter_count": 0
+      },
+      {
+       "persistent_id": "3",
+       "text": "Turkish",
+       "voter_count": 0
+      }
+     ],
+     "total_voter_count": 0,
+     "is_closed": false,
+     "is_anonymous": true,
+     "allows_multiple_answers": false,
+     "allows_revoting": false,
+     "members_only": false,
+     "type": "quiz",
+     "correct_option_id": 3,
+     "correct_option_ids": [
+      3
+     ],
+     "explanation": "Turkey davlat nomi, millat esa Turkish: turk. Turkian va Turkese degan so'zlar ingliz tilida yo'q.",
+     "explanation_entities": []
+    }
+   }
+  },
+  {
+   "ok": true,
+   "result": {
+    "message_id": 3607,
+    "sender_chat": {
+     "id": -1001675672165,
+     "title": "Registan LC | Academy filiali",
+     "username": "RegistanLC_Academy",
+     "type": "channel"
+    },
+    "chat": {
+     "id": -1001675672165,
+     "title": "Registan LC | Academy filiali",
+     "username": "RegistanLC_Academy",
+     "type": "channel"
+    },
+    "date": 1792835688,
+    "poll": {
+     "id": "5395835222908475454",
+     "question": "Choose the correct sentence.",
+     "options": [
+      {
+       "persistent_id": "0",
+       "text": "She not is Canadian.",
+       "voter_count": 0
+      },
+      {
+       "persistent_id": "1",
+       "text": "She isn't Canadian.",
+       "voter_count": 0
+      },
+      {
+       "persistent_id": "2",
+       "text": "She aren't Canadian.",
+       "voter_count": 0
+      },
+      {
+       "persistent_id": "3",
+       "text": "She no Canadian.",
+       "voter_count": 0
+      }
+     ],
+     "total_voter_count": 0,
+     "is_closed": false,
+     "is_anonymous": true,
+     "allows_multiple_answers": false,
+     "allows_revoting": false,
+     "members_only": false,
+     "type": "quiz",
+     "correct_option_id": 1,
+     "correct_option_ids": [
+      1
+     ],
+     "explanation": "Inkor: is + not = isn't. She bilan aren't emas, isn't keladi. Not doim is dan keyin turadi, no bu yerda ishlatilmaydi.",
+     "explanation_entities": []
+    }
+   }
+  },
+  {
+   "ok": true,
+   "result": {
+    "message_id": 3608,
+    "sender_chat": {
+     "id": -1001675672165,
+     "title": "Registan LC | Academy filiali",
+     "username": "RegistanLC_Academy",
+     "type": "channel"
+    },
+    "chat": {
+     "id": -1001675672165,
+     "title": "Registan LC | Academy filiali",
+     "username": "RegistanLC_Academy",
+     "type": "channel"
+    },
+    "date": 1792835688,
+    "poll": {
+     "id": "5395835222908475455",
+     "question": "Find the mistake: I'm from Germany. I'm German. My wife is from France. She's France.",
+     "options": [
+      {
+       "persistent_id": "0",
+       "text": "I'm → I am",
+       "voter_count": 0
+      },
+      {
+       "persistent_id": "1",
+       "text": "Germany → German",
+       "voter_count": 0
+      },
+      {
+       "persistent_id": "2",
+       "text": "She's France → She's French",
+       "voter_count": 0
+      },
+      {
+       "persistent_id": "3",
+       "text": "No mistake",
+       "voter_count": 0
+      }
+     ],
+     "total_voter_count": 0,
+     "is_closed": false,
+     "is_anonymous": true,
+     "allows_multiple_answers": false,
+     "allows_revoting": false,
+     "members_only": false,
+     "type": "quiz",
+     "correct_option_id": 2,
+     "correct_option_ids": [
+      2
+     ],
+     "explanation": "France davlat nomi. Kim ekanini aytganda millat kerak: She's French. I'm German esa to'g'ri, I'm qisqartmasi ham xato emas.",
+     "explanation_entities": []
+    }
+   }
+  },
+  {
+   "ok": true,
+   "result": {
+    "message_id": 3609,
+    "sender_chat": {
+     "id": -1001675672165,
+     "title": "Registan LC | Academy filiali",
+     "username": "RegistanLC_Academy",
+     "type": "channel"
+    },
+    "chat": {
+     "id": -1001675672165,
+     "title": "Registan LC | Academy filiali",
+     "username": "RegistanLC_Academy",
+     "type": "channel"
+    },
+    "date": 1792835692,
+    "poll": {
+     "id": "5395835222908475456",
+     "question": "Fill the gaps: Uzbekistan and Tajikistan ___ in Europe. They ___ in Central Asia.",
+     "options": [
+      {
+       "persistent_id": "0",
+       "text": "are / aren't",
+       "voter_count": 0
+      },
+      {
+       "persistent_id": "1",
+       "text": "aren't / are",
+       "voter_count": 0
+      },
+      {
+       "persistent_id": "2",
+       "text": "isn't / is",
+       "voter_count": 0
+      },
+      {
+       "persistent_id": "3",
+       "text": "is / isn't",
+       "voter_count": 0
+      }
+     ],
+     "total_voter_count": 0,
+     "is_closed": false,
+     "is_anonymous": true,
+     "allows_multiple_answers": false,
+     "allows_revoting": false,
+     "members_only": false,
+     "type": "quiz",
+     "correct_option_id": 1,
+     "correct_option_ids": [
+      1
+     ],
+     "explanation": "Ikki davlat, ya'ni they, shuning uchun are/aren't. Ular Yevropada emas, Markaziy Osiyoda: avval aren't, keyin are.",
+     "explanation_entities": []
+    }
+   }
+  }
+ ],
+ "posted_at": "2026-10-24T09:54:52.523508+00:00"
+}
