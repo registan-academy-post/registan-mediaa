@@ -1,0 +1,392 @@
+{
+ "id": "2026-10-25-1500-quiz",
+ "steps": [
+  {
+   "method": "sendMessage",
+   "params": {
+    "chat_id": "@RegistanLC_Academy",
+    "text": "Bugungi test Beginner guruhlar uchun: \"I am\", \"you are\" va davlatlar.\n5 ta qisqa savol, birinchi o'ylagan javobingizni bosing 🙂"
+   }
+  },
+  {
+   "method": "sendPoll",
+   "params": {
+    "chat_id": "@RegistanLC_Academy",
+    "question": "Fill the gap: You ___ my new teacher.",
+    "options": [
+     "am",
+     "is",
+     "are"
+    ],
+    "type": "quiz",
+    "is_anonymous": true,
+    "correct_option_id": 2,
+    "explanation": "\"You\" bilan doim \"are\" ishlatiladi: You are my teacher. \"Am\" faqat \"I\" bilan keladi."
+   }
+  },
+  {
+   "method": "sendPoll",
+   "params": {
+    "chat_id": "@RegistanLC_Academy",
+    "question": "Tashkent is in ___.",
+    "options": [
+     "Uzbekistan",
+     "Uzbek",
+     "Uzbeks"
+    ],
+    "type": "quiz",
+    "is_anonymous": true,
+    "correct_option_id": 0,
+    "explanation": "Uzbekistan davlat nomi. Uzbek esa millat yoki til: I'm Uzbek."
+   }
+  },
+  {
+   "method": "sendPoll",
+   "params": {
+    "chat_id": "@RegistanLC_Academy",
+    "question": "Fill the gap: I ___ from Russia. I'm from Kazakhstan.",
+    "options": [
+     "aren't",
+     "am not",
+     "isn't",
+     "not"
+    ],
+    "type": "quiz",
+    "is_anonymous": true,
+    "correct_option_id": 1,
+    "explanation": "\"I\" bilan inkor shakli \"am not\", qisqasi I'm not. \"I aren't\" yoki \"I isn't\" deyilmaydi."
+   }
+  },
+  {
+   "method": "sendPoll",
+   "params": {
+    "chat_id": "@RegistanLC_Academy",
+    "question": "Choose the correct question.",
+    "options": [
+     "Where you are from?",
+     "Where is you from?",
+     "From where you are?",
+     "Where are you from?"
+    ],
+    "type": "quiz",
+    "is_anonymous": true,
+    "correct_option_id": 3,
+    "explanation": "Savolda \"are\" egadan oldin keladi: Where are you from? \"You\" bilan \"is\" ishlatilmaydi."
+   }
+  },
+  {
+   "method": "sendPoll",
+   "params": {
+    "chat_id": "@RegistanLC_Academy",
+    "question": "Find the mistake. A: Are you from Egypt? B: No, I'm not. I from Turkey.",
+    "options": [
+     "Are you from Egypt?",
+     "No, I'm not.",
+     "I from Turkey."
+    ],
+    "type": "quiz",
+    "is_anonymous": true,
+    "correct_option_id": 2,
+    "explanation": "\"am\" tushib qolgan. To'g'risi: I'm from Turkey. Ingliz tilida \"be\" fe'lini tashlab bo'lmaydi."
+   }
+  }
+ ],
+ "results": [
+  {
+   "ok": true,
+   "result": {
+    "message_id": 3614,
+    "sender_chat": {
+     "id": -1001675672165,
+     "title": "Registan LC | Academy filiali",
+     "username": "RegistanLC_Academy",
+     "type": "channel"
+    },
+    "chat": {
+     "id": -1001675672165,
+     "title": "Registan LC | Academy filiali",
+     "username": "RegistanLC_Academy",
+     "type": "channel"
+    },
+    "date": 1792922065,
+    "text": "Bugungi test Beginner guruhlar uchun: \"I am\", \"you are\" va davlatlar.\n5 ta qisqa savol, birinchi o'ylagan javobingizni bosing 🙂"
+   }
+  },
+  {
+   "ok": true,
+   "result": {
+    "message_id": 3615,
+    "sender_chat": {
+     "id": -1001675672165,
+     "title": "Registan LC | Academy filiali",
+     "username": "RegistanLC_Academy",
+     "type": "channel"
+    },
+    "chat": {
+     "id": -1001675672165,
+     "title": "Registan LC | Academy filiali",
+     "username": "RegistanLC_Academy",
+     "type": "channel"
+    },
+    "date": 1792922065,
+    "poll": {
+     "id": "5400156209116355926",
+     "question": "Fill the gap: You ___ my new teacher.",
+     "options": [
+      {
+       "persistent_id": "0",
+       "text": "am",
+       "voter_count": 0
+      },
+      {
+       "persistent_id": "1",
+       "text": "is",
+       "voter_count": 0
+      },
+      {
+       "persistent_id": "2",
+       "text": "are",
+       "voter_count": 0
+      }
+     ],
+     "total_voter_count": 0,
+     "is_closed": false,
+     "is_anonymous": true,
+     "allows_multiple_answers": false,
+     "allows_revoting": false,
+     "members_only": false,
+     "type": "quiz",
+     "correct_option_id": 2,
+     "correct_option_ids": [
+      2
+     ],
+     "explanation": "\"You\" bilan doim \"are\" ishlatiladi: You are my teacher. \"Am\" faqat \"I\" bilan keladi.",
+     "explanation_entities": []
+    }
+   }
+  },
+  {
+   "ok": true,
+   "result": {
+    "message_id": 3616,
+    "sender_chat": {
+     "id": -1001675672165,
+     "title": "Registan LC | Academy filiali",
+     "username": "RegistanLC_Academy",
+     "type": "channel"
+    },
+    "chat": {
+     "id": -1001675672165,
+     "title": "Registan LC | Academy filiali",
+     "username": "RegistanLC_Academy",
+     "type": "channel"
+    },
+    "date": 1792922066,
+    "poll": {
+     "id": "5400156209116355927",
+     "question": "Tashkent is in ___.",
+     "options": [
+      {
+       "persistent_id": "0",
+       "text": "Uzbekistan",
+       "voter_count": 0
+      },
+      {
+       "persistent_id": "1",
+       "text": "Uzbek",
+       "voter_count": 0
+      },
+      {
+       "persistent_id": "2",
+       "text": "Uzbeks",
+       "voter_count": 0
+      }
+     ],
+     "total_voter_count": 0,
+     "is_closed": false,
+     "is_anonymous": true,
+     "allows_multiple_answers": false,
+     "allows_revoting": false,
+     "members_only": false,
+     "type": "quiz",
+     "correct_option_id": 0,
+     "correct_option_ids": [
+      0
+     ],
+     "explanation": "Uzbekistan davlat nomi. Uzbek esa millat yoki til: I'm Uzbek.",
+     "explanation_entities": []
+    }
+   }
+  },
+  {
+   "ok": true,
+   "result": {
+    "message_id": 3617,
+    "sender_chat": {
+     "id": -1001675672165,
+     "title": "Registan LC | Academy filiali",
+     "username": "RegistanLC_Academy",
+     "type": "channel"
+    },
+    "chat": {
+     "id": -1001675672165,
+     "title": "Registan LC | Academy filiali",
+     "username": "RegistanLC_Academy",
+     "type": "channel"
+    },
+    "date": 1792922066,
+    "poll": {
+     "id": "5400156209116355928",
+     "question": "Fill the gap: I ___ from Russia. I'm from Kazakhstan.",
+     "options": [
+      {
+       "persistent_id": "0",
+       "text": "aren't",
+       "voter_count": 0
+      },
+      {
+       "persistent_id": "1",
+       "text": "am not",
+       "voter_count": 0
+      },
+      {
+       "persistent_id": "2",
+       "text": "isn't",
+       "voter_count": 0
+      },
+      {
+       "persistent_id": "3",
+       "text": "not",
+       "voter_count": 0
+      }
+     ],
+     "total_voter_count": 0,
+     "is_closed": false,
+     "is_anonymous": true,
+     "allows_multiple_answers": false,
+     "allows_revoting": false,
+     "members_only": false,
+     "type": "quiz",
+     "correct_option_id": 1,
+     "correct_option_ids": [
+      1
+     ],
+     "explanation": "\"I\" bilan inkor shakli \"am not\", qisqasi I'm not. \"I aren't\" yoki \"I isn't\" deyilmaydi.",
+     "explanation_entities": []
+    }
+   }
+  },
+  {
+   "ok": true,
+   "result": {
+    "message_id": 3618,
+    "sender_chat": {
+     "id": -1001675672165,
+     "title": "Registan LC | Academy filiali",
+     "username": "RegistanLC_Academy",
+     "type": "channel"
+    },
+    "chat": {
+     "id": -1001675672165,
+     "title": "Registan LC | Academy filiali",
+     "username": "RegistanLC_Academy",
+     "type": "channel"
+    },
+    "date": 1792922067,
+    "poll": {
+     "id": "5400156209116355929",
+     "question": "Choose the correct question.",
+     "options": [
+      {
+       "persistent_id": "0",
+       "text": "Where you are from?",
+       "voter_count": 0
+      },
+      {
+       "persistent_id": "1",
+       "text": "Where is you from?",
+       "voter_count": 0
+      },
+      {
+       "persistent_id": "2",
+       "text": "From where you are?",
+       "voter_count": 0
+      },
+      {
+       "persistent_id": "3",
+       "text": "Where are you from?",
+       "voter_count": 0
+      }
+     ],
+     "total_voter_count": 0,
+     "is_closed": false,
+     "is_anonymous": true,
+     "allows_multiple_answers": false,
+     "allows_revoting": false,
+     "members_only": false,
+     "type": "quiz",
+     "correct_option_id": 3,
+     "correct_option_ids": [
+      3
+     ],
+     "explanation": "Savolda \"are\" egadan oldin keladi: Where are you from? \"You\" bilan \"is\" ishlatilmaydi.",
+     "explanation_entities": []
+    }
+   }
+  },
+  {
+   "ok": true,
+   "result": {
+    "message_id": 3619,
+    "sender_chat": {
+     "id": -1001675672165,
+     "title": "Registan LC | Academy filiali",
+     "username": "RegistanLC_Academy",
+     "type": "channel"
+    },
+    "chat": {
+     "id": -1001675672165,
+     "title": "Registan LC | Academy filiali",
+     "username": "RegistanLC_Academy",
+     "type": "channel"
+    },
+    "date": 1792922070,
+    "poll": {
+     "id": "5400156209116355930",
+     "question": "Find the mistake. A: Are you from Egypt? B: No, I'm not. I from Turkey.",
+     "options": [
+      {
+       "persistent_id": "0",
+       "text": "Are you from Egypt?",
+       "voter_count": 0
+      },
+      {
+       "persistent_id": "1",
+       "text": "No, I'm not.",
+       "voter_count": 0
+      },
+      {
+       "persistent_id": "2",
+       "text": "I from Turkey.",
+       "voter_count": 0
+      }
+     ],
+     "total_voter_count": 0,
+     "is_closed": false,
+     "is_anonymous": true,
+     "allows_multiple_answers": false,
+     "allows_revoting": false,
+     "members_only": false,
+     "type": "quiz",
+     "correct_option_id": 2,
+     "correct_option_ids": [
+      2
+     ],
+     "explanation": "\"am\" tushib qolgan. To'g'risi: I'm from Turkey. Ingliz tilida \"be\" fe'lini tashlab bo'lmaydi.",
+     "explanation_entities": []
+    }
+   }
+  }
+ ],
+ "posted_at": "2026-10-25T09:54:30.749190+00:00"
+}
