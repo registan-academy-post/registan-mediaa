@@ -1,0 +1,116 @@
+{
+ "id": "2026-10-25-2000-russian",
+ "steps": [
+  {
+   "method": "sendPhoto",
+   "params": {
+    "chat_id": "@RegistanLC_Academy",
+    "photo": "https://raw.githubusercontent.com/registan-academy-post/registan-mediaa/main/posts/2026-10-25/2000_ru_skolko_let_skolko_zim.jpg",
+    "caption": "Ko'chada yillardan beri ko'rmagan tanishingizni uchratib qoldingiz. Shunday paytda ruslar ko'pincha «Сколько лет, сколько зим!» deyishadi. So'zma-so'z «qancha yoz, qancha qish», bizda esa «Voy, ko'rinmay ketdingiz-ku!» degani.\n\nOdatda bunga «Да, давно не виделись!» deb javob berishadi, ya'ni «Ha, ko'rishmaganimizga ancha bo'ldi».\n\nSizga shunday deyishsa, nima deb javob qaytarardingiz? <b>Как бы вы ответили?</b> Izohlarda ruscha yozib ko'ring 🙂\n\n📌 <a href=\"https://registan.edutizim.uz/order/entry/?survey=s33\">https://registan.edutizim.uz/order/entry/?survey=s33</a>\n\n📞 +998935512700\n\n📱 <a href=\"https://t.me/Registan_LC\">Follow us on social media</a>:\n\n📱<a href=\"https://t.me/RegistanLC_Academy\">Telegram</a>   📱<a href=\"https://instagram.com/registanlc_academy\">Instagram</a>   📱<a href=\"https://goo.gl/maps/ziHA5ukgVtbGmwwR6\">Location</a>",
+    "parse_mode": "HTML"
+   }
+  }
+ ],
+ "results": [
+  {
+   "ok": true,
+   "result": {
+    "message_id": 3620,
+    "sender_chat": {
+     "id": -1001675672165,
+     "title": "Registan LC | Academy filiali",
+     "username": "RegistanLC_Academy",
+     "type": "channel"
+    },
+    "chat": {
+     "id": -1001675672165,
+     "title": "Registan LC | Academy filiali",
+     "username": "RegistanLC_Academy",
+     "type": "channel"
+    },
+    "date": 1792940145,
+    "photo": [
+     {
+      "file_id": "AgACAgQAAx0EY-C6ZQACDiRq3hhxvxqXGTNEAUhSnrk5miKU2AACXg9rGw0R9FL41D4nSj2ZcwEAAwIAA3MAAz0E",
+      "file_unique_id": "AQADXg9rGw0R9FJ4",
+      "file_size": 1046,
+      "width": 72,
+      "height": 90
+     },
+     {
+      "file_id": "AgACAgQAAx0EY-C6ZQACDiRq3hhxvxqXGTNEAUhSnrk5miKU2AACXg9rGw0R9FL41D4nSj2ZcwEAAwIAA20AAz0E",
+      "file_unique_id": "AQADXg9rGw0R9FJy",
+      "file_size": 11776,
+      "width": 256,
+      "height": 320
+     },
+     {
+      "file_id": "AgACAgQAAx0EY-C6ZQACDiRq3hhxvxqXGTNEAUhSnrk5miKU2AACXg9rGw0R9FL41D4nSj2ZcwEAAwIAA3gAAz0E",
+      "file_unique_id": "AQADXg9rGw0R9FJ9",
+      "file_size": 43359,
+      "width": 640,
+      "height": 800
+     },
+     {
+      "file_id": "AgACAgQAAx0EY-C6ZQACDiRq3hhxvxqXGTNEAUhSnrk5miKU2AACXg9rGw0R9FL41D4nSj2ZcwEAAwIAA3kAAz0E",
+      "file_unique_id": "AQADXg9rGw0R9FJ-",
+      "file_size": 78442,
+      "width": 1024,
+      "height": 1280
+     },
+     {
+      "file_id": "AgACAgQAAx0EY-C6ZQACDiRq3hhxvxqXGTNEAUhSnrk5miKU2AACXg9rGw0R9FL41D4nSj2ZcwEAAwIAA3cAAz0E",
+      "file_unique_id": "AQADXg9rGw0R9FJ8",
+      "file_size": 230190,
+      "width": 2048,
+      "height": 2560
+     }
+    ],
+    "caption": "Ko'chada yillardan beri ko'rmagan tanishingizni uchratib qoldingiz. Shunday paytda ruslar ko'pincha «Сколько лет, сколько зим!» deyishadi. So'zma-so'z «qancha yoz, qancha qish», bizda esa «Voy, ko'rinmay ketdingiz-ku!» degani.\n\nOdatda bunga «Да, давно не виделись!» deb javob berishadi, ya'ni «Ha, ko'rishmaganimizga ancha bo'ldi».\n\nSizga shunday deyishsa, nima deb javob qaytarardingiz? Как бы вы ответили? Izohlarda ruscha yozib ko'ring 🙂\n\n📌 https://registan.edutizim.uz/order/entry/?survey=s33\n\n📞 +998935512700\n\n📱 Follow us on social media:\n\n📱Telegram   📱Instagram   📱Location",
+    "caption_entities": [
+     {
+      "offset": 388,
+      "length": 19,
+      "type": "bold"
+     },
+     {
+      "offset": 446,
+      "length": 52,
+      "type": "text_link",
+      "url": "https://registan.edutizim.uz/order/entry/?survey=s33"
+     },
+     {
+      "offset": 503,
+      "length": 13,
+      "type": "phone_number"
+     },
+     {
+      "offset": 521,
+      "length": 25,
+      "type": "text_link",
+      "url": "https://t.me/Registan_LC"
+     },
+     {
+      "offset": 551,
+      "length": 8,
+      "type": "text_link",
+      "url": "https://t.me/RegistanLC_Academy"
+     },
+     {
+      "offset": 564,
+      "length": 9,
+      "type": "text_link",
+      "url": "https://instagram.com/registanlc_academy"
+     },
+     {
+      "offset": 578,
+      "length": 8,
+      "type": "text_link",
+      "url": "https://goo.gl/maps/ziHA5ukgVtbGmwwR6"
+     }
+    ]
+   }
+  }
+ ],
+ "posted_at": "2026-10-25T14:55:45.432732+00:00"
+}
