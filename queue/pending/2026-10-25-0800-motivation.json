@@ -1,0 +1,23 @@
+{
+ "id": "2026-10-25-0800-motivation",
+ "steps": [
+  {
+   "method": "sendMediaGroup",
+   "params": {
+    "chat_id": "@RegistanLC_Academy",
+    "media": [
+     {
+      "type": "photo",
+      "media": "https://raw.githubusercontent.com/registan-academy-post/registan-mediaa/main/posts/2026-10-25/0800_fail_better_beckett.jpg",
+      "caption": "Yakshanba tongi xayrli bo'lsin 🌿\n\nIngliz tilida gapirishdan tortinadiganlar ko'p, sababi deyarli doim bitta: xato qilib qo'yishdan uyalish. Xato qilmaslikning yagona yo'li bor, umuman gapirmaslik. Faqat bu yo'l hali hech kimni gapirishga o'rgatmagan.\n\nBugun dam olish kuni, shoshilish yo'q. Bitta gapni ovoz chiqarib ayting, xato bo'lsa ham. Keyingisi albatta yaxshiroq chiqadi.\n\n📌 <a href=\"https://registan.edutizim.uz/order/entry/?survey=s33\">https://registan.edutizim.uz/order/entry/?survey=s33</a>\n\n📞 +998935512700\n\n📱 <a href=\"https://t.me/Registan_LC\">Follow us on social media</a>:\n\n📱<a href=\"https://t.me/RegistanLC_Academy\">Telegram</a>   📱<a href=\"https://instagram.com/registanlc_academy\">Instagram</a>   📱<a href=\"https://goo.gl/maps/ziHA5ukgVtbGmwwR6\">Location</a>",
+      "parse_mode": "HTML"
+     },
+     {
+      "type": "photo",
+      "media": "https://raw.githubusercontent.com/registan-academy-post/registan-mediaa/main/posts/2026-10-25/0800_learning_ardor_adams.jpg"
+     }
+    ]
+   }
+  }
+ ]
+}
