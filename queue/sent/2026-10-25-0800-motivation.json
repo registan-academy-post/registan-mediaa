@@ -1,0 +1,177 @@
+{
+ "id": "2026-10-25-0800-motivation",
+ "steps": [
+  {
+   "method": "sendMediaGroup",
+   "params": {
+    "chat_id": "@RegistanLC_Academy",
+    "media": [
+     {
+      "type": "photo",
+      "media": "https://raw.githubusercontent.com/registan-academy-post/registan-mediaa/main/posts/2026-10-25/0800_fail_better_beckett.jpg",
+      "caption": "Yakshanba tongi xayrli bo'lsin 🌿\n\nIngliz tilida gapirishdan tortinadiganlar ko'p, sababi deyarli doim bitta: xato qilib qo'yishdan uyalish. Xato qilmaslikning yagona yo'li bor, umuman gapirmaslik. Faqat bu yo'l hali hech kimni gapirishga o'rgatmagan.\n\nBugun dam olish kuni, shoshilish yo'q. Bitta gapni ovoz chiqarib ayting, xato bo'lsa ham. Keyingisi albatta yaxshiroq chiqadi.\n\n📌 <a href=\"https://registan.edutizim.uz/order/entry/?survey=s33\">https://registan.edutizim.uz/order/entry/?survey=s33</a>\n\n📞 +998935512700\n\n📱 <a href=\"https://t.me/Registan_LC\">Follow us on social media</a>:\n\n📱<a href=\"https://t.me/RegistanLC_Academy\">Telegram</a>   📱<a href=\"https://instagram.com/registanlc_academy\">Instagram</a>   📱<a href=\"https://goo.gl/maps/ziHA5ukgVtbGmwwR6\">Location</a>",
+      "parse_mode": "HTML"
+     },
+     {
+      "type": "photo",
+      "media": "https://raw.githubusercontent.com/registan-academy-post/registan-mediaa/main/posts/2026-10-25/0800_learning_ardor_adams.jpg"
+     }
+    ]
+   }
+  }
+ ],
+ "results": [
+  {
+   "ok": true,
+   "result": [
+    {
+     "message_id": 3611,
+     "sender_chat": {
+      "id": -1001675672165,
+      "title": "Registan LC | Academy filiali",
+      "username": "RegistanLC_Academy",
+      "type": "channel"
+     },
+     "chat": {
+      "id": -1001675672165,
+      "title": "Registan LC | Academy filiali",
+      "username": "RegistanLC_Academy",
+      "type": "channel"
+     },
+     "date": 1792896927,
+     "media_group_id": "14343175418615650",
+     "photo": [
+      {
+       "file_id": "AgACAgQAAxUHat1vn1rN8eMwQsI5baPuiVV-jT0AAogPaxta0-xSsZjLZMKP1WoBAAMCAANzAAM9BA",
+       "file_unique_id": "AQADiA9rG1rT7FJ4",
+       "file_size": 1668,
+       "width": 72,
+       "height": 90
+      },
+      {
+       "file_id": "AgACAgQAAxUHat1vn1rN8eMwQsI5baPuiVV-jT0AAogPaxta0-xSsZjLZMKP1WoBAAMCAANtAAM9BA",
+       "file_unique_id": "AQADiA9rG1rT7FJy",
+       "file_size": 18693,
+       "width": 256,
+       "height": 320
+      },
+      {
+       "file_id": "AgACAgQAAxUHat1vn1rN8eMwQsI5baPuiVV-jT0AAogPaxta0-xSsZjLZMKP1WoBAAMCAAN4AAM9BA",
+       "file_unique_id": "AQADiA9rG1rT7FJ9",
+       "file_size": 56253,
+       "width": 640,
+       "height": 800
+      },
+      {
+       "file_id": "AgACAgQAAxUHat1vn1rN8eMwQsI5baPuiVV-jT0AAogPaxta0-xSsZjLZMKP1WoBAAMCAAN5AAM9BA",
+       "file_unique_id": "AQADiA9rG1rT7FJ-",
+       "file_size": 96752,
+       "width": 1024,
+       "height": 1280
+      },
+      {
+       "file_id": "AgACAgQAAxUHat1vn1rN8eMwQsI5baPuiVV-jT0AAogPaxta0-xSsZjLZMKP1WoBAAMCAAN3AAM9BA",
+       "file_unique_id": "AQADiA9rG1rT7FJ8",
+       "file_size": 211687,
+       "width": 2048,
+       "height": 2560
+      }
+     ],
+     "caption": "Yakshanba tongi xayrli bo'lsin 🌿\n\nIngliz tilida gapirishdan tortinadiganlar ko'p, sababi deyarli doim bitta: xato qilib qo'yishdan uyalish. Xato qilmaslikning yagona yo'li bor, umuman gapirmaslik. Faqat bu yo'l hali hech kimni gapirishga o'rgatmagan.\n\nBugun dam olish kuni, shoshilish yo'q. Bitta gapni ovoz chiqarib ayting, xato bo'lsa ham. Keyingisi albatta yaxshiroq chiqadi.\n\n📌 https://registan.edutizim.uz/order/entry/?survey=s33\n\n📞 +998935512700\n\n📱 Follow us on social media:\n\n📱Telegram   📱Instagram   📱Location",
+     "caption_entities": [
+      {
+       "offset": 384,
+       "length": 52,
+       "type": "text_link",
+       "url": "https://registan.edutizim.uz/order/entry/?survey=s33"
+      },
+      {
+       "offset": 441,
+       "length": 13,
+       "type": "phone_number"
+      },
+      {
+       "offset": 459,
+       "length": 25,
+       "type": "text_link",
+       "url": "https://t.me/Registan_LC"
+      },
+      {
+       "offset": 489,
+       "length": 8,
+       "type": "text_link",
+       "url": "https://t.me/RegistanLC_Academy"
+      },
+      {
+       "offset": 502,
+       "length": 9,
+       "type": "text_link",
+       "url": "https://instagram.com/registanlc_academy"
+      },
+      {
+       "offset": 516,
+       "length": 8,
+       "type": "text_link",
+       "url": "https://goo.gl/maps/ziHA5ukgVtbGmwwR6"
+      }
+     ]
+    },
+    {
+     "message_id": 3612,
+     "sender_chat": {
+      "id": -1001675672165,
+      "title": "Registan LC | Academy filiali",
+      "username": "RegistanLC_Academy",
+      "type": "channel"
+     },
+     "chat": {
+      "id": -1001675672165,
+      "title": "Registan LC | Academy filiali",
+      "username": "RegistanLC_Academy",
+      "type": "channel"
+     },
+     "date": 1792896927,
+     "media_group_id": "14343175418615650",
+     "photo": [
+      {
+       "file_id": "AgACAgQAAxUHat1vn9AZbBLscy7CBxZ_Hty2wLYAAhQQaxtfC-1S1Vqa0DFR_KkBAAMCAANzAAM9BA",
+       "file_unique_id": "AQADFBBrG18L7VJ4",
+       "file_size": 1389,
+       "width": 72,
+       "height": 90
+      },
+      {
+       "file_id": "AgACAgQAAxUHat1vn9AZbBLscy7CBxZ_Hty2wLYAAhQQaxtfC-1S1Vqa0DFR_KkBAAMCAANtAAM9BA",
+       "file_unique_id": "AQADFBBrG18L7VJy",
+       "file_size": 15438,
+       "width": 256,
+       "height": 320
+      },
+      {
+       "file_id": "AgACAgQAAxUHat1vn9AZbBLscy7CBxZ_Hty2wLYAAhQQaxtfC-1S1Vqa0DFR_KkBAAMCAAN4AAM9BA",
+       "file_unique_id": "AQADFBBrG18L7VJ9",
+       "file_size": 59132,
+       "width": 640,
+       "height": 800
+      },
+      {
+       "file_id": "AgACAgQAAxUHat1vn9AZbBLscy7CBxZ_Hty2wLYAAhQQaxtfC-1S1Vqa0DFR_KkBAAMCAAN5AAM9BA",
+       "file_unique_id": "AQADFBBrG18L7VJ-",
+       "file_size": 108885,
+       "width": 1024,
+       "height": 1280
+      },
+      {
+       "file_id": "AgACAgQAAxUHat1vn9AZbBLscy7CBxZ_Hty2wLYAAhQQaxtfC-1S1Vqa0DFR_KkBAAMCAAN3AAM9BA",
+       "file_unique_id": "AQADFBBrG18L7VJ8",
+       "file_size": 259961,
+       "width": 2048,
+       "height": 2560
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "posted_at": "2026-10-25T02:55:27.462895+00:00"
+}
