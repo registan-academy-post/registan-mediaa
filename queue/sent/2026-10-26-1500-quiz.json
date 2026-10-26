@@ -1,0 +1,398 @@
+{
+ "id": "2026-10-26-1500-quiz",
+ "steps": [
+  {
+   "method": "sendMessage",
+   "params": {
+    "chat_id": "@RegistanLC_Academy",
+    "text": "Bugun Elementary guruhlar uchun test: \"be\" bilan savol tuzish va what, where, how old kabi so'roq so'zlar.\n5 ta savol, oxirgisi biroz ayyorroq 🙂"
+   }
+  },
+  {
+   "method": "sendPoll",
+   "params": {
+    "chat_id": "@RegistanLC_Academy",
+    "question": "Fill the gap: A: ___ old are you? B: I'm fifteen.",
+    "options": [
+     "What",
+     "How",
+     "Who"
+    ],
+    "type": "quiz",
+    "is_anonymous": true,
+    "correct_option_id": 1,
+    "explanation": "Yoshni so'rashda \"How old\" ishlatiladi: How old are you? \"What old\" yoki \"Who old\" deyilmaydi."
+   }
+  },
+  {
+   "method": "sendPoll",
+   "params": {
+    "chat_id": "@RegistanLC_Academy",
+    "question": "Fill the gap: ___ your parents at home now?",
+    "options": [
+     "Is",
+     "Am",
+     "Do",
+     "Are"
+    ],
+    "type": "quiz",
+    "is_anonymous": true,
+    "correct_option_id": 3,
+    "explanation": "\"Your parents\" ko'plik, shuning uchun \"Are\". \"Be\" bilan tuzilgan savolda \"do\" kerak emas."
+   }
+  },
+  {
+   "method": "sendPoll",
+   "params": {
+    "chat_id": "@RegistanLC_Academy",
+    "question": "People from Spain are ___.",
+    "options": [
+     "Spanish",
+     "Spain",
+     "Spanishes"
+    ],
+    "type": "quiz",
+    "is_anonymous": true,
+    "correct_option_id": 0,
+    "explanation": "Spain davlat nomi, Spanish esa millat va til. Millat nomi ko'plik qo'shimchasi olmaydi: \"Spanishes\" xato."
+   }
+  },
+  {
+   "method": "sendPoll",
+   "params": {
+    "chat_id": "@RegistanLC_Academy",
+    "question": "Choose the correct question.",
+    "options": [
+     "Where your sister is from?",
+     "Where is from your sister?",
+     "Where is your sister from?",
+     "Where does your sister from?"
+    ],
+    "type": "quiz",
+    "is_anonymous": true,
+    "correct_option_id": 2,
+    "explanation": "Tartib: so'roq so'z + is + ega + from: Where is your sister from? \"Does\" bu yerda ortiqcha, chunki fe'l \"be\"."
+   }
+  },
+  {
+   "method": "sendPoll",
+   "params": {
+    "chat_id": "@RegistanLC_Academy",
+    "question": "A: Is your brother a doctor? B: Yes, ___.",
+    "options": [
+     "he's",
+     "he is",
+     "is he",
+     "he does"
+    ],
+    "type": "quiz",
+    "is_anonymous": true,
+    "correct_option_id": 1,
+    "explanation": "Qisqa ijobiy javobda qisqartma ishlatilmaydi: Yes, he is. \"Yes, he's\" xato. Inkorda esa No, he isn't bo'ladi."
+   }
+  }
+ ],
+ "results": [
+  {
+   "ok": true,
+   "result": {
+    "message_id": 3625,
+    "sender_chat": {
+     "id": -1001675672165,
+     "title": "Registan LC | Academy filiali",
+     "username": "RegistanLC_Academy",
+     "type": "channel"
+    },
+    "chat": {
+     "id": -1001675672165,
+     "title": "Registan LC | Academy filiali",
+     "username": "RegistanLC_Academy",
+     "type": "channel"
+    },
+    "date": 1793008558,
+    "text": "Bugun Elementary guruhlar uchun test: \"be\" bilan savol tuzish va what, where, how old kabi so'roq so'zlar.\n5 ta savol, oxirgisi biroz ayyorroq 🙂"
+   }
+  },
+  {
+   "ok": true,
+   "result": {
+    "message_id": 3626,
+    "sender_chat": {
+     "id": -1001675672165,
+     "title": "Registan LC | Academy filiali",
+     "username": "RegistanLC_Academy",
+     "type": "channel"
+    },
+    "chat": {
+     "id": -1001675672165,
+     "title": "Registan LC | Academy filiali",
+     "username": "RegistanLC_Academy",
+     "type": "channel"
+    },
+    "date": 1793008559,
+    "poll": {
+     "id": "5404659808743727133",
+     "question": "Fill the gap: A: ___ old are you? B: I'm fifteen.",
+     "options": [
+      {
+       "persistent_id": "0",
+       "text": "What",
+       "voter_count": 0
+      },
+      {
+       "persistent_id": "1",
+       "text": "How",
+       "voter_count": 0
+      },
+      {
+       "persistent_id": "2",
+       "text": "Who",
+       "voter_count": 0
+      }
+     ],
+     "total_voter_count": 0,
+     "is_closed": false,
+     "is_anonymous": true,
+     "allows_multiple_answers": false,
+     "allows_revoting": false,
+     "members_only": false,
+     "type": "quiz",
+     "correct_option_id": 1,
+     "correct_option_ids": [
+      1
+     ],
+     "explanation": "Yoshni so'rashda \"How old\" ishlatiladi: How old are you? \"What old\" yoki \"Who old\" deyilmaydi.",
+     "explanation_entities": []
+    }
+   }
+  },
+  {
+   "ok": true,
+   "result": {
+    "message_id": 3627,
+    "sender_chat": {
+     "id": -1001675672165,
+     "title": "Registan LC | Academy filiali",
+     "username": "RegistanLC_Academy",
+     "type": "channel"
+    },
+    "chat": {
+     "id": -1001675672165,
+     "title": "Registan LC | Academy filiali",
+     "username": "RegistanLC_Academy",
+     "type": "channel"
+    },
+    "date": 1793008559,
+    "poll": {
+     "id": "5404659808743727134",
+     "question": "Fill the gap: ___ your parents at home now?",
+     "options": [
+      {
+       "persistent_id": "0",
+       "text": "Is",
+       "voter_count": 0
+      },
+      {
+       "persistent_id": "1",
+       "text": "Am",
+       "voter_count": 0
+      },
+      {
+       "persistent_id": "2",
+       "text": "Do",
+       "voter_count": 0
+      },
+      {
+       "persistent_id": "3",
+       "text": "Are",
+       "voter_count": 0
+      }
+     ],
+     "total_voter_count": 0,
+     "is_closed": false,
+     "is_anonymous": true,
+     "allows_multiple_answers": false,
+     "allows_revoting": false,
+     "members_only": false,
+     "type": "quiz",
+     "correct_option_id": 3,
+     "correct_option_ids": [
+      3
+     ],
+     "explanation": "\"Your parents\" ko'plik, shuning uchun \"Are\". \"Be\" bilan tuzilgan savolda \"do\" kerak emas.",
+     "explanation_entities": []
+    }
+   }
+  },
+  {
+   "ok": true,
+   "result": {
+    "message_id": 3628,
+    "sender_chat": {
+     "id": -1001675672165,
+     "title": "Registan LC | Academy filiali",
+     "username": "RegistanLC_Academy",
+     "type": "channel"
+    },
+    "chat": {
+     "id": -1001675672165,
+     "title": "Registan LC | Academy filiali",
+     "username": "RegistanLC_Academy",
+     "type": "channel"
+    },
+    "date": 1793008559,
+    "poll": {
+     "id": "5404659808743727135",
+     "question": "People from Spain are ___.",
+     "options": [
+      {
+       "persistent_id": "0",
+       "text": "Spanish",
+       "voter_count": 0
+      },
+      {
+       "persistent_id": "1",
+       "text": "Spain",
+       "voter_count": 0
+      },
+      {
+       "persistent_id": "2",
+       "text": "Spanishes",
+       "voter_count": 0
+      }
+     ],
+     "total_voter_count": 0,
+     "is_closed": false,
+     "is_anonymous": true,
+     "allows_multiple_answers": false,
+     "allows_revoting": false,
+     "members_only": false,
+     "type": "quiz",
+     "correct_option_id": 0,
+     "correct_option_ids": [
+      0
+     ],
+     "explanation": "Spain davlat nomi, Spanish esa millat va til. Millat nomi ko'plik qo'shimchasi olmaydi: \"Spanishes\" xato.",
+     "explanation_entities": []
+    }
+   }
+  },
+  {
+   "ok": true,
+   "result": {
+    "message_id": 3629,
+    "sender_chat": {
+     "id": -1001675672165,
+     "title": "Registan LC | Academy filiali",
+     "username": "RegistanLC_Academy",
+     "type": "channel"
+    },
+    "chat": {
+     "id": -1001675672165,
+     "title": "Registan LC | Academy filiali",
+     "username": "RegistanLC_Academy",
+     "type": "channel"
+    },
+    "date": 1793008560,
+    "poll": {
+     "id": "5404659808743727136",
+     "question": "Choose the correct question.",
+     "options": [
+      {
+       "persistent_id": "0",
+       "text": "Where your sister is from?",
+       "voter_count": 0
+      },
+      {
+       "persistent_id": "1",
+       "text": "Where is from your sister?",
+       "voter_count": 0
+      },
+      {
+       "persistent_id": "2",
+       "text": "Where is your sister from?",
+       "voter_count": 0
+      },
+      {
+       "persistent_id": "3",
+       "text": "Where does your sister from?",
+       "voter_count": 0
+      }
+     ],
+     "total_voter_count": 0,
+     "is_closed": false,
+     "is_anonymous": true,
+     "allows_multiple_answers": false,
+     "allows_revoting": false,
+     "members_only": false,
+     "type": "quiz",
+     "correct_option_id": 2,
+     "correct_option_ids": [
+      2
+     ],
+     "explanation": "Tartib: so'roq so'z + is + ega + from: Where is your sister from? \"Does\" bu yerda ortiqcha, chunki fe'l \"be\".",
+     "explanation_entities": []
+    }
+   }
+  },
+  {
+   "ok": true,
+   "result": {
+    "message_id": 3630,
+    "sender_chat": {
+     "id": -1001675672165,
+     "title": "Registan LC | Academy filiali",
+     "username": "RegistanLC_Academy",
+     "type": "channel"
+    },
+    "chat": {
+     "id": -1001675672165,
+     "title": "Registan LC | Academy filiali",
+     "username": "RegistanLC_Academy",
+     "type": "channel"
+    },
+    "date": 1793008563,
+    "poll": {
+     "id": "5404659808743727137",
+     "question": "A: Is your brother a doctor? B: Yes, ___.",
+     "options": [
+      {
+       "persistent_id": "0",
+       "text": "he's",
+       "voter_count": 0
+      },
+      {
+       "persistent_id": "1",
+       "text": "he is",
+       "voter_count": 0
+      },
+      {
+       "persistent_id": "2",
+       "text": "is he",
+       "voter_count": 0
+      },
+      {
+       "persistent_id": "3",
+       "text": "he does",
+       "voter_count": 0
+      }
+     ],
+     "total_voter_count": 0,
+     "is_closed": false,
+     "is_anonymous": true,
+     "allows_multiple_answers": false,
+     "allows_revoting": false,
+     "members_only": false,
+     "type": "quiz",
+     "correct_option_id": 1,
+     "correct_option_ids": [
+      1
+     ],
+     "explanation": "Qisqa ijobiy javobda qisqartma ishlatilmaydi: Yes, he is. \"Yes, he's\" xato. Inkorda esa No, he isn't bo'ladi.",
+     "explanation_entities": []
+    }
+   }
+  }
+ ],
+ "posted_at": "2026-10-26T09:56:03.842791+00:00"
+}
