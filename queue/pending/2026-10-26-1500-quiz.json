@@ -1,0 +1,95 @@
+{
+ "id": "2026-10-26-1500-quiz",
+ "steps": [
+  {
+   "method": "sendMessage",
+   "params": {
+    "chat_id": "@RegistanLC_Academy",
+    "text": "Bugun Elementary guruhlar uchun test: \"be\" bilan savol tuzish va what, where, how old kabi so'roq so'zlar.\n5 ta savol, oxirgisi biroz ayyorroq 🙂"
+   }
+  },
+  {
+   "method": "sendPoll",
+   "params": {
+    "chat_id": "@RegistanLC_Academy",
+    "question": "Fill the gap: A: ___ old are you? B: I'm fifteen.",
+    "options": [
+     "What",
+     "How",
+     "Who"
+    ],
+    "type": "quiz",
+    "is_anonymous": true,
+    "correct_option_id": 1,
+    "explanation": "Yoshni so'rashda \"How old\" ishlatiladi: How old are you? \"What old\" yoki \"Who old\" deyilmaydi."
+   }
+  },
+  {
+   "method": "sendPoll",
+   "params": {
+    "chat_id": "@RegistanLC_Academy",
+    "question": "Fill the gap: ___ your parents at home now?",
+    "options": [
+     "Is",
+     "Am",
+     "Do",
+     "Are"
+    ],
+    "type": "quiz",
+    "is_anonymous": true,
+    "correct_option_id": 3,
+    "explanation": "\"Your parents\" ko'plik, shuning uchun \"Are\". \"Be\" bilan tuzilgan savolda \"do\" kerak emas."
+   }
+  },
+  {
+   "method": "sendPoll",
+   "params": {
+    "chat_id": "@RegistanLC_Academy",
+    "question": "People from Spain are ___.",
+    "options": [
+     "Spanish",
+     "Spain",
+     "Spanishes"
+    ],
+    "type": "quiz",
+    "is_anonymous": true,
+    "correct_option_id": 0,
+    "explanation": "Spain davlat nomi, Spanish esa millat va til. Millat nomi ko'plik qo'shimchasi olmaydi: \"Spanishes\" xato."
+   }
+  },
+  {
+   "method": "sendPoll",
+   "params": {
+    "chat_id": "@RegistanLC_Academy",
+    "question": "Choose the correct question.",
+    "options": [
+     "Where your sister is from?",
+     "Where is from your sister?",
+     "Where is your sister from?",
+     "Where does your sister from?"
+    ],
+    "type": "quiz",
+    "is_anonymous": true,
+    "correct_option_id": 2,
+    "explanation": "Tartib: so'roq so'z + is + ega + from: Where is your sister from? \"Does\" bu yerda ortiqcha, chunki fe'l \"be\"."
+   }
+  },
+  {
+   "method": "sendPoll",
+   "params": {
+    "chat_id": "@RegistanLC_Academy",
+    "question": "A: Is your brother a doctor? B: Yes, ___.",
+    "options": [
+     "he's",
+     "he is",
+     "is he",
+     "he does"
+    ],
+    "type": "quiz",
+    "is_anonymous": true,
+    "correct_option_id": 1,
+    "explanation": "Qisqa ijobiy javobda qisqartma ishlatilmaydi: Yes, he is. \"Yes, he's\" xato. Inkorda esa No, he isn't bo'ladi."
+   }
+  }
+ ]
+}
