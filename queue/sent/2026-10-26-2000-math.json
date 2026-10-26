@@ -1,0 +1,186 @@
+{
+ "id": "2026-10-26-2000-math",
+ "steps": [
+  {
+   "method": "sendPhoto",
+   "params": {
+    "chat_id": "@RegistanLC_Academy",
+    "photo": "https://raw.githubusercontent.com/registan-academy-post/registan-mediaa/main/posts/2026-10-26/2000_math_seven_digits.jpg",
+    "caption": "Bugungi masala oddiyga o'xshaydi, lekin ko'pchilik birinchi urinishda adashadi.\n\n1, 2, 3 ... 100 gacha hamma sonlarni ketma-ket yozib chiqdik. Shu yozuvda 7 raqami jami necha marta uchraydi?\n\nSo'rovnomada belgilang, qanday sanaganingizni izohlarda yozing. Qaysi joyda adashish oson, deb o'ylaysiz? 🙂\n\n📌 <a href=\"https://registan.edutizim.uz/order/entry/?survey=s33\">https://registan.edutizim.uz/order/entry/?survey=s33</a>\n\n📞 +998935512700\n\n📱 <a href=\"https://t.me/Registan_LC\">Follow us on social media</a>:\n\n📱<a href=\"https://t.me/RegistanLC_Academy\">Telegram</a>   📱<a href=\"https://instagram.com/registanlc_academy\">Instagram</a>   📱<a href=\"https://goo.gl/maps/ziHA5ukgVtbGmwwR6\">Location</a>",
+    "parse_mode": "HTML"
+   }
+  },
+  {
+   "method": "sendPoll",
+   "params": {
+    "chat_id": "@RegistanLC_Academy",
+    "question": "1 dan 100 gacha sonlarda 7 raqami necha marta yoziladi?",
+    "options": [
+     "19",
+     "11",
+     "20",
+     "21"
+    ],
+    "type": "quiz",
+    "correct_option_id": 2,
+    "is_anonymous": true,
+    "explanation": "Birliklar xonasida: 7, 17, ..., 97, jami 10 ta. O'nliklar xonasida: 70 dan 79 gacha, yana 10 ta. 77 da ikkala 7 ham sanaladi. Jami 20."
+   }
+  }
+ ],
+ "results": [
+  {
+   "ok": true,
+   "result": {
+    "message_id": 3631,
+    "sender_chat": {
+     "id": -1001675672165,
+     "title": "Registan LC | Academy filiali",
+     "username": "RegistanLC_Academy",
+     "type": "channel"
+    },
+    "chat": {
+     "id": -1001675672165,
+     "title": "Registan LC | Academy filiali",
+     "username": "RegistanLC_Academy",
+     "type": "channel"
+    },
+    "date": 1793026544,
+    "photo": [
+     {
+      "file_id": "AgACAgQAAx0EY-C6ZQACDi9q32nwdImDS6G84fIxNu0R0P02cgACYA9rG9eQ_FJzli-hN6vBTQEAAwIAA3MAAz0E",
+      "file_unique_id": "AQADYA9rG9eQ_FJ4",
+      "file_size": 1296,
+      "width": 72,
+      "height": 90
+     },
+     {
+      "file_id": "AgACAgQAAx0EY-C6ZQACDi9q32nwdImDS6G84fIxNu0R0P02cgACYA9rG9eQ_FJzli-hN6vBTQEAAwIAA20AAz0E",
+      "file_unique_id": "AQADYA9rG9eQ_FJy",
+      "file_size": 13306,
+      "width": 256,
+      "height": 320
+     },
+     {
+      "file_id": "AgACAgQAAx0EY-C6ZQACDi9q32nwdImDS6G84fIxNu0R0P02cgACYA9rG9eQ_FJzli-hN6vBTQEAAwIAA3gAAz0E",
+      "file_unique_id": "AQADYA9rG9eQ_FJ9",
+      "file_size": 48239,
+      "width": 640,
+      "height": 800
+     },
+     {
+      "file_id": "AgACAgQAAx0EY-C6ZQACDi9q32nwdImDS6G84fIxNu0R0P02cgACYA9rG9eQ_FJzli-hN6vBTQEAAwIAA3kAAz0E",
+      "file_unique_id": "AQADYA9rG9eQ_FJ-",
+      "file_size": 87811,
+      "width": 1024,
+      "height": 1280
+     },
+     {
+      "file_id": "AgACAgQAAx0EY-C6ZQACDi9q32nwdImDS6G84fIxNu0R0P02cgACYA9rG9eQ_FJzli-hN6vBTQEAAwIAA3cAAz0E",
+      "file_unique_id": "AQADYA9rG9eQ_FJ8",
+      "file_size": 218000,
+      "width": 2048,
+      "height": 2560
+     }
+    ],
+    "caption": "Bugungi masala oddiyga o'xshaydi, lekin ko'pchilik birinchi urinishda adashadi.\n\n1, 2, 3 ... 100 gacha hamma sonlarni ketma-ket yozib chiqdik. Shu yozuvda 7 raqami jami necha marta uchraydi?\n\nSo'rovnomada belgilang, qanday sanaganingizni izohlarda yozing. Qaysi joyda adashish oson, deb o'ylaysiz? 🙂\n\n📌 https://registan.edutizim.uz/order/entry/?survey=s33\n\n📞 +998935512700\n\n📱 Follow us on social media:\n\n📱Telegram   📱Instagram   📱Location",
+    "caption_entities": [
+     {
+      "offset": 305,
+      "length": 52,
+      "type": "text_link",
+      "url": "https://registan.edutizim.uz/order/entry/?survey=s33"
+     },
+     {
+      "offset": 362,
+      "length": 13,
+      "type": "phone_number"
+     },
+     {
+      "offset": 380,
+      "length": 25,
+      "type": "text_link",
+      "url": "https://t.me/Registan_LC"
+     },
+     {
+      "offset": 410,
+      "length": 8,
+      "type": "text_link",
+      "url": "https://t.me/RegistanLC_Academy"
+     },
+     {
+      "offset": 423,
+      "length": 9,
+      "type": "text_link",
+      "url": "https://instagram.com/registanlc_academy"
+     },
+     {
+      "offset": 437,
+      "length": 8,
+      "type": "text_link",
+      "url": "https://goo.gl/maps/ziHA5ukgVtbGmwwR6"
+     }
+    ]
+   }
+  },
+  {
+   "ok": true,
+   "result": {
+    "message_id": 3632,
+    "sender_chat": {
+     "id": -1001675672165,
+     "title": "Registan LC | Academy filiali",
+     "username": "RegistanLC_Academy",
+     "type": "channel"
+    },
+    "chat": {
+     "id": -1001675672165,
+     "title": "Registan LC | Academy filiali",
+     "username": "RegistanLC_Academy",
+     "type": "channel"
+    },
+    "date": 1793026544,
+    "poll": {
+     "id": "5404659808743727368",
+     "question": "1 dan 100 gacha sonlarda 7 raqami necha marta yoziladi?",
+     "options": [
+      {
+       "persistent_id": "0",
+       "text": "19",
+       "voter_count": 0
+      },
+      {
+       "persistent_id": "1",
+       "text": "11",
+       "voter_count": 0
+      },
+      {
+       "persistent_id": "2",
+       "text": "20",
+       "voter_count": 0
+      },
+      {
+       "persistent_id": "3",
+       "text": "21",
+       "voter_count": 0
+      }
+     ],
+     "total_voter_count": 0,
+     "is_closed": false,
+     "is_anonymous": true,
+     "allows_multiple_answers": false,
+     "allows_revoting": false,
+     "members_only": false,
+     "type": "quiz",
+     "correct_option_id": 2,
+     "correct_option_ids": [
+      2
+     ],
+     "explanation": "Birliklar xonasida: 7, 17, ..., 97, jami 10 ta. O'nliklar xonasida: 70 dan 79 gacha, yana 10 ta. 77 da ikkala 7 ham sanaladi. Jami 20.",
+     "explanation_entities": []
+    }
+   }
+  }
+ ],
+ "posted_at": "2026-10-26T14:55:45.008533+00:00"
+}
