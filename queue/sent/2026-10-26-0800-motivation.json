@@ -1,0 +1,177 @@
+{
+ "id": "2026-10-26-0800-motivation",
+ "steps": [
+  {
+   "method": "sendMediaGroup",
+   "params": {
+    "chat_id": "@RegistanLC_Academy",
+    "media": [
+     {
+      "type": "photo",
+      "media": "https://raw.githubusercontent.com/registan-academy-post/registan-mediaa/main/posts/2026-10-26/0800_our_days_dillard_b.jpg",
+      "caption": "Dushanba, hafta endi boshlanyapti. Demak, uning qanday o'tishi hali to'liq sizning qo'lingizda.\n\nBir savol: bugun kechqurun \"yaxshi kun bo'ldi\" deyishingiz uchun nima qilishingiz kerak? Bitta narsa bo'lsa ham yetadi. Ertalabdan o'shandan boshlang.\n\nXayrli tong ☀️\n\n📌 <a href=\"https://registan.edutizim.uz/order/entry/?survey=s33\">https://registan.edutizim.uz/order/entry/?survey=s33</a>\n\n📞 +998935512700\n\n📱 <a href=\"https://t.me/Registan_LC\">Follow us on social media</a>:\n\n📱<a href=\"https://t.me/RegistanLC_Academy\">Telegram</a>   📱<a href=\"https://instagram.com/registanlc_academy\">Instagram</a>   📱<a href=\"https://goo.gl/maps/ziHA5ukgVtbGmwwR6\">Location</a>",
+      "parse_mode": "HTML"
+     },
+     {
+      "type": "photo",
+      "media": "https://raw.githubusercontent.com/registan-academy-post/registan-mediaa/main/posts/2026-10-26/0800_quality_day_thoreau_b.jpg"
+     }
+    ]
+   }
+  }
+ ],
+ "results": [
+  {
+   "ok": true,
+   "result": [
+    {
+     "message_id": 3621,
+     "sender_chat": {
+      "id": -1001675672165,
+      "title": "Registan LC | Academy filiali",
+      "username": "RegistanLC_Academy",
+      "type": "channel"
+     },
+     "chat": {
+      "id": -1001675672165,
+      "title": "Registan LC | Academy filiali",
+      "username": "RegistanLC_Academy",
+      "type": "channel"
+     },
+     "date": 1792983342,
+     "media_group_id": "14343866740527810",
+     "photo": [
+      {
+       "file_id": "AgACAgQAAxUHat7BLvfW4mD7V6sF2rtd9UX0olUAAjYQaxu_UPVSRDlUZolqm_0BAAMCAANzAAM9BA",
+       "file_unique_id": "AQADNhBrG79Q9VJ4",
+       "file_size": 1209,
+       "width": 72,
+       "height": 90
+      },
+      {
+       "file_id": "AgACAgQAAxUHat7BLvfW4mD7V6sF2rtd9UX0olUAAjYQaxu_UPVSRDlUZolqm_0BAAMCAANtAAM9BA",
+       "file_unique_id": "AQADNhBrG79Q9VJy",
+       "file_size": 14464,
+       "width": 256,
+       "height": 320
+      },
+      {
+       "file_id": "AgACAgQAAxUHat7BLvfW4mD7V6sF2rtd9UX0olUAAjYQaxu_UPVSRDlUZolqm_0BAAMCAAN4AAM9BA",
+       "file_unique_id": "AQADNhBrG79Q9VJ9",
+       "file_size": 54700,
+       "width": 640,
+       "height": 800
+      },
+      {
+       "file_id": "AgACAgQAAxUHat7BLvfW4mD7V6sF2rtd9UX0olUAAjYQaxu_UPVSRDlUZolqm_0BAAMCAAN5AAM9BA",
+       "file_unique_id": "AQADNhBrG79Q9VJ-",
+       "file_size": 103647,
+       "width": 1024,
+       "height": 1280
+      },
+      {
+       "file_id": "AgACAgQAAxUHat7BLvfW4mD7V6sF2rtd9UX0olUAAjYQaxu_UPVSRDlUZolqm_0BAAMCAAN3AAM9BA",
+       "file_unique_id": "AQADNhBrG79Q9VJ8",
+       "file_size": 303320,
+       "width": 2048,
+       "height": 2560
+      }
+     ],
+     "caption": "Dushanba, hafta endi boshlanyapti. Demak, uning qanday o'tishi hali to'liq sizning qo'lingizda.\n\nBir savol: bugun kechqurun \"yaxshi kun bo'ldi\" deyishingiz uchun nima qilishingiz kerak? Bitta narsa bo'lsa ham yetadi. Ertalabdan o'shandan boshlang.\n\nXayrli tong ☀️\n\n📌 https://registan.edutizim.uz/order/entry/?survey=s33\n\n📞 +998935512700\n\n📱 Follow us on social media:\n\n📱Telegram   📱Instagram   📱Location",
+     "caption_entities": [
+      {
+       "offset": 268,
+       "length": 52,
+       "type": "text_link",
+       "url": "https://registan.edutizim.uz/order/entry/?survey=s33"
+      },
+      {
+       "offset": 325,
+       "length": 13,
+       "type": "phone_number"
+      },
+      {
+       "offset": 343,
+       "length": 25,
+       "type": "text_link",
+       "url": "https://t.me/Registan_LC"
+      },
+      {
+       "offset": 373,
+       "length": 8,
+       "type": "text_link",
+       "url": "https://t.me/RegistanLC_Academy"
+      },
+      {
+       "offset": 386,
+       "length": 9,
+       "type": "text_link",
+       "url": "https://instagram.com/registanlc_academy"
+      },
+      {
+       "offset": 400,
+       "length": 8,
+       "type": "text_link",
+       "url": "https://goo.gl/maps/ziHA5ukgVtbGmwwR6"
+      }
+     ]
+    },
+    {
+     "message_id": 3622,
+     "sender_chat": {
+      "id": -1001675672165,
+      "title": "Registan LC | Academy filiali",
+      "username": "RegistanLC_Academy",
+      "type": "channel"
+     },
+     "chat": {
+      "id": -1001675672165,
+      "title": "Registan LC | Academy filiali",
+      "username": "RegistanLC_Academy",
+      "type": "channel"
+     },
+     "date": 1792983342,
+     "media_group_id": "14343866740527810",
+     "photo": [
+      {
+       "file_id": "AgACAgQAAxUHat7BLkcEfkfgr_cEteCFZQ66LxIAAoYOaxud5v1SfQij3fdR7pcBAAMCAANzAAM9BA",
+       "file_unique_id": "AQADhg5rG53m_VJ4",
+       "file_size": 1359,
+       "width": 72,
+       "height": 90
+      },
+      {
+       "file_id": "AgACAgQAAxUHat7BLkcEfkfgr_cEteCFZQ66LxIAAoYOaxud5v1SfQij3fdR7pcBAAMCAANtAAM9BA",
+       "file_unique_id": "AQADhg5rG53m_VJy",
+       "file_size": 16651,
+       "width": 256,
+       "height": 320
+      },
+      {
+       "file_id": "AgACAgQAAxUHat7BLkcEfkfgr_cEteCFZQ66LxIAAoYOaxud5v1SfQij3fdR7pcBAAMCAAN4AAM9BA",
+       "file_unique_id": "AQADhg5rG53m_VJ9",
+       "file_size": 59372,
+       "width": 640,
+       "height": 800
+      },
+      {
+       "file_id": "AgACAgQAAxUHat7BLkcEfkfgr_cEteCFZQ66LxIAAoYOaxud5v1SfQij3fdR7pcBAAMCAAN5AAM9BA",
+       "file_unique_id": "AQADhg5rG53m_VJ-",
+       "file_size": 106661,
+       "width": 1024,
+       "height": 1280
+      },
+      {
+       "file_id": "AgACAgQAAxUHat7BLkcEfkfgr_cEteCFZQ66LxIAAoYOaxud5v1SfQij3fdR7pcBAAMCAAN3AAM9BA",
+       "file_unique_id": "AQADhg5rG53m_VJ8",
+       "file_size": 286064,
+       "width": 2048,
+       "height": 2560
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "posted_at": "2026-10-26T02:55:42.693328+00:00"
+}
