@@ -1,0 +1,151 @@
+{
+ "id": "2026-10-27-1200-english",
+ "steps": [
+  {
+   "method": "sendPhoto",
+   "params": {
+    "chat_id": "@RegistanLC_Academy",
+    "photo": "https://raw.githubusercontent.com/registan-academy-post/registan-mediaa/main/posts/2026-10-27/1200_mistake_explain_to_me.jpg",
+    "caption": "Darsdan keyin o'quvchi o'qituvchiga: <i>\"Teacher, can you explain me this rule?\"</i>\nO'qituvchi jilmayib: <i>\"Sure, I can explain it to you.\"</i> 🙂\n\nFarqni sezdingizmi? Explain, ya'ni tushuntirmoq fe'lidan keyin odam to'g'ridan-to'g'ri kelmaydi. Avval nima tushuntirilayotgani, keyin <b>to</b> va kimga ekani aytiladi: explain <b>something to someone</b>.\n\nMasalan, <i>Can you explain this word to me?</i>, bu so'zni menga tushuntirib bera olasizmi? Yoki <i>She explained the task to the class</i>, u vazifani sinfga tushuntirdi. Gap uzun bo'lsa, <b>to me</b> oldinroq keladi: <i>Could you explain to me how this works?</i>, bu qanday ishlashini tushuntirib bera olasizmi?\n\nShu qoida describe va suggest'ga ham tegishli: describe it to me, suggest it to him. \"Describe me\" yoki \"suggest me\" deyish xato.\n\n📌 <a href=\"https://registan.edutizim.uz/order/entry/?survey=s33\">https://registan.edutizim.uz/order/entry/?survey=s33</a>\n\n📞 +998935512700\n\n📱 <a href=\"https://t.me/Registan_LC\">Follow us on social media</a>:\n\n📱<a href=\"https://t.me/RegistanLC_Academy\">Telegram</a>   📱<a href=\"https://instagram.com/registanlc_academy\">Instagram</a>   📱<a href=\"https://goo.gl/maps/ziHA5ukgVtbGmwwR6\">Location</a>",
+    "parse_mode": "HTML"
+   }
+  }
+ ],
+ "results": [
+  {
+   "ok": true,
+   "result": {
+    "message_id": 3635,
+    "sender_chat": {
+     "id": -1001675672165,
+     "title": "Registan LC | Academy filiali",
+     "username": "RegistanLC_Academy",
+     "type": "channel"
+    },
+    "chat": {
+     "id": -1001675672165,
+     "title": "Registan LC | Academy filiali",
+     "username": "RegistanLC_Academy",
+     "type": "channel"
+    },
+    "date": 1793084128,
+    "photo": [
+     {
+      "file_id": "AgACAgQAAx0EY-C6ZQACDjNq4Ergpn4T325eg7f2OX4e17VheAACHQ9rGwc7BVPoZP2bvU0tpQEAAwIAA3MAAz0E",
+      "file_unique_id": "AQADHQ9rGwc7BVN4",
+      "file_size": 837,
+      "width": 72,
+      "height": 90
+     },
+     {
+      "file_id": "AgACAgQAAx0EY-C6ZQACDjNq4Ergpn4T325eg7f2OX4e17VheAACHQ9rGwc7BVPoZP2bvU0tpQEAAwIAA20AAz0E",
+      "file_unique_id": "AQADHQ9rGwc7BVNy",
+      "file_size": 8605,
+      "width": 256,
+      "height": 320
+     },
+     {
+      "file_id": "AgACAgQAAx0EY-C6ZQACDjNq4Ergpn4T325eg7f2OX4e17VheAACHQ9rGwc7BVPoZP2bvU0tpQEAAwIAA3gAAz0E",
+      "file_unique_id": "AQADHQ9rGwc7BVN9",
+      "file_size": 33630,
+      "width": 640,
+      "height": 800
+     },
+     {
+      "file_id": "AgACAgQAAx0EY-C6ZQACDjNq4Ergpn4T325eg7f2OX4e17VheAACHQ9rGwc7BVPoZP2bvU0tpQEAAwIAA3kAAz0E",
+      "file_unique_id": "AQADHQ9rGwc7BVN-",
+      "file_size": 65142,
+      "width": 1024,
+      "height": 1280
+     },
+     {
+      "file_id": "AgACAgQAAx0EY-C6ZQACDjNq4Ergpn4T325eg7f2OX4e17VheAACHQ9rGwc7BVPoZP2bvU0tpQEAAwIAA3cAAz0E",
+      "file_unique_id": "AQADHQ9rGwc7BVN8",
+      "file_size": 221472,
+      "width": 2048,
+      "height": 2560
+     }
+    ],
+    "caption": "Darsdan keyin o'quvchi o'qituvchiga: \"Teacher, can you explain me this rule?\"\nO'qituvchi jilmayib: \"Sure, I can explain it to you.\" 🙂\n\nFarqni sezdingizmi? Explain, ya'ni tushuntirmoq fe'lidan keyin odam to'g'ridan-to'g'ri kelmaydi. Avval nima tushuntirilayotgani, keyin to va kimga ekani aytiladi: explain something to someone.\n\nMasalan, Can you explain this word to me?, bu so'zni menga tushuntirib bera olasizmi? Yoki She explained the task to the class, u vazifani sinfga tushuntirdi. Gap uzun bo'lsa, to me oldinroq keladi: Could you explain to me how this works?, bu qanday ishlashini tushuntirib bera olasizmi?\n\nShu qoida describe va suggest'ga ham tegishli: describe it to me, suggest it to him. \"Describe me\" yoki \"suggest me\" deyish xato.\n\n📌 https://registan.edutizim.uz/order/entry/?survey=s33\n\n📞 +998935512700\n\n📱 Follow us on social media:\n\n📱Telegram   📱Instagram   📱Location",
+    "caption_entities": [
+     {
+      "offset": 37,
+      "length": 40,
+      "type": "italic"
+     },
+     {
+      "offset": 99,
+      "length": 32,
+      "type": "italic"
+     },
+     {
+      "offset": 271,
+      "length": 2,
+      "type": "bold"
+     },
+     {
+      "offset": 307,
+      "length": 20,
+      "type": "bold"
+     },
+     {
+      "offset": 339,
+      "length": 32,
+      "type": "italic"
+     },
+     {
+      "offset": 421,
+      "length": 35,
+      "type": "italic"
+     },
+     {
+      "offset": 506,
+      "length": 5,
+      "type": "bold"
+     },
+     {
+      "offset": 529,
+      "length": 39,
+      "type": "italic"
+     },
+     {
+      "offset": 753,
+      "length": 52,
+      "type": "text_link",
+      "url": "https://registan.edutizim.uz/order/entry/?survey=s33"
+     },
+     {
+      "offset": 810,
+      "length": 13,
+      "type": "phone_number"
+     },
+     {
+      "offset": 828,
+      "length": 25,
+      "type": "text_link",
+      "url": "https://t.me/Registan_LC"
+     },
+     {
+      "offset": 858,
+      "length": 8,
+      "type": "text_link",
+      "url": "https://t.me/RegistanLC_Academy"
+     },
+     {
+      "offset": 871,
+      "length": 9,
+      "type": "text_link",
+      "url": "https://instagram.com/registanlc_academy"
+     },
+     {
+      "offset": 885,
+      "length": 8,
+      "type": "text_link",
+      "url": "https://goo.gl/maps/ziHA5ukgVtbGmwwR6"
+     }
+    ]
+   }
+  }
+ ],
+ "posted_at": "2026-10-27T06:55:28.866570+00:00"
+}
