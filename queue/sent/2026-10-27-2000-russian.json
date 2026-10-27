@@ -1,0 +1,116 @@
+{
+ "id": "2026-10-27-2000-russian",
+ "steps": [
+  {
+   "method": "sendPhoto",
+   "params": {
+    "chat_id": "@RegistanLC_Academy",
+    "photo": "https://raw.githubusercontent.com/registan-academy-post/registan-mediaa/main/posts/2026-10-27/2000_ru_lapsha_na_ushi.jpg",
+    "caption": "Do'stingiz: «Bugun kech qoldim, chunki lift buzilib qoldi».\nSiz esa 9-qavatda emas, 2-qavatda yashashini bilasiz 😄\n\nAna shunda ruslar <b>«Не вешай мне лапшу на уши»</b> deydi. So'zma-so'z «qulog'imga lag'mon osma», ma'nosi esa «meni laqillatma, gapingga ishonmayman».\n\nSizning qulog'ingizga oxirgi marta kim «лапша» osgan edi? Izohlarda yozing, ruscha yozsangiz yanada zo'r.\n\n📌 <a href=\"https://registan.edutizim.uz/order/entry/?survey=s33\">https://registan.edutizim.uz/order/entry/?survey=s33</a>\n\n📞 +998935512700\n\n📱 <a href=\"https://t.me/Registan_LC\">Follow us on social media</a>:\n\n📱<a href=\"https://t.me/RegistanLC_Academy\">Telegram</a>   📱<a href=\"https://instagram.com/registanlc_academy\">Instagram</a>   📱<a href=\"https://goo.gl/maps/ziHA5ukgVtbGmwwR6\">Location</a>",
+    "parse_mode": "HTML"
+   }
+  }
+ ],
+ "results": [
+  {
+   "ok": true,
+   "result": {
+    "message_id": 3642,
+    "sender_chat": {
+     "id": -1001675672165,
+     "title": "Registan LC | Academy filiali",
+     "username": "RegistanLC_Academy",
+     "type": "channel"
+    },
+    "chat": {
+     "id": -1001675672165,
+     "title": "Registan LC | Academy filiali",
+     "username": "RegistanLC_Academy",
+     "type": "channel"
+    },
+    "date": 1793112974,
+    "photo": [
+     {
+      "file_id": "AgACAgQAAx0EY-C6ZQACDjpq4LuOBsmMhkRHjgtnQwgwY80CswACxA5rG0U4DVNkYqGu2kN4iwEAAwIAA3MAAz0E",
+      "file_unique_id": "AQADxA5rG0U4DVN4",
+      "file_size": 1135,
+      "width": 72,
+      "height": 90
+     },
+     {
+      "file_id": "AgACAgQAAx0EY-C6ZQACDjpq4LuOBsmMhkRHjgtnQwgwY80CswACxA5rG0U4DVNkYqGu2kN4iwEAAwIAA20AAz0E",
+      "file_unique_id": "AQADxA5rG0U4DVNy",
+      "file_size": 11380,
+      "width": 256,
+      "height": 320
+     },
+     {
+      "file_id": "AgACAgQAAx0EY-C6ZQACDjpq4LuOBsmMhkRHjgtnQwgwY80CswACxA5rG0U4DVNkYqGu2kN4iwEAAwIAA3gAAz0E",
+      "file_unique_id": "AQADxA5rG0U4DVN9",
+      "file_size": 36739,
+      "width": 640,
+      "height": 800
+     },
+     {
+      "file_id": "AgACAgQAAx0EY-C6ZQACDjpq4LuOBsmMhkRHjgtnQwgwY80CswACxA5rG0U4DVNkYqGu2kN4iwEAAwIAA3kAAz0E",
+      "file_unique_id": "AQADxA5rG0U4DVN-",
+      "file_size": 62685,
+      "width": 1024,
+      "height": 1280
+     },
+     {
+      "file_id": "AgACAgQAAx0EY-C6ZQACDjpq4LuOBsmMhkRHjgtnQwgwY80CswACxA5rG0U4DVNkYqGu2kN4iwEAAwIAA3cAAz0E",
+      "file_unique_id": "AQADxA5rG0U4DVN8",
+      "file_size": 145403,
+      "width": 2048,
+      "height": 2560
+     }
+    ],
+    "caption": "Do'stingiz: «Bugun kech qoldim, chunki lift buzilib qoldi».\nSiz esa 9-qavatda emas, 2-qavatda yashashini bilasiz 😄\n\nAna shunda ruslar «Не вешай мне лапшу на уши» deydi. So'zma-so'z «qulog'imga lag'mon osma», ma'nosi esa «meni laqillatma, gapingga ishonmayman».\n\nSizning qulog'ingizga oxirgi marta kim «лапша» osgan edi? Izohlarda yozing, ruscha yozsangiz yanada zo'r.\n\n📌 https://registan.edutizim.uz/order/entry/?survey=s33\n\n📞 +998935512700\n\n📱 Follow us on social media:\n\n📱Telegram   📱Instagram   📱Location",
+    "caption_entities": [
+     {
+      "offset": 135,
+      "length": 27,
+      "type": "bold"
+     },
+     {
+      "offset": 373,
+      "length": 52,
+      "type": "text_link",
+      "url": "https://registan.edutizim.uz/order/entry/?survey=s33"
+     },
+     {
+      "offset": 430,
+      "length": 13,
+      "type": "phone_number"
+     },
+     {
+      "offset": 448,
+      "length": 25,
+      "type": "text_link",
+      "url": "https://t.me/Registan_LC"
+     },
+     {
+      "offset": 478,
+      "length": 8,
+      "type": "text_link",
+      "url": "https://t.me/RegistanLC_Academy"
+     },
+     {
+      "offset": 491,
+      "length": 9,
+      "type": "text_link",
+      "url": "https://instagram.com/registanlc_academy"
+     },
+     {
+      "offset": 505,
+      "length": 8,
+      "type": "text_link",
+      "url": "https://goo.gl/maps/ziHA5ukgVtbGmwwR6"
+     }
+    ]
+   }
+  }
+ ],
+ "posted_at": "2026-10-27T14:56:15.065413+00:00"
+}
