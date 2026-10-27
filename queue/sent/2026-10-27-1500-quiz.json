@@ -1,0 +1,398 @@
+{
+ "id": "2026-10-27-1500-quiz",
+ "steps": [
+  {
+   "method": "sendMessage",
+   "params": {
+    "chat_id": "@RegistanLC_Academy",
+    "text": "Bugun Beginner: he, she, it bilan \"is\" va kasblar.\n5 ta savol, oxirgisi sal qiyinroq, shoshilmang 😉"
+   }
+  },
+  {
+   "method": "sendPoll",
+   "params": {
+    "chat_id": "@RegistanLC_Academy",
+    "question": "Fill the gap: Kamola ___ a nurse.",
+    "options": [
+     "am",
+     "is",
+     "are"
+    ],
+    "type": "quiz",
+    "is_anonymous": true,
+    "correct_option_id": 1,
+    "explanation": "Kamola bitta odam, ya'ni \"she\". He/she/it bilan \"is\" ishlatiladi: Kamola is a nurse."
+   }
+  },
+  {
+   "method": "sendPoll",
+   "params": {
+    "chat_id": "@RegistanLC_Academy",
+    "question": "She works in a hospital and helps sick people. She is a ___.",
+    "options": [
+     "teacher",
+     "waiter",
+     "doctor",
+     "pilot"
+    ],
+    "type": "quiz",
+    "is_anonymous": true,
+    "correct_option_id": 2,
+    "explanation": "Kasalxonada ishlab, bemorlarga yordam beradigan odam \"doctor\", ya'ni shifokor. Waiter restoranda, pilot samolyotda ishlaydi."
+   }
+  },
+  {
+   "method": "sendPoll",
+   "params": {
+    "chat_id": "@RegistanLC_Academy",
+    "question": "Fill the gap: I ___ not from China.",
+    "options": [
+     "am",
+     "is",
+     "are"
+    ],
+    "type": "quiz",
+    "is_anonymous": true,
+    "correct_option_id": 0,
+    "explanation": "\"I\" bilan doim \"am\" keladi: I am not from China. \"Is\" he/she/it uchun, \"are\" you/we/they uchun."
+   }
+  },
+  {
+   "method": "sendPoll",
+   "params": {
+    "chat_id": "@RegistanLC_Academy",
+    "question": "Choose the correct sentence.",
+    "options": [
+     "Bobur not is a pilot.",
+     "Bobur aren't a pilot.",
+     "Bobur no is a pilot.",
+     "Bobur isn't a pilot."
+    ],
+    "type": "quiz",
+    "is_anonymous": true,
+    "correct_option_id": 3,
+    "explanation": "Inkor shakli \"is not\", qisqasi \"isn't\": Bobur isn't a pilot. \"Aren't\" esa ko'plik uchun, masalan They aren't pilots."
+   }
+  },
+  {
+   "method": "sendPoll",
+   "params": {
+    "chat_id": "@RegistanLC_Academy",
+    "question": "Find the mistake: \"Is Mr Karimov a engineer? Yes, he is. He's from Bukhara.\"",
+    "options": [
+     "Is Mr Karimov",
+     "a engineer",
+     "Yes, he is",
+     "He's from Bukhara"
+    ],
+    "type": "quiz",
+    "is_anonymous": true,
+    "correct_option_id": 1,
+    "explanation": "\"Engineer\" unli tovush bilan boshlanadi, shuning uchun \"a\" emas, \"an\" kerak: an engineer. Xuddi shunday: an actor, an artist."
+   }
+  }
+ ],
+ "results": [
+  {
+   "ok": true,
+   "result": {
+    "message_id": 3636,
+    "sender_chat": {
+     "id": -1001675672165,
+     "title": "Registan LC | Academy filiali",
+     "username": "RegistanLC_Academy",
+     "type": "channel"
+    },
+    "chat": {
+     "id": -1001675672165,
+     "title": "Registan LC | Academy filiali",
+     "username": "RegistanLC_Academy",
+     "type": "channel"
+    },
+    "date": 1793094941,
+    "text": "Bugun Beginner: he, she, it bilan \"is\" va kasblar.\n5 ta savol, oxirgisi sal qiyinroq, shoshilmang 😉"
+   }
+  },
+  {
+   "ok": true,
+   "result": {
+    "message_id": 3637,
+    "sender_chat": {
+     "id": -1001675672165,
+     "title": "Registan LC | Academy filiali",
+     "username": "RegistanLC_Academy",
+     "type": "channel"
+    },
+    "chat": {
+     "id": -1001675672165,
+     "title": "Registan LC | Academy filiali",
+     "username": "RegistanLC_Academy",
+     "type": "channel"
+    },
+    "date": 1793094942,
+    "poll": {
+     "id": "5406707773704510105",
+     "question": "Fill the gap: Kamola ___ a nurse.",
+     "options": [
+      {
+       "persistent_id": "0",
+       "text": "am",
+       "voter_count": 0
+      },
+      {
+       "persistent_id": "1",
+       "text": "is",
+       "voter_count": 0
+      },
+      {
+       "persistent_id": "2",
+       "text": "are",
+       "voter_count": 0
+      }
+     ],
+     "total_voter_count": 0,
+     "is_closed": false,
+     "is_anonymous": true,
+     "allows_multiple_answers": false,
+     "allows_revoting": false,
+     "members_only": false,
+     "type": "quiz",
+     "correct_option_id": 1,
+     "correct_option_ids": [
+      1
+     ],
+     "explanation": "Kamola bitta odam, ya'ni \"she\". He/she/it bilan \"is\" ishlatiladi: Kamola is a nurse.",
+     "explanation_entities": []
+    }
+   }
+  },
+  {
+   "ok": true,
+   "result": {
+    "message_id": 3638,
+    "sender_chat": {
+     "id": -1001675672165,
+     "title": "Registan LC | Academy filiali",
+     "username": "RegistanLC_Academy",
+     "type": "channel"
+    },
+    "chat": {
+     "id": -1001675672165,
+     "title": "Registan LC | Academy filiali",
+     "username": "RegistanLC_Academy",
+     "type": "channel"
+    },
+    "date": 1793094942,
+    "poll": {
+     "id": "5406707773704510106",
+     "question": "She works in a hospital and helps sick people. She is a ___.",
+     "options": [
+      {
+       "persistent_id": "0",
+       "text": "teacher",
+       "voter_count": 0
+      },
+      {
+       "persistent_id": "1",
+       "text": "waiter",
+       "voter_count": 0
+      },
+      {
+       "persistent_id": "2",
+       "text": "doctor",
+       "voter_count": 0
+      },
+      {
+       "persistent_id": "3",
+       "text": "pilot",
+       "voter_count": 0
+      }
+     ],
+     "total_voter_count": 0,
+     "is_closed": false,
+     "is_anonymous": true,
+     "allows_multiple_answers": false,
+     "allows_revoting": false,
+     "members_only": false,
+     "type": "quiz",
+     "correct_option_id": 2,
+     "correct_option_ids": [
+      2
+     ],
+     "explanation": "Kasalxonada ishlab, bemorlarga yordam beradigan odam \"doctor\", ya'ni shifokor. Waiter restoranda, pilot samolyotda ishlaydi.",
+     "explanation_entities": []
+    }
+   }
+  },
+  {
+   "ok": true,
+   "result": {
+    "message_id": 3639,
+    "sender_chat": {
+     "id": -1001675672165,
+     "title": "Registan LC | Academy filiali",
+     "username": "RegistanLC_Academy",
+     "type": "channel"
+    },
+    "chat": {
+     "id": -1001675672165,
+     "title": "Registan LC | Academy filiali",
+     "username": "RegistanLC_Academy",
+     "type": "channel"
+    },
+    "date": 1793094942,
+    "poll": {
+     "id": "5406707773704510107",
+     "question": "Fill the gap: I ___ not from China.",
+     "options": [
+      {
+       "persistent_id": "0",
+       "text": "am",
+       "voter_count": 0
+      },
+      {
+       "persistent_id": "1",
+       "text": "is",
+       "voter_count": 0
+      },
+      {
+       "persistent_id": "2",
+       "text": "are",
+       "voter_count": 0
+      }
+     ],
+     "total_voter_count": 0,
+     "is_closed": false,
+     "is_anonymous": true,
+     "allows_multiple_answers": false,
+     "allows_revoting": false,
+     "members_only": false,
+     "type": "quiz",
+     "correct_option_id": 0,
+     "correct_option_ids": [
+      0
+     ],
+     "explanation": "\"I\" bilan doim \"am\" keladi: I am not from China. \"Is\" he/she/it uchun, \"are\" you/we/they uchun.",
+     "explanation_entities": []
+    }
+   }
+  },
+  {
+   "ok": true,
+   "result": {
+    "message_id": 3640,
+    "sender_chat": {
+     "id": -1001675672165,
+     "title": "Registan LC | Academy filiali",
+     "username": "RegistanLC_Academy",
+     "type": "channel"
+    },
+    "chat": {
+     "id": -1001675672165,
+     "title": "Registan LC | Academy filiali",
+     "username": "RegistanLC_Academy",
+     "type": "channel"
+    },
+    "date": 1793094943,
+    "poll": {
+     "id": "5406707773704510108",
+     "question": "Choose the correct sentence.",
+     "options": [
+      {
+       "persistent_id": "0",
+       "text": "Bobur not is a pilot.",
+       "voter_count": 0
+      },
+      {
+       "persistent_id": "1",
+       "text": "Bobur aren't a pilot.",
+       "voter_count": 0
+      },
+      {
+       "persistent_id": "2",
+       "text": "Bobur no is a pilot.",
+       "voter_count": 0
+      },
+      {
+       "persistent_id": "3",
+       "text": "Bobur isn't a pilot.",
+       "voter_count": 0
+      }
+     ],
+     "total_voter_count": 0,
+     "is_closed": false,
+     "is_anonymous": true,
+     "allows_multiple_answers": false,
+     "allows_revoting": false,
+     "members_only": false,
+     "type": "quiz",
+     "correct_option_id": 3,
+     "correct_option_ids": [
+      3
+     ],
+     "explanation": "Inkor shakli \"is not\", qisqasi \"isn't\": Bobur isn't a pilot. \"Aren't\" esa ko'plik uchun, masalan They aren't pilots.",
+     "explanation_entities": []
+    }
+   }
+  },
+  {
+   "ok": true,
+   "result": {
+    "message_id": 3641,
+    "sender_chat": {
+     "id": -1001675672165,
+     "title": "Registan LC | Academy filiali",
+     "username": "RegistanLC_Academy",
+     "type": "channel"
+    },
+    "chat": {
+     "id": -1001675672165,
+     "title": "Registan LC | Academy filiali",
+     "username": "RegistanLC_Academy",
+     "type": "channel"
+    },
+    "date": 1793094946,
+    "poll": {
+     "id": "5406707773704510109",
+     "question": "Find the mistake: \"Is Mr Karimov a engineer? Yes, he is. He's from Bukhara.\"",
+     "options": [
+      {
+       "persistent_id": "0",
+       "text": "Is Mr Karimov",
+       "voter_count": 0
+      },
+      {
+       "persistent_id": "1",
+       "text": "a engineer",
+       "voter_count": 0
+      },
+      {
+       "persistent_id": "2",
+       "text": "Yes, he is",
+       "voter_count": 0
+      },
+      {
+       "persistent_id": "3",
+       "text": "He's from Bukhara",
+       "voter_count": 0
+      }
+     ],
+     "total_voter_count": 0,
+     "is_closed": false,
+     "is_anonymous": true,
+     "allows_multiple_answers": false,
+     "allows_revoting": false,
+     "members_only": false,
+     "type": "quiz",
+     "correct_option_id": 1,
+     "correct_option_ids": [
+      1
+     ],
+     "explanation": "\"Engineer\" unli tovush bilan boshlanadi, shuning uchun \"a\" emas, \"an\" kerak: an engineer. Xuddi shunday: an actor, an artist.",
+     "explanation_entities": []
+    }
+   }
+  }
+ ],
+ "posted_at": "2026-10-27T09:55:47.034261+00:00"
+}
