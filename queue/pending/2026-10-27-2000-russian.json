@@ -1,0 +1,14 @@
+{
+ "id": "2026-10-27-2000-russian",
+ "steps": [
+  {
+   "method": "sendPhoto",
+   "params": {
+    "chat_id": "@RegistanLC_Academy",
+    "photo": "https://raw.githubusercontent.com/registan-academy-post/registan-mediaa/main/posts/2026-10-27/2000_ru_lapsha_na_ushi.jpg",
+    "caption": "Do'stingiz: «Bugun kech qoldim, chunki lift buzilib qoldi».\nSiz esa 9-qavatda emas, 2-qavatda yashashini bilasiz 😄\n\nAna shunda ruslar <b>«Не вешай мне лапшу на уши»</b> deydi. So'zma-so'z «qulog'imga lag'mon osma», ma'nosi esa «meni laqillatma, gapingga ishonmayman».\n\nSizning qulog'ingizga oxirgi marta kim «лапша» osgan edi? Izohlarda yozing, ruscha yozsangiz yanada zo'r.\n\n📌 <a href=\"https://registan.edutizim.uz/order/entry/?survey=s33\">https://registan.edutizim.uz/order/entry/?survey=s33</a>\n\n📞 +998935512700\n\n📱 <a href=\"https://t.me/Registan_LC\">Follow us on social media</a>:\n\n📱<a href=\"https://t.me/RegistanLC_Academy\">Telegram</a>   📱<a href=\"https://instagram.com/registanlc_academy\">Instagram</a>   📱<a href=\"https://goo.gl/maps/ziHA5ukgVtbGmwwR6\">Location</a>",
+    "parse_mode": "HTML"
+   }
+  }
+ ]
+}
