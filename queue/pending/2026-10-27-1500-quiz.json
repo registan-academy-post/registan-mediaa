@@ -1,0 +1,95 @@
+{
+ "id": "2026-10-27-1500-quiz",
+ "steps": [
+  {
+   "method": "sendMessage",
+   "params": {
+    "chat_id": "@RegistanLC_Academy",
+    "text": "Bugun Beginner: he, she, it bilan \"is\" va kasblar.\n5 ta savol, oxirgisi sal qiyinroq, shoshilmang 😉"
+   }
+  },
+  {
+   "method": "sendPoll",
+   "params": {
+    "chat_id": "@RegistanLC_Academy",
+    "question": "Fill the gap: Kamola ___ a nurse.",
+    "options": [
+     "am",
+     "is",
+     "are"
+    ],
+    "type": "quiz",
+    "is_anonymous": true,
+    "correct_option_id": 1,
+    "explanation": "Kamola bitta odam, ya'ni \"she\". He/she/it bilan \"is\" ishlatiladi: Kamola is a nurse."
+   }
+  },
+  {
+   "method": "sendPoll",
+   "params": {
+    "chat_id": "@RegistanLC_Academy",
+    "question": "She works in a hospital and helps sick people. She is a ___.",
+    "options": [
+     "teacher",
+     "waiter",
+     "doctor",
+     "pilot"
+    ],
+    "type": "quiz",
+    "is_anonymous": true,
+    "correct_option_id": 2,
+    "explanation": "Kasalxonada ishlab, bemorlarga yordam beradigan odam \"doctor\", ya'ni shifokor. Waiter restoranda, pilot samolyotda ishlaydi."
+   }
+  },
+  {
+   "method": "sendPoll",
+   "params": {
+    "chat_id": "@RegistanLC_Academy",
+    "question": "Fill the gap: I ___ not from China.",
+    "options": [
+     "am",
+     "is",
+     "are"
+    ],
+    "type": "quiz",
+    "is_anonymous": true,
+    "correct_option_id": 0,
+    "explanation": "\"I\" bilan doim \"am\" keladi: I am not from China. \"Is\" he/she/it uchun, \"are\" you/we/they uchun."
+   }
+  },
+  {
+   "method": "sendPoll",
+   "params": {
+    "chat_id": "@RegistanLC_Academy",
+    "question": "Choose the correct sentence.",
+    "options": [
+     "Bobur not is a pilot.",
+     "Bobur aren't a pilot.",
+     "Bobur no is a pilot.",
+     "Bobur isn't a pilot."
+    ],
+    "type": "quiz",
+    "is_anonymous": true,
+    "correct_option_id": 3,
+    "explanation": "Inkor shakli \"is not\", qisqasi \"isn't\": Bobur isn't a pilot. \"Aren't\" esa ko'plik uchun, masalan They aren't pilots."
+   }
+  },
+  {
+   "method": "sendPoll",
+   "params": {
+    "chat_id": "@RegistanLC_Academy",
+    "question": "Find the mistake: \"Is Mr Karimov a engineer? Yes, he is. He's from Bukhara.\"",
+    "options": [
+     "Is Mr Karimov",
+     "a engineer",
+     "Yes, he is",
+     "He's from Bukhara"
+    ],
+    "type": "quiz",
+    "is_anonymous": true,
+    "correct_option_id": 1,
+    "explanation": "\"Engineer\" unli tovush bilan boshlanadi, shuning uchun \"a\" emas, \"an\" kerak: an engineer. Xuddi shunday: an actor, an artist."
+   }
+  }
+ ]
+}
