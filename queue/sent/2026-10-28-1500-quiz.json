@@ -1,0 +1,404 @@
+{
+ "id": "2026-10-28-1500-quiz",
+ "steps": [
+  {
+   "method": "sendMessage",
+   "params": {
+    "chat_id": "@RegistanLC_Academy",
+    "text": "Elementary guruhlar, bugun yana \"be\" bilan savollar: who, when, what va boshqalar.\n5 ta savol, beshinchisiga diqqat bilan qarang 🙂"
+   }
+  },
+  {
+   "method": "sendPoll",
+   "params": {
+    "chat_id": "@RegistanLC_Academy",
+    "question": "Fill the gap: A: ___ is your English teacher? B: Ms Nilufar.",
+    "options": [
+     "What",
+     "Who",
+     "Where"
+    ],
+    "type": "quiz",
+    "is_anonymous": true,
+    "correct_option_id": 1,
+    "explanation": "\"Who\" odam haqida so'raydi: Who is your English teacher? \"What\" narsa, \"where\" esa joy haqida so'raydi."
+   }
+  },
+  {
+   "method": "sendPoll",
+   "params": {
+    "chat_id": "@RegistanLC_Academy",
+    "question": "Fill the gap: A: ___ is your birthday? B: It's in May.",
+    "options": [
+     "When",
+     "Where",
+     "Who",
+     "How"
+    ],
+    "type": "quiz",
+    "is_anonymous": true,
+    "correct_option_id": 0,
+    "explanation": "Vaqt va sana haqida \"When\" bilan so'raymiz: When is your birthday? It's in May. \"Where\" joyni so'raydi."
+   }
+  },
+  {
+   "method": "sendPoll",
+   "params": {
+    "chat_id": "@RegistanLC_Academy",
+    "question": "Fill the gap: Anna and Paul are from Germany. They ___ French.",
+    "options": [
+     "don't",
+     "isn't",
+     "not",
+     "aren't"
+    ],
+    "type": "quiz",
+    "is_anonymous": true,
+    "correct_option_id": 3,
+    "explanation": "\"Anna and Paul\" ko'plik, ya'ni \"they\", shuning uchun inkor \"aren't\": They aren't French. \"Don't\" be bilan ishlatilmaydi."
+   }
+  },
+  {
+   "method": "sendPoll",
+   "params": {
+    "chat_id": "@RegistanLC_Academy",
+    "question": "Choose the correct question.",
+    "options": [
+     "What your favourite colour is?",
+     "What are your favourite colour?",
+     "What is your favourite colour?",
+     "Is what your favourite colour?"
+    ],
+    "type": "quiz",
+    "is_anonymous": true,
+    "correct_option_id": 2,
+    "explanation": "Tartib: so'roq so'z + is + ega. \"Colour\" birlik, shuning uchun \"are\" emas, \"is\": What is your favourite colour?"
+   }
+  },
+  {
+   "method": "sendPoll",
+   "params": {
+    "chat_id": "@RegistanLC_Academy",
+    "question": "Find the mistake: \"What's your sister's name? How old she is? Is she a student?\"",
+    "options": [
+     "What's your sister's name",
+     "How old she is",
+     "Is she",
+     "a student"
+    ],
+    "type": "quiz",
+    "is_anonymous": true,
+    "correct_option_id": 1,
+    "explanation": "Savolda \"is\" egadan oldin keladi: How old is she? \"How old she is\" faqat gap ichida to'g'ri, masalan: I don't know how old she is."
+   }
+  }
+ ],
+ "results": [
+  {
+   "ok": true,
+   "result": {
+    "message_id": 3646,
+    "sender_chat": {
+     "id": -1001675672165,
+     "title": "Registan LC | Academy filiali",
+     "username": "RegistanLC_Academy",
+     "type": "channel"
+    },
+    "chat": {
+     "id": -1001675672165,
+     "title": "Registan LC | Academy filiali",
+     "username": "RegistanLC_Academy",
+     "type": "channel"
+    },
+    "date": 1793181293,
+    "text": "Elementary guruhlar, bugun yana \"be\" bilan savollar: who, when, what va boshqalar.\n5 ta savol, beshinchisiga diqqat bilan qarang 🙂"
+   }
+  },
+  {
+   "ok": true,
+   "result": {
+    "message_id": 3647,
+    "sender_chat": {
+     "id": -1001675672165,
+     "title": "Registan LC | Academy filiali",
+     "username": "RegistanLC_Academy",
+     "type": "channel"
+    },
+    "chat": {
+     "id": -1001675672165,
+     "title": "Registan LC | Academy filiali",
+     "username": "RegistanLC_Academy",
+     "type": "channel"
+    },
+    "date": 1793181293,
+    "poll": {
+     "id": "5408986026221770727",
+     "question": "Fill the gap: A: ___ is your English teacher? B: Ms Nilufar.",
+     "options": [
+      {
+       "persistent_id": "0",
+       "text": "What",
+       "voter_count": 0
+      },
+      {
+       "persistent_id": "1",
+       "text": "Who",
+       "voter_count": 0
+      },
+      {
+       "persistent_id": "2",
+       "text": "Where",
+       "voter_count": 0
+      }
+     ],
+     "total_voter_count": 0,
+     "is_closed": false,
+     "is_anonymous": true,
+     "allows_multiple_answers": false,
+     "allows_revoting": false,
+     "members_only": false,
+     "type": "quiz",
+     "correct_option_id": 1,
+     "correct_option_ids": [
+      1
+     ],
+     "explanation": "\"Who\" odam haqida so'raydi: Who is your English teacher? \"What\" narsa, \"where\" esa joy haqida so'raydi.",
+     "explanation_entities": []
+    }
+   }
+  },
+  {
+   "ok": true,
+   "result": {
+    "message_id": 3648,
+    "sender_chat": {
+     "id": -1001675672165,
+     "title": "Registan LC | Academy filiali",
+     "username": "RegistanLC_Academy",
+     "type": "channel"
+    },
+    "chat": {
+     "id": -1001675672165,
+     "title": "Registan LC | Academy filiali",
+     "username": "RegistanLC_Academy",
+     "type": "channel"
+    },
+    "date": 1793181294,
+    "poll": {
+     "id": "5408986026221770728",
+     "question": "Fill the gap: A: ___ is your birthday? B: It's in May.",
+     "options": [
+      {
+       "persistent_id": "0",
+       "text": "When",
+       "voter_count": 0
+      },
+      {
+       "persistent_id": "1",
+       "text": "Where",
+       "voter_count": 0
+      },
+      {
+       "persistent_id": "2",
+       "text": "Who",
+       "voter_count": 0
+      },
+      {
+       "persistent_id": "3",
+       "text": "How",
+       "voter_count": 0
+      }
+     ],
+     "total_voter_count": 0,
+     "is_closed": false,
+     "is_anonymous": true,
+     "allows_multiple_answers": false,
+     "allows_revoting": false,
+     "members_only": false,
+     "type": "quiz",
+     "correct_option_id": 0,
+     "correct_option_ids": [
+      0
+     ],
+     "explanation": "Vaqt va sana haqida \"When\" bilan so'raymiz: When is your birthday? It's in May. \"Where\" joyni so'raydi.",
+     "explanation_entities": []
+    }
+   }
+  },
+  {
+   "ok": true,
+   "result": {
+    "message_id": 3649,
+    "sender_chat": {
+     "id": -1001675672165,
+     "title": "Registan LC | Academy filiali",
+     "username": "RegistanLC_Academy",
+     "type": "channel"
+    },
+    "chat": {
+     "id": -1001675672165,
+     "title": "Registan LC | Academy filiali",
+     "username": "RegistanLC_Academy",
+     "type": "channel"
+    },
+    "date": 1793181294,
+    "poll": {
+     "id": "5408986026221770729",
+     "question": "Fill the gap: Anna and Paul are from Germany. They ___ French.",
+     "options": [
+      {
+       "persistent_id": "0",
+       "text": "don't",
+       "voter_count": 0
+      },
+      {
+       "persistent_id": "1",
+       "text": "isn't",
+       "voter_count": 0
+      },
+      {
+       "persistent_id": "2",
+       "text": "not",
+       "voter_count": 0
+      },
+      {
+       "persistent_id": "3",
+       "text": "aren't",
+       "voter_count": 0
+      }
+     ],
+     "total_voter_count": 0,
+     "is_closed": false,
+     "is_anonymous": true,
+     "allows_multiple_answers": false,
+     "allows_revoting": false,
+     "members_only": false,
+     "type": "quiz",
+     "correct_option_id": 3,
+     "correct_option_ids": [
+      3
+     ],
+     "explanation": "\"Anna and Paul\" ko'plik, ya'ni \"they\", shuning uchun inkor \"aren't\": They aren't French. \"Don't\" be bilan ishlatilmaydi.",
+     "explanation_entities": []
+    }
+   }
+  },
+  {
+   "ok": true,
+   "result": {
+    "message_id": 3650,
+    "sender_chat": {
+     "id": -1001675672165,
+     "title": "Registan LC | Academy filiali",
+     "username": "RegistanLC_Academy",
+     "type": "channel"
+    },
+    "chat": {
+     "id": -1001675672165,
+     "title": "Registan LC | Academy filiali",
+     "username": "RegistanLC_Academy",
+     "type": "channel"
+    },
+    "date": 1793181295,
+    "poll": {
+     "id": "5408986026221770730",
+     "question": "Choose the correct question.",
+     "options": [
+      {
+       "persistent_id": "0",
+       "text": "What your favourite colour is?",
+       "voter_count": 0
+      },
+      {
+       "persistent_id": "1",
+       "text": "What are your favourite colour?",
+       "voter_count": 0
+      },
+      {
+       "persistent_id": "2",
+       "text": "What is your favourite colour?",
+       "voter_count": 0
+      },
+      {
+       "persistent_id": "3",
+       "text": "Is what your favourite colour?",
+       "voter_count": 0
+      }
+     ],
+     "total_voter_count": 0,
+     "is_closed": false,
+     "is_anonymous": true,
+     "allows_multiple_answers": false,
+     "allows_revoting": false,
+     "members_only": false,
+     "type": "quiz",
+     "correct_option_id": 2,
+     "correct_option_ids": [
+      2
+     ],
+     "explanation": "Tartib: so'roq so'z + is + ega. \"Colour\" birlik, shuning uchun \"are\" emas, \"is\": What is your favourite colour?",
+     "explanation_entities": []
+    }
+   }
+  },
+  {
+   "ok": true,
+   "result": {
+    "message_id": 3651,
+    "sender_chat": {
+     "id": -1001675672165,
+     "title": "Registan LC | Academy filiali",
+     "username": "RegistanLC_Academy",
+     "type": "channel"
+    },
+    "chat": {
+     "id": -1001675672165,
+     "title": "Registan LC | Academy filiali",
+     "username": "RegistanLC_Academy",
+     "type": "channel"
+    },
+    "date": 1793181298,
+    "poll": {
+     "id": "5408986026221770731",
+     "question": "Find the mistake: \"What's your sister's name? How old she is? Is she a student?\"",
+     "options": [
+      {
+       "persistent_id": "0",
+       "text": "What's your sister's name",
+       "voter_count": 0
+      },
+      {
+       "persistent_id": "1",
+       "text": "How old she is",
+       "voter_count": 0
+      },
+      {
+       "persistent_id": "2",
+       "text": "Is she",
+       "voter_count": 0
+      },
+      {
+       "persistent_id": "3",
+       "text": "a student",
+       "voter_count": 0
+      }
+     ],
+     "total_voter_count": 0,
+     "is_closed": false,
+     "is_anonymous": true,
+     "allows_multiple_answers": false,
+     "allows_revoting": false,
+     "members_only": false,
+     "type": "quiz",
+     "correct_option_id": 1,
+     "correct_option_ids": [
+      1
+     ],
+     "explanation": "Savolda \"is\" egadan oldin keladi: How old is she? \"How old she is\" faqat gap ichida to'g'ri, masalan: I don't know how old she is.",
+     "explanation_entities": []
+    }
+   }
+  }
+ ],
+ "posted_at": "2026-10-28T09:54:58.574197+00:00"
+}
