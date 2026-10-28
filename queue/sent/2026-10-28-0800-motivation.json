@@ -1,0 +1,177 @@
+{
+ "id": "2026-10-28-0800-motivation",
+ "steps": [
+  {
+   "method": "sendMediaGroup",
+   "params": {
+    "chat_id": "@RegistanLC_Academy",
+    "media": [
+     {
+      "type": "photo",
+      "media": "https://raw.githubusercontent.com/registan-academy-post/registan-mediaa/main/posts/2026-10-28/0800_habit_durant.jpg",
+      "caption": "Ertalabki bitta savol: bugun qaysi kichik ishni ertaga ham, indinga ham takrorlay olasiz?\n\nKuniga 10 ta yangi so'z, 15 daqiqa listening yoki bir sahifa o'qish. Oz tuyuladi, lekin tomchi ham toshni teshadi, faqat to'xtamasa bo'ldi.\n\nXayrli tong, chorshanba unumli o'tsin ☀️\n\n📌 <a href=\"https://registan.edutizim.uz/order/entry/?survey=s33\">https://registan.edutizim.uz/order/entry/?survey=s33</a>\n\n📞 +998935512700\n\n📱 <a href=\"https://t.me/Registan_LC\">Follow us on social media</a>:\n\n📱<a href=\"https://t.me/RegistanLC_Academy\">Telegram</a>   📱<a href=\"https://instagram.com/registanlc_academy\">Instagram</a>   📱<a href=\"https://goo.gl/maps/ziHA5ukgVtbGmwwR6\">Location</a>",
+      "parse_mode": "HTML"
+     },
+     {
+      "type": "photo",
+      "media": "https://raw.githubusercontent.com/registan-academy-post/registan-mediaa/main/posts/2026-10-28/0800_dripping_water_ovid.jpg"
+     }
+    ]
+   }
+  }
+ ],
+ "results": [
+  {
+   "ok": true,
+   "result": [
+    {
+     "message_id": 3643,
+     "sender_chat": {
+      "id": -1001675672165,
+      "title": "Registan LC | Academy filiali",
+      "username": "RegistanLC_Academy",
+      "type": "channel"
+     },
+     "chat": {
+      "id": -1001675672165,
+      "title": "Registan LC | Academy filiali",
+      "username": "RegistanLC_Academy",
+      "type": "channel"
+     },
+     "date": 1793156085,
+     "media_group_id": "14345248687305722",
+     "photo": [
+      {
+       "file_id": "AgACAgQAAxUHauFj9VTLOqzanyzoXx8VLFBnmgwAAj8Paxt9BQxTDAjTs_G832wBAAMCAANzAAM9BA",
+       "file_unique_id": "AQADPw9rG30FDFN4",
+       "file_size": 1743,
+       "width": 72,
+       "height": 90
+      },
+      {
+       "file_id": "AgACAgQAAxUHauFj9VTLOqzanyzoXx8VLFBnmgwAAj8Paxt9BQxTDAjTs_G832wBAAMCAANtAAM9BA",
+       "file_unique_id": "AQADPw9rG30FDFNy",
+       "file_size": 19647,
+       "width": 256,
+       "height": 320
+      },
+      {
+       "file_id": "AgACAgQAAxUHauFj9VTLOqzanyzoXx8VLFBnmgwAAj8Paxt9BQxTDAjTs_G832wBAAMCAAN4AAM9BA",
+       "file_unique_id": "AQADPw9rG30FDFN9",
+       "file_size": 60783,
+       "width": 640,
+       "height": 800
+      },
+      {
+       "file_id": "AgACAgQAAxUHauFj9VTLOqzanyzoXx8VLFBnmgwAAj8Paxt9BQxTDAjTs_G832wBAAMCAAN5AAM9BA",
+       "file_unique_id": "AQADPw9rG30FDFN-",
+       "file_size": 103477,
+       "width": 1024,
+       "height": 1280
+      },
+      {
+       "file_id": "AgACAgQAAxUHauFj9VTLOqzanyzoXx8VLFBnmgwAAj8Paxt9BQxTDAjTs_G832wBAAMCAAN3AAM9BA",
+       "file_unique_id": "AQADPw9rG30FDFN8",
+       "file_size": 224939,
+       "width": 2048,
+       "height": 2560
+      }
+     ],
+     "caption": "Ertalabki bitta savol: bugun qaysi kichik ishni ertaga ham, indinga ham takrorlay olasiz?\n\nKuniga 10 ta yangi so'z, 15 daqiqa listening yoki bir sahifa o'qish. Oz tuyuladi, lekin tomchi ham toshni teshadi, faqat to'xtamasa bo'ldi.\n\nXayrli tong, chorshanba unumli o'tsin ☀️\n\n📌 https://registan.edutizim.uz/order/entry/?survey=s33\n\n📞 +998935512700\n\n📱 Follow us on social media:\n\n📱Telegram   📱Instagram   📱Location",
+     "caption_entities": [
+      {
+       "offset": 277,
+       "length": 52,
+       "type": "text_link",
+       "url": "https://registan.edutizim.uz/order/entry/?survey=s33"
+      },
+      {
+       "offset": 334,
+       "length": 13,
+       "type": "phone_number"
+      },
+      {
+       "offset": 352,
+       "length": 25,
+       "type": "text_link",
+       "url": "https://t.me/Registan_LC"
+      },
+      {
+       "offset": 382,
+       "length": 8,
+       "type": "text_link",
+       "url": "https://t.me/RegistanLC_Academy"
+      },
+      {
+       "offset": 395,
+       "length": 9,
+       "type": "text_link",
+       "url": "https://instagram.com/registanlc_academy"
+      },
+      {
+       "offset": 409,
+       "length": 8,
+       "type": "text_link",
+       "url": "https://goo.gl/maps/ziHA5ukgVtbGmwwR6"
+      }
+     ]
+    },
+    {
+     "message_id": 3644,
+     "sender_chat": {
+      "id": -1001675672165,
+      "title": "Registan LC | Academy filiali",
+      "username": "RegistanLC_Academy",
+      "type": "channel"
+     },
+     "chat": {
+      "id": -1001675672165,
+      "title": "Registan LC | Academy filiali",
+      "username": "RegistanLC_Academy",
+      "type": "channel"
+     },
+     "date": 1793156085,
+     "media_group_id": "14345248687305722",
+     "photo": [
+      {
+       "file_id": "AgACAgQAAxUHauFj9TjrtnO1hmm-tj_h8VN1zYYAAhAOaxs4EBVTpqNNDl8mWPMBAAMCAANzAAM9BA",
+       "file_unique_id": "AQADEA5rGzgQFVN4",
+       "file_size": 938,
+       "width": 72,
+       "height": 90
+      },
+      {
+       "file_id": "AgACAgQAAxUHauFj9TjrtnO1hmm-tj_h8VN1zYYAAhAOaxs4EBVTpqNNDl8mWPMBAAMCAANtAAM9BA",
+       "file_unique_id": "AQADEA5rGzgQFVNy",
+       "file_size": 10952,
+       "width": 256,
+       "height": 320
+      },
+      {
+       "file_id": "AgACAgQAAxUHauFj9TjrtnO1hmm-tj_h8VN1zYYAAhAOaxs4EBVTpqNNDl8mWPMBAAMCAAN4AAM9BA",
+       "file_unique_id": "AQADEA5rGzgQFVN9",
+       "file_size": 42204,
+       "width": 640,
+       "height": 800
+      },
+      {
+       "file_id": "AgACAgQAAxUHauFj9TjrtnO1hmm-tj_h8VN1zYYAAhAOaxs4EBVTpqNNDl8mWPMBAAMCAAN5AAM9BA",
+       "file_unique_id": "AQADEA5rGzgQFVN-",
+       "file_size": 80701,
+       "width": 1024,
+       "height": 1280
+      },
+      {
+       "file_id": "AgACAgQAAxUHauFj9TjrtnO1hmm-tj_h8VN1zYYAAhAOaxs4EBVTpqNNDl8mWPMBAAMCAAN3AAM9BA",
+       "file_unique_id": "AQADEA5rGzgQFVN8",
+       "file_size": 253930,
+       "width": 2048,
+       "height": 2560
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "posted_at": "2026-10-28T02:54:46.050127+00:00"
+}
