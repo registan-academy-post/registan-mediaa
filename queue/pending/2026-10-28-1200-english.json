@@ -1,0 +1,14 @@
+{
+ "id": "2026-10-28-1200-english",
+ "steps": [
+  {
+   "method": "sendPhoto",
+   "params": {
+    "chat_id": "@RegistanLC_Academy",
+    "photo": "https://raw.githubusercontent.com/registan-academy-post/registan-mediaa/main/posts/2026-10-28/1200_ielts_speaking_part1_extend.jpg",
+    "caption": "IELTS Speaking'ning birinchi qismida imtihonchi oddiy savol beradi: <i>Do you like reading?</i> Ko'pchilik esa <i>Yes, I do</i> deydi-yu, jim bo'lib qoladi. Javob to'g'ri, lekin ravonlik baholanadigan joyda bunday qisqa javob ball bermaydi.\n\nYaxshiroq yo'li oddiy: javob, sabab va kichik misol. Masalan, <i>Yes, I do, mainly because it helps me relax after classes. Right now I'm reading a short detective novel.</i> Ya'ni: ha, asosan darsdan keyin dam olishimga yordam beradi, hozir qisqa detektiv roman o'qiyapman.\n\nJavobingiz \"yo'q\" bo'lsa ham shu usul ishlaydi: <i>Not really, to be honest. I prefer podcasts, because I can listen to them on the bus.</i> Aniq bilmasangiz, <i>It depends</i> deb boshlab, ikki holatni aytib bering.\n\nUyda sinab ko'ring: 5 ta oddiy savolga telefonda 20-30 soniyalik javob yozib oling. 2-3 gapdan oshirmang, birinchi qismda uzun nutq kerak emas 🙂\n\n📌 <a href=\"https://registan.edutizim.uz/order/entry/?survey=s33\">https://registan.edutizim.uz/order/entry/?survey=s33</a>\n\n📞 +998935512700\n\n📱 <a href=\"https://t.me/Registan_LC\">Follow us on social media</a>:\n\n📱<a href=\"https://t.me/RegistanLC_Academy\">Telegram</a>   📱<a href=\"https://instagram.com/registanlc_academy\">Instagram</a>   📱<a href=\"https://goo.gl/maps/ziHA5ukgVtbGmwwR6\">Location</a>",
+    "parse_mode": "HTML"
+   }
+  }
+ ]
+}
