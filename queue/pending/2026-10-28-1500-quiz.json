@@ -1,0 +1,96 @@
+{
+ "id": "2026-10-28-1500-quiz",
+ "steps": [
+  {
+   "method": "sendMessage",
+   "params": {
+    "chat_id": "@RegistanLC_Academy",
+    "text": "Elementary guruhlar, bugun yana \"be\" bilan savollar: who, when, what va boshqalar.\n5 ta savol, beshinchisiga diqqat bilan qarang 🙂"
+   }
+  },
+  {
+   "method": "sendPoll",
+   "params": {
+    "chat_id": "@RegistanLC_Academy",
+    "question": "Fill the gap: A: ___ is your English teacher? B: Ms Nilufar.",
+    "options": [
+     "What",
+     "Who",
+     "Where"
+    ],
+    "type": "quiz",
+    "is_anonymous": true,
+    "correct_option_id": 1,
+    "explanation": "\"Who\" odam haqida so'raydi: Who is your English teacher? \"What\" narsa, \"where\" esa joy haqida so'raydi."
+   }
+  },
+  {
+   "method": "sendPoll",
+   "params": {
+    "chat_id": "@RegistanLC_Academy",
+    "question": "Fill the gap: A: ___ is your birthday? B: It's in May.",
+    "options": [
+     "When",
+     "Where",
+     "Who",
+     "How"
+    ],
+    "type": "quiz",
+    "is_anonymous": true,
+    "correct_option_id": 0,
+    "explanation": "Vaqt va sana haqida \"When\" bilan so'raymiz: When is your birthday? It's in May. \"Where\" joyni so'raydi."
+   }
+  },
+  {
+   "method": "sendPoll",
+   "params": {
+    "chat_id": "@RegistanLC_Academy",
+    "question": "Fill the gap: Anna and Paul are from Germany. They ___ French.",
+    "options": [
+     "don't",
+     "isn't",
+     "not",
+     "aren't"
+    ],
+    "type": "quiz",
+    "is_anonymous": true,
+    "correct_option_id": 3,
+    "explanation": "\"Anna and Paul\" ko'plik, ya'ni \"they\", shuning uchun inkor \"aren't\": They aren't French. \"Don't\" be bilan ishlatilmaydi."
+   }
+  },
+  {
+   "method": "sendPoll",
+   "params": {
+    "chat_id": "@RegistanLC_Academy",
+    "question": "Choose the correct question.",
+    "options": [
+     "What your favourite colour is?",
+     "What are your favourite colour?",
+     "What is your favourite colour?",
+     "Is what your favourite colour?"
+    ],
+    "type": "quiz",
+    "is_anonymous": true,
+    "correct_option_id": 2,
+    "explanation": "Tartib: so'roq so'z + is + ega. \"Colour\" birlik, shuning uchun \"are\" emas, \"is\": What is your favourite colour?"
+   }
+  },
+  {
+   "method": "sendPoll",
+   "params": {
+    "chat_id": "@RegistanLC_Academy",
+    "question": "Find the mistake: \"What's your sister's name? How old she is? Is she a student?\"",
+    "options": [
+     "What's your sister's name",
+     "How old she is",
+     "Is she",
+     "a student"
+    ],
+    "type": "quiz",
+    "is_anonymous": true,
+    "correct_option_id": 1,
+    "explanation": "Savolda \"is\" egadan oldin keladi: How old is she? \"How old she is\" faqat gap ichida to'g'ri, masalan: I don't know how old she is."
+   }
+  }
+ ]
+}
