@@ -1,0 +1,95 @@
+{
+ "id": "2026-10-29-1500-quiz",
+ "steps": [
+  {
+   "method": "sendMessage",
+   "params": {
+    "chat_id": "@RegistanLC_Academy",
+    "text": "Bugun Beginner: yana he, she, it bilan \"is\" va kasblar.\n5 ta savol, oxirgisida kichik tuzoq bor, ehtiyot bo'ling 🙂"
+   }
+  },
+  {
+   "method": "sendPoll",
+   "params": {
+    "chat_id": "@RegistanLC_Academy",
+    "question": "Fill the gap: This is my brother. ___ is a driver.",
+    "options": [
+     "She",
+     "It",
+     "He"
+    ],
+    "type": "quiz",
+    "is_anonymous": true,
+    "correct_option_id": 2,
+    "explanation": "Erkak kishi haqida gapirganda \"he\" ishlatiladi. \"She\" ayol kishi uchun, \"it\" esa narsa yoki hayvon uchun."
+   }
+  },
+  {
+   "method": "sendPoll",
+   "params": {
+    "chat_id": "@RegistanLC_Academy",
+    "question": "A ___ cooks food in a restaurant.",
+    "options": [
+     "chef",
+     "farmer",
+     "shop assistant",
+     "police officer"
+    ],
+    "type": "quiz",
+    "is_anonymous": true,
+    "correct_option_id": 0,
+    "explanation": "Chef restoranda ovqat tayyorlaydigan oshpaz. Farmer fermer, shop assistant sotuvchi, police officer esa politsiyachi."
+   }
+  },
+  {
+   "method": "sendPoll",
+   "params": {
+    "chat_id": "@RegistanLC_Academy",
+    "question": "Fill the gap: ___ you from Uzbekistan?",
+    "options": [
+     "Am",
+     "Are",
+     "Is"
+    ],
+    "type": "quiz",
+    "is_anonymous": true,
+    "correct_option_id": 1,
+    "explanation": "\"You\" bilan har doim \"are\" ishlatiladi: Are you from Uzbekistan? \"Am\" faqat \"I\" bilan keladi."
+   }
+  },
+  {
+   "method": "sendPoll",
+   "params": {
+    "chat_id": "@RegistanLC_Academy",
+    "question": "Choose the correct question.",
+    "options": [
+     "She is a teacher is?",
+     "Are she a teacher?",
+     "Is a teacher she?",
+     "Is she a teacher?"
+    ],
+    "type": "quiz",
+    "is_anonymous": true,
+    "correct_option_id": 3,
+    "explanation": "Savolda \"is\" gap boshiga chiqadi: Is she a teacher? \"She\" bilan \"are\" emas, \"is\" ishlatiladi."
+   }
+  },
+  {
+   "method": "sendPoll",
+   "params": {
+    "chat_id": "@RegistanLC_Academy",
+    "question": "Find the mistake: \"A: Is Dilnoza a nurse? B: Yes, she's. She works in a hospital.\"",
+    "options": [
+     "Is Dilnoza a nurse?",
+     "Yes, she's",
+     "She works",
+     "in a hospital"
+    ],
+    "type": "quiz",
+    "is_anonymous": true,
+    "correct_option_id": 1,
+    "explanation": "Qisqa javobning oxirida qisqartma ishlatilmaydi: \"Yes, she is\" deyiladi. Inkorda esa \"No, she isn't\" to'g'ri."
+   }
+  }
+ ]
+}
