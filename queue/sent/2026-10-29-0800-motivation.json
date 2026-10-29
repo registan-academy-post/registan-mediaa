@@ -1,0 +1,177 @@
+{
+ "id": "2026-10-29-0800-motivation",
+ "steps": [
+  {
+   "method": "sendMediaGroup",
+   "params": {
+    "chat_id": "@RegistanLC_Academy",
+    "media": [
+     {
+      "type": "photo",
+      "media": "https://raw.githubusercontent.com/registan-academy-post/registan-mediaa/main/posts/2026-10-29/0800_new_day_montgomery.jpg",
+      "caption": "Kecha nimadir chiqmagan bo'lsa, xafa bo'lmang: bugun hali bitta ham xato qilinmagan, toza kun.\n\nL. M. Montgomeryning Anne'i aynan shuni aytgan, Helen Keller esa bitta narsani eslatadi: umid va ishonch bo'lmasa, hech narsa boshlanmaydi. Demak, bugun darsga daftar bilan birga yaxshi kayfiyatni ham olib keling 🙂\n\nXayrli tong, payshanbangiz barakali o'tsin!\n\n📌 <a href=\"https://registan.edutizim.uz/order/entry/?survey=s33\">https://registan.edutizim.uz/order/entry/?survey=s33</a>\n\n📞 +998935512700\n\n📱 <a href=\"https://t.me/Registan_LC\">Follow us on social media</a>:\n\n📱<a href=\"https://t.me/RegistanLC_Academy\">Telegram</a>   📱<a href=\"https://instagram.com/registanlc_academy\">Instagram</a>   📱<a href=\"https://goo.gl/maps/ziHA5ukgVtbGmwwR6\">Location</a>",
+      "parse_mode": "HTML"
+     },
+     {
+      "type": "photo",
+      "media": "https://raw.githubusercontent.com/registan-academy-post/registan-mediaa/main/posts/2026-10-29/0800_optimism_keller_b.jpg"
+     }
+    ]
+   }
+  }
+ ],
+ "results": [
+  {
+   "ok": true,
+   "result": [
+    {
+     "message_id": 3654,
+     "sender_chat": {
+      "id": -1001675672165,
+      "title": "Registan LC | Academy filiali",
+      "username": "RegistanLC_Academy",
+      "type": "channel"
+     },
+     "chat": {
+      "id": -1001675672165,
+      "title": "Registan LC | Academy filiali",
+      "username": "RegistanLC_Academy",
+      "type": "channel"
+     },
+     "date": 1793242500,
+     "media_group_id": "14345940003441410",
+     "photo": [
+      {
+       "file_id": "AgACAgQAAxUHauK1hFJ9GemA24DQMAMgUEF5G7QAAnUOaxsnyRxTSwN6wEsPNUEBAAMCAANzAAM9BA",
+       "file_unique_id": "AQADdQ5rGyfJHFN4",
+       "file_size": 1183,
+       "width": 72,
+       "height": 90
+      },
+      {
+       "file_id": "AgACAgQAAxUHauK1hFJ9GemA24DQMAMgUEF5G7QAAnUOaxsnyRxTSwN6wEsPNUEBAAMCAANtAAM9BA",
+       "file_unique_id": "AQADdQ5rGyfJHFNy",
+       "file_size": 15538,
+       "width": 256,
+       "height": 320
+      },
+      {
+       "file_id": "AgACAgQAAxUHauK1hFJ9GemA24DQMAMgUEF5G7QAAnUOaxsnyRxTSwN6wEsPNUEBAAMCAAN4AAM9BA",
+       "file_unique_id": "AQADdQ5rGyfJHFN9",
+       "file_size": 57561,
+       "width": 640,
+       "height": 800
+      },
+      {
+       "file_id": "AgACAgQAAxUHauK1hFJ9GemA24DQMAMgUEF5G7QAAnUOaxsnyRxTSwN6wEsPNUEBAAMCAAN5AAM9BA",
+       "file_unique_id": "AQADdQ5rGyfJHFN-",
+       "file_size": 107125,
+       "width": 1024,
+       "height": 1280
+      },
+      {
+       "file_id": "AgACAgQAAxUHauK1hFJ9GemA24DQMAMgUEF5G7QAAnUOaxsnyRxTSwN6wEsPNUEBAAMCAAN3AAM9BA",
+       "file_unique_id": "AQADdQ5rGyfJHFN8",
+       "file_size": 321523,
+       "width": 2048,
+       "height": 2560
+      }
+     ],
+     "caption": "Kecha nimadir chiqmagan bo'lsa, xafa bo'lmang: bugun hali bitta ham xato qilinmagan, toza kun.\n\nL. M. Montgomeryning Anne'i aynan shuni aytgan, Helen Keller esa bitta narsani eslatadi: umid va ishonch bo'lmasa, hech narsa boshlanmaydi. Demak, bugun darsga daftar bilan birga yaxshi kayfiyatni ham olib keling 🙂\n\nXayrli tong, payshanbangiz barakali o'tsin!\n\n📌 https://registan.edutizim.uz/order/entry/?survey=s33\n\n📞 +998935512700\n\n📱 Follow us on social media:\n\n📱Telegram   📱Instagram   📱Location",
+     "caption_entities": [
+      {
+       "offset": 361,
+       "length": 52,
+       "type": "text_link",
+       "url": "https://registan.edutizim.uz/order/entry/?survey=s33"
+      },
+      {
+       "offset": 418,
+       "length": 13,
+       "type": "phone_number"
+      },
+      {
+       "offset": 436,
+       "length": 25,
+       "type": "text_link",
+       "url": "https://t.me/Registan_LC"
+      },
+      {
+       "offset": 466,
+       "length": 8,
+       "type": "text_link",
+       "url": "https://t.me/RegistanLC_Academy"
+      },
+      {
+       "offset": 479,
+       "length": 9,
+       "type": "text_link",
+       "url": "https://instagram.com/registanlc_academy"
+      },
+      {
+       "offset": 493,
+       "length": 8,
+       "type": "text_link",
+       "url": "https://goo.gl/maps/ziHA5ukgVtbGmwwR6"
+      }
+     ]
+    },
+    {
+     "message_id": 3655,
+     "sender_chat": {
+      "id": -1001675672165,
+      "title": "Registan LC | Academy filiali",
+      "username": "RegistanLC_Academy",
+      "type": "channel"
+     },
+     "chat": {
+      "id": -1001675672165,
+      "title": "Registan LC | Academy filiali",
+      "username": "RegistanLC_Academy",
+      "type": "channel"
+     },
+     "date": 1793242500,
+     "media_group_id": "14345940003441410",
+     "photo": [
+      {
+       "file_id": "AgACAgQAAxUHauK1hHsmnheIgOV_EkWSw09Je4IAAmoPaxv3qBxTiN1qS4VoEUUBAAMCAANzAAM9BA",
+       "file_unique_id": "AQADag9rG_eoHFN4",
+       "file_size": 1277,
+       "width": 72,
+       "height": 90
+      },
+      {
+       "file_id": "AgACAgQAAxUHauK1hHsmnheIgOV_EkWSw09Je4IAAmoPaxv3qBxTiN1qS4VoEUUBAAMCAANtAAM9BA",
+       "file_unique_id": "AQADag9rG_eoHFNy",
+       "file_size": 18610,
+       "width": 256,
+       "height": 320
+      },
+      {
+       "file_id": "AgACAgQAAxUHauK1hHsmnheIgOV_EkWSw09Je4IAAmoPaxv3qBxTiN1qS4VoEUUBAAMCAAN4AAM9BA",
+       "file_unique_id": "AQADag9rG_eoHFN9",
+       "file_size": 64784,
+       "width": 640,
+       "height": 800
+      },
+      {
+       "file_id": "AgACAgQAAxUHauK1hHsmnheIgOV_EkWSw09Je4IAAmoPaxv3qBxTiN1qS4VoEUUBAAMCAAN5AAM9BA",
+       "file_unique_id": "AQADag9rG_eoHFN-",
+       "file_size": 119735,
+       "width": 1024,
+       "height": 1280
+      },
+      {
+       "file_id": "AgACAgQAAxUHauK1hHsmnheIgOV_EkWSw09Je4IAAmoPaxv3qBxTiN1qS4VoEUUBAAMCAAN3AAM9BA",
+       "file_unique_id": "AQADag9rG_eoHFN8",
+       "file_size": 317911,
+       "width": 2048,
+       "height": 2560
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "posted_at": "2026-10-29T02:55:00.571637+00:00"
+}
