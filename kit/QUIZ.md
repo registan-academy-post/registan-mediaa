@@ -7,7 +7,7 @@ Each track follows its `current` pointer below (the lesson the groups are on now
 and vocabulary, and mix in 1 review question from an earlier lesson. Move the pointer to the next lesson after
 two quizzes on the same lesson (edit this file and commit). The owner may change the pointers at any time.
 
-## Beginner track: Roadmap A1        current: 1B
+## Beginner track: Roadmap A1        current: 1C
 1A be: I / you · countries
 1B be: he / she / it · jobs
 1C be: you / we / they · nationalities
