@@ -1,0 +1,186 @@
+{
+ "id": "2026-10-29-2000-math",
+ "steps": [
+  {
+   "method": "sendPhoto",
+   "params": {
+    "chat_id": "@RegistanLC_Academy",
+    "photo": "https://raw.githubusercontent.com/registan-academy-post/registan-mediaa/main/posts/2026-10-29/2000_math_clock_315.jpg",
+    "caption": "Devordagi soatga qarang: 3:15. Minut mili 3 ning ustida turibdi, soat mili ham o'sha yerda... yoki yo'qmi?\n\nMillar orasidagi burchakni topib, so'rovnomada belgilang. Qanday hisoblaganingizni izohlarda yozib qoldiring, ertaga qaysi usul eng qisqa bo'lganini ko'ramiz 🕒\n\n📌 <a href=\"https://registan.edutizim.uz/order/entry/?survey=s33\">https://registan.edutizim.uz/order/entry/?survey=s33</a>\n\n📞 +998935512700\n\n📱 <a href=\"https://t.me/Registan_LC\">Follow us on social media</a>:\n\n📱<a href=\"https://t.me/RegistanLC_Academy\">Telegram</a>   📱<a href=\"https://instagram.com/registanlc_academy\">Instagram</a>   📱<a href=\"https://goo.gl/maps/ziHA5ukgVtbGmwwR6\">Location</a>",
+    "parse_mode": "HTML"
+   }
+  },
+  {
+   "method": "sendPoll",
+   "params": {
+    "chat_id": "@RegistanLC_Academy",
+    "question": "Soat 3:15 da millar orasidagi burchak necha gradus?",
+    "options": [
+     "0°",
+     "7,5°",
+     "15°",
+     "2,5°"
+    ],
+    "type": "quiz",
+    "correct_option_id": 1,
+    "is_anonymous": true,
+    "explanation": "Minut mili 3 da, ya'ni 90°. Soat mili 1 soatda 30° yuradi, 15 daqiqada esa chorak qismi, 7,5°. Demak u 97,5° da turibdi. Farq: 97,5° - 90° = 7,5°."
+   }
+  }
+ ],
+ "results": [
+  {
+   "ok": true,
+   "result": {
+    "message_id": 3666,
+    "sender_chat": {
+     "id": -1001675672165,
+     "title": "Registan LC | Academy filiali",
+     "username": "RegistanLC_Academy",
+     "type": "channel"
+    },
+    "chat": {
+     "id": -1001675672165,
+     "title": "Registan LC | Academy filiali",
+     "username": "RegistanLC_Academy",
+     "type": "channel"
+    },
+    "date": 1793286801,
+    "photo": [
+     {
+      "file_id": "AgACAgQAAx0EY-C6ZQACDlJq42KRcuRwsBJ96gyiUf8Yr9dMBAACnA5rG8GeJVODWd9hCtsPRQEAAwIAA3MAAz0E",
+      "file_unique_id": "AQADnA5rG8GeJVN4",
+      "file_size": 1272,
+      "width": 72,
+      "height": 90
+     },
+     {
+      "file_id": "AgACAgQAAx0EY-C6ZQACDlJq42KRcuRwsBJ96gyiUf8Yr9dMBAACnA5rG8GeJVODWd9hCtsPRQEAAwIAA20AAz0E",
+      "file_unique_id": "AQADnA5rG8GeJVNy",
+      "file_size": 14807,
+      "width": 256,
+      "height": 320
+     },
+     {
+      "file_id": "AgACAgQAAx0EY-C6ZQACDlJq42KRcuRwsBJ96gyiUf8Yr9dMBAACnA5rG8GeJVODWd9hCtsPRQEAAwIAA3gAAz0E",
+      "file_unique_id": "AQADnA5rG8GeJVN9",
+      "file_size": 55578,
+      "width": 640,
+      "height": 800
+     },
+     {
+      "file_id": "AgACAgQAAx0EY-C6ZQACDlJq42KRcuRwsBJ96gyiUf8Yr9dMBAACnA5rG8GeJVODWd9hCtsPRQEAAwIAA3kAAz0E",
+      "file_unique_id": "AQADnA5rG8GeJVN-",
+      "file_size": 102529,
+      "width": 1024,
+      "height": 1280
+     },
+     {
+      "file_id": "AgACAgQAAx0EY-C6ZQACDlJq42KRcuRwsBJ96gyiUf8Yr9dMBAACnA5rG8GeJVODWd9hCtsPRQEAAwIAA3cAAz0E",
+      "file_unique_id": "AQADnA5rG8GeJVN8",
+      "file_size": 297314,
+      "width": 2048,
+      "height": 2560
+     }
+    ],
+    "caption": "Devordagi soatga qarang: 3:15. Minut mili 3 ning ustida turibdi, soat mili ham o'sha yerda... yoki yo'qmi?\n\nMillar orasidagi burchakni topib, so'rovnomada belgilang. Qanday hisoblaganingizni izohlarda yozib qoldiring, ertaga qaysi usul eng qisqa bo'lganini ko'ramiz 🕒\n\n📌 https://registan.edutizim.uz/order/entry/?survey=s33\n\n📞 +998935512700\n\n📱 Follow us on social media:\n\n📱Telegram   📱Instagram   📱Location",
+    "caption_entities": [
+     {
+      "offset": 273,
+      "length": 52,
+      "type": "text_link",
+      "url": "https://registan.edutizim.uz/order/entry/?survey=s33"
+     },
+     {
+      "offset": 330,
+      "length": 13,
+      "type": "phone_number"
+     },
+     {
+      "offset": 348,
+      "length": 25,
+      "type": "text_link",
+      "url": "https://t.me/Registan_LC"
+     },
+     {
+      "offset": 378,
+      "length": 8,
+      "type": "text_link",
+      "url": "https://t.me/RegistanLC_Academy"
+     },
+     {
+      "offset": 391,
+      "length": 9,
+      "type": "text_link",
+      "url": "https://instagram.com/registanlc_academy"
+     },
+     {
+      "offset": 405,
+      "length": 8,
+      "type": "text_link",
+      "url": "https://goo.gl/maps/ziHA5ukgVtbGmwwR6"
+     }
+    ]
+   }
+  },
+  {
+   "ok": true,
+   "result": {
+    "message_id": 3667,
+    "sender_chat": {
+     "id": -1001675672165,
+     "title": "Registan LC | Academy filiali",
+     "username": "RegistanLC_Academy",
+     "type": "channel"
+    },
+    "chat": {
+     "id": -1001675672165,
+     "title": "Registan LC | Academy filiali",
+     "username": "RegistanLC_Academy",
+     "type": "channel"
+    },
+    "date": 1793286801,
+    "poll": {
+     "id": "5411237826035456339",
+     "question": "Soat 3:15 da millar orasidagi burchak necha gradus?",
+     "options": [
+      {
+       "persistent_id": "0",
+       "text": "0°",
+       "voter_count": 0
+      },
+      {
+       "persistent_id": "1",
+       "text": "7,5°",
+       "voter_count": 0
+      },
+      {
+       "persistent_id": "2",
+       "text": "15°",
+       "voter_count": 0
+      },
+      {
+       "persistent_id": "3",
+       "text": "2,5°",
+       "voter_count": 0
+      }
+     ],
+     "total_voter_count": 0,
+     "is_closed": false,
+     "is_anonymous": true,
+     "allows_multiple_answers": false,
+     "allows_revoting": false,
+     "members_only": false,
+     "type": "quiz",
+     "correct_option_id": 1,
+     "correct_option_ids": [
+      1
+     ],
+     "explanation": "Minut mili 3 da, ya'ni 90°. Soat mili 1 soatda 30° yuradi, 15 daqiqada esa chorak qismi, 7,5°. Demak u 97,5° da turibdi. Farq: 97,5° - 90° = 7,5°.",
+     "explanation_entities": []
+    }
+   }
+  }
+ ],
+ "posted_at": "2026-10-29T15:13:21.770194+00:00"
+}
