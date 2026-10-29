@@ -1,0 +1,156 @@
+{
+ "id": "2026-10-29-1200-english",
+ "steps": [
+  {
+   "method": "sendPhoto",
+   "params": {
+    "chat_id": "@RegistanLC_Academy",
+    "photo": "https://raw.githubusercontent.com/registan-academy-post/registan-mediaa/main/posts/2026-10-29/1200_phrasal_figure_out.jpg",
+    "caption": "<i>- Did you finish the homework?\n- Not yet, I still can't figure out the last task.</i>\n\nShu gapdagi <b>figure out</b> juda ko'p ishlatiladigan phrasal verb: biror narsani o'ylab-o'ylab tushunib yetmoq yoki yechimini topmoq. Oddiy \"understand\"dan farqi shuki, bunda ozgina bosh qotirish bor: o'yladingiz, urindingiz va oxiri tushundingiz.\n\nMasalan, <i>It took me a week to figure out how IELTS band scores work</i>, ya'ni IELTS ballari qanday hisoblanishini tushunishga bir hafta ketdi. Do'stingiz xavotir olsa, <i>Don't worry, we'll figure it out</i> deysiz: xavotir olma, bir yo'lini topamiz. Odam haqida ham aytiladi: <i>I can't figure him out</i>, uni sira tushunolmayapman.\n\nBitta nozik joyi bor: it, them, him kabi olmoshlar o'rtaga tushadi. <i>Figure it out</i> to'g'ri, <i>figure out it</i> esa xato. Oddiy so'z bilan ikkalasi ham bo'ladi: <i>figure out the answer</i> yoki <i>figure the answer out</i> 🙂\n\n📌 <a href=\"https://registan.edutizim.uz/order/entry/?survey=s33\">https://registan.edutizim.uz/order/entry/?survey=s33</a>\n\n📞 +998935512700\n\n📱 <a href=\"https://t.me/Registan_LC\">Follow us on social media</a>:\n\n📱<a href=\"https://t.me/RegistanLC_Academy\">Telegram</a>   📱<a href=\"https://instagram.com/registanlc_academy\">Instagram</a>   📱<a href=\"https://goo.gl/maps/ziHA5ukgVtbGmwwR6\">Location</a>",
+    "parse_mode": "HTML"
+   }
+  }
+ ],
+ "results": [
+  {
+   "ok": true,
+   "result": {
+    "message_id": 3657,
+    "sender_chat": {
+     "id": -1001675672165,
+     "title": "Registan LC | Academy filiali",
+     "username": "RegistanLC_Academy",
+     "type": "channel"
+    },
+    "chat": {
+     "id": -1001675672165,
+     "title": "Registan LC | Academy filiali",
+     "username": "RegistanLC_Academy",
+     "type": "channel"
+    },
+    "date": 1793256948,
+    "photo": [
+     {
+      "file_id": "AgACAgQAAx0EY-C6ZQACDklq4u30qnEnWLE7SB01NSsSSpZxvQACWw9rG9kmHVOd7EWn7VD1dQEAAwIAA3MAAz0E",
+      "file_unique_id": "AQADWw9rG9kmHVN4",
+      "file_size": 1263,
+      "width": 72,
+      "height": 90
+     },
+     {
+      "file_id": "AgACAgQAAx0EY-C6ZQACDklq4u30qnEnWLE7SB01NSsSSpZxvQACWw9rG9kmHVOd7EWn7VD1dQEAAwIAA20AAz0E",
+      "file_unique_id": "AQADWw9rG9kmHVNy",
+      "file_size": 11279,
+      "width": 256,
+      "height": 320
+     },
+     {
+      "file_id": "AgACAgQAAx0EY-C6ZQACDklq4u30qnEnWLE7SB01NSsSSpZxvQACWw9rG9kmHVOd7EWn7VD1dQEAAwIAA3gAAz0E",
+      "file_unique_id": "AQADWw9rG9kmHVN9",
+      "file_size": 36692,
+      "width": 640,
+      "height": 800
+     },
+     {
+      "file_id": "AgACAgQAAx0EY-C6ZQACDklq4u30qnEnWLE7SB01NSsSSpZxvQACWw9rG9kmHVOd7EWn7VD1dQEAAwIAA3kAAz0E",
+      "file_unique_id": "AQADWw9rG9kmHVN-",
+      "file_size": 63316,
+      "width": 1024,
+      "height": 1280
+     },
+     {
+      "file_id": "AgACAgQAAx0EY-C6ZQACDklq4u30qnEnWLE7SB01NSsSSpZxvQACWw9rG9kmHVOd7EWn7VD1dQEAAwIAA3cAAz0E",
+      "file_unique_id": "AQADWw9rG9kmHVN8",
+      "file_size": 142315,
+      "width": 2048,
+      "height": 2560
+     }
+    ],
+    "caption": "- Did you finish the homework?\n- Not yet, I still can't figure out the last task.\n\nShu gapdagi figure out juda ko'p ishlatiladigan phrasal verb: biror narsani o'ylab-o'ylab tushunib yetmoq yoki yechimini topmoq. Oddiy \"understand\"dan farqi shuki, bunda ozgina bosh qotirish bor: o'yladingiz, urindingiz va oxiri tushundingiz.\n\nMasalan, It took me a week to figure out how IELTS band scores work, ya'ni IELTS ballari qanday hisoblanishini tushunishga bir hafta ketdi. Do'stingiz xavotir olsa, Don't worry, we'll figure it out deysiz: xavotir olma, bir yo'lini topamiz. Odam haqida ham aytiladi: I can't figure him out, uni sira tushunolmayapman.\n\nBitta nozik joyi bor: it, them, him kabi olmoshlar o'rtaga tushadi. Figure it out to'g'ri, figure out it esa xato. Oddiy so'z bilan ikkalasi ham bo'ladi: figure out the answer yoki figure the answer out 🙂\n\n📌 https://registan.edutizim.uz/order/entry/?survey=s33\n\n📞 +998935512700\n\n📱 Follow us on social media:\n\n📱Telegram   📱Instagram   📱Location",
+    "caption_entities": [
+     {
+      "offset": 0,
+      "length": 81,
+      "type": "italic"
+     },
+     {
+      "offset": 95,
+      "length": 10,
+      "type": "bold"
+     },
+     {
+      "offset": 336,
+      "length": 58,
+      "type": "italic"
+     },
+     {
+      "offset": 492,
+      "length": 32,
+      "type": "italic"
+     },
+     {
+      "offset": 594,
+      "length": 22,
+      "type": "italic"
+     },
+     {
+      "offset": 714,
+      "length": 13,
+      "type": "italic"
+     },
+     {
+      "offset": 737,
+      "length": 13,
+      "type": "italic"
+     },
+     {
+      "offset": 800,
+      "length": 21,
+      "type": "italic"
+     },
+     {
+      "offset": 827,
+      "length": 21,
+      "type": "italic"
+     },
+     {
+      "offset": 856,
+      "length": 52,
+      "type": "text_link",
+      "url": "https://registan.edutizim.uz/order/entry/?survey=s33"
+     },
+     {
+      "offset": 913,
+      "length": 13,
+      "type": "phone_number"
+     },
+     {
+      "offset": 931,
+      "length": 25,
+      "type": "text_link",
+      "url": "https://t.me/Registan_LC"
+     },
+     {
+      "offset": 961,
+      "length": 8,
+      "type": "text_link",
+      "url": "https://t.me/RegistanLC_Academy"
+     },
+     {
+      "offset": 974,
+      "length": 9,
+      "type": "text_link",
+      "url": "https://instagram.com/registanlc_academy"
+     },
+     {
+      "offset": 988,
+      "length": 8,
+      "type": "text_link",
+      "url": "https://goo.gl/maps/ziHA5ukgVtbGmwwR6"
+     }
+    ]
+   }
+  }
+ ],
+ "posted_at": "2026-10-29T06:55:48.214041+00:00"
+}
