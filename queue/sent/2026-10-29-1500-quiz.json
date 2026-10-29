@@ -1,0 +1,398 @@
+{
+ "id": "2026-10-29-1500-quiz",
+ "steps": [
+  {
+   "method": "sendMessage",
+   "params": {
+    "chat_id": "@RegistanLC_Academy",
+    "text": "Bugun Beginner: yana he, she, it bilan \"is\" va kasblar.\n5 ta savol, oxirgisida kichik tuzoq bor, ehtiyot bo'ling 🙂"
+   }
+  },
+  {
+   "method": "sendPoll",
+   "params": {
+    "chat_id": "@RegistanLC_Academy",
+    "question": "Fill the gap: This is my brother. ___ is a driver.",
+    "options": [
+     "She",
+     "It",
+     "He"
+    ],
+    "type": "quiz",
+    "is_anonymous": true,
+    "correct_option_id": 2,
+    "explanation": "Erkak kishi haqida gapirganda \"he\" ishlatiladi. \"She\" ayol kishi uchun, \"it\" esa narsa yoki hayvon uchun."
+   }
+  },
+  {
+   "method": "sendPoll",
+   "params": {
+    "chat_id": "@RegistanLC_Academy",
+    "question": "A ___ cooks food in a restaurant.",
+    "options": [
+     "chef",
+     "farmer",
+     "shop assistant",
+     "police officer"
+    ],
+    "type": "quiz",
+    "is_anonymous": true,
+    "correct_option_id": 0,
+    "explanation": "Chef restoranda ovqat tayyorlaydigan oshpaz. Farmer fermer, shop assistant sotuvchi, police officer esa politsiyachi."
+   }
+  },
+  {
+   "method": "sendPoll",
+   "params": {
+    "chat_id": "@RegistanLC_Academy",
+    "question": "Fill the gap: ___ you from Uzbekistan?",
+    "options": [
+     "Am",
+     "Are",
+     "Is"
+    ],
+    "type": "quiz",
+    "is_anonymous": true,
+    "correct_option_id": 1,
+    "explanation": "\"You\" bilan har doim \"are\" ishlatiladi: Are you from Uzbekistan? \"Am\" faqat \"I\" bilan keladi."
+   }
+  },
+  {
+   "method": "sendPoll",
+   "params": {
+    "chat_id": "@RegistanLC_Academy",
+    "question": "Choose the correct question.",
+    "options": [
+     "She is a teacher is?",
+     "Are she a teacher?",
+     "Is a teacher she?",
+     "Is she a teacher?"
+    ],
+    "type": "quiz",
+    "is_anonymous": true,
+    "correct_option_id": 3,
+    "explanation": "Savolda \"is\" gap boshiga chiqadi: Is she a teacher? \"She\" bilan \"are\" emas, \"is\" ishlatiladi."
+   }
+  },
+  {
+   "method": "sendPoll",
+   "params": {
+    "chat_id": "@RegistanLC_Academy",
+    "question": "Find the mistake: \"A: Is Dilnoza a nurse? B: Yes, she's. She works in a hospital.\"",
+    "options": [
+     "Is Dilnoza a nurse?",
+     "Yes, she's",
+     "She works",
+     "in a hospital"
+    ],
+    "type": "quiz",
+    "is_anonymous": true,
+    "correct_option_id": 1,
+    "explanation": "Qisqa javobning oxirida qisqartma ishlatilmaydi: \"Yes, she is\" deyiladi. Inkorda esa \"No, she isn't\" to'g'ri."
+   }
+  }
+ ],
+ "results": [
+  {
+   "ok": true,
+   "result": {
+    "message_id": 3658,
+    "sender_chat": {
+     "id": -1001675672165,
+     "title": "Registan LC | Academy filiali",
+     "username": "RegistanLC_Academy",
+     "type": "channel"
+    },
+    "chat": {
+     "id": -1001675672165,
+     "title": "Registan LC | Academy filiali",
+     "username": "RegistanLC_Academy",
+     "type": "channel"
+    },
+    "date": 1793267708,
+    "text": "Bugun Beginner: yana he, she, it bilan \"is\" va kasblar.\n5 ta savol, oxirgisida kichik tuzoq bor, ehtiyot bo'ling 🙂"
+   }
+  },
+  {
+   "ok": true,
+   "result": {
+    "message_id": 3659,
+    "sender_chat": {
+     "id": -1001675672165,
+     "title": "Registan LC | Academy filiali",
+     "username": "RegistanLC_Academy",
+     "type": "channel"
+    },
+    "chat": {
+     "id": -1001675672165,
+     "title": "Registan LC | Academy filiali",
+     "username": "RegistanLC_Academy",
+     "type": "channel"
+    },
+    "date": 1793267709,
+    "poll": {
+     "id": "5411237826035456262",
+     "question": "Fill the gap: This is my brother. ___ is a driver.",
+     "options": [
+      {
+       "persistent_id": "0",
+       "text": "She",
+       "voter_count": 0
+      },
+      {
+       "persistent_id": "1",
+       "text": "It",
+       "voter_count": 0
+      },
+      {
+       "persistent_id": "2",
+       "text": "He",
+       "voter_count": 0
+      }
+     ],
+     "total_voter_count": 0,
+     "is_closed": false,
+     "is_anonymous": true,
+     "allows_multiple_answers": false,
+     "allows_revoting": false,
+     "members_only": false,
+     "type": "quiz",
+     "correct_option_id": 2,
+     "correct_option_ids": [
+      2
+     ],
+     "explanation": "Erkak kishi haqida gapirganda \"he\" ishlatiladi. \"She\" ayol kishi uchun, \"it\" esa narsa yoki hayvon uchun.",
+     "explanation_entities": []
+    }
+   }
+  },
+  {
+   "ok": true,
+   "result": {
+    "message_id": 3660,
+    "sender_chat": {
+     "id": -1001675672165,
+     "title": "Registan LC | Academy filiali",
+     "username": "RegistanLC_Academy",
+     "type": "channel"
+    },
+    "chat": {
+     "id": -1001675672165,
+     "title": "Registan LC | Academy filiali",
+     "username": "RegistanLC_Academy",
+     "type": "channel"
+    },
+    "date": 1793267709,
+    "poll": {
+     "id": "5411237826035456263",
+     "question": "A ___ cooks food in a restaurant.",
+     "options": [
+      {
+       "persistent_id": "0",
+       "text": "chef",
+       "voter_count": 0
+      },
+      {
+       "persistent_id": "1",
+       "text": "farmer",
+       "voter_count": 0
+      },
+      {
+       "persistent_id": "2",
+       "text": "shop assistant",
+       "voter_count": 0
+      },
+      {
+       "persistent_id": "3",
+       "text": "police officer",
+       "voter_count": 0
+      }
+     ],
+     "total_voter_count": 0,
+     "is_closed": false,
+     "is_anonymous": true,
+     "allows_multiple_answers": false,
+     "allows_revoting": false,
+     "members_only": false,
+     "type": "quiz",
+     "correct_option_id": 0,
+     "correct_option_ids": [
+      0
+     ],
+     "explanation": "Chef restoranda ovqat tayyorlaydigan oshpaz. Farmer fermer, shop assistant sotuvchi, police officer esa politsiyachi.",
+     "explanation_entities": []
+    }
+   }
+  },
+  {
+   "ok": true,
+   "result": {
+    "message_id": 3661,
+    "sender_chat": {
+     "id": -1001675672165,
+     "title": "Registan LC | Academy filiali",
+     "username": "RegistanLC_Academy",
+     "type": "channel"
+    },
+    "chat": {
+     "id": -1001675672165,
+     "title": "Registan LC | Academy filiali",
+     "username": "RegistanLC_Academy",
+     "type": "channel"
+    },
+    "date": 1793267709,
+    "poll": {
+     "id": "5411237826035456264",
+     "question": "Fill the gap: ___ you from Uzbekistan?",
+     "options": [
+      {
+       "persistent_id": "0",
+       "text": "Am",
+       "voter_count": 0
+      },
+      {
+       "persistent_id": "1",
+       "text": "Are",
+       "voter_count": 0
+      },
+      {
+       "persistent_id": "2",
+       "text": "Is",
+       "voter_count": 0
+      }
+     ],
+     "total_voter_count": 0,
+     "is_closed": false,
+     "is_anonymous": true,
+     "allows_multiple_answers": false,
+     "allows_revoting": false,
+     "members_only": false,
+     "type": "quiz",
+     "correct_option_id": 1,
+     "correct_option_ids": [
+      1
+     ],
+     "explanation": "\"You\" bilan har doim \"are\" ishlatiladi: Are you from Uzbekistan? \"Am\" faqat \"I\" bilan keladi.",
+     "explanation_entities": []
+    }
+   }
+  },
+  {
+   "ok": true,
+   "result": {
+    "message_id": 3662,
+    "sender_chat": {
+     "id": -1001675672165,
+     "title": "Registan LC | Academy filiali",
+     "username": "RegistanLC_Academy",
+     "type": "channel"
+    },
+    "chat": {
+     "id": -1001675672165,
+     "title": "Registan LC | Academy filiali",
+     "username": "RegistanLC_Academy",
+     "type": "channel"
+    },
+    "date": 1793267710,
+    "poll": {
+     "id": "5411237826035456265",
+     "question": "Choose the correct question.",
+     "options": [
+      {
+       "persistent_id": "0",
+       "text": "She is a teacher is?",
+       "voter_count": 0
+      },
+      {
+       "persistent_id": "1",
+       "text": "Are she a teacher?",
+       "voter_count": 0
+      },
+      {
+       "persistent_id": "2",
+       "text": "Is a teacher she?",
+       "voter_count": 0
+      },
+      {
+       "persistent_id": "3",
+       "text": "Is she a teacher?",
+       "voter_count": 0
+      }
+     ],
+     "total_voter_count": 0,
+     "is_closed": false,
+     "is_anonymous": true,
+     "allows_multiple_answers": false,
+     "allows_revoting": false,
+     "members_only": false,
+     "type": "quiz",
+     "correct_option_id": 3,
+     "correct_option_ids": [
+      3
+     ],
+     "explanation": "Savolda \"is\" gap boshiga chiqadi: Is she a teacher? \"She\" bilan \"are\" emas, \"is\" ishlatiladi.",
+     "explanation_entities": []
+    }
+   }
+  },
+  {
+   "ok": true,
+   "result": {
+    "message_id": 3663,
+    "sender_chat": {
+     "id": -1001675672165,
+     "title": "Registan LC | Academy filiali",
+     "username": "RegistanLC_Academy",
+     "type": "channel"
+    },
+    "chat": {
+     "id": -1001675672165,
+     "title": "Registan LC | Academy filiali",
+     "username": "RegistanLC_Academy",
+     "type": "channel"
+    },
+    "date": 1793267716,
+    "poll": {
+     "id": "5411237826035456266",
+     "question": "Find the mistake: \"A: Is Dilnoza a nurse? B: Yes, she's. She works in a hospital.\"",
+     "options": [
+      {
+       "persistent_id": "0",
+       "text": "Is Dilnoza a nurse?",
+       "voter_count": 0
+      },
+      {
+       "persistent_id": "1",
+       "text": "Yes, she's",
+       "voter_count": 0
+      },
+      {
+       "persistent_id": "2",
+       "text": "She works",
+       "voter_count": 0
+      },
+      {
+       "persistent_id": "3",
+       "text": "in a hospital",
+       "voter_count": 0
+      }
+     ],
+     "total_voter_count": 0,
+     "is_closed": false,
+     "is_anonymous": true,
+     "allows_multiple_answers": false,
+     "allows_revoting": false,
+     "members_only": false,
+     "type": "quiz",
+     "correct_option_id": 1,
+     "correct_option_ids": [
+      1
+     ],
+     "explanation": "Qisqa javobning oxirida qisqartma ishlatilmaydi: \"Yes, she is\" deyiladi. Inkorda esa \"No, she isn't\" to'g'ri.",
+     "explanation_entities": []
+    }
+   }
+  }
+ ],
+ "posted_at": "2026-10-29T09:55:16.922259+00:00"
+}
