@@ -1,0 +1,156 @@
+{
+ "id": "2026-10-30-1200-english",
+ "steps": [
+  {
+   "method": "sendPhoto",
+   "params": {
+    "chat_id": "@RegistanLC_Academy",
+    "photo": "https://raw.githubusercontent.com/registan-academy-post/registan-mediaa/main/posts/2026-10-30/1200_grammar_for_since.jpg",
+    "caption": "Qaysi biri to'g'ri: <i>I've studied English for 2020</i> yoki <i>since 2020</i>? Ko'pchilik shu yerda adashadi, aslida farqi juda oddiy.\n\n<b>For</b> vaqt qancha davom etganini aytadi: for two hours, for three months, for a long time. <b>Since</b> esa boshlangan nuqtani ko'rsatadi, ya'ni \"qachondan beri\": since Monday, since 2020, since September.\n\nMasalan, <i>I've been at this school for two years</i>, shu maktabda ikki yildan beri o'qiyman. <i>She has worked here since March</i>, u mart oyidan beri shu yerda ishlaydi. <i>We've known each other since we were kids</i>, bir-birimizni bolalikdan beri taniymiz.\n\nKichik sinov: savol \"qancha vaqt?\" bo'lsa, for; \"qachondan beri?\" bo'lsa, since. Va ikkalasi bilan ko'pincha Present Perfect keladi, shuning uchun <i>I live here since 2021</i> emas, <i>I've lived here since 2021</i> deymiz 😉\n\n📌 <a href=\"https://registan.edutizim.uz/order/entry/?survey=s33\">https://registan.edutizim.uz/order/entry/?survey=s33</a>\n\n📞 +998935512700\n\n📱 <a href=\"https://t.me/Registan_LC\">Follow us on social media</a>:\n\n📱<a href=\"https://t.me/RegistanLC_Academy\">Telegram</a>   📱<a href=\"https://instagram.com/registanlc_academy\">Instagram</a>   📱<a href=\"https://goo.gl/maps/ziHA5ukgVtbGmwwR6\">Location</a>",
+    "parse_mode": "HTML"
+   }
+  }
+ ],
+ "results": [
+  {
+   "ok": true,
+   "result": {
+    "message_id": 3671,
+    "sender_chat": {
+     "id": -1001675672165,
+     "title": "Registan LC | Academy filiali",
+     "username": "RegistanLC_Academy",
+     "type": "channel"
+    },
+    "chat": {
+     "id": -1001675672165,
+     "title": "Registan LC | Academy filiali",
+     "username": "RegistanLC_Academy",
+     "type": "channel"
+    },
+    "date": 1793343450,
+    "photo": [
+     {
+      "file_id": "AgACAgQAAx0EY-C6ZQACDldq5D_agU597y3Ap5wBMEZ3tzK_dAACTw9rG2SCJVPkhyti9sQSgAEAAwIAA3MAAz0E",
+      "file_unique_id": "AQADTw9rG2SCJVN4",
+      "file_size": 898,
+      "width": 72,
+      "height": 90
+     },
+     {
+      "file_id": "AgACAgQAAx0EY-C6ZQACDldq5D_agU597y3Ap5wBMEZ3tzK_dAACTw9rG2SCJVPkhyti9sQSgAEAAwIAA20AAz0E",
+      "file_unique_id": "AQADTw9rG2SCJVNy",
+      "file_size": 9397,
+      "width": 256,
+      "height": 320
+     },
+     {
+      "file_id": "AgACAgQAAx0EY-C6ZQACDldq5D_agU597y3Ap5wBMEZ3tzK_dAACTw9rG2SCJVPkhyti9sQSgAEAAwIAA3gAAz0E",
+      "file_unique_id": "AQADTw9rG2SCJVN9",
+      "file_size": 36923,
+      "width": 640,
+      "height": 800
+     },
+     {
+      "file_id": "AgACAgQAAx0EY-C6ZQACDldq5D_agU597y3Ap5wBMEZ3tzK_dAACTw9rG2SCJVPkhyti9sQSgAEAAwIAA3kAAz0E",
+      "file_unique_id": "AQADTw9rG2SCJVN-",
+      "file_size": 70435,
+      "width": 1024,
+      "height": 1280
+     },
+     {
+      "file_id": "AgACAgQAAx0EY-C6ZQACDldq5D_agU597y3Ap5wBMEZ3tzK_dAACTw9rG2SCJVPkhyti9sQSgAEAAwIAA3cAAz0E",
+      "file_unique_id": "AQADTw9rG2SCJVN8",
+      "file_size": 240711,
+      "width": 2048,
+      "height": 2560
+     }
+    ],
+    "caption": "Qaysi biri to'g'ri: I've studied English for 2020 yoki since 2020? Ko'pchilik shu yerda adashadi, aslida farqi juda oddiy.\n\nFor vaqt qancha davom etganini aytadi: for two hours, for three months, for a long time. Since esa boshlangan nuqtani ko'rsatadi, ya'ni \"qachondan beri\": since Monday, since 2020, since September.\n\nMasalan, I've been at this school for two years, shu maktabda ikki yildan beri o'qiyman. She has worked here since March, u mart oyidan beri shu yerda ishlaydi. We've known each other since we were kids, bir-birimizni bolalikdan beri taniymiz.\n\nKichik sinov: savol \"qancha vaqt?\" bo'lsa, for; \"qachondan beri?\" bo'lsa, since. Va ikkalasi bilan ko'pincha Present Perfect keladi, shuning uchun I live here since 2021 emas, I've lived here since 2021 deymiz 😉\n\n📌 https://registan.edutizim.uz/order/entry/?survey=s33\n\n📞 +998935512700\n\n📱 Follow us on social media:\n\n📱Telegram   📱Instagram   📱Location",
+    "caption_entities": [
+     {
+      "offset": 20,
+      "length": 29,
+      "type": "italic"
+     },
+     {
+      "offset": 55,
+      "length": 10,
+      "type": "italic"
+     },
+     {
+      "offset": 124,
+      "length": 3,
+      "type": "bold"
+     },
+     {
+      "offset": 213,
+      "length": 5,
+      "type": "bold"
+     },
+     {
+      "offset": 331,
+      "length": 38,
+      "type": "italic"
+     },
+     {
+      "offset": 411,
+      "length": 31,
+      "type": "italic"
+     },
+     {
+      "offset": 483,
+      "length": 41,
+      "type": "italic"
+     },
+     {
+      "offset": 714,
+      "length": 22,
+      "type": "italic"
+     },
+     {
+      "offset": 743,
+      "length": 26,
+      "type": "italic"
+     },
+     {
+      "offset": 784,
+      "length": 52,
+      "type": "text_link",
+      "url": "https://registan.edutizim.uz/order/entry/?survey=s33"
+     },
+     {
+      "offset": 841,
+      "length": 13,
+      "type": "phone_number"
+     },
+     {
+      "offset": 859,
+      "length": 25,
+      "type": "text_link",
+      "url": "https://t.me/Registan_LC"
+     },
+     {
+      "offset": 889,
+      "length": 8,
+      "type": "text_link",
+      "url": "https://t.me/RegistanLC_Academy"
+     },
+     {
+      "offset": 902,
+      "length": 9,
+      "type": "text_link",
+      "url": "https://instagram.com/registanlc_academy"
+     },
+     {
+      "offset": 916,
+      "length": 8,
+      "type": "text_link",
+      "url": "https://goo.gl/maps/ziHA5ukgVtbGmwwR6"
+     }
+    ]
+   }
+  }
+ ],
+ "posted_at": "2026-10-30T06:57:30.247386+00:00"
+}
