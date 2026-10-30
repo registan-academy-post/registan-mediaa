@@ -1,0 +1,404 @@
+{
+ "id": "2026-10-30-1500-quiz",
+ "steps": [
+  {
+   "method": "sendMessage",
+   "params": {
+    "chat_id": "@RegistanLC_Academy",
+    "text": "Elementary guruhlar, bugun this, that, these, those bilan ishlaymiz.\nYaqinmi yoki uzoqmi, bittami yoki ko'pmi: shu ikki savolga javob bersangiz, test oson bo'ladi. 5 ta savol, omad!"
+   }
+  },
+  {
+   "method": "sendPoll",
+   "params": {
+    "chat_id": "@RegistanLC_Academy",
+    "question": "Fill the gap: ___ is my new phone. (I'm holding it in my hand.)",
+    "options": [
+     "These",
+     "This",
+     "Those"
+    ],
+    "type": "quiz",
+    "is_anonymous": true,
+    "correct_option_id": 1,
+    "explanation": "Qo'lingizdagi, ya'ni yaqindagi bitta narsa uchun \"this\" ishlatiladi. \"These\" va \"those\" ko'plik uchun."
+   }
+  },
+  {
+   "method": "sendPoll",
+   "params": {
+    "chat_id": "@RegistanLC_Academy",
+    "question": "You use it to open a door. What is it?",
+    "options": [
+     "a wallet",
+     "an umbrella",
+     "a key",
+     "a charger"
+    ],
+    "type": "quiz",
+    "is_anonymous": true,
+    "correct_option_id": 2,
+    "explanation": "Key (kalit) bilan eshik ochiladi. Wallet hamyon, umbrella soyabon, charger esa zaryadlovchi."
+   }
+  },
+  {
+   "method": "sendPoll",
+   "params": {
+    "chat_id": "@RegistanLC_Academy",
+    "question": "Fill the gap: A: ___ my glasses? B: They're on your desk.",
+    "options": [
+     "Where are",
+     "Where is",
+     "What are",
+     "Who is"
+    ],
+    "type": "quiz",
+    "is_anonymous": true,
+    "correct_option_id": 0,
+    "explanation": "Joy haqida \"where\" bilan so'raymiz, \"glasses\" esa ko'plikda, shuning uchun \"are\": Where are my glasses?"
+   }
+  },
+  {
+   "method": "sendPoll",
+   "params": {
+    "chat_id": "@RegistanLC_Academy",
+    "question": "Choose the correct sentence.",
+    "options": [
+     "This are my keys.",
+     "These bottle is empty.",
+     "That books are new.",
+     "Those are my headphones."
+    ],
+    "type": "quiz",
+    "is_anonymous": true,
+    "correct_option_id": 3,
+    "explanation": "\"Those\" ko'plik, \"headphones\" ham ko'plik, fe'l \"are\". Qolganlarida son mos emas: These are my keys, This bottle, Those books."
+   }
+  },
+  {
+   "method": "sendPoll",
+   "params": {
+    "chat_id": "@RegistanLC_Academy",
+    "question": "Find the mistake: These shoes are nice, but this ones over there are too big.",
+    "options": [
+     "These",
+     "are nice",
+     "this",
+     "too big"
+    ],
+    "type": "quiz",
+    "is_anonymous": true,
+    "correct_option_id": 2,
+    "explanation": "Uzoqdagi (over there) va ko'plikdagi narsalar uchun \"those\" kerak: those ones over there. \"This\" yaqindagi bitta narsa uchun."
+   }
+  }
+ ],
+ "results": [
+  {
+   "ok": true,
+   "result": {
+    "message_id": 3672,
+    "sender_chat": {
+     "id": -1001675672165,
+     "title": "Registan LC | Academy filiali",
+     "username": "RegistanLC_Academy",
+     "type": "channel"
+    },
+    "chat": {
+     "id": -1001675672165,
+     "title": "Registan LC | Academy filiali",
+     "username": "RegistanLC_Academy",
+     "type": "channel"
+    },
+    "date": 1793354106,
+    "text": "Elementary guruhlar, bugun this, that, these, those bilan ishlaymiz.\nYaqinmi yoki uzoqmi, bittami yoki ko'pmi: shu ikki savolga javob bersangiz, test oson bo'ladi. 5 ta savol, omad!"
+   }
+  },
+  {
+   "ok": true,
+   "result": {
+    "message_id": 3673,
+    "sender_chat": {
+     "id": -1001675672165,
+     "title": "Registan LC | Academy filiali",
+     "username": "RegistanLC_Academy",
+     "type": "channel"
+    },
+    "chat": {
+     "id": -1001675672165,
+     "title": "Registan LC | Academy filiali",
+     "username": "RegistanLC_Academy",
+     "type": "channel"
+    },
+    "date": 1793354106,
+    "poll": {
+     "id": "5416045075555686871",
+     "question": "Fill the gap: ___ is my new phone. (I'm holding it in my hand.)",
+     "options": [
+      {
+       "persistent_id": "0",
+       "text": "These",
+       "voter_count": 0
+      },
+      {
+       "persistent_id": "1",
+       "text": "This",
+       "voter_count": 0
+      },
+      {
+       "persistent_id": "2",
+       "text": "Those",
+       "voter_count": 0
+      }
+     ],
+     "total_voter_count": 0,
+     "is_closed": false,
+     "is_anonymous": true,
+     "allows_multiple_answers": false,
+     "allows_revoting": false,
+     "members_only": false,
+     "type": "quiz",
+     "correct_option_id": 1,
+     "correct_option_ids": [
+      1
+     ],
+     "explanation": "Qo'lingizdagi, ya'ni yaqindagi bitta narsa uchun \"this\" ishlatiladi. \"These\" va \"those\" ko'plik uchun.",
+     "explanation_entities": []
+    }
+   }
+  },
+  {
+   "ok": true,
+   "result": {
+    "message_id": 3674,
+    "sender_chat": {
+     "id": -1001675672165,
+     "title": "Registan LC | Academy filiali",
+     "username": "RegistanLC_Academy",
+     "type": "channel"
+    },
+    "chat": {
+     "id": -1001675672165,
+     "title": "Registan LC | Academy filiali",
+     "username": "RegistanLC_Academy",
+     "type": "channel"
+    },
+    "date": 1793354106,
+    "poll": {
+     "id": "5416045075555686872",
+     "question": "You use it to open a door. What is it?",
+     "options": [
+      {
+       "persistent_id": "0",
+       "text": "a wallet",
+       "voter_count": 0
+      },
+      {
+       "persistent_id": "1",
+       "text": "an umbrella",
+       "voter_count": 0
+      },
+      {
+       "persistent_id": "2",
+       "text": "a key",
+       "voter_count": 0
+      },
+      {
+       "persistent_id": "3",
+       "text": "a charger",
+       "voter_count": 0
+      }
+     ],
+     "total_voter_count": 0,
+     "is_closed": false,
+     "is_anonymous": true,
+     "allows_multiple_answers": false,
+     "allows_revoting": false,
+     "members_only": false,
+     "type": "quiz",
+     "correct_option_id": 2,
+     "correct_option_ids": [
+      2
+     ],
+     "explanation": "Key (kalit) bilan eshik ochiladi. Wallet hamyon, umbrella soyabon, charger esa zaryadlovchi.",
+     "explanation_entities": []
+    }
+   }
+  },
+  {
+   "ok": true,
+   "result": {
+    "message_id": 3675,
+    "sender_chat": {
+     "id": -1001675672165,
+     "title": "Registan LC | Academy filiali",
+     "username": "RegistanLC_Academy",
+     "type": "channel"
+    },
+    "chat": {
+     "id": -1001675672165,
+     "title": "Registan LC | Academy filiali",
+     "username": "RegistanLC_Academy",
+     "type": "channel"
+    },
+    "date": 1793354107,
+    "poll": {
+     "id": "5416045075555686873",
+     "question": "Fill the gap: A: ___ my glasses? B: They're on your desk.",
+     "options": [
+      {
+       "persistent_id": "0",
+       "text": "Where are",
+       "voter_count": 0
+      },
+      {
+       "persistent_id": "1",
+       "text": "Where is",
+       "voter_count": 0
+      },
+      {
+       "persistent_id": "2",
+       "text": "What are",
+       "voter_count": 0
+      },
+      {
+       "persistent_id": "3",
+       "text": "Who is",
+       "voter_count": 0
+      }
+     ],
+     "total_voter_count": 0,
+     "is_closed": false,
+     "is_anonymous": true,
+     "allows_multiple_answers": false,
+     "allows_revoting": false,
+     "members_only": false,
+     "type": "quiz",
+     "correct_option_id": 0,
+     "correct_option_ids": [
+      0
+     ],
+     "explanation": "Joy haqida \"where\" bilan so'raymiz, \"glasses\" esa ko'plikda, shuning uchun \"are\": Where are my glasses?",
+     "explanation_entities": []
+    }
+   }
+  },
+  {
+   "ok": true,
+   "result": {
+    "message_id": 3676,
+    "sender_chat": {
+     "id": -1001675672165,
+     "title": "Registan LC | Academy filiali",
+     "username": "RegistanLC_Academy",
+     "type": "channel"
+    },
+    "chat": {
+     "id": -1001675672165,
+     "title": "Registan LC | Academy filiali",
+     "username": "RegistanLC_Academy",
+     "type": "channel"
+    },
+    "date": 1793354107,
+    "poll": {
+     "id": "5416045075555686874",
+     "question": "Choose the correct sentence.",
+     "options": [
+      {
+       "persistent_id": "0",
+       "text": "This are my keys.",
+       "voter_count": 0
+      },
+      {
+       "persistent_id": "1",
+       "text": "These bottle is empty.",
+       "voter_count": 0
+      },
+      {
+       "persistent_id": "2",
+       "text": "That books are new.",
+       "voter_count": 0
+      },
+      {
+       "persistent_id": "3",
+       "text": "Those are my headphones.",
+       "voter_count": 0
+      }
+     ],
+     "total_voter_count": 0,
+     "is_closed": false,
+     "is_anonymous": true,
+     "allows_multiple_answers": false,
+     "allows_revoting": false,
+     "members_only": false,
+     "type": "quiz",
+     "correct_option_id": 3,
+     "correct_option_ids": [
+      3
+     ],
+     "explanation": "\"Those\" ko'plik, \"headphones\" ham ko'plik, fe'l \"are\". Qolganlarida son mos emas: These are my keys, This bottle, Those books.",
+     "explanation_entities": []
+    }
+   }
+  },
+  {
+   "ok": true,
+   "result": {
+    "message_id": 3677,
+    "sender_chat": {
+     "id": -1001675672165,
+     "title": "Registan LC | Academy filiali",
+     "username": "RegistanLC_Academy",
+     "type": "channel"
+    },
+    "chat": {
+     "id": -1001675672165,
+     "title": "Registan LC | Academy filiali",
+     "username": "RegistanLC_Academy",
+     "type": "channel"
+    },
+    "date": 1793354111,
+    "poll": {
+     "id": "5416045075555686875",
+     "question": "Find the mistake: These shoes are nice, but this ones over there are too big.",
+     "options": [
+      {
+       "persistent_id": "0",
+       "text": "These",
+       "voter_count": 0
+      },
+      {
+       "persistent_id": "1",
+       "text": "are nice",
+       "voter_count": 0
+      },
+      {
+       "persistent_id": "2",
+       "text": "this",
+       "voter_count": 0
+      },
+      {
+       "persistent_id": "3",
+       "text": "too big",
+       "voter_count": 0
+      }
+     ],
+     "total_voter_count": 0,
+     "is_closed": false,
+     "is_anonymous": true,
+     "allows_multiple_answers": false,
+     "allows_revoting": false,
+     "members_only": false,
+     "type": "quiz",
+     "correct_option_id": 2,
+     "correct_option_ids": [
+      2
+     ],
+     "explanation": "Uzoqdagi (over there) va ko'plikdagi narsalar uchun \"those\" kerak: those ones over there. \"This\" yaqindagi bitta narsa uchun.",
+     "explanation_entities": []
+    }
+   }
+  }
+ ],
+ "posted_at": "2026-10-30T09:55:12.084418+00:00"
+}
