@@ -1,0 +1,23 @@
+{
+ "id": "2026-10-30-0800-motivation",
+ "steps": [
+  {
+   "method": "sendMediaGroup",
+   "params": {
+    "chat_id": "@RegistanLC_Academy",
+    "media": [
+     {
+      "type": "photo",
+      "media": "https://raw.githubusercontent.com/registan-academy-post/registan-mediaa/main/posts/2026-10-30/0800_perspiration_edison.jpg",
+      "caption": "Xayrli tong! Juma kuni ham ertalabdan darsga shoshayotganlarga alohida salom 🙂\n\nQiziq, Edison ham, Mariya Kyuri ham iste'dod haqida emas, mehnat va o'zingizga ishonish haqida gapirgan. Dunyoni o'zgartirgan odamlar ham sirni aynan shunda ko'rgan ekan.\n\nBugun bitta kichik ishni oxiriga yetkazing, shuning o'zi yetarli.\n\n📌 <a href=\"https://registan.edutizim.uz/order/entry/?survey=s33\">https://registan.edutizim.uz/order/entry/?survey=s33</a>\n\n📞 +998935512700\n\n📱 <a href=\"https://t.me/Registan_LC\">Follow us on social media</a>:\n\n📱<a href=\"https://t.me/RegistanLC_Academy\">Telegram</a>   📱<a href=\"https://instagram.com/registanlc_academy\">Instagram</a>   📱<a href=\"https://goo.gl/maps/ziHA5ukgVtbGmwwR6\">Location</a>",
+      "parse_mode": "HTML"
+     },
+     {
+      "type": "photo",
+      "media": "https://raw.githubusercontent.com/registan-academy-post/registan-mediaa/main/posts/2026-10-30/0800_perseverance_curie.jpg"
+     }
+    ]
+   }
+  }
+ ]
+}
