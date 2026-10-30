@@ -1,0 +1,177 @@
+{
+ "id": "2026-10-30-0800-motivation",
+ "steps": [
+  {
+   "method": "sendMediaGroup",
+   "params": {
+    "chat_id": "@RegistanLC_Academy",
+    "media": [
+     {
+      "type": "photo",
+      "media": "https://raw.githubusercontent.com/registan-academy-post/registan-mediaa/main/posts/2026-10-30/0800_perspiration_edison.jpg",
+      "caption": "Xayrli tong! Juma kuni ham ertalabdan darsga shoshayotganlarga alohida salom 🙂\n\nQiziq, Edison ham, Mariya Kyuri ham iste'dod haqida emas, mehnat va o'zingizga ishonish haqida gapirgan. Dunyoni o'zgartirgan odamlar ham sirni aynan shunda ko'rgan ekan.\n\nBugun bitta kichik ishni oxiriga yetkazing, shuning o'zi yetarli.\n\n📌 <a href=\"https://registan.edutizim.uz/order/entry/?survey=s33\">https://registan.edutizim.uz/order/entry/?survey=s33</a>\n\n📞 +998935512700\n\n📱 <a href=\"https://t.me/Registan_LC\">Follow us on social media</a>:\n\n📱<a href=\"https://t.me/RegistanLC_Academy\">Telegram</a>   📱<a href=\"https://instagram.com/registanlc_academy\">Instagram</a>   📱<a href=\"https://goo.gl/maps/ziHA5ukgVtbGmwwR6\">Location</a>",
+      "parse_mode": "HTML"
+     },
+     {
+      "type": "photo",
+      "media": "https://raw.githubusercontent.com/registan-academy-post/registan-mediaa/main/posts/2026-10-30/0800_perseverance_curie.jpg"
+     }
+    ]
+   }
+  }
+ ],
+ "results": [
+  {
+   "ok": true,
+   "result": [
+    {
+     "message_id": 3668,
+     "sender_chat": {
+      "id": -1001675672165,
+      "title": "Registan LC | Academy filiali",
+      "username": "RegistanLC_Academy",
+      "type": "channel"
+     },
+     "chat": {
+      "id": -1001675672165,
+      "title": "Registan LC | Academy filiali",
+      "username": "RegistanLC_Academy",
+      "type": "channel"
+     },
+     "date": 1793328900,
+     "media_group_id": "14346631203581698",
+     "photo": [
+      {
+       "file_id": "AgACAgQAAxUHauQHA_7lUSHrQl-ZFHYwNhbiQmIAApsOaxulsiVTT588FcDzyg4BAAMCAANzAAM9BA",
+       "file_unique_id": "AQADmw5rG6WyJVN4",
+       "file_size": 1304,
+       "width": 72,
+       "height": 90
+      },
+      {
+       "file_id": "AgACAgQAAxUHauQHA_7lUSHrQl-ZFHYwNhbiQmIAApsOaxulsiVTT588FcDzyg4BAAMCAANtAAM9BA",
+       "file_unique_id": "AQADmw5rG6WyJVNy",
+       "file_size": 15307,
+       "width": 256,
+       "height": 320
+      },
+      {
+       "file_id": "AgACAgQAAxUHauQHA_7lUSHrQl-ZFHYwNhbiQmIAApsOaxulsiVTT588FcDzyg4BAAMCAAN4AAM9BA",
+       "file_unique_id": "AQADmw5rG6WyJVN9",
+       "file_size": 52129,
+       "width": 640,
+       "height": 800
+      },
+      {
+       "file_id": "AgACAgQAAxUHauQHA_7lUSHrQl-ZFHYwNhbiQmIAApsOaxulsiVTT588FcDzyg4BAAMCAAN5AAM9BA",
+       "file_unique_id": "AQADmw5rG6WyJVN-",
+       "file_size": 95350,
+       "width": 1024,
+       "height": 1280
+      },
+      {
+       "file_id": "AgACAgQAAxUHauQHA_7lUSHrQl-ZFHYwNhbiQmIAApsOaxulsiVTT588FcDzyg4BAAMCAAN3AAM9BA",
+       "file_unique_id": "AQADmw5rG6WyJVN8",
+       "file_size": 232128,
+       "width": 2048,
+       "height": 2560
+      }
+     ],
+     "caption": "Xayrli tong! Juma kuni ham ertalabdan darsga shoshayotganlarga alohida salom 🙂\n\nQiziq, Edison ham, Mariya Kyuri ham iste'dod haqida emas, mehnat va o'zingizga ishonish haqida gapirgan. Dunyoni o'zgartirgan odamlar ham sirni aynan shunda ko'rgan ekan.\n\nBugun bitta kichik ishni oxiriga yetkazing, shuning o'zi yetarli.\n\n📌 https://registan.edutizim.uz/order/entry/?survey=s33\n\n📞 +998935512700\n\n📱 Follow us on social media:\n\n📱Telegram   📱Instagram   📱Location",
+     "caption_entities": [
+      {
+       "offset": 323,
+       "length": 52,
+       "type": "text_link",
+       "url": "https://registan.edutizim.uz/order/entry/?survey=s33"
+      },
+      {
+       "offset": 380,
+       "length": 13,
+       "type": "phone_number"
+      },
+      {
+       "offset": 398,
+       "length": 25,
+       "type": "text_link",
+       "url": "https://t.me/Registan_LC"
+      },
+      {
+       "offset": 428,
+       "length": 8,
+       "type": "text_link",
+       "url": "https://t.me/RegistanLC_Academy"
+      },
+      {
+       "offset": 441,
+       "length": 9,
+       "type": "text_link",
+       "url": "https://instagram.com/registanlc_academy"
+      },
+      {
+       "offset": 455,
+       "length": 8,
+       "type": "text_link",
+       "url": "https://goo.gl/maps/ziHA5ukgVtbGmwwR6"
+      }
+     ]
+    },
+    {
+     "message_id": 3669,
+     "sender_chat": {
+      "id": -1001675672165,
+      "title": "Registan LC | Academy filiali",
+      "username": "RegistanLC_Academy",
+      "type": "channel"
+     },
+     "chat": {
+      "id": -1001675672165,
+      "title": "Registan LC | Academy filiali",
+      "username": "RegistanLC_Academy",
+      "type": "channel"
+     },
+     "date": 1793328900,
+     "media_group_id": "14346631203581698",
+     "photo": [
+      {
+       "file_id": "AgACAgQAAxUHauQHBHDUeMaU433s10OhLGYsPfAAAlAOaxt3LiRThjBQ74eEnL0BAAMCAANzAAM9BA",
+       "file_unique_id": "AQADUA5rG3cuJFN4",
+       "file_size": 1646,
+       "width": 72,
+       "height": 90
+      },
+      {
+       "file_id": "AgACAgQAAxUHauQHBHDUeMaU433s10OhLGYsPfAAAlAOaxt3LiRThjBQ74eEnL0BAAMCAANtAAM9BA",
+       "file_unique_id": "AQADUA5rG3cuJFNy",
+       "file_size": 17323,
+       "width": 256,
+       "height": 320
+      },
+      {
+       "file_id": "AgACAgQAAxUHauQHBHDUeMaU433s10OhLGYsPfAAAlAOaxt3LiRThjBQ74eEnL0BAAMCAAN4AAM9BA",
+       "file_unique_id": "AQADUA5rG3cuJFN9",
+       "file_size": 60609,
+       "width": 640,
+       "height": 800
+      },
+      {
+       "file_id": "AgACAgQAAxUHauQHBHDUeMaU433s10OhLGYsPfAAAlAOaxt3LiRThjBQ74eEnL0BAAMCAAN5AAM9BA",
+       "file_unique_id": "AQADUA5rG3cuJFN-",
+       "file_size": 102831,
+       "width": 1024,
+       "height": 1280
+      },
+      {
+       "file_id": "AgACAgQAAxUHauQHBHDUeMaU433s10OhLGYsPfAAAlAOaxt3LiRThjBQ74eEnL0BAAMCAAN3AAM9BA",
+       "file_unique_id": "AQADUA5rG3cuJFN8",
+       "file_size": 224793,
+       "width": 2048,
+       "height": 2560
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "posted_at": "2026-10-30T02:55:00.568953+00:00"
+}
