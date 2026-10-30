@@ -1,0 +1,116 @@
+{
+ "id": "2026-10-30-2000-russian",
+ "steps": [
+  {
+   "method": "sendPhoto",
+   "params": {
+    "chat_id": "@RegistanLC_Academy",
+    "photo": "https://raw.githubusercontent.com/registan-academy-post/registan-mediaa/main/posts/2026-10-30/2000_ru_utro_vechera.jpg",
+    "caption": "Kechqurun charchab o'tirib katta qaror qilmoqchi bo'lsangiz, ruslar shunday deydi: <b>«Утро вечера мудренее»</b>.\n\nSo'zma-so'z «tong kechdan donoroq». Ma'nosi oddiy: hozir boshni qotirmang, bir uxlab turing, ertalab hammasi aniqroq ko'rinadi.\n\nSiz qaysi qaroringizni ertalabga qoldirib, keyin to'g'ri qilganingizni tushungansiz? Izohlarda yozing, ruscha bir gap qo'shsangiz yanada yaxshi 🙂\n\n📌 <a href=\"https://registan.edutizim.uz/order/entry/?survey=s33\">https://registan.edutizim.uz/order/entry/?survey=s33</a>\n\n📞 +998935512700\n\n📱 <a href=\"https://t.me/Registan_LC\">Follow us on social media</a>:\n\n📱<a href=\"https://t.me/RegistanLC_Academy\">Telegram</a>   📱<a href=\"https://instagram.com/registanlc_academy\">Instagram</a>   📱<a href=\"https://goo.gl/maps/ziHA5ukgVtbGmwwR6\">Location</a>",
+    "parse_mode": "HTML"
+   }
+  }
+ ],
+ "results": [
+  {
+   "ok": true,
+   "result": {
+    "message_id": 3679,
+    "sender_chat": {
+     "id": -1001675672165,
+     "title": "Registan LC | Academy filiali",
+     "username": "RegistanLC_Academy",
+     "type": "channel"
+    },
+    "chat": {
+     "id": -1001675672165,
+     "title": "Registan LC | Academy filiali",
+     "username": "RegistanLC_Academy",
+     "type": "channel"
+    },
+    "date": 1793372102,
+    "photo": [
+     {
+      "file_id": "AgACAgQAAx0EY-C6ZQACDl9q5K_GZjm4C82PPPjdWHsTn1SZBwACeQ5rG2YnLVPmN5HLdquOPQEAAwIAA3MAAz0E",
+      "file_unique_id": "AQADeQ5rG2YnLVN4",
+      "file_size": 1015,
+      "width": 72,
+      "height": 90
+     },
+     {
+      "file_id": "AgACAgQAAx0EY-C6ZQACDl9q5K_GZjm4C82PPPjdWHsTn1SZBwACeQ5rG2YnLVPmN5HLdquOPQEAAwIAA20AAz0E",
+      "file_unique_id": "AQADeQ5rG2YnLVNy",
+      "file_size": 10920,
+      "width": 256,
+      "height": 320
+     },
+     {
+      "file_id": "AgACAgQAAx0EY-C6ZQACDl9q5K_GZjm4C82PPPjdWHsTn1SZBwACeQ5rG2YnLVPmN5HLdquOPQEAAwIAA3gAAz0E",
+      "file_unique_id": "AQADeQ5rG2YnLVN9",
+      "file_size": 39966,
+      "width": 640,
+      "height": 800
+     },
+     {
+      "file_id": "AgACAgQAAx0EY-C6ZQACDl9q5K_GZjm4C82PPPjdWHsTn1SZBwACeQ5rG2YnLVPmN5HLdquOPQEAAwIAA3kAAz0E",
+      "file_unique_id": "AQADeQ5rG2YnLVN-",
+      "file_size": 72831,
+      "width": 1024,
+      "height": 1280
+     },
+     {
+      "file_id": "AgACAgQAAx0EY-C6ZQACDl9q5K_GZjm4C82PPPjdWHsTn1SZBwACeQ5rG2YnLVPmN5HLdquOPQEAAwIAA3cAAz0E",
+      "file_unique_id": "AQADeQ5rG2YnLVN8",
+      "file_size": 218792,
+      "width": 2048,
+      "height": 2560
+     }
+    ],
+    "caption": "Kechqurun charchab o'tirib katta qaror qilmoqchi bo'lsangiz, ruslar shunday deydi: «Утро вечера мудренее».\n\nSo'zma-so'z «tong kechdan donoroq». Ma'nosi oddiy: hozir boshni qotirmang, bir uxlab turing, ertalab hammasi aniqroq ko'rinadi.\n\nSiz qaysi qaroringizni ertalabga qoldirib, keyin to'g'ri qilganingizni tushungansiz? Izohlarda yozing, ruscha bir gap qo'shsangiz yanada yaxshi 🙂\n\n📌 https://registan.edutizim.uz/order/entry/?survey=s33\n\n📞 +998935512700\n\n📱 Follow us on social media:\n\n📱Telegram   📱Instagram   📱Location",
+    "caption_entities": [
+     {
+      "offset": 83,
+      "length": 22,
+      "type": "bold"
+     },
+     {
+      "offset": 388,
+      "length": 52,
+      "type": "text_link",
+      "url": "https://registan.edutizim.uz/order/entry/?survey=s33"
+     },
+     {
+      "offset": 445,
+      "length": 13,
+      "type": "phone_number"
+     },
+     {
+      "offset": 463,
+      "length": 25,
+      "type": "text_link",
+      "url": "https://t.me/Registan_LC"
+     },
+     {
+      "offset": 493,
+      "length": 8,
+      "type": "text_link",
+      "url": "https://t.me/RegistanLC_Academy"
+     },
+     {
+      "offset": 506,
+      "length": 9,
+      "type": "text_link",
+      "url": "https://instagram.com/registanlc_academy"
+     },
+     {
+      "offset": 520,
+      "length": 8,
+      "type": "text_link",
+      "url": "https://goo.gl/maps/ziHA5ukgVtbGmwwR6"
+     }
+    ]
+   }
+  }
+ ],
+ "posted_at": "2026-10-30T14:55:03.020480+00:00"
+}
