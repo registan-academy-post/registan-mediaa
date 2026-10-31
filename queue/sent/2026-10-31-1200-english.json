@@ -1,0 +1,136 @@
+{
+ "id": "2026-10-31-1200-english",
+ "steps": [
+  {
+   "method": "sendPhoto",
+   "params": {
+    "chat_id": "@RegistanLC_Academy",
+    "photo": "https://raw.githubusercontent.com/registan-academy-post/registan-mediaa/main/posts/2026-10-31/1200_collocation_pay_attention_to.jpg",
+    "caption": "O'zbekchada \"e'tibor bermoq\" deymiz, shuning uchun ko'pchilik inglizchada ham do yoki make ishlatib yuboradi. Aslida inglizlar e'tiborni \"to'laydi\": <b>pay attention to</b>.\n\nUndan keyin to keladi, on yoki at emas. <i>Please pay attention to the instructions</i>, ko'rsatmalarga e'tibor bering. <i>Sorry, I wasn't paying attention</i>, kechirasiz, chalg'ib qolibman. <i>Pay attention to how native speakers stress words</i>, ular so'zlarga urg'uni qanday berishiga e'tibor bering.\n\nYana bir narsa: bu ma'noda attention sanalmaydi, demak \"attentions\" demaymiz. Kuchaytirmoqchi bo'lsangiz, o'rtasiga sifat qo'shing: pay close attention, pay special attention. Masalan, IELTS Listening'da <i>No more than two words</i> degan shartga pay close attention, ko'p ball aynan shu yerda yo'qoladi 🙂\n\n📌 <a href=\"https://registan.edutizim.uz/order/entry/?survey=s33\">https://registan.edutizim.uz/order/entry/?survey=s33</a>\n\n📞 +998935512700\n\n📱 <a href=\"https://t.me/Registan_LC\">Follow us on social media</a>:\n\n📱<a href=\"https://t.me/RegistanLC_Academy\">Telegram</a>   📱<a href=\"https://instagram.com/registanlc_academy\">Instagram</a>   📱<a href=\"https://goo.gl/maps/ziHA5ukgVtbGmwwR6\">Location</a>",
+    "parse_mode": "HTML"
+   }
+  }
+ ],
+ "results": [
+  {
+   "ok": true,
+   "result": {
+    "message_id": 3682,
+    "sender_chat": {
+     "id": -1001675672165,
+     "title": "Registan LC | Academy filiali",
+     "username": "RegistanLC_Academy",
+     "type": "channel"
+    },
+    "chat": {
+     "id": -1001675672165,
+     "title": "Registan LC | Academy filiali",
+     "username": "RegistanLC_Academy",
+     "type": "channel"
+    },
+    "date": 1793429700,
+    "photo": [
+     {
+      "file_id": "AgACAgQAAx0EY-C6ZQACDmJq5ZDEVtFx9ydoYJpx3yyPVGlC2QACVA5rG_yENVMXHW3aWaI2pgEAAwIAA3MAAz0E",
+      "file_unique_id": "AQADVA5rG_yENVN4",
+      "file_size": 791,
+      "width": 72,
+      "height": 90
+     },
+     {
+      "file_id": "AgACAgQAAx0EY-C6ZQACDmJq5ZDEVtFx9ydoYJpx3yyPVGlC2QACVA5rG_yENVMXHW3aWaI2pgEAAwIAA20AAz0E",
+      "file_unique_id": "AQADVA5rG_yENVNy",
+      "file_size": 7290,
+      "width": 256,
+      "height": 320
+     },
+     {
+      "file_id": "AgACAgQAAx0EY-C6ZQACDmJq5ZDEVtFx9ydoYJpx3yyPVGlC2QACVA5rG_yENVMXHW3aWaI2pgEAAwIAA3gAAz0E",
+      "file_unique_id": "AQADVA5rG_yENVN9",
+      "file_size": 27635,
+      "width": 640,
+      "height": 800
+     },
+     {
+      "file_id": "AgACAgQAAx0EY-C6ZQACDmJq5ZDEVtFx9ydoYJpx3yyPVGlC2QACVA5rG_yENVMXHW3aWaI2pgEAAwIAA3kAAz0E",
+      "file_unique_id": "AQADVA5rG_yENVN-",
+      "file_size": 52315,
+      "width": 1024,
+      "height": 1280
+     },
+     {
+      "file_id": "AgACAgQAAx0EY-C6ZQACDmJq5ZDEVtFx9ydoYJpx3yyPVGlC2QACVA5rG_yENVMXHW3aWaI2pgEAAwIAA3cAAz0E",
+      "file_unique_id": "AQADVA5rG_yENVN8",
+      "file_size": 149517,
+      "width": 2048,
+      "height": 2560
+     }
+    ],
+    "caption": "O'zbekchada \"e'tibor bermoq\" deymiz, shuning uchun ko'pchilik inglizchada ham do yoki make ishlatib yuboradi. Aslida inglizlar e'tiborni \"to'laydi\": pay attention to.\n\nUndan keyin to keladi, on yoki at emas. Please pay attention to the instructions, ko'rsatmalarga e'tibor bering. Sorry, I wasn't paying attention, kechirasiz, chalg'ib qolibman. Pay attention to how native speakers stress words, ular so'zlarga urg'uni qanday berishiga e'tibor bering.\n\nYana bir narsa: bu ma'noda attention sanalmaydi, demak \"attentions\" demaymiz. Kuchaytirmoqchi bo'lsangiz, o'rtasiga sifat qo'shing: pay close attention, pay special attention. Masalan, IELTS Listening'da No more than two words degan shartga pay close attention, ko'p ball aynan shu yerda yo'qoladi 🙂\n\n📌 https://registan.edutizim.uz/order/entry/?survey=s33\n\n📞 +998935512700\n\n📱 Follow us on social media:\n\n📱Telegram   📱Instagram   📱Location",
+    "caption_entities": [
+     {
+      "offset": 149,
+      "length": 16,
+      "type": "bold"
+     },
+     {
+      "offset": 208,
+      "length": 40,
+      "type": "italic"
+     },
+     {
+      "offset": 281,
+      "length": 32,
+      "type": "italic"
+     },
+     {
+      "offset": 346,
+      "length": 49,
+      "type": "italic"
+     },
+     {
+      "offset": 658,
+      "length": 22,
+      "type": "italic"
+     },
+     {
+      "offset": 759,
+      "length": 52,
+      "type": "text_link",
+      "url": "https://registan.edutizim.uz/order/entry/?survey=s33"
+     },
+     {
+      "offset": 816,
+      "length": 13,
+      "type": "phone_number"
+     },
+     {
+      "offset": 834,
+      "length": 25,
+      "type": "text_link",
+      "url": "https://t.me/Registan_LC"
+     },
+     {
+      "offset": 864,
+      "length": 8,
+      "type": "text_link",
+      "url": "https://t.me/RegistanLC_Academy"
+     },
+     {
+      "offset": 877,
+      "length": 9,
+      "type": "text_link",
+      "url": "https://instagram.com/registanlc_academy"
+     },
+     {
+      "offset": 891,
+      "length": 8,
+      "type": "text_link",
+      "url": "https://goo.gl/maps/ziHA5ukgVtbGmwwR6"
+     }
+    ]
+   }
+  }
+ ],
+ "posted_at": "2026-10-31T06:55:00.587380+00:00"
+}
