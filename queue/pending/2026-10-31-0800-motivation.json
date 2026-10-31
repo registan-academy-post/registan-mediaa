@@ -1,0 +1,23 @@
+{
+ "id": "2026-10-31-0800-motivation",
+ "steps": [
+  {
+   "method": "sendMediaGroup",
+   "params": {
+    "chat_id": "@RegistanLC_Academy",
+    "media": [
+     {
+      "type": "photo",
+      "media": "https://raw.githubusercontent.com/registan-academy-post/registan-mediaa/main/posts/2026-10-31/0800_passport_malcolmx_b.jpg",
+      "caption": "Shanba tongi, xayrli tong 🙂\n\nKichik savol: bugun o'rgangan bitta yangi so'zingiz yoki yechgan bitta masalangiz bir yildan keyin sizga nima beradi? Malkolm X bunga aniq javob bergan: ertangi kun unga bugundan tayyorlanayotganlarniki. Seneka esa yanada soddaroq aytadi, har bir kun alohida bir hayot.\n\nDam olish kuni bo'lsa ham, 15 daqiqani o'zingizga ajrating. Bugun nimani o'rganmoqchisiz, izohlarda yozib qoldiring.\n\n📌 <a href=\"https://registan.edutizim.uz/order/entry/?survey=s33\">https://registan.edutizim.uz/order/entry/?survey=s33</a>\n\n📞 +998935512700\n\n📱 <a href=\"https://t.me/Registan_LC\">Follow us on social media</a>:\n\n📱<a href=\"https://t.me/RegistanLC_Academy\">Telegram</a>   📱<a href=\"https://instagram.com/registanlc_academy\">Instagram</a>   📱<a href=\"https://goo.gl/maps/ziHA5ukgVtbGmwwR6\">Location</a>",
+      "parse_mode": "HTML"
+     },
+     {
+      "type": "photo",
+      "media": "https://raw.githubusercontent.com/registan-academy-post/registan-mediaa/main/posts/2026-10-31/0800_each_day_seneca.jpg"
+     }
+    ]
+   }
+  }
+ ]
+}
