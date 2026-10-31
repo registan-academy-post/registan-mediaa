@@ -1,0 +1,398 @@
+{
+ "id": "2026-10-31-1500-quiz",
+ "steps": [
+  {
+   "method": "sendMessage",
+   "params": {
+    "chat_id": "@RegistanLC_Academy",
+    "text": "Bugun Beginner guruhlar uchun: we, you, they bilan \"are\" va millatlar.\n5 ta savol, boshida oson, oxirida biroz o'ylashga to'g'ri keladi."
+   }
+  },
+  {
+   "method": "sendPoll",
+   "params": {
+    "chat_id": "@RegistanLC_Academy",
+    "question": "Fill the gap: We ___ students at Registan Academy.",
+    "options": [
+     "am",
+     "are",
+     "is"
+    ],
+    "type": "quiz",
+    "is_anonymous": true,
+    "correct_option_id": 1,
+    "explanation": "\"We\" bilan har doim \"are\" ishlatiladi: We are students. \"Am\" faqat \"I\" bilan, \"is\" esa he, she, it bilan keladi."
+   }
+  },
+  {
+   "method": "sendPoll",
+   "params": {
+    "chat_id": "@RegistanLC_Academy",
+    "question": "Our friends are from Germany. They're ___.",
+    "options": [
+     "German",
+     "Germany",
+     "Germanish",
+     "Germanian"
+    ],
+    "type": "quiz",
+    "is_anonymous": true,
+    "correct_option_id": 0,
+    "explanation": "Davlat nomi Germany, millati esa German: They're German. Germanish yoki Germanian degan so'z ingliz tilida yo'q."
+   }
+  },
+  {
+   "method": "sendPoll",
+   "params": {
+    "chat_id": "@RegistanLC_Academy",
+    "question": "Fill the gap: Nodira ___ a waiter. She's a chef.",
+    "options": [
+     "is",
+     "isn't",
+     "aren't"
+    ],
+    "type": "quiz",
+    "is_anonymous": true,
+    "correct_option_id": 1,
+    "explanation": "Ikkinchi gapda Nodira oshpaz deyilgan, demak u ofitsiant emas: Nodira isn't a waiter. \"Aren't\" esa she bilan ishlatilmaydi."
+   }
+  },
+  {
+   "method": "sendPoll",
+   "params": {
+    "chat_id": "@RegistanLC_Academy",
+    "question": "Choose the correct sentence.",
+    "options": [
+     "They isn't from Spain.",
+     "They not are from Spain.",
+     "They aren't from Spain.",
+     "They are no from Spain."
+    ],
+    "type": "quiz",
+    "is_anonymous": true,
+    "correct_option_id": 2,
+    "explanation": "They bilan inkor \"aren't\" (are not) bo'ladi. \"Not\" are'dan keyin keladi, \"isn't\" esa faqat he, she, it uchun."
+   }
+  },
+  {
+   "method": "sendPoll",
+   "params": {
+    "chat_id": "@RegistanLC_Academy",
+    "question": "Find the mistake: \"A: Are you and Laylo Chinese? B: No, we aren't. We're Japan.\"",
+    "options": [
+     "Are you and Laylo",
+     "Chinese?",
+     "No, we aren't",
+     "We're Japan"
+    ],
+    "type": "quiz",
+    "is_anonymous": true,
+    "correct_option_id": 3,
+    "explanation": "Japan davlat nomi, millat esa Japanese: We're Japanese. Qolgan qismi to'g'ri: you and Laylo bilan \"are\", javobda \"we aren't\"."
+   }
+  }
+ ],
+ "results": [
+  {
+   "ok": true,
+   "result": {
+    "message_id": 3683,
+    "sender_chat": {
+     "id": -1001675672165,
+     "title": "Registan LC | Academy filiali",
+     "username": "RegistanLC_Academy",
+     "type": "channel"
+    },
+    "chat": {
+     "id": -1001675672165,
+     "title": "Registan LC | Academy filiali",
+     "username": "RegistanLC_Academy",
+     "type": "channel"
+    },
+    "date": 1793440504,
+    "text": "Bugun Beginner guruhlar uchun: we, you, they bilan \"are\" va millatlar.\n5 ta savol, boshida oson, oxirida biroz o'ylashga to'g'ri keladi."
+   }
+  },
+  {
+   "ok": true,
+   "result": {
+    "message_id": 3684,
+    "sender_chat": {
+     "id": -1001675672165,
+     "title": "Registan LC | Academy filiali",
+     "username": "RegistanLC_Academy",
+     "type": "channel"
+    },
+    "chat": {
+     "id": -1001675672165,
+     "title": "Registan LC | Academy filiali",
+     "username": "RegistanLC_Academy",
+     "type": "channel"
+    },
+    "date": 1793440505,
+    "poll": {
+     "id": "5418296875369371723",
+     "question": "Fill the gap: We ___ students at Registan Academy.",
+     "options": [
+      {
+       "persistent_id": "0",
+       "text": "am",
+       "voter_count": 0
+      },
+      {
+       "persistent_id": "1",
+       "text": "are",
+       "voter_count": 0
+      },
+      {
+       "persistent_id": "2",
+       "text": "is",
+       "voter_count": 0
+      }
+     ],
+     "total_voter_count": 0,
+     "is_closed": false,
+     "is_anonymous": true,
+     "allows_multiple_answers": false,
+     "allows_revoting": false,
+     "members_only": false,
+     "type": "quiz",
+     "correct_option_id": 1,
+     "correct_option_ids": [
+      1
+     ],
+     "explanation": "\"We\" bilan har doim \"are\" ishlatiladi: We are students. \"Am\" faqat \"I\" bilan, \"is\" esa he, she, it bilan keladi.",
+     "explanation_entities": []
+    }
+   }
+  },
+  {
+   "ok": true,
+   "result": {
+    "message_id": 3685,
+    "sender_chat": {
+     "id": -1001675672165,
+     "title": "Registan LC | Academy filiali",
+     "username": "RegistanLC_Academy",
+     "type": "channel"
+    },
+    "chat": {
+     "id": -1001675672165,
+     "title": "Registan LC | Academy filiali",
+     "username": "RegistanLC_Academy",
+     "type": "channel"
+    },
+    "date": 1793440505,
+    "poll": {
+     "id": "5418296875369371724",
+     "question": "Our friends are from Germany. They're ___.",
+     "options": [
+      {
+       "persistent_id": "0",
+       "text": "German",
+       "voter_count": 0
+      },
+      {
+       "persistent_id": "1",
+       "text": "Germany",
+       "voter_count": 0
+      },
+      {
+       "persistent_id": "2",
+       "text": "Germanish",
+       "voter_count": 0
+      },
+      {
+       "persistent_id": "3",
+       "text": "Germanian",
+       "voter_count": 0
+      }
+     ],
+     "total_voter_count": 0,
+     "is_closed": false,
+     "is_anonymous": true,
+     "allows_multiple_answers": false,
+     "allows_revoting": false,
+     "members_only": false,
+     "type": "quiz",
+     "correct_option_id": 0,
+     "correct_option_ids": [
+      0
+     ],
+     "explanation": "Davlat nomi Germany, millati esa German: They're German. Germanish yoki Germanian degan so'z ingliz tilida yo'q.",
+     "explanation_entities": []
+    }
+   }
+  },
+  {
+   "ok": true,
+   "result": {
+    "message_id": 3686,
+    "sender_chat": {
+     "id": -1001675672165,
+     "title": "Registan LC | Academy filiali",
+     "username": "RegistanLC_Academy",
+     "type": "channel"
+    },
+    "chat": {
+     "id": -1001675672165,
+     "title": "Registan LC | Academy filiali",
+     "username": "RegistanLC_Academy",
+     "type": "channel"
+    },
+    "date": 1793440505,
+    "poll": {
+     "id": "5418296875369371725",
+     "question": "Fill the gap: Nodira ___ a waiter. She's a chef.",
+     "options": [
+      {
+       "persistent_id": "0",
+       "text": "is",
+       "voter_count": 0
+      },
+      {
+       "persistent_id": "1",
+       "text": "isn't",
+       "voter_count": 0
+      },
+      {
+       "persistent_id": "2",
+       "text": "aren't",
+       "voter_count": 0
+      }
+     ],
+     "total_voter_count": 0,
+     "is_closed": false,
+     "is_anonymous": true,
+     "allows_multiple_answers": false,
+     "allows_revoting": false,
+     "members_only": false,
+     "type": "quiz",
+     "correct_option_id": 1,
+     "correct_option_ids": [
+      1
+     ],
+     "explanation": "Ikkinchi gapda Nodira oshpaz deyilgan, demak u ofitsiant emas: Nodira isn't a waiter. \"Aren't\" esa she bilan ishlatilmaydi.",
+     "explanation_entities": []
+    }
+   }
+  },
+  {
+   "ok": true,
+   "result": {
+    "message_id": 3687,
+    "sender_chat": {
+     "id": -1001675672165,
+     "title": "Registan LC | Academy filiali",
+     "username": "RegistanLC_Academy",
+     "type": "channel"
+    },
+    "chat": {
+     "id": -1001675672165,
+     "title": "Registan LC | Academy filiali",
+     "username": "RegistanLC_Academy",
+     "type": "channel"
+    },
+    "date": 1793440506,
+    "poll": {
+     "id": "5418296875369371726",
+     "question": "Choose the correct sentence.",
+     "options": [
+      {
+       "persistent_id": "0",
+       "text": "They isn't from Spain.",
+       "voter_count": 0
+      },
+      {
+       "persistent_id": "1",
+       "text": "They not are from Spain.",
+       "voter_count": 0
+      },
+      {
+       "persistent_id": "2",
+       "text": "They aren't from Spain.",
+       "voter_count": 0
+      },
+      {
+       "persistent_id": "3",
+       "text": "They are no from Spain.",
+       "voter_count": 0
+      }
+     ],
+     "total_voter_count": 0,
+     "is_closed": false,
+     "is_anonymous": true,
+     "allows_multiple_answers": false,
+     "allows_revoting": false,
+     "members_only": false,
+     "type": "quiz",
+     "correct_option_id": 2,
+     "correct_option_ids": [
+      2
+     ],
+     "explanation": "They bilan inkor \"aren't\" (are not) bo'ladi. \"Not\" are'dan keyin keladi, \"isn't\" esa faqat he, she, it uchun.",
+     "explanation_entities": []
+    }
+   }
+  },
+  {
+   "ok": true,
+   "result": {
+    "message_id": 3688,
+    "sender_chat": {
+     "id": -1001675672165,
+     "title": "Registan LC | Academy filiali",
+     "username": "RegistanLC_Academy",
+     "type": "channel"
+    },
+    "chat": {
+     "id": -1001675672165,
+     "title": "Registan LC | Academy filiali",
+     "username": "RegistanLC_Academy",
+     "type": "channel"
+    },
+    "date": 1793440509,
+    "poll": {
+     "id": "5418296875369371727",
+     "question": "Find the mistake: \"A: Are you and Laylo Chinese? B: No, we aren't. We're Japan.\"",
+     "options": [
+      {
+       "persistent_id": "0",
+       "text": "Are you and Laylo",
+       "voter_count": 0
+      },
+      {
+       "persistent_id": "1",
+       "text": "Chinese?",
+       "voter_count": 0
+      },
+      {
+       "persistent_id": "2",
+       "text": "No, we aren't",
+       "voter_count": 0
+      },
+      {
+       "persistent_id": "3",
+       "text": "We're Japan",
+       "voter_count": 0
+      }
+     ],
+     "total_voter_count": 0,
+     "is_closed": false,
+     "is_anonymous": true,
+     "allows_multiple_answers": false,
+     "allows_revoting": false,
+     "members_only": false,
+     "type": "quiz",
+     "correct_option_id": 3,
+     "correct_option_ids": [
+      3
+     ],
+     "explanation": "Japan davlat nomi, millat esa Japanese: We're Japanese. Qolgan qismi to'g'ri: you and Laylo bilan \"are\", javobda \"we aren't\".",
+     "explanation_entities": []
+    }
+   }
+  }
+ ],
+ "posted_at": "2026-10-31T09:55:09.958877+00:00"
+}
