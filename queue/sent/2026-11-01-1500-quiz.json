@@ -1,0 +1,404 @@
+{
+ "id": "2026-11-01-1500-quiz",
+ "steps": [
+  {
+   "method": "sendMessage",
+   "params": {
+    "chat_id": "@RegistanLC_Academy",
+    "text": "Yakshanba testi Beginner guruhlar uchun: we, you, they bilan \"are\" va millatlar. Kechagi mavzuni yana bir mustahkamlab olamiz.\n5 ta savol, javob berib ko'ring."
+   }
+  },
+  {
+   "method": "sendPoll",
+   "params": {
+    "chat_id": "@RegistanLC_Academy",
+    "question": "Fill the gap: You and your sister ___ very tall.",
+    "options": [
+     "are",
+     "is",
+     "am"
+    ],
+    "type": "quiz",
+    "is_anonymous": true,
+    "correct_option_id": 0,
+    "explanation": "\"You and your sister\" ikki kishi, ya'ni ko'plik. Ko'plikda doim \"are\": You and your sister are very tall."
+   }
+  },
+  {
+   "method": "sendPoll",
+   "params": {
+    "chat_id": "@RegistanLC_Academy",
+    "question": "Lola and Diyor are from Uzbekistan. They're ___.",
+    "options": [
+     "Uzbekistanian",
+     "Uzbek",
+     "Uzbekistan",
+     "Uzbeki"
+    ],
+    "type": "quiz",
+    "is_anonymous": true,
+    "correct_option_id": 1,
+    "explanation": "Davlat nomi Uzbekistan, millat esa Uzbek: They're Uzbek. Uzbekistanian yoki Uzbeki degan so'z yo'q."
+   }
+  },
+  {
+   "method": "sendPoll",
+   "params": {
+    "chat_id": "@RegistanLC_Academy",
+    "question": "My mum is a doctor. ___ works in a hospital.",
+    "options": [
+     "She",
+     "He",
+     "It",
+     "They"
+    ],
+    "type": "quiz",
+    "is_anonymous": true,
+    "correct_option_id": 0,
+    "explanation": "\"My mum\" ayol kishi, shuning uchun \"she\". \"He\" erkak uchun, \"it\" esa narsa va hayvonlar uchun ishlatiladi."
+   }
+  },
+  {
+   "method": "sendPoll",
+   "params": {
+    "chat_id": "@RegistanLC_Academy",
+    "question": "Choose the correct question.",
+    "options": [
+     "Is they from Mexico?",
+     "Do they from Mexico?",
+     "Are they from Mexico?",
+     "They from Mexico are?"
+    ],
+    "type": "quiz",
+    "is_anonymous": true,
+    "correct_option_id": 2,
+    "explanation": "Be bilan savolda fe'l oldinga chiqadi: Are they from Mexico? They bilan \"is\" emas, \"are\". \"Do\" bu yerda kerak emas."
+   }
+  },
+  {
+   "method": "sendPoll",
+   "params": {
+    "chat_id": "@RegistanLC_Academy",
+    "question": "Find the mistake: \"A: Where are you and Timur from? B: We're from Brazil. We are Brazilians students.\"",
+    "options": [
+     "Where are you and Timur from?",
+     "We're from Brazil",
+     "We are",
+     "Brazilians students"
+    ],
+    "type": "quiz",
+    "is_anonymous": true,
+    "correct_option_id": 3,
+    "explanation": "Millat so'zi otdan oldin kelsa -s olmaydi: We are Brazilian students. Qolgan qismlar to'g'ri."
+   }
+  }
+ ],
+ "results": [
+  {
+   "ok": true,
+   "result": {
+    "message_id": 3694,
+    "sender_chat": {
+     "id": -1001675672165,
+     "title": "Registan LC | Academy filiali",
+     "username": "RegistanLC_Academy",
+     "type": "channel"
+    },
+    "chat": {
+     "id": -1001675672165,
+     "title": "Registan LC | Academy filiali",
+     "username": "RegistanLC_Academy",
+     "type": "channel"
+    },
+    "date": 1793526889,
+    "text": "Yakshanba testi Beginner guruhlar uchun: we, you, they bilan \"are\" va millatlar. Kechagi mavzuni yana bir mustahkamlab olamiz.\n5 ta savol, javob berib ko'ring."
+   }
+  },
+  {
+   "ok": true,
+   "result": {
+    "message_id": 3695,
+    "sender_chat": {
+     "id": -1001675672165,
+     "title": "Registan LC | Academy filiali",
+     "username": "RegistanLC_Academy",
+     "type": "channel"
+    },
+    "chat": {
+     "id": -1001675672165,
+     "title": "Registan LC | Academy filiali",
+     "username": "RegistanLC_Academy",
+     "type": "channel"
+    },
+    "date": 1793526889,
+    "poll": {
+     "id": "5420299485475510572",
+     "question": "Fill the gap: You and your sister ___ very tall.",
+     "options": [
+      {
+       "persistent_id": "0",
+       "text": "are",
+       "voter_count": 0
+      },
+      {
+       "persistent_id": "1",
+       "text": "is",
+       "voter_count": 0
+      },
+      {
+       "persistent_id": "2",
+       "text": "am",
+       "voter_count": 0
+      }
+     ],
+     "total_voter_count": 0,
+     "is_closed": false,
+     "is_anonymous": true,
+     "allows_multiple_answers": false,
+     "allows_revoting": false,
+     "members_only": false,
+     "type": "quiz",
+     "correct_option_id": 0,
+     "correct_option_ids": [
+      0
+     ],
+     "explanation": "\"You and your sister\" ikki kishi, ya'ni ko'plik. Ko'plikda doim \"are\": You and your sister are very tall.",
+     "explanation_entities": []
+    }
+   }
+  },
+  {
+   "ok": true,
+   "result": {
+    "message_id": 3696,
+    "sender_chat": {
+     "id": -1001675672165,
+     "title": "Registan LC | Academy filiali",
+     "username": "RegistanLC_Academy",
+     "type": "channel"
+    },
+    "chat": {
+     "id": -1001675672165,
+     "title": "Registan LC | Academy filiali",
+     "username": "RegistanLC_Academy",
+     "type": "channel"
+    },
+    "date": 1793526890,
+    "poll": {
+     "id": "5420299485475510573",
+     "question": "Lola and Diyor are from Uzbekistan. They're ___.",
+     "options": [
+      {
+       "persistent_id": "0",
+       "text": "Uzbekistanian",
+       "voter_count": 0
+      },
+      {
+       "persistent_id": "1",
+       "text": "Uzbek",
+       "voter_count": 0
+      },
+      {
+       "persistent_id": "2",
+       "text": "Uzbekistan",
+       "voter_count": 0
+      },
+      {
+       "persistent_id": "3",
+       "text": "Uzbeki",
+       "voter_count": 0
+      }
+     ],
+     "total_voter_count": 0,
+     "is_closed": false,
+     "is_anonymous": true,
+     "allows_multiple_answers": false,
+     "allows_revoting": false,
+     "members_only": false,
+     "type": "quiz",
+     "correct_option_id": 1,
+     "correct_option_ids": [
+      1
+     ],
+     "explanation": "Davlat nomi Uzbekistan, millat esa Uzbek: They're Uzbek. Uzbekistanian yoki Uzbeki degan so'z yo'q.",
+     "explanation_entities": []
+    }
+   }
+  },
+  {
+   "ok": true,
+   "result": {
+    "message_id": 3697,
+    "sender_chat": {
+     "id": -1001675672165,
+     "title": "Registan LC | Academy filiali",
+     "username": "RegistanLC_Academy",
+     "type": "channel"
+    },
+    "chat": {
+     "id": -1001675672165,
+     "title": "Registan LC | Academy filiali",
+     "username": "RegistanLC_Academy",
+     "type": "channel"
+    },
+    "date": 1793526890,
+    "poll": {
+     "id": "5420299485475510574",
+     "question": "My mum is a doctor. ___ works in a hospital.",
+     "options": [
+      {
+       "persistent_id": "0",
+       "text": "She",
+       "voter_count": 0
+      },
+      {
+       "persistent_id": "1",
+       "text": "He",
+       "voter_count": 0
+      },
+      {
+       "persistent_id": "2",
+       "text": "It",
+       "voter_count": 0
+      },
+      {
+       "persistent_id": "3",
+       "text": "They",
+       "voter_count": 0
+      }
+     ],
+     "total_voter_count": 0,
+     "is_closed": false,
+     "is_anonymous": true,
+     "allows_multiple_answers": false,
+     "allows_revoting": false,
+     "members_only": false,
+     "type": "quiz",
+     "correct_option_id": 0,
+     "correct_option_ids": [
+      0
+     ],
+     "explanation": "\"My mum\" ayol kishi, shuning uchun \"she\". \"He\" erkak uchun, \"it\" esa narsa va hayvonlar uchun ishlatiladi.",
+     "explanation_entities": []
+    }
+   }
+  },
+  {
+   "ok": true,
+   "result": {
+    "message_id": 3698,
+    "sender_chat": {
+     "id": -1001675672165,
+     "title": "Registan LC | Academy filiali",
+     "username": "RegistanLC_Academy",
+     "type": "channel"
+    },
+    "chat": {
+     "id": -1001675672165,
+     "title": "Registan LC | Academy filiali",
+     "username": "RegistanLC_Academy",
+     "type": "channel"
+    },
+    "date": 1793526891,
+    "poll": {
+     "id": "5420299485475510575",
+     "question": "Choose the correct question.",
+     "options": [
+      {
+       "persistent_id": "0",
+       "text": "Is they from Mexico?",
+       "voter_count": 0
+      },
+      {
+       "persistent_id": "1",
+       "text": "Do they from Mexico?",
+       "voter_count": 0
+      },
+      {
+       "persistent_id": "2",
+       "text": "Are they from Mexico?",
+       "voter_count": 0
+      },
+      {
+       "persistent_id": "3",
+       "text": "They from Mexico are?",
+       "voter_count": 0
+      }
+     ],
+     "total_voter_count": 0,
+     "is_closed": false,
+     "is_anonymous": true,
+     "allows_multiple_answers": false,
+     "allows_revoting": false,
+     "members_only": false,
+     "type": "quiz",
+     "correct_option_id": 2,
+     "correct_option_ids": [
+      2
+     ],
+     "explanation": "Be bilan savolda fe'l oldinga chiqadi: Are they from Mexico? They bilan \"is\" emas, \"are\". \"Do\" bu yerda kerak emas.",
+     "explanation_entities": []
+    }
+   }
+  },
+  {
+   "ok": true,
+   "result": {
+    "message_id": 3699,
+    "sender_chat": {
+     "id": -1001675672165,
+     "title": "Registan LC | Academy filiali",
+     "username": "RegistanLC_Academy",
+     "type": "channel"
+    },
+    "chat": {
+     "id": -1001675672165,
+     "title": "Registan LC | Academy filiali",
+     "username": "RegistanLC_Academy",
+     "type": "channel"
+    },
+    "date": 1793526894,
+    "poll": {
+     "id": "5420299485475510576",
+     "question": "Find the mistake: \"A: Where are you and Timur from? B: We're from Brazil. We are Brazilians students.\"",
+     "options": [
+      {
+       "persistent_id": "0",
+       "text": "Where are you and Timur from?",
+       "voter_count": 0
+      },
+      {
+       "persistent_id": "1",
+       "text": "We're from Brazil",
+       "voter_count": 0
+      },
+      {
+       "persistent_id": "2",
+       "text": "We are",
+       "voter_count": 0
+      },
+      {
+       "persistent_id": "3",
+       "text": "Brazilians students",
+       "voter_count": 0
+      }
+     ],
+     "total_voter_count": 0,
+     "is_closed": false,
+     "is_anonymous": true,
+     "allows_multiple_answers": false,
+     "allows_revoting": false,
+     "members_only": false,
+     "type": "quiz",
+     "correct_option_id": 3,
+     "correct_option_ids": [
+      3
+     ],
+     "explanation": "Millat so'zi otdan oldin kelsa -s olmaydi: We are Brazilian students. Qolgan qismlar to'g'ri.",
+     "explanation_entities": []
+    }
+   }
+  }
+ ],
+ "posted_at": "2026-11-01T09:54:54.720150+00:00"
+}
