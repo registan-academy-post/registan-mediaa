@@ -1,0 +1,96 @@
+{
+ "id": "2026-11-01-1500-quiz",
+ "steps": [
+  {
+   "method": "sendMessage",
+   "params": {
+    "chat_id": "@RegistanLC_Academy",
+    "text": "Yakshanba testi Beginner guruhlar uchun: we, you, they bilan \"are\" va millatlar. Kechagi mavzuni yana bir mustahkamlab olamiz.\n5 ta savol, javob berib ko'ring."
+   }
+  },
+  {
+   "method": "sendPoll",
+   "params": {
+    "chat_id": "@RegistanLC_Academy",
+    "question": "Fill the gap: You and your sister ___ very tall.",
+    "options": [
+     "are",
+     "is",
+     "am"
+    ],
+    "type": "quiz",
+    "is_anonymous": true,
+    "correct_option_id": 0,
+    "explanation": "\"You and your sister\" ikki kishi, ya'ni ko'plik. Ko'plikda doim \"are\": You and your sister are very tall."
+   }
+  },
+  {
+   "method": "sendPoll",
+   "params": {
+    "chat_id": "@RegistanLC_Academy",
+    "question": "Lola and Diyor are from Uzbekistan. They're ___.",
+    "options": [
+     "Uzbekistanian",
+     "Uzbek",
+     "Uzbekistan",
+     "Uzbeki"
+    ],
+    "type": "quiz",
+    "is_anonymous": true,
+    "correct_option_id": 1,
+    "explanation": "Davlat nomi Uzbekistan, millat esa Uzbek: They're Uzbek. Uzbekistanian yoki Uzbeki degan so'z yo'q."
+   }
+  },
+  {
+   "method": "sendPoll",
+   "params": {
+    "chat_id": "@RegistanLC_Academy",
+    "question": "My mum is a doctor. ___ works in a hospital.",
+    "options": [
+     "She",
+     "He",
+     "It",
+     "They"
+    ],
+    "type": "quiz",
+    "is_anonymous": true,
+    "correct_option_id": 0,
+    "explanation": "\"My mum\" ayol kishi, shuning uchun \"she\". \"He\" erkak uchun, \"it\" esa narsa va hayvonlar uchun ishlatiladi."
+   }
+  },
+  {
+   "method": "sendPoll",
+   "params": {
+    "chat_id": "@RegistanLC_Academy",
+    "question": "Choose the correct question.",
+    "options": [
+     "Is they from Mexico?",
+     "Do they from Mexico?",
+     "Are they from Mexico?",
+     "They from Mexico are?"
+    ],
+    "type": "quiz",
+    "is_anonymous": true,
+    "correct_option_id": 2,
+    "explanation": "Be bilan savolda fe'l oldinga chiqadi: Are they from Mexico? They bilan \"is\" emas, \"are\". \"Do\" bu yerda kerak emas."
+   }
+  },
+  {
+   "method": "sendPoll",
+   "params": {
+    "chat_id": "@RegistanLC_Academy",
+    "question": "Find the mistake: \"A: Where are you and Timur from? B: We're from Brazil. We are Brazilians students.\"",
+    "options": [
+     "Where are you and Timur from?",
+     "We're from Brazil",
+     "We are",
+     "Brazilians students"
+    ],
+    "type": "quiz",
+    "is_anonymous": true,
+    "correct_option_id": 3,
+    "explanation": "Millat so'zi otdan oldin kelsa -s olmaydi: We are Brazilian students. Qolgan qismlar to'g'ri."
+   }
+  }
+ ]
+}
