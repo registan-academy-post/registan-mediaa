@@ -1,0 +1,136 @@
+{
+ "id": "2026-11-01-1200-english",
+ "steps": [
+  {
+   "method": "sendPhoto",
+   "params": {
+    "chat_id": "@RegistanLC_Academy",
+    "photo": "https://raw.githubusercontent.com/registan-academy-post/registan-mediaa/main/posts/2026-11-01/1200_idiom_hang_of.jpg",
+    "caption": "Birinchi darsdan keyin bir talaba: \"Ustoz, bu zamonlarni hech tushunolmasam kerak\". Ustoz kulib: <i>Don't worry, you'll get the hang of it.</i>\n\n<b>Get the hang of something</b> biror ishni mashq qilib-qilib, asta-sekin eplab ketishni bildiradi. O'zbekchada \"qo'l o'rganib qoldi\", \"ko'nikib qoldim\" deganimizga juda yaqin.\n\nUndan keyin ot yoki -ing shakl keladi: <i>I'm finally getting the hang of the Present Perfect</i>, nihoyat Present Perfectni tushunib olyapman. <i>It took me a month to get the hang of IELTS Writing Task 1</i>, Writing Task 1ga ko'nikishim uchun bir oy kerak bo'ldi. <i>She got the hang of driving very quickly</i>, u mashina haydashni juda tez o'rganib oldi.\n\nBu so'zlashuv iborasi, Speaking'da tabiiy eshitiladi, lekin rasmiy essayda \"I learned how to\" yoki \"I became familiar with\" yaxshiroq 🙂\n\n📌 <a href=\"https://registan.edutizim.uz/order/entry/?survey=s33\">https://registan.edutizim.uz/order/entry/?survey=s33</a>\n\n📞 +998935512700\n\n📱 <a href=\"https://t.me/Registan_LC\">Follow us on social media</a>:\n\n📱<a href=\"https://t.me/RegistanLC_Academy\">Telegram</a>   📱<a href=\"https://instagram.com/registanlc_academy\">Instagram</a>   📱<a href=\"https://goo.gl/maps/ziHA5ukgVtbGmwwR6\">Location</a>",
+    "parse_mode": "HTML"
+   }
+  }
+ ],
+ "results": [
+  {
+   "ok": true,
+   "result": {
+    "message_id": 3693,
+    "sender_chat": {
+     "id": -1001675672165,
+     "title": "Registan LC | Academy filiali",
+     "username": "RegistanLC_Academy",
+     "type": "channel"
+    },
+    "chat": {
+     "id": -1001675672165,
+     "title": "Registan LC | Academy filiali",
+     "username": "RegistanLC_Academy",
+     "type": "channel"
+    },
+    "date": 1793516138,
+    "photo": [
+     {
+      "file_id": "AgACAgQAAx0EY-C6ZQACDm1q5uJqgv6-gEEMeJyD5gJje_1ZQQACQw9rG2_kPVOwmNO8j62iaQEAAwIAA3MAAz0E",
+      "file_unique_id": "AQADQw9rG2_kPVN4",
+      "file_size": 771,
+      "width": 72,
+      "height": 90
+     },
+     {
+      "file_id": "AgACAgQAAx0EY-C6ZQACDm1q5uJqgv6-gEEMeJyD5gJje_1ZQQACQw9rG2_kPVOwmNO8j62iaQEAAwIAA20AAz0E",
+      "file_unique_id": "AQADQw9rG2_kPVNy",
+      "file_size": 7236,
+      "width": 256,
+      "height": 320
+     },
+     {
+      "file_id": "AgACAgQAAx0EY-C6ZQACDm1q5uJqgv6-gEEMeJyD5gJje_1ZQQACQw9rG2_kPVOwmNO8j62iaQEAAwIAA3gAAz0E",
+      "file_unique_id": "AQADQw9rG2_kPVN9",
+      "file_size": 28800,
+      "width": 640,
+      "height": 800
+     },
+     {
+      "file_id": "AgACAgQAAx0EY-C6ZQACDm1q5uJqgv6-gEEMeJyD5gJje_1ZQQACQw9rG2_kPVOwmNO8j62iaQEAAwIAA3kAAz0E",
+      "file_unique_id": "AQADQw9rG2_kPVN-",
+      "file_size": 55235,
+      "width": 1024,
+      "height": 1280
+     },
+     {
+      "file_id": "AgACAgQAAx0EY-C6ZQACDm1q5uJqgv6-gEEMeJyD5gJje_1ZQQACQw9rG2_kPVOwmNO8j62iaQEAAwIAA3cAAz0E",
+      "file_unique_id": "AQADQw9rG2_kPVN8",
+      "file_size": 200235,
+      "width": 2048,
+      "height": 2560
+     }
+    ],
+    "caption": "Birinchi darsdan keyin bir talaba: \"Ustoz, bu zamonlarni hech tushunolmasam kerak\". Ustoz kulib: Don't worry, you'll get the hang of it.\n\nGet the hang of something biror ishni mashq qilib-qilib, asta-sekin eplab ketishni bildiradi. O'zbekchada \"qo'l o'rganib qoldi\", \"ko'nikib qoldim\" deganimizga juda yaqin.\n\nUndan keyin ot yoki -ing shakl keladi: I'm finally getting the hang of the Present Perfect, nihoyat Present Perfectni tushunib olyapman. It took me a month to get the hang of IELTS Writing Task 1, Writing Task 1ga ko'nikishim uchun bir oy kerak bo'ldi. She got the hang of driving very quickly, u mashina haydashni juda tez o'rganib oldi.\n\nBu so'zlashuv iborasi, Speaking'da tabiiy eshitiladi, lekin rasmiy essayda \"I learned how to\" yoki \"I became familiar with\" yaxshiroq 🙂\n\n📌 https://registan.edutizim.uz/order/entry/?survey=s33\n\n📞 +998935512700\n\n📱 Follow us on social media:\n\n📱Telegram   📱Instagram   📱Location",
+    "caption_entities": [
+     {
+      "offset": 97,
+      "length": 39,
+      "type": "italic"
+     },
+     {
+      "offset": 138,
+      "length": 25,
+      "type": "bold"
+     },
+     {
+      "offset": 349,
+      "length": 51,
+      "type": "italic"
+     },
+     {
+      "offset": 447,
+      "length": 58,
+      "type": "italic"
+     },
+     {
+      "offset": 563,
+      "length": 40,
+      "type": "italic"
+     },
+     {
+      "offset": 791,
+      "length": 52,
+      "type": "text_link",
+      "url": "https://registan.edutizim.uz/order/entry/?survey=s33"
+     },
+     {
+      "offset": 848,
+      "length": 13,
+      "type": "phone_number"
+     },
+     {
+      "offset": 866,
+      "length": 25,
+      "type": "text_link",
+      "url": "https://t.me/Registan_LC"
+     },
+     {
+      "offset": 896,
+      "length": 8,
+      "type": "text_link",
+      "url": "https://t.me/RegistanLC_Academy"
+     },
+     {
+      "offset": 909,
+      "length": 9,
+      "type": "text_link",
+      "url": "https://instagram.com/registanlc_academy"
+     },
+     {
+      "offset": 923,
+      "length": 8,
+      "type": "text_link",
+      "url": "https://goo.gl/maps/ziHA5ukgVtbGmwwR6"
+     }
+    ]
+   }
+  }
+ ],
+ "posted_at": "2026-11-01T06:55:39.027022+00:00"
+}
