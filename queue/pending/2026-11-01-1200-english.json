@@ -1,0 +1,14 @@
+{
+ "id": "2026-11-01-1200-english",
+ "steps": [
+  {
+   "method": "sendPhoto",
+   "params": {
+    "chat_id": "@RegistanLC_Academy",
+    "photo": "https://raw.githubusercontent.com/registan-academy-post/registan-mediaa/main/posts/2026-11-01/1200_idiom_hang_of.jpg",
+    "caption": "Birinchi darsdan keyin bir talaba: \"Ustoz, bu zamonlarni hech tushunolmasam kerak\". Ustoz kulib: <i>Don't worry, you'll get the hang of it.</i>\n\n<b>Get the hang of something</b> biror ishni mashq qilib-qilib, asta-sekin eplab ketishni bildiradi. O'zbekchada \"qo'l o'rganib qoldi\", \"ko'nikib qoldim\" deganimizga juda yaqin.\n\nUndan keyin ot yoki -ing shakl keladi: <i>I'm finally getting the hang of the Present Perfect</i>, nihoyat Present Perfectni tushunib olyapman. <i>It took me a month to get the hang of IELTS Writing Task 1</i>, Writing Task 1ga ko'nikishim uchun bir oy kerak bo'ldi. <i>She got the hang of driving very quickly</i>, u mashina haydashni juda tez o'rganib oldi.\n\nBu so'zlashuv iborasi, Speaking'da tabiiy eshitiladi, lekin rasmiy essayda \"I learned how to\" yoki \"I became familiar with\" yaxshiroq 🙂\n\n📌 <a href=\"https://registan.edutizim.uz/order/entry/?survey=s33\">https://registan.edutizim.uz/order/entry/?survey=s33</a>\n\n📞 +998935512700\n\n📱 <a href=\"https://t.me/Registan_LC\">Follow us on social media</a>:\n\n📱<a href=\"https://t.me/RegistanLC_Academy\">Telegram</a>   📱<a href=\"https://instagram.com/registanlc_academy\">Instagram</a>   📱<a href=\"https://goo.gl/maps/ziHA5ukgVtbGmwwR6\">Location</a>",
+    "parse_mode": "HTML"
+   }
+  }
+ ]
+}
