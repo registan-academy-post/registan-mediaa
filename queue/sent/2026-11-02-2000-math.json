@@ -1,0 +1,186 @@
+{
+ "id": "2026-11-02-2000-math",
+ "steps": [
+  {
+   "method": "sendPhoto",
+   "params": {
+    "chat_id": "@RegistanLC_Academy",
+    "photo": "https://raw.githubusercontent.com/registan-academy-post/registan-mediaa/main/posts/2026-11-02/2000_math_7pow2026_last_digit.jpg",
+    "caption": "Bugungi masala yilimizga bog'liq: 7 ni 2026 marta o'ziga ko'paytirsak, oxirgi raqami nima bo'ladi?\n\nBu sonni hech qanday kalkulyator to'liq ko'rsata olmaydi, lekin oxirgi raqamni bir daqiqada topsa bo'ladi. 7, 49, 343... davom ettirib ko'ring, nimanidir sezasiz.\n\nJavobni so'rovnomada belgilang, qanday topganingizni esa izohlarda yozing 🤓\n\n📌 <a href=\"https://registan.edutizim.uz/order/entry/?survey=s33\">https://registan.edutizim.uz/order/entry/?survey=s33</a>\n\n📞 +998935512700\n\n📱 <a href=\"https://t.me/Registan_LC\">Follow us on social media</a>:\n\n📱<a href=\"https://t.me/RegistanLC_Academy\">Telegram</a>   📱<a href=\"https://instagram.com/registanlc_academy\">Instagram</a>   📱<a href=\"https://goo.gl/maps/ziHA5ukgVtbGmwwR6\">Location</a>",
+    "parse_mode": "HTML"
+   }
+  },
+  {
+   "method": "sendPoll",
+   "params": {
+    "chat_id": "@RegistanLC_Academy",
+    "question": "7 ning 2026-darajasi qaysi raqam bilan tugaydi?",
+    "options": [
+     "7",
+     "9",
+     "3",
+     "1"
+    ],
+    "type": "quiz",
+    "correct_option_id": 1,
+    "is_anonymous": true,
+    "explanation": "Oxirgi raqamlar 7, 9, 3, 1 bo'lib takrorlanadi, har 4 qadamda. 2026 ni 4 ga bo'lsak, qoldiq 2 chiqadi. Demak ikkinchi raqam: 9."
+   }
+  }
+ ],
+ "results": [
+  {
+   "ok": true,
+   "result": {
+    "message_id": 3712,
+    "sender_chat": {
+     "id": -1001675672165,
+     "title": "Registan LC | Academy filiali",
+     "username": "RegistanLC_Academy",
+     "type": "channel"
+    },
+    "chat": {
+     "id": -1001675672165,
+     "title": "Registan LC | Academy filiali",
+     "username": "RegistanLC_Academy",
+     "type": "channel"
+    },
+    "date": 1793634618,
+    "photo": [
+     {
+      "file_id": "AgACAgQAAx0EY-C6ZQACDoBq6LE62-eeD6A1P5oId46u4LWr7AACLw9rG30vTFNNVBB2zk4mowEAAwIAA3MAAz0E",
+      "file_unique_id": "AQADLw9rG30vTFN4",
+      "file_size": 1289,
+      "width": 72,
+      "height": 90
+     },
+     {
+      "file_id": "AgACAgQAAx0EY-C6ZQACDoBq6LE62-eeD6A1P5oId46u4LWr7AACLw9rG30vTFNNVBB2zk4mowEAAwIAA20AAz0E",
+      "file_unique_id": "AQADLw9rG30vTFNy",
+      "file_size": 12040,
+      "width": 256,
+      "height": 320
+     },
+     {
+      "file_id": "AgACAgQAAx0EY-C6ZQACDoBq6LE62-eeD6A1P5oId46u4LWr7AACLw9rG30vTFNNVBB2zk4mowEAAwIAA3gAAz0E",
+      "file_unique_id": "AQADLw9rG30vTFN9",
+      "file_size": 40579,
+      "width": 640,
+      "height": 800
+     },
+     {
+      "file_id": "AgACAgQAAx0EY-C6ZQACDoBq6LE62-eeD6A1P5oId46u4LWr7AACLw9rG30vTFNNVBB2zk4mowEAAwIAA3kAAz0E",
+      "file_unique_id": "AQADLw9rG30vTFN-",
+      "file_size": 71275,
+      "width": 1024,
+      "height": 1280
+     },
+     {
+      "file_id": "AgACAgQAAx0EY-C6ZQACDoBq6LE62-eeD6A1P5oId46u4LWr7AACLw9rG30vTFNNVBB2zk4mowEAAwIAA3cAAz0E",
+      "file_unique_id": "AQADLw9rG30vTFN8",
+      "file_size": 159677,
+      "width": 2048,
+      "height": 2560
+     }
+    ],
+    "caption": "Bugungi masala yilimizga bog'liq: 7 ni 2026 marta o'ziga ko'paytirsak, oxirgi raqami nima bo'ladi?\n\nBu sonni hech qanday kalkulyator to'liq ko'rsata olmaydi, lekin oxirgi raqamni bir daqiqada topsa bo'ladi. 7, 49, 343... davom ettirib ko'ring, nimanidir sezasiz.\n\nJavobni so'rovnomada belgilang, qanday topganingizni esa izohlarda yozing 🤓\n\n📌 https://registan.edutizim.uz/order/entry/?survey=s33\n\n📞 +998935512700\n\n📱 Follow us on social media:\n\n📱Telegram   📱Instagram   📱Location",
+    "caption_entities": [
+     {
+      "offset": 345,
+      "length": 52,
+      "type": "text_link",
+      "url": "https://registan.edutizim.uz/order/entry/?survey=s33"
+     },
+     {
+      "offset": 402,
+      "length": 13,
+      "type": "phone_number"
+     },
+     {
+      "offset": 420,
+      "length": 25,
+      "type": "text_link",
+      "url": "https://t.me/Registan_LC"
+     },
+     {
+      "offset": 450,
+      "length": 8,
+      "type": "text_link",
+      "url": "https://t.me/RegistanLC_Academy"
+     },
+     {
+      "offset": 463,
+      "length": 9,
+      "type": "text_link",
+      "url": "https://instagram.com/registanlc_academy"
+     },
+     {
+      "offset": 477,
+      "length": 8,
+      "type": "text_link",
+      "url": "https://goo.gl/maps/ziHA5ukgVtbGmwwR6"
+     }
+    ]
+   }
+  },
+  {
+   "ok": true,
+   "result": {
+    "message_id": 3713,
+    "sender_chat": {
+     "id": -1001675672165,
+     "title": "Registan LC | Academy filiali",
+     "username": "RegistanLC_Academy",
+     "type": "channel"
+    },
+    "chat": {
+     "id": -1001675672165,
+     "title": "Registan LC | Academy filiali",
+     "username": "RegistanLC_Academy",
+     "type": "channel"
+    },
+    "date": 1793634619,
+    "poll": {
+     "id": "5422509521027211458",
+     "question": "7 ning 2026-darajasi qaysi raqam bilan tugaydi?",
+     "options": [
+      {
+       "persistent_id": "0",
+       "text": "7",
+       "voter_count": 0
+      },
+      {
+       "persistent_id": "1",
+       "text": "9",
+       "voter_count": 0
+      },
+      {
+       "persistent_id": "2",
+       "text": "3",
+       "voter_count": 0
+      },
+      {
+       "persistent_id": "3",
+       "text": "1",
+       "voter_count": 0
+      }
+     ],
+     "total_voter_count": 0,
+     "is_closed": false,
+     "is_anonymous": true,
+     "allows_multiple_answers": false,
+     "allows_revoting": false,
+     "members_only": false,
+     "type": "quiz",
+     "correct_option_id": 1,
+     "correct_option_ids": [
+      1
+     ],
+     "explanation": "Oxirgi raqamlar 7, 9, 3, 1 bo'lib takrorlanadi, har 4 qadamda. 2026 ni 4 ga bo'lsak, qoldiq 2 chiqadi. Demak ikkinchi raqam: 9.",
+     "explanation_entities": []
+    }
+   }
+  }
+ ],
+ "posted_at": "2026-11-02T15:50:19.245212+00:00"
+}
