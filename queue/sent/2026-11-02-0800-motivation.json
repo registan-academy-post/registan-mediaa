@@ -1,0 +1,177 @@
+{
+ "id": "2026-11-02-0800-motivation",
+ "steps": [
+  {
+   "method": "sendMediaGroup",
+   "params": {
+    "chat_id": "@RegistanLC_Academy",
+    "media": [
+     {
+      "type": "photo",
+      "media": "https://raw.githubusercontent.com/registan-academy-post/registan-mediaa/main/posts/2026-11-02/0800_learn_by_doing_aristotle.jpg",
+      "caption": "Xayrli tong! Yangi hafta boshlandi 🙂\n\nKo'pchilik \"avval yaxshilab o'rganib olay, keyin gapiraman\" deb yuradi. Aristotel esa ancha oldin aytib ketgan: ko'p narsani aynan qilib turib o'rganamiz. Ingliz tili ham shunday.\n\nBugun bitta yangi so'zni topib, uni gap ichida ishlatib ko'ring. Do'stingizga yozing, o'zingizga ovozli xabar qiling, muhimi qiling.\n\nYaxshi hafta tilaymiz.\n\n📌 <a href=\"https://registan.edutizim.uz/order/entry/?survey=s33\">https://registan.edutizim.uz/order/entry/?survey=s33</a>\n\n📞 +998935512700\n\n📱 <a href=\"https://t.me/Registan_LC\">Follow us on social media</a>:\n\n📱<a href=\"https://t.me/RegistanLC_Academy\">Telegram</a>   📱<a href=\"https://instagram.com/registanlc_academy\">Instagram</a>   📱<a href=\"https://goo.gl/maps/ziHA5ukgVtbGmwwR6\">Location</a>",
+      "parse_mode": "HTML"
+     },
+     {
+      "type": "photo",
+      "media": "https://raw.githubusercontent.com/registan-academy-post/registan-mediaa/main/posts/2026-11-02/0800_must_do_goethe.jpg"
+     }
+    ]
+   }
+  }
+ ],
+ "results": [
+  {
+   "ok": true,
+   "result": [
+    {
+     "message_id": 3702,
+     "sender_chat": {
+      "id": -1001675672165,
+      "title": "Registan LC | Academy filiali",
+      "username": "RegistanLC_Academy",
+      "type": "channel"
+     },
+     "chat": {
+      "id": -1001675672165,
+      "title": "Registan LC | Academy filiali",
+      "username": "RegistanLC_Academy",
+      "type": "channel"
+     },
+     "date": 1793588074,
+     "media_group_id": "14348704596759826",
+     "photo": [
+      {
+       "file_id": "AgACAgQAAxUHauf7ajYaTyOKWHLXpbZgRVfdsaEAAjwOaxvAbURTsdRtVLzH-2kBAAMCAANzAAM9BA",
+       "file_unique_id": "AQADPA5rG8BtRFN4",
+       "file_size": 1382,
+       "width": 72,
+       "height": 90
+      },
+      {
+       "file_id": "AgACAgQAAxUHauf7ajYaTyOKWHLXpbZgRVfdsaEAAjwOaxvAbURTsdRtVLzH-2kBAAMCAANtAAM9BA",
+       "file_unique_id": "AQADPA5rG8BtRFNy",
+       "file_size": 16899,
+       "width": 256,
+       "height": 320
+      },
+      {
+       "file_id": "AgACAgQAAxUHauf7ajYaTyOKWHLXpbZgRVfdsaEAAjwOaxvAbURTsdRtVLzH-2kBAAMCAAN4AAM9BA",
+       "file_unique_id": "AQADPA5rG8BtRFN9",
+       "file_size": 57642,
+       "width": 640,
+       "height": 800
+      },
+      {
+       "file_id": "AgACAgQAAxUHauf7ajYaTyOKWHLXpbZgRVfdsaEAAjwOaxvAbURTsdRtVLzH-2kBAAMCAAN5AAM9BA",
+       "file_unique_id": "AQADPA5rG8BtRFN-",
+       "file_size": 103781,
+       "width": 1024,
+       "height": 1280
+      },
+      {
+       "file_id": "AgACAgQAAxUHauf7ajYaTyOKWHLXpbZgRVfdsaEAAjwOaxvAbURTsdRtVLzH-2kBAAMCAAN3AAM9BA",
+       "file_unique_id": "AQADPA5rG8BtRFN8",
+       "file_size": 250020,
+       "width": 2048,
+       "height": 2560
+      }
+     ],
+     "caption": "Xayrli tong! Yangi hafta boshlandi 🙂\n\nKo'pchilik \"avval yaxshilab o'rganib olay, keyin gapiraman\" deb yuradi. Aristotel esa ancha oldin aytib ketgan: ko'p narsani aynan qilib turib o'rganamiz. Ingliz tili ham shunday.\n\nBugun bitta yangi so'zni topib, uni gap ichida ishlatib ko'ring. Do'stingizga yozing, o'zingizga ovozli xabar qiling, muhimi qiling.\n\nYaxshi hafta tilaymiz.\n\n📌 https://registan.edutizim.uz/order/entry/?survey=s33\n\n📞 +998935512700\n\n📱 Follow us on social media:\n\n📱Telegram   📱Instagram   📱Location",
+     "caption_entities": [
+      {
+       "offset": 381,
+       "length": 52,
+       "type": "text_link",
+       "url": "https://registan.edutizim.uz/order/entry/?survey=s33"
+      },
+      {
+       "offset": 438,
+       "length": 13,
+       "type": "phone_number"
+      },
+      {
+       "offset": 456,
+       "length": 25,
+       "type": "text_link",
+       "url": "https://t.me/Registan_LC"
+      },
+      {
+       "offset": 486,
+       "length": 8,
+       "type": "text_link",
+       "url": "https://t.me/RegistanLC_Academy"
+      },
+      {
+       "offset": 499,
+       "length": 9,
+       "type": "text_link",
+       "url": "https://instagram.com/registanlc_academy"
+      },
+      {
+       "offset": 513,
+       "length": 8,
+       "type": "text_link",
+       "url": "https://goo.gl/maps/ziHA5ukgVtbGmwwR6"
+      }
+     ]
+    },
+    {
+     "message_id": 3703,
+     "sender_chat": {
+      "id": -1001675672165,
+      "title": "Registan LC | Academy filiali",
+      "username": "RegistanLC_Academy",
+      "type": "channel"
+     },
+     "chat": {
+      "id": -1001675672165,
+      "title": "Registan LC | Academy filiali",
+      "username": "RegistanLC_Academy",
+      "type": "channel"
+     },
+     "date": 1793588074,
+     "media_group_id": "14348704596759826",
+     "photo": [
+      {
+       "file_id": "AgACAgQAAxUHauf7auIJg1Dmh4C_ljoVhboplqMAAuwOaxtSQkRTsARUQcsIA5sBAAMCAANzAAM9BA",
+       "file_unique_id": "AQAD7A5rG1JCRFN4",
+       "file_size": 1253,
+       "width": 72,
+       "height": 90
+      },
+      {
+       "file_id": "AgACAgQAAxUHauf7auIJg1Dmh4C_ljoVhboplqMAAuwOaxtSQkRTsARUQcsIA5sBAAMCAANtAAM9BA",
+       "file_unique_id": "AQAD7A5rG1JCRFNy",
+       "file_size": 16891,
+       "width": 256,
+       "height": 320
+      },
+      {
+       "file_id": "AgACAgQAAxUHauf7auIJg1Dmh4C_ljoVhboplqMAAuwOaxtSQkRTsARUQcsIA5sBAAMCAAN4AAM9BA",
+       "file_unique_id": "AQAD7A5rG1JCRFN9",
+       "file_size": 60428,
+       "width": 640,
+       "height": 800
+      },
+      {
+       "file_id": "AgACAgQAAxUHauf7auIJg1Dmh4C_ljoVhboplqMAAuwOaxtSQkRTsARUQcsIA5sBAAMCAAN5AAM9BA",
+       "file_unique_id": "AQAD7A5rG1JCRFN-",
+       "file_size": 114963,
+       "width": 1024,
+       "height": 1280
+      },
+      {
+       "file_id": "AgACAgQAAxUHauf7auIJg1Dmh4C_ljoVhboplqMAAuwOaxtSQkRTsARUQcsIA5sBAAMCAAN3AAM9BA",
+       "file_unique_id": "AQAD7A5rG1JCRFN8",
+       "file_size": 326409,
+       "width": 2048,
+       "height": 2560
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "posted_at": "2026-11-02T02:54:34.705487+00:00"
+}
