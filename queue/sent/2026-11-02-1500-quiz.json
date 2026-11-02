@@ -1,0 +1,404 @@
+{
+ "id": "2026-11-02-1500-quiz",
+ "steps": [
+  {
+   "method": "sendMessage",
+   "params": {
+    "chat_id": "@RegistanLC_Academy",
+    "text": "Bugungi test Elementary guruhlar uchun: this, that, these, those va uydagi oddiy buyumlar.\n5 ta savol, oxirgisi biroz qitmirroq 🙂"
+   }
+  },
+  {
+   "method": "sendPoll",
+   "params": {
+    "chat_id": "@RegistanLC_Academy",
+    "question": "Fill the gap: Look at ___ birds in the sky over there!",
+    "options": [
+     "those",
+     "these",
+     "this"
+    ],
+    "type": "quiz",
+    "is_anonymous": true,
+    "correct_option_id": 0,
+    "explanation": "\"Birds\" ko'plik, \"over there\" esa uzoqda degani. Ko'plik + uzoq = those."
+   }
+  },
+  {
+   "method": "sendPoll",
+   "params": {
+    "chat_id": "@RegistanLC_Academy",
+    "question": "You keep your money and bank cards in it. It's small and fits in your pocket. What is it?",
+    "options": [
+     "a charger",
+     "an umbrella",
+     "a wallet",
+     "a towel"
+    ],
+    "type": "quiz",
+    "is_anonymous": true,
+    "correct_option_id": 2,
+    "explanation": "Wallet hamyon degani: pul va kartalarni unda olib yurasiz. Charger zaryadlovchi, umbrella soyabon, towel sochiq."
+   }
+  },
+  {
+   "method": "sendPoll",
+   "params": {
+    "chat_id": "@RegistanLC_Academy",
+    "question": "Fill the gap: My parents ___ from Samarkand. They're from Bukhara.",
+    "options": [
+     "isn't",
+     "aren't",
+     "not",
+     "don't"
+    ],
+    "type": "quiz",
+    "is_anonymous": true,
+    "correct_option_id": 1,
+    "explanation": "\"My parents\" ko'plik (they), be inkori esa aren't. \"Don't\" be bilan ishlatilmaydi, \"not\" yolg'iz kelmaydi."
+   }
+  },
+  {
+   "method": "sendPoll",
+   "params": {
+    "chat_id": "@RegistanLC_Academy",
+    "question": "Choose the correct sentence.",
+    "options": [
+     "This are my keys.",
+     "This keys are mine.",
+     "These is my key.",
+     "These keys are mine."
+    ],
+    "type": "quiz",
+    "is_anonymous": true,
+    "correct_option_id": 3,
+    "explanation": "Keys ko'plik, shuning uchun these va are: These keys are mine. This faqat birlik bilan keladi."
+   }
+  },
+  {
+   "method": "sendPoll",
+   "params": {
+    "chat_id": "@RegistanLC_Academy",
+    "question": "Find the mistake: A: Is that your bag on the chair? B: No, it isn't. These bag is Aziza's.",
+    "options": [
+     "Is that",
+     "it isn't",
+     "These bag",
+     "Aziza's"
+    ],
+    "type": "quiz",
+    "is_anonymous": true,
+    "correct_option_id": 2,
+    "explanation": "Bag birlik, these esa faqat ko'plik uchun. To'g'risi: That bag is Aziza's (sumka uzoqroqda, stulda turibdi)."
+   }
+  }
+ ],
+ "results": [
+  {
+   "ok": true,
+   "result": {
+    "message_id": 3706,
+    "sender_chat": {
+     "id": -1001675672165,
+     "title": "Registan LC | Academy filiali",
+     "username": "RegistanLC_Academy",
+     "type": "channel"
+    },
+    "chat": {
+     "id": -1001675672165,
+     "title": "Registan LC | Academy filiali",
+     "username": "RegistanLC_Academy",
+     "type": "channel"
+    },
+    "date": 1793613301,
+    "text": "Bugungi test Elementary guruhlar uchun: this, that, these, those va uydagi oddiy buyumlar.\n5 ta savol, oxirgisi biroz qitmirroq 🙂"
+   }
+  },
+  {
+   "ok": true,
+   "result": {
+    "message_id": 3707,
+    "sender_chat": {
+     "id": -1001675672165,
+     "title": "Registan LC | Academy filiali",
+     "username": "RegistanLC_Academy",
+     "type": "channel"
+    },
+    "chat": {
+     "id": -1001675672165,
+     "title": "Registan LC | Academy filiali",
+     "username": "RegistanLC_Academy",
+     "type": "channel"
+    },
+    "date": 1793613301,
+    "poll": {
+     "id": "5422509521027211305",
+     "question": "Fill the gap: Look at ___ birds in the sky over there!",
+     "options": [
+      {
+       "persistent_id": "0",
+       "text": "those",
+       "voter_count": 0
+      },
+      {
+       "persistent_id": "1",
+       "text": "these",
+       "voter_count": 0
+      },
+      {
+       "persistent_id": "2",
+       "text": "this",
+       "voter_count": 0
+      }
+     ],
+     "total_voter_count": 0,
+     "is_closed": false,
+     "is_anonymous": true,
+     "allows_multiple_answers": false,
+     "allows_revoting": false,
+     "members_only": false,
+     "type": "quiz",
+     "correct_option_id": 0,
+     "correct_option_ids": [
+      0
+     ],
+     "explanation": "\"Birds\" ko'plik, \"over there\" esa uzoqda degani. Ko'plik + uzoq = those.",
+     "explanation_entities": []
+    }
+   }
+  },
+  {
+   "ok": true,
+   "result": {
+    "message_id": 3708,
+    "sender_chat": {
+     "id": -1001675672165,
+     "title": "Registan LC | Academy filiali",
+     "username": "RegistanLC_Academy",
+     "type": "channel"
+    },
+    "chat": {
+     "id": -1001675672165,
+     "title": "Registan LC | Academy filiali",
+     "username": "RegistanLC_Academy",
+     "type": "channel"
+    },
+    "date": 1793613301,
+    "poll": {
+     "id": "5422509521027211306",
+     "question": "You keep your money and bank cards in it. It's small and fits in your pocket. What is it?",
+     "options": [
+      {
+       "persistent_id": "0",
+       "text": "a charger",
+       "voter_count": 0
+      },
+      {
+       "persistent_id": "1",
+       "text": "an umbrella",
+       "voter_count": 0
+      },
+      {
+       "persistent_id": "2",
+       "text": "a wallet",
+       "voter_count": 0
+      },
+      {
+       "persistent_id": "3",
+       "text": "a towel",
+       "voter_count": 0
+      }
+     ],
+     "total_voter_count": 0,
+     "is_closed": false,
+     "is_anonymous": true,
+     "allows_multiple_answers": false,
+     "allows_revoting": false,
+     "members_only": false,
+     "type": "quiz",
+     "correct_option_id": 2,
+     "correct_option_ids": [
+      2
+     ],
+     "explanation": "Wallet hamyon degani: pul va kartalarni unda olib yurasiz. Charger zaryadlovchi, umbrella soyabon, towel sochiq.",
+     "explanation_entities": []
+    }
+   }
+  },
+  {
+   "ok": true,
+   "result": {
+    "message_id": 3709,
+    "sender_chat": {
+     "id": -1001675672165,
+     "title": "Registan LC | Academy filiali",
+     "username": "RegistanLC_Academy",
+     "type": "channel"
+    },
+    "chat": {
+     "id": -1001675672165,
+     "title": "Registan LC | Academy filiali",
+     "username": "RegistanLC_Academy",
+     "type": "channel"
+    },
+    "date": 1793613302,
+    "poll": {
+     "id": "5422509521027211307",
+     "question": "Fill the gap: My parents ___ from Samarkand. They're from Bukhara.",
+     "options": [
+      {
+       "persistent_id": "0",
+       "text": "isn't",
+       "voter_count": 0
+      },
+      {
+       "persistent_id": "1",
+       "text": "aren't",
+       "voter_count": 0
+      },
+      {
+       "persistent_id": "2",
+       "text": "not",
+       "voter_count": 0
+      },
+      {
+       "persistent_id": "3",
+       "text": "don't",
+       "voter_count": 0
+      }
+     ],
+     "total_voter_count": 0,
+     "is_closed": false,
+     "is_anonymous": true,
+     "allows_multiple_answers": false,
+     "allows_revoting": false,
+     "members_only": false,
+     "type": "quiz",
+     "correct_option_id": 1,
+     "correct_option_ids": [
+      1
+     ],
+     "explanation": "\"My parents\" ko'plik (they), be inkori esa aren't. \"Don't\" be bilan ishlatilmaydi, \"not\" yolg'iz kelmaydi.",
+     "explanation_entities": []
+    }
+   }
+  },
+  {
+   "ok": true,
+   "result": {
+    "message_id": 3710,
+    "sender_chat": {
+     "id": -1001675672165,
+     "title": "Registan LC | Academy filiali",
+     "username": "RegistanLC_Academy",
+     "type": "channel"
+    },
+    "chat": {
+     "id": -1001675672165,
+     "title": "Registan LC | Academy filiali",
+     "username": "RegistanLC_Academy",
+     "type": "channel"
+    },
+    "date": 1793613302,
+    "poll": {
+     "id": "5422509521027211308",
+     "question": "Choose the correct sentence.",
+     "options": [
+      {
+       "persistent_id": "0",
+       "text": "This are my keys.",
+       "voter_count": 0
+      },
+      {
+       "persistent_id": "1",
+       "text": "This keys are mine.",
+       "voter_count": 0
+      },
+      {
+       "persistent_id": "2",
+       "text": "These is my key.",
+       "voter_count": 0
+      },
+      {
+       "persistent_id": "3",
+       "text": "These keys are mine.",
+       "voter_count": 0
+      }
+     ],
+     "total_voter_count": 0,
+     "is_closed": false,
+     "is_anonymous": true,
+     "allows_multiple_answers": false,
+     "allows_revoting": false,
+     "members_only": false,
+     "type": "quiz",
+     "correct_option_id": 3,
+     "correct_option_ids": [
+      3
+     ],
+     "explanation": "Keys ko'plik, shuning uchun these va are: These keys are mine. This faqat birlik bilan keladi.",
+     "explanation_entities": []
+    }
+   }
+  },
+  {
+   "ok": true,
+   "result": {
+    "message_id": 3711,
+    "sender_chat": {
+     "id": -1001675672165,
+     "title": "Registan LC | Academy filiali",
+     "username": "RegistanLC_Academy",
+     "type": "channel"
+    },
+    "chat": {
+     "id": -1001675672165,
+     "title": "Registan LC | Academy filiali",
+     "username": "RegistanLC_Academy",
+     "type": "channel"
+    },
+    "date": 1793613306,
+    "poll": {
+     "id": "5422509521027211309",
+     "question": "Find the mistake: A: Is that your bag on the chair? B: No, it isn't. These bag is Aziza's.",
+     "options": [
+      {
+       "persistent_id": "0",
+       "text": "Is that",
+       "voter_count": 0
+      },
+      {
+       "persistent_id": "1",
+       "text": "it isn't",
+       "voter_count": 0
+      },
+      {
+       "persistent_id": "2",
+       "text": "These bag",
+       "voter_count": 0
+      },
+      {
+       "persistent_id": "3",
+       "text": "Aziza's",
+       "voter_count": 0
+      }
+     ],
+     "total_voter_count": 0,
+     "is_closed": false,
+     "is_anonymous": true,
+     "allows_multiple_answers": false,
+     "allows_revoting": false,
+     "members_only": false,
+     "type": "quiz",
+     "correct_option_id": 2,
+     "correct_option_ids": [
+      2
+     ],
+     "explanation": "Bag birlik, these esa faqat ko'plik uchun. To'g'risi: That bag is Aziza's (sumka uzoqroqda, stulda turibdi).",
+     "explanation_entities": []
+    }
+   }
+  }
+ ],
+ "posted_at": "2026-11-02T09:55:06.328999+00:00"
+}
