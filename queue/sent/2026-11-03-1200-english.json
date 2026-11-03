@@ -1,0 +1,131 @@
+{
+ "id": "2026-11-03-1200-english",
+ "steps": [
+  {
+   "method": "sendPhoto",
+   "params": {
+    "chat_id": "@RegistanLC_Academy",
+    "photo": "https://raw.githubusercontent.com/registan-academy-post/registan-mediaa/main/posts/2026-11-03/1200_ielts_writing_however_punctuation.jpg",
+    "caption": "IELTS Writing'da \"however\" eng ko'p ishlatiladigan so'zlardan biri. Ma'nosi biroq, ammo. Lekin tinish belgisida ko'pchilik xato qiladi.\n\nMana bunday yozish xato: <i>Many people use public transport, however, it is often crowded.</i> Bu yerda ikkita to'liq gap bor, \"however\" esa \"but\" kabi bog'lovchi emas, ularni vergul bilan ulay olmaydi.\n\nTo'g'risi ikki xil. Nuqta qo'yib, yangi gap boshlang: <i>Many people use public transport. However, it is often crowded.</i> Yoki nuqtali vergul qo'ying: <i>Prices have risen sharply; however, demand is still growing.</i> Ikkala holatda ham \"however\"dan keyin vergul turadi.\n\nVergul bilan ulamoqchi bo'lsangiz, oddiy \"but\" yetarli: <i>Many people use public transport, but it is often crowded.</i>\n\nEssayni tekshirganda har bir \"however\"ning oldiga bir qarang, Grammatical Range and Accuracy uchun bu muhim ✍️\n\n📌 <a href=\"https://registan.edutizim.uz/order/entry/?survey=s33\">https://registan.edutizim.uz/order/entry/?survey=s33</a>\n\n📞 +998935512700\n\n📱 <a href=\"https://t.me/Registan_LC\">Follow us on social media</a>:\n\n📱<a href=\"https://t.me/RegistanLC_Academy\">Telegram</a>   📱<a href=\"https://instagram.com/registanlc_academy\">Instagram</a>   📱<a href=\"https://goo.gl/maps/ziHA5ukgVtbGmwwR6\">Location</a>",
+    "parse_mode": "HTML"
+   }
+  }
+ ],
+ "results": [
+  {
+   "ok": true,
+   "result": {
+    "message_id": 3716,
+    "sender_chat": {
+     "id": -1001675672165,
+     "title": "Registan LC | Academy filiali",
+     "username": "RegistanLC_Academy",
+     "type": "channel"
+    },
+    "chat": {
+     "id": -1001675672165,
+     "title": "Registan LC | Academy filiali",
+     "username": "RegistanLC_Academy",
+     "type": "channel"
+    },
+    "date": 1793688950,
+    "photo": [
+     {
+      "file_id": "AgACAgQAAx0EY-C6ZQACDoRq6YV25kFeog_PiIplgOqMClHfXQACgg5rG62NVVPXgVeG5qqcbwEAAwIAA3MAAz0E",
+      "file_unique_id": "AQADgg5rG62NVVN4",
+      "file_size": 1167,
+      "width": 72,
+      "height": 90
+     },
+     {
+      "file_id": "AgACAgQAAx0EY-C6ZQACDoRq6YV25kFeog_PiIplgOqMClHfXQACgg5rG62NVVPXgVeG5qqcbwEAAwIAA20AAz0E",
+      "file_unique_id": "AQADgg5rG62NVVNy",
+      "file_size": 13205,
+      "width": 256,
+      "height": 320
+     },
+     {
+      "file_id": "AgACAgQAAx0EY-C6ZQACDoRq6YV25kFeog_PiIplgOqMClHfXQACgg5rG62NVVPXgVeG5qqcbwEAAwIAA3gAAz0E",
+      "file_unique_id": "AQADgg5rG62NVVN9",
+      "file_size": 46808,
+      "width": 640,
+      "height": 800
+     },
+     {
+      "file_id": "AgACAgQAAx0EY-C6ZQACDoRq6YV25kFeog_PiIplgOqMClHfXQACgg5rG62NVVPXgVeG5qqcbwEAAwIAA3kAAz0E",
+      "file_unique_id": "AQADgg5rG62NVVN-",
+      "file_size": 86010,
+      "width": 1024,
+      "height": 1280
+     },
+     {
+      "file_id": "AgACAgQAAx0EY-C6ZQACDoRq6YV25kFeog_PiIplgOqMClHfXQACgg5rG62NVVPXgVeG5qqcbwEAAwIAA3cAAz0E",
+      "file_unique_id": "AQADgg5rG62NVVN8",
+      "file_size": 218344,
+      "width": 2048,
+      "height": 2560
+     }
+    ],
+    "caption": "IELTS Writing'da \"however\" eng ko'p ishlatiladigan so'zlardan biri. Ma'nosi biroq, ammo. Lekin tinish belgisida ko'pchilik xato qiladi.\n\nMana bunday yozish xato: Many people use public transport, however, it is often crowded. Bu yerda ikkita to'liq gap bor, \"however\" esa \"but\" kabi bog'lovchi emas, ularni vergul bilan ulay olmaydi.\n\nTo'g'risi ikki xil. Nuqta qo'yib, yangi gap boshlang: Many people use public transport. However, it is often crowded. Yoki nuqtali vergul qo'ying: Prices have risen sharply; however, demand is still growing. Ikkala holatda ham \"however\"dan keyin vergul turadi.\n\nVergul bilan ulamoqchi bo'lsangiz, oddiy \"but\" yetarli: Many people use public transport, but it is often crowded.\n\nEssayni tekshirganda har bir \"however\"ning oldiga bir qarang, Grammatical Range and Accuracy uchun bu muhim ✍️\n\n📌 https://registan.edutizim.uz/order/entry/?survey=s33\n\n📞 +998935512700\n\n📱 Follow us on social media:\n\n📱Telegram   📱Instagram   📱Location",
+    "caption_entities": [
+     {
+      "offset": 162,
+      "length": 63,
+      "type": "italic"
+     },
+     {
+      "offset": 389,
+      "length": 63,
+      "type": "italic"
+     },
+     {
+      "offset": 482,
+      "length": 60,
+      "type": "italic"
+     },
+     {
+      "offset": 653,
+      "length": 58,
+      "type": "italic"
+     },
+     {
+      "offset": 828,
+      "length": 52,
+      "type": "text_link",
+      "url": "https://registan.edutizim.uz/order/entry/?survey=s33"
+     },
+     {
+      "offset": 885,
+      "length": 13,
+      "type": "phone_number"
+     },
+     {
+      "offset": 903,
+      "length": 25,
+      "type": "text_link",
+      "url": "https://t.me/Registan_LC"
+     },
+     {
+      "offset": 933,
+      "length": 8,
+      "type": "text_link",
+      "url": "https://t.me/RegistanLC_Academy"
+     },
+     {
+      "offset": 946,
+      "length": 9,
+      "type": "text_link",
+      "url": "https://instagram.com/registanlc_academy"
+     },
+     {
+      "offset": 960,
+      "length": 8,
+      "type": "text_link",
+      "url": "https://goo.gl/maps/ziHA5ukgVtbGmwwR6"
+     }
+    ]
+   }
+  }
+ ],
+ "posted_at": "2026-11-03T06:55:50.780435+00:00"
+}
