@@ -1,0 +1,410 @@
+{
+ "id": "2026-11-03-1500-quiz",
+ "steps": [
+  {
+   "method": "sendMessage",
+   "params": {
+    "chat_id": "@RegistanLC_Academy",
+    "text": "Beginner guruhlar, bugun yangi mavzu: telefon raqam va email so'rash, ismni harflab aytish.\n5 ta savol, qani kim 5/5 qiladi?"
+   }
+  },
+  {
+   "method": "sendPoll",
+   "params": {
+    "chat_id": "@RegistanLC_Academy",
+    "question": "How do you say the symbol @ in an email address?",
+    "options": [
+     "and",
+     "at",
+     "dot",
+     "about"
+    ],
+    "type": "quiz",
+    "is_anonymous": true,
+    "correct_option_id": 1,
+    "explanation": "@ belgisi \"at\" deb o'qiladi: ali at gmail dot com. Nuqta (.) esa \"dot\" bo'ladi."
+   }
+  },
+  {
+   "method": "sendPoll",
+   "params": {
+    "chat_id": "@RegistanLC_Academy",
+    "question": "A: What's your phone number?\nB: ___ 90 123 45 67.",
+    "options": [
+     "I'm",
+     "Is",
+     "It's",
+     "They're"
+    ],
+    "type": "quiz",
+    "is_anonymous": true,
+    "correct_option_id": 2,
+    "explanation": "\"It's\" = \"It is\". Raqam haqida gapiryapmiz, u narsa, shuning uchun \"it\". \"I'm\" o'zingiz haqingizda gapirganda ishlatiladi."
+   }
+  },
+  {
+   "method": "sendPoll",
+   "params": {
+    "chat_id": "@RegistanLC_Academy",
+    "question": "A: Are you and Malika students?\nB: Yes, ___.",
+    "options": [
+     "we are",
+     "we're",
+     "they are",
+     "you are"
+    ],
+    "type": "quiz",
+    "is_anonymous": true,
+    "correct_option_id": 0,
+    "explanation": "\"You and Malika\" deb so'rashsa, javob \"we\" bilan. Qisqa \"Yes\" javobda qisqartma ishlatilmaydi: Yes, we are. \"Yes, we're\" xato."
+   }
+  },
+  {
+   "method": "sendPoll",
+   "params": {
+    "chat_id": "@RegistanLC_Academy",
+    "question": "Choose the correct question.",
+    "options": [
+     "What your email address?",
+     "What are your email address?",
+     "What's you email address?",
+     "What's your email address?"
+    ],
+    "type": "quiz",
+    "is_anonymous": true,
+    "correct_option_id": 3,
+    "explanation": "\"Email address\" bitta narsa, shuning uchun \"is\" (What's). \"You\" emas, egalik uchun \"your\" kerak: What's your email address?"
+   }
+  },
+  {
+   "method": "sendPoll",
+   "params": {
+    "chat_id": "@RegistanLC_Academy",
+    "question": "Find the mistake:\nA: What's your phone number?\nB: My number is 93 456 78 90.\nA: Sorry, can you say it again?\nB: Yes, of course. Its 93 456 78 90.",
+    "options": [
+     "What's your phone number?",
+     "My number is",
+     "can you say it again?",
+     "Its 93 456 78 90"
+    ],
+    "type": "quiz",
+    "is_anonymous": true,
+    "correct_option_id": 3,
+    "explanation": "\"It is\" qisqartmasi apostrof bilan yoziladi: It's. \"Its\" esa \"uning\" degani (egalik), bu yerda to'g'ri kelmaydi."
+   }
+  }
+ ],
+ "results": [
+  {
+   "ok": true,
+   "result": {
+    "message_id": 3717,
+    "sender_chat": {
+     "id": -1001675672165,
+     "title": "Registan LC | Academy filiali",
+     "username": "RegistanLC_Academy",
+     "type": "channel"
+    },
+    "chat": {
+     "id": -1001675672165,
+     "title": "Registan LC | Academy filiali",
+     "username": "RegistanLC_Academy",
+     "type": "channel"
+    },
+    "date": 1793699692,
+    "text": "Beginner guruhlar, bugun yangi mavzu: telefon raqam va email so'rash, ismni harflab aytish.\n5 ta savol, qani kim 5/5 qiladi?"
+   }
+  },
+  {
+   "ok": true,
+   "result": {
+    "message_id": 3718,
+    "sender_chat": {
+     "id": -1001675672165,
+     "title": "Registan LC | Academy filiali",
+     "username": "RegistanLC_Academy",
+     "type": "channel"
+    },
+    "chat": {
+     "id": -1001675672165,
+     "title": "Registan LC | Academy filiali",
+     "username": "RegistanLC_Academy",
+     "type": "channel"
+    },
+    "date": 1793699693,
+    "poll": {
+     "id": "5424761320840895973",
+     "question": "How do you say the symbol @ in an email address?",
+     "options": [
+      {
+       "persistent_id": "0",
+       "text": "and",
+       "voter_count": 0
+      },
+      {
+       "persistent_id": "1",
+       "text": "at",
+       "voter_count": 0
+      },
+      {
+       "persistent_id": "2",
+       "text": "dot",
+       "voter_count": 0
+      },
+      {
+       "persistent_id": "3",
+       "text": "about",
+       "voter_count": 0
+      }
+     ],
+     "total_voter_count": 0,
+     "is_closed": false,
+     "is_anonymous": true,
+     "allows_multiple_answers": false,
+     "allows_revoting": false,
+     "members_only": false,
+     "type": "quiz",
+     "correct_option_id": 1,
+     "correct_option_ids": [
+      1
+     ],
+     "explanation": "@ belgisi \"at\" deb o'qiladi: ali at gmail dot com. Nuqta (.) esa \"dot\" bo'ladi.",
+     "explanation_entities": []
+    }
+   }
+  },
+  {
+   "ok": true,
+   "result": {
+    "message_id": 3719,
+    "sender_chat": {
+     "id": -1001675672165,
+     "title": "Registan LC | Academy filiali",
+     "username": "RegistanLC_Academy",
+     "type": "channel"
+    },
+    "chat": {
+     "id": -1001675672165,
+     "title": "Registan LC | Academy filiali",
+     "username": "RegistanLC_Academy",
+     "type": "channel"
+    },
+    "date": 1793699693,
+    "poll": {
+     "id": "5424761320840895974",
+     "question": "A: What's your phone number?\nB: ___ 90 123 45 67.",
+     "options": [
+      {
+       "persistent_id": "0",
+       "text": "I'm",
+       "voter_count": 0
+      },
+      {
+       "persistent_id": "1",
+       "text": "Is",
+       "voter_count": 0
+      },
+      {
+       "persistent_id": "2",
+       "text": "It's",
+       "voter_count": 0
+      },
+      {
+       "persistent_id": "3",
+       "text": "They're",
+       "voter_count": 0
+      }
+     ],
+     "total_voter_count": 0,
+     "is_closed": false,
+     "is_anonymous": true,
+     "allows_multiple_answers": false,
+     "allows_revoting": false,
+     "members_only": false,
+     "type": "quiz",
+     "correct_option_id": 2,
+     "correct_option_ids": [
+      2
+     ],
+     "explanation": "\"It's\" = \"It is\". Raqam haqida gapiryapmiz, u narsa, shuning uchun \"it\". \"I'm\" o'zingiz haqingizda gapirganda ishlatiladi.",
+     "explanation_entities": []
+    }
+   }
+  },
+  {
+   "ok": true,
+   "result": {
+    "message_id": 3720,
+    "sender_chat": {
+     "id": -1001675672165,
+     "title": "Registan LC | Academy filiali",
+     "username": "RegistanLC_Academy",
+     "type": "channel"
+    },
+    "chat": {
+     "id": -1001675672165,
+     "title": "Registan LC | Academy filiali",
+     "username": "RegistanLC_Academy",
+     "type": "channel"
+    },
+    "date": 1793699693,
+    "poll": {
+     "id": "5424761320840895975",
+     "question": "A: Are you and Malika students?\nB: Yes, ___.",
+     "options": [
+      {
+       "persistent_id": "0",
+       "text": "we are",
+       "voter_count": 0
+      },
+      {
+       "persistent_id": "1",
+       "text": "we're",
+       "voter_count": 0
+      },
+      {
+       "persistent_id": "2",
+       "text": "they are",
+       "voter_count": 0
+      },
+      {
+       "persistent_id": "3",
+       "text": "you are",
+       "voter_count": 0
+      }
+     ],
+     "total_voter_count": 0,
+     "is_closed": false,
+     "is_anonymous": true,
+     "allows_multiple_answers": false,
+     "allows_revoting": false,
+     "members_only": false,
+     "type": "quiz",
+     "correct_option_id": 0,
+     "correct_option_ids": [
+      0
+     ],
+     "explanation": "\"You and Malika\" deb so'rashsa, javob \"we\" bilan. Qisqa \"Yes\" javobda qisqartma ishlatilmaydi: Yes, we are. \"Yes, we're\" xato.",
+     "explanation_entities": []
+    }
+   }
+  },
+  {
+   "ok": true,
+   "result": {
+    "message_id": 3721,
+    "sender_chat": {
+     "id": -1001675672165,
+     "title": "Registan LC | Academy filiali",
+     "username": "RegistanLC_Academy",
+     "type": "channel"
+    },
+    "chat": {
+     "id": -1001675672165,
+     "title": "Registan LC | Academy filiali",
+     "username": "RegistanLC_Academy",
+     "type": "channel"
+    },
+    "date": 1793699694,
+    "poll": {
+     "id": "5424761320840895976",
+     "question": "Choose the correct question.",
+     "options": [
+      {
+       "persistent_id": "0",
+       "text": "What your email address?",
+       "voter_count": 0
+      },
+      {
+       "persistent_id": "1",
+       "text": "What are your email address?",
+       "voter_count": 0
+      },
+      {
+       "persistent_id": "2",
+       "text": "What's you email address?",
+       "voter_count": 0
+      },
+      {
+       "persistent_id": "3",
+       "text": "What's your email address?",
+       "voter_count": 0
+      }
+     ],
+     "total_voter_count": 0,
+     "is_closed": false,
+     "is_anonymous": true,
+     "allows_multiple_answers": false,
+     "allows_revoting": false,
+     "members_only": false,
+     "type": "quiz",
+     "correct_option_id": 3,
+     "correct_option_ids": [
+      3
+     ],
+     "explanation": "\"Email address\" bitta narsa, shuning uchun \"is\" (What's). \"You\" emas, egalik uchun \"your\" kerak: What's your email address?",
+     "explanation_entities": []
+    }
+   }
+  },
+  {
+   "ok": true,
+   "result": {
+    "message_id": 3722,
+    "sender_chat": {
+     "id": -1001675672165,
+     "title": "Registan LC | Academy filiali",
+     "username": "RegistanLC_Academy",
+     "type": "channel"
+    },
+    "chat": {
+     "id": -1001675672165,
+     "title": "Registan LC | Academy filiali",
+     "username": "RegistanLC_Academy",
+     "type": "channel"
+    },
+    "date": 1793699700,
+    "poll": {
+     "id": "5424761320840895977",
+     "question": "Find the mistake:\nA: What's your phone number?\nB: My number is 93 456 78 90. A: Sorry, can you say it again? B: Yes, of course. Its 93 456 78 90.",
+     "options": [
+      {
+       "persistent_id": "0",
+       "text": "What's your phone number?",
+       "voter_count": 0
+      },
+      {
+       "persistent_id": "1",
+       "text": "My number is",
+       "voter_count": 0
+      },
+      {
+       "persistent_id": "2",
+       "text": "can you say it again?",
+       "voter_count": 0
+      },
+      {
+       "persistent_id": "3",
+       "text": "Its 93 456 78 90",
+       "voter_count": 0
+      }
+     ],
+     "total_voter_count": 0,
+     "is_closed": false,
+     "is_anonymous": true,
+     "allows_multiple_answers": false,
+     "allows_revoting": false,
+     "members_only": false,
+     "type": "quiz",
+     "correct_option_id": 3,
+     "correct_option_ids": [
+      3
+     ],
+     "explanation": "\"It is\" qisqartmasi apostrof bilan yoziladi: It's. \"Its\" esa \"uning\" degani (egalik), bu yerda to'g'ri kelmaydi.",
+     "explanation_entities": []
+    }
+   }
+  }
+ ],
+ "posted_at": "2026-11-03T09:55:00.590056+00:00"
+}
