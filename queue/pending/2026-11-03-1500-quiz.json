@@ -1,0 +1,97 @@
+{
+ "id": "2026-11-03-1500-quiz",
+ "steps": [
+  {
+   "method": "sendMessage",
+   "params": {
+    "chat_id": "@RegistanLC_Academy",
+    "text": "Beginner guruhlar, bugun yangi mavzu: telefon raqam va email so'rash, ismni harflab aytish.\n5 ta savol, qani kim 5/5 qiladi?"
+   }
+  },
+  {
+   "method": "sendPoll",
+   "params": {
+    "chat_id": "@RegistanLC_Academy",
+    "question": "How do you say the symbol @ in an email address?",
+    "options": [
+     "and",
+     "at",
+     "dot",
+     "about"
+    ],
+    "type": "quiz",
+    "is_anonymous": true,
+    "correct_option_id": 1,
+    "explanation": "@ belgisi \"at\" deb o'qiladi: ali at gmail dot com. Nuqta (.) esa \"dot\" bo'ladi."
+   }
+  },
+  {
+   "method": "sendPoll",
+   "params": {
+    "chat_id": "@RegistanLC_Academy",
+    "question": "A: What's your phone number?\nB: ___ 90 123 45 67.",
+    "options": [
+     "I'm",
+     "Is",
+     "It's",
+     "They're"
+    ],
+    "type": "quiz",
+    "is_anonymous": true,
+    "correct_option_id": 2,
+    "explanation": "\"It's\" = \"It is\". Raqam haqida gapiryapmiz, u narsa, shuning uchun \"it\". \"I'm\" o'zingiz haqingizda gapirganda ishlatiladi."
+   }
+  },
+  {
+   "method": "sendPoll",
+   "params": {
+    "chat_id": "@RegistanLC_Academy",
+    "question": "A: Are you and Malika students?\nB: Yes, ___.",
+    "options": [
+     "we are",
+     "we're",
+     "they are",
+     "you are"
+    ],
+    "type": "quiz",
+    "is_anonymous": true,
+    "correct_option_id": 0,
+    "explanation": "\"You and Malika\" deb so'rashsa, javob \"we\" bilan. Qisqa \"Yes\" javobda qisqartma ishlatilmaydi: Yes, we are. \"Yes, we're\" xato."
+   }
+  },
+  {
+   "method": "sendPoll",
+   "params": {
+    "chat_id": "@RegistanLC_Academy",
+    "question": "Choose the correct question.",
+    "options": [
+     "What your email address?",
+     "What are your email address?",
+     "What's you email address?",
+     "What's your email address?"
+    ],
+    "type": "quiz",
+    "is_anonymous": true,
+    "correct_option_id": 3,
+    "explanation": "\"Email address\" bitta narsa, shuning uchun \"is\" (What's). \"You\" emas, egalik uchun \"your\" kerak: What's your email address?"
+   }
+  },
+  {
+   "method": "sendPoll",
+   "params": {
+    "chat_id": "@RegistanLC_Academy",
+    "question": "Find the mistake:\nA: What's your phone number?\nB: My number is 93 456 78 90.\nA: Sorry, can you say it again?\nB: Yes, of course. Its 93 456 78 90.",
+    "options": [
+     "What's your phone number?",
+     "My number is",
+     "can you say it again?",
+     "Its 93 456 78 90"
+    ],
+    "type": "quiz",
+    "is_anonymous": true,
+    "correct_option_id": 3,
+    "explanation": "\"It is\" qisqartmasi apostrof bilan yoziladi: It's. \"Its\" esa \"uning\" degani (egalik), bu yerda to'g'ri kelmaydi."
+   }
+  }
+ ]
+}
