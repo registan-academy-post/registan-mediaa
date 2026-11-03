@@ -1,0 +1,111 @@
+{
+ "id": "2026-11-03-2000-russian",
+ "steps": [
+  {
+   "method": "sendPhoto",
+   "params": {
+    "chat_id": "@RegistanLC_Academy",
+    "photo": "https://raw.githubusercontent.com/registan-academy-post/registan-mediaa/main/posts/2026-11-03/2000_ru_do_lampochki.jpg",
+    "caption": "Ruslar biror narsa umuman qiziq emasligini aytmoqchi bo'lsa, «Мне до лампочки» deydi. Ya'ni «menga mutlaqo farqi yo'q». Lampochka bu yerga qayerdan kelib qolgani haqida har xil gaplar bor, lekin ibora juda jonli 😄\n\nMasalan, do'stingiz «Куда пойдём, в кафе или в парк?» desa, siz: «Мне до лампочки, главное, чтобы с тобой».\n\nSizga nima до лампочки? Izohda ruscha bitta gap bilan yozib ko'ring.\n\n📌 <a href=\"https://registan.edutizim.uz/order/entry/?survey=s33\">https://registan.edutizim.uz/order/entry/?survey=s33</a>\n\n📞 +998935512700\n\n📱 <a href=\"https://t.me/Registan_LC\">Follow us on social media</a>:\n\n📱<a href=\"https://t.me/RegistanLC_Academy\">Telegram</a>   📱<a href=\"https://instagram.com/registanlc_academy\">Instagram</a>   📱<a href=\"https://goo.gl/maps/ziHA5ukgVtbGmwwR6\">Location</a>",
+    "parse_mode": "HTML"
+   }
+  }
+ ],
+ "results": [
+  {
+   "ok": true,
+   "result": {
+    "message_id": 3723,
+    "sender_chat": {
+     "id": -1001675672165,
+     "title": "Registan LC | Academy filiali",
+     "username": "RegistanLC_Academy",
+     "type": "channel"
+    },
+    "chat": {
+     "id": -1001675672165,
+     "title": "Registan LC | Academy filiali",
+     "username": "RegistanLC_Academy",
+     "type": "channel"
+    },
+    "date": 1793717706,
+    "photo": [
+     {
+      "file_id": "AgACAgQAAx0EY-C6ZQACDotq6fXKc4emB-IkOYKCMHqj1OcLnQACVw9rGyN8VVN5e-xNfVXm2wEAAwIAA3MAAz0E",
+      "file_unique_id": "AQADVw9rGyN8VVN4",
+      "file_size": 986,
+      "width": 72,
+      "height": 90
+     },
+     {
+      "file_id": "AgACAgQAAx0EY-C6ZQACDotq6fXKc4emB-IkOYKCMHqj1OcLnQACVw9rGyN8VVN5e-xNfVXm2wEAAwIAA20AAz0E",
+      "file_unique_id": "AQADVw9rGyN8VVNy",
+      "file_size": 8462,
+      "width": 256,
+      "height": 320
+     },
+     {
+      "file_id": "AgACAgQAAx0EY-C6ZQACDotq6fXKc4emB-IkOYKCMHqj1OcLnQACVw9rGyN8VVN5e-xNfVXm2wEAAwIAA3gAAz0E",
+      "file_unique_id": "AQADVw9rGyN8VVN9",
+      "file_size": 29454,
+      "width": 640,
+      "height": 800
+     },
+     {
+      "file_id": "AgACAgQAAx0EY-C6ZQACDotq6fXKc4emB-IkOYKCMHqj1OcLnQACVw9rGyN8VVN5e-xNfVXm2wEAAwIAA3kAAz0E",
+      "file_unique_id": "AQADVw9rGyN8VVN-",
+      "file_size": 52495,
+      "width": 1024,
+      "height": 1280
+     },
+     {
+      "file_id": "AgACAgQAAx0EY-C6ZQACDotq6fXKc4emB-IkOYKCMHqj1OcLnQACVw9rGyN8VVN5e-xNfVXm2wEAAwIAA3cAAz0E",
+      "file_unique_id": "AQADVw9rGyN8VVN8",
+      "file_size": 122583,
+      "width": 2048,
+      "height": 2560
+     }
+    ],
+    "caption": "Ruslar biror narsa umuman qiziq emasligini aytmoqchi bo'lsa, «Мне до лампочки» deydi. Ya'ni «menga mutlaqo farqi yo'q». Lampochka bu yerga qayerdan kelib qolgani haqida har xil gaplar bor, lekin ibora juda jonli 😄\n\nMasalan, do'stingiz «Куда пойдём, в кафе или в парк?» desa, siz: «Мне до лампочки, главное, чтобы с тобой».\n\nSizga nima до лампочки? Izohda ruscha bitta gap bilan yozib ko'ring.\n\n📌 https://registan.edutizim.uz/order/entry/?survey=s33\n\n📞 +998935512700\n\n📱 Follow us on social media:\n\n📱Telegram   📱Instagram   📱Location",
+    "caption_entities": [
+     {
+      "offset": 398,
+      "length": 52,
+      "type": "text_link",
+      "url": "https://registan.edutizim.uz/order/entry/?survey=s33"
+     },
+     {
+      "offset": 455,
+      "length": 13,
+      "type": "phone_number"
+     },
+     {
+      "offset": 473,
+      "length": 25,
+      "type": "text_link",
+      "url": "https://t.me/Registan_LC"
+     },
+     {
+      "offset": 503,
+      "length": 8,
+      "type": "text_link",
+      "url": "https://t.me/RegistanLC_Academy"
+     },
+     {
+      "offset": 516,
+      "length": 9,
+      "type": "text_link",
+      "url": "https://instagram.com/registanlc_academy"
+     },
+     {
+      "offset": 530,
+      "length": 8,
+      "type": "text_link",
+      "url": "https://goo.gl/maps/ziHA5ukgVtbGmwwR6"
+     }
+    ]
+   }
+  }
+ ],
+ "posted_at": "2026-11-03T14:55:07.096646+00:00"
+}
