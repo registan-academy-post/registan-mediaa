@@ -1,0 +1,177 @@
+{
+ "id": "2026-11-03-0800-motivation",
+ "steps": [
+  {
+   "method": "sendMediaGroup",
+   "params": {
+    "chat_id": "@RegistanLC_Academy",
+    "media": [
+     {
+      "type": "photo",
+      "media": "https://raw.githubusercontent.com/registan-academy-post/registan-mediaa/main/posts/2026-11-03/0800_one_thing_chesterfield.jpg",
+      "caption": "Xayrli tong 🙂\n\nDars, telefon, xabarlar, yana dars, yana telefon... Tanishmi? Kun tugaydi, lekin hech narsa oxiriga yetmagandek tuyuladi.\n\nLord Chesterfield o'g'liga yozgan maktubida shunday degan: kun ichida hamma narsaga vaqt yetadi, faqat ishlarni birma-bir qilsangiz. Bugun sinab ko'ring: 25 daqiqa faqat bitta ish, telefon esa boshqa xonada.\n\nKechqurun qanday o'tganini yozib qo'ying, qiziq.\n\n📌 <a href=\"https://registan.edutizim.uz/order/entry/?survey=s33\">https://registan.edutizim.uz/order/entry/?survey=s33</a>\n\n📞 +998935512700\n\n📱 <a href=\"https://t.me/Registan_LC\">Follow us on social media</a>:\n\n📱<a href=\"https://t.me/RegistanLC_Academy\">Telegram</a>   📱<a href=\"https://instagram.com/registanlc_academy\">Instagram</a>   📱<a href=\"https://goo.gl/maps/ziHA5ukgVtbGmwwR6\">Location</a>",
+      "parse_mode": "HTML"
+     },
+     {
+      "type": "photo",
+      "media": "https://raw.githubusercontent.com/registan-academy-post/registan-mediaa/main/posts/2026-11-03/0800_concentration_emerson.jpg"
+     }
+    ]
+   }
+  }
+ ],
+ "results": [
+  {
+   "ok": true,
+   "result": [
+    {
+     "message_id": 3714,
+     "sender_chat": {
+      "id": -1001675672165,
+      "title": "Registan LC | Academy filiali",
+      "username": "RegistanLC_Academy",
+      "type": "channel"
+     },
+     "chat": {
+      "id": -1001675672165,
+      "title": "Registan LC | Academy filiali",
+      "username": "RegistanLC_Academy",
+      "type": "channel"
+     },
+     "date": 1793674490,
+     "media_group_id": "14349395927358770",
+     "photo": [
+      {
+       "file_id": "AgACAgQAAxUHaulM-gVUeF6UOwaTB33CDf7ccAkAAoAOaxvrp1VTKlomh5_5Od4BAAMCAANzAAM9BA",
+       "file_unique_id": "AQADgA5rG-unVVN4",
+       "file_size": 1254,
+       "width": 72,
+       "height": 90
+      },
+      {
+       "file_id": "AgACAgQAAxUHaulM-gVUeF6UOwaTB33CDf7ccAkAAoAOaxvrp1VTKlomh5_5Od4BAAMCAANtAAM9BA",
+       "file_unique_id": "AQADgA5rG-unVVNy",
+       "file_size": 17247,
+       "width": 256,
+       "height": 320
+      },
+      {
+       "file_id": "AgACAgQAAxUHaulM-gVUeF6UOwaTB33CDf7ccAkAAoAOaxvrp1VTKlomh5_5Od4BAAMCAAN4AAM9BA",
+       "file_unique_id": "AQADgA5rG-unVVN9",
+       "file_size": 60232,
+       "width": 640,
+       "height": 800
+      },
+      {
+       "file_id": "AgACAgQAAxUHaulM-gVUeF6UOwaTB33CDf7ccAkAAoAOaxvrp1VTKlomh5_5Od4BAAMCAAN5AAM9BA",
+       "file_unique_id": "AQADgA5rG-unVVN-",
+       "file_size": 113440,
+       "width": 1024,
+       "height": 1280
+      },
+      {
+       "file_id": "AgACAgQAAxUHaulM-gVUeF6UOwaTB33CDf7ccAkAAoAOaxvrp1VTKlomh5_5Od4BAAMCAAN3AAM9BA",
+       "file_unique_id": "AQADgA5rG-unVVN8",
+       "file_size": 332623,
+       "width": 2048,
+       "height": 2560
+      }
+     ],
+     "caption": "Xayrli tong 🙂\n\nDars, telefon, xabarlar, yana dars, yana telefon... Tanishmi? Kun tugaydi, lekin hech narsa oxiriga yetmagandek tuyuladi.\n\nLord Chesterfield o'g'liga yozgan maktubida shunday degan: kun ichida hamma narsaga vaqt yetadi, faqat ishlarni birma-bir qilsangiz. Bugun sinab ko'ring: 25 daqiqa faqat bitta ish, telefon esa boshqa xonada.\n\nKechqurun qanday o'tganini yozib qo'ying, qiziq.\n\n📌 https://registan.edutizim.uz/order/entry/?survey=s33\n\n📞 +998935512700\n\n📱 Follow us on social media:\n\n📱Telegram   📱Instagram   📱Location",
+     "caption_entities": [
+      {
+       "offset": 401,
+       "length": 52,
+       "type": "text_link",
+       "url": "https://registan.edutizim.uz/order/entry/?survey=s33"
+      },
+      {
+       "offset": 458,
+       "length": 13,
+       "type": "phone_number"
+      },
+      {
+       "offset": 476,
+       "length": 25,
+       "type": "text_link",
+       "url": "https://t.me/Registan_LC"
+      },
+      {
+       "offset": 506,
+       "length": 8,
+       "type": "text_link",
+       "url": "https://t.me/RegistanLC_Academy"
+      },
+      {
+       "offset": 519,
+       "length": 9,
+       "type": "text_link",
+       "url": "https://instagram.com/registanlc_academy"
+      },
+      {
+       "offset": 533,
+       "length": 8,
+       "type": "text_link",
+       "url": "https://goo.gl/maps/ziHA5ukgVtbGmwwR6"
+      }
+     ]
+    },
+    {
+     "message_id": 3715,
+     "sender_chat": {
+      "id": -1001675672165,
+      "title": "Registan LC | Academy filiali",
+      "username": "RegistanLC_Academy",
+      "type": "channel"
+     },
+     "chat": {
+      "id": -1001675672165,
+      "title": "Registan LC | Academy filiali",
+      "username": "RegistanLC_Academy",
+      "type": "channel"
+     },
+     "date": 1793674490,
+     "media_group_id": "14349395927358770",
+     "photo": [
+      {
+       "file_id": "AgACAgQAAxUHaulM-r7wqk9EMNe3kPS28Ln_BgADDRBrGyt_TFP_OTT3GI3pSwEAAwIAA3MAAz0E",
+       "file_unique_id": "AQADDRBrGyt_TFN4",
+       "file_size": 1168,
+       "width": 72,
+       "height": 90
+      },
+      {
+       "file_id": "AgACAgQAAxUHaulM-r7wqk9EMNe3kPS28Ln_BgADDRBrGyt_TFP_OTT3GI3pSwEAAwIAA20AAz0E",
+       "file_unique_id": "AQADDRBrGyt_TFNy",
+       "file_size": 13282,
+       "width": 256,
+       "height": 320
+      },
+      {
+       "file_id": "AgACAgQAAxUHaulM-r7wqk9EMNe3kPS28Ln_BgADDRBrGyt_TFP_OTT3GI3pSwEAAwIAA3gAAz0E",
+       "file_unique_id": "AQADDRBrGyt_TFN9",
+       "file_size": 48700,
+       "width": 640,
+       "height": 800
+      },
+      {
+       "file_id": "AgACAgQAAxUHaulM-r7wqk9EMNe3kPS28Ln_BgADDRBrGyt_TFP_OTT3GI3pSwEAAwIAA3kAAz0E",
+       "file_unique_id": "AQADDRBrGyt_TFN-",
+       "file_size": 88531,
+       "width": 1024,
+       "height": 1280
+      },
+      {
+       "file_id": "AgACAgQAAxUHaulM-r7wqk9EMNe3kPS28Ln_BgADDRBrGyt_TFP_OTT3GI3pSwEAAwIAA3cAAz0E",
+       "file_unique_id": "AQADDRBrGyt_TFN8",
+       "file_size": 251133,
+       "width": 2048,
+       "height": 2560
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "posted_at": "2026-11-03T02:54:51.055817+00:00"
+}
