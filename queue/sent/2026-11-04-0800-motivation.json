@@ -1,0 +1,177 @@
+{
+ "id": "2026-11-04-0800-motivation",
+ "steps": [
+  {
+   "method": "sendMediaGroup",
+   "params": {
+    "chat_id": "@RegistanLC_Academy",
+    "media": [
+     {
+      "type": "photo",
+      "media": "https://raw.githubusercontent.com/registan-academy-post/registan-mediaa/main/posts/2026-11-04/0800_cannot_do_roosevelt.jpg",
+      "caption": "Xayrli tong ☀️\n\n\"Inglizcha gapirib ko'rasizmi?\" deb so'rasangiz, ko'pchilik \"hali tayyor emasman\" deydi. Seneka buni ikki ming yil oldin aytib ketgan: ishlar qiyin bo'lgani uchun emas, jur'at qilmaganimiz uchun qiyin bo'lib qoladi.\n\nBugun bitta kichik jasorat: darsda birinchi bo'lib qo'l ko'taring yoki xato qilsangiz ham inglizcha bir-ikki gap ayting. Qo'rquv odatda birinchi gapdan keyin chekinadi.\n\n📌 <a href=\"https://registan.edutizim.uz/order/entry/?survey=s33\">https://registan.edutizim.uz/order/entry/?survey=s33</a>\n\n📞 +998935512700\n\n📱 <a href=\"https://t.me/Registan_LC\">Follow us on social media</a>:\n\n📱<a href=\"https://t.me/RegistanLC_Academy\">Telegram</a>   📱<a href=\"https://instagram.com/registanlc_academy\">Instagram</a>   📱<a href=\"https://goo.gl/maps/ziHA5ukgVtbGmwwR6\">Location</a>",
+      "parse_mode": "HTML"
+     },
+     {
+      "type": "photo",
+      "media": "https://raw.githubusercontent.com/registan-academy-post/registan-mediaa/main/posts/2026-11-04/0800_dare_seneca.jpg"
+     }
+    ]
+   }
+  }
+ ],
+ "results": [
+  {
+   "ok": true,
+   "result": [
+    {
+     "message_id": 3724,
+     "sender_chat": {
+      "id": -1001675672165,
+      "title": "Registan LC | Academy filiali",
+      "username": "RegistanLC_Academy",
+      "type": "channel"
+     },
+     "chat": {
+      "id": -1001675672165,
+      "title": "Registan LC | Academy filiali",
+      "username": "RegistanLC_Academy",
+      "type": "channel"
+     },
+     "date": 1793760931,
+     "media_group_id": "14350087450715186",
+     "photo": [
+      {
+       "file_id": "AgACAgQAAxUHauqeo04ahuVVZDRwmuO0NEKqbxoAAhYPaxs5ul1T0SK3Y5ODpcABAAMCAANzAAM9BA",
+       "file_unique_id": "AQADFg9rGzm6XVN4",
+       "file_size": 1396,
+       "width": 72,
+       "height": 90
+      },
+      {
+       "file_id": "AgACAgQAAxUHauqeo04ahuVVZDRwmuO0NEKqbxoAAhYPaxs5ul1T0SK3Y5ODpcABAAMCAANtAAM9BA",
+       "file_unique_id": "AQADFg9rGzm6XVNy",
+       "file_size": 13795,
+       "width": 256,
+       "height": 320
+      },
+      {
+       "file_id": "AgACAgQAAxUHauqeo04ahuVVZDRwmuO0NEKqbxoAAhYPaxs5ul1T0SK3Y5ODpcABAAMCAAN4AAM9BA",
+       "file_unique_id": "AQADFg9rGzm6XVN9",
+       "file_size": 46515,
+       "width": 640,
+       "height": 800
+      },
+      {
+       "file_id": "AgACAgQAAxUHauqeo04ahuVVZDRwmuO0NEKqbxoAAhYPaxs5ul1T0SK3Y5ODpcABAAMCAAN5AAM9BA",
+       "file_unique_id": "AQADFg9rGzm6XVN-",
+       "file_size": 83827,
+       "width": 1024,
+       "height": 1280
+      },
+      {
+       "file_id": "AgACAgQAAxUHauqeo04ahuVVZDRwmuO0NEKqbxoAAhYPaxs5ul1T0SK3Y5ODpcABAAMCAAN3AAM9BA",
+       "file_unique_id": "AQADFg9rGzm6XVN8",
+       "file_size": 185826,
+       "width": 2048,
+       "height": 2560
+      }
+     ],
+     "caption": "Xayrli tong ☀️\n\n\"Inglizcha gapirib ko'rasizmi?\" deb so'rasangiz, ko'pchilik \"hali tayyor emasman\" deydi. Seneka buni ikki ming yil oldin aytib ketgan: ishlar qiyin bo'lgani uchun emas, jur'at qilmaganimiz uchun qiyin bo'lib qoladi.\n\nBugun bitta kichik jasorat: darsda birinchi bo'lib qo'l ko'taring yoki xato qilsangiz ham inglizcha bir-ikki gap ayting. Qo'rquv odatda birinchi gapdan keyin chekinadi.\n\n📌 https://registan.edutizim.uz/order/entry/?survey=s33\n\n📞 +998935512700\n\n📱 Follow us on social media:\n\n📱Telegram   📱Instagram   📱Location",
+     "caption_entities": [
+      {
+       "offset": 406,
+       "length": 52,
+       "type": "text_link",
+       "url": "https://registan.edutizim.uz/order/entry/?survey=s33"
+      },
+      {
+       "offset": 463,
+       "length": 13,
+       "type": "phone_number"
+      },
+      {
+       "offset": 481,
+       "length": 25,
+       "type": "text_link",
+       "url": "https://t.me/Registan_LC"
+      },
+      {
+       "offset": 511,
+       "length": 8,
+       "type": "text_link",
+       "url": "https://t.me/RegistanLC_Academy"
+      },
+      {
+       "offset": 524,
+       "length": 9,
+       "type": "text_link",
+       "url": "https://instagram.com/registanlc_academy"
+      },
+      {
+       "offset": 538,
+       "length": 8,
+       "type": "text_link",
+       "url": "https://goo.gl/maps/ziHA5ukgVtbGmwwR6"
+      }
+     ]
+    },
+    {
+     "message_id": 3725,
+     "sender_chat": {
+      "id": -1001675672165,
+      "title": "Registan LC | Academy filiali",
+      "username": "RegistanLC_Academy",
+      "type": "channel"
+     },
+     "chat": {
+      "id": -1001675672165,
+      "title": "Registan LC | Academy filiali",
+      "username": "RegistanLC_Academy",
+      "type": "channel"
+     },
+     "date": 1793760931,
+     "media_group_id": "14350087450715186",
+     "photo": [
+      {
+       "file_id": "AgACAgQAAxUHauqeo-8FMrinvYIbTeUy5jix3PEAAmAOaxtxnFxTfv4HLSMMIcoBAAMCAANzAAM9BA",
+       "file_unique_id": "AQADYA5rG3GcXFN4",
+       "file_size": 1321,
+       "width": 72,
+       "height": 90
+      },
+      {
+       "file_id": "AgACAgQAAxUHauqeo-8FMrinvYIbTeUy5jix3PEAAmAOaxtxnFxTfv4HLSMMIcoBAAMCAANtAAM9BA",
+       "file_unique_id": "AQADYA5rG3GcXFNy",
+       "file_size": 15960,
+       "width": 256,
+       "height": 320
+      },
+      {
+       "file_id": "AgACAgQAAxUHauqeo-8FMrinvYIbTeUy5jix3PEAAmAOaxtxnFxTfv4HLSMMIcoBAAMCAAN4AAM9BA",
+       "file_unique_id": "AQADYA5rG3GcXFN9",
+       "file_size": 60223,
+       "width": 640,
+       "height": 800
+      },
+      {
+       "file_id": "AgACAgQAAxUHauqeo-8FMrinvYIbTeUy5jix3PEAAmAOaxtxnFxTfv4HLSMMIcoBAAMCAAN5AAM9BA",
+       "file_unique_id": "AQADYA5rG3GcXFN-",
+       "file_size": 108499,
+       "width": 1024,
+       "height": 1280
+      },
+      {
+       "file_id": "AgACAgQAAxUHauqeo-8FMrinvYIbTeUy5jix3PEAAmAOaxtxnFxTfv4HLSMMIcoBAAMCAAN3AAM9BA",
+       "file_unique_id": "AQADYA5rG3GcXFN8",
+       "file_size": 258928,
+       "width": 2048,
+       "height": 2560
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "posted_at": "2026-11-04T02:55:31.460402+00:00"
+}
