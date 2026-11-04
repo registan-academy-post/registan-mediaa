@@ -1,0 +1,161 @@
+{
+ "id": "2026-11-04-1200-english-b",
+ "steps": [
+  {
+   "method": "sendPhoto",
+   "params": {
+    "chat_id": "@RegistanLC_Academy",
+    "photo": "https://raw.githubusercontent.com/registan-academy-post/registan-mediaa/main/posts/2026-11-04/1200_word_actually.jpg",
+    "caption": "Ko'pchilik \"actually\"ni \"aktual\" deb o'ylaydi va \"This topic is very actually\" degan gap chiqadi. Afsuski, bunday deb bo'lmaydi 🙂\n\n<b>Actually</b> \"aktual\" degani emas. Uning ma'nosi aslida, haqiqatda. Odatda kimdir o'ylagan narsa bilan haqiqiy holat farq qilganda ishlatiladi: <i>I thought the test would be hard, but it was actually quite easy.</i>\n\nSuhbatda birovning gapini muloyim tuzatish uchun ham qulay: <i>Actually, I'm from Samarkand, not Tashkent.</i> Yoki fikringizni o'zgartirganingizda: <i>Actually, let's meet tomorrow instead.</i>\n\nAgar \"aktual\" demoqchi bo'lsangiz, <i>relevant</i> yoki <i>topical</i> deng: <i>This problem is still relevant today.</i> \"Hozirda\" ma'nosi uchun esa <i>currently</i> yoki <i>at the moment</i>: <i>I'm currently preparing for IELTS.</i>\n\nSpeaking'da \"actually\"ni har gapga qo'shmang, o'z joyida bir-ikki marta ishlatilsa tabiiy eshitiladi.\n\n📌 <a href=\"https://registan.edutizim.uz/order/entry/?survey=s33\">https://registan.edutizim.uz/order/entry/?survey=s33</a>\n\n📞 +998935512700\n\n📱 <a href=\"https://t.me/Registan_LC\">Follow us on social media</a>:\n\n📱<a href=\"https://t.me/RegistanLC_Academy\">Telegram</a>   📱<a href=\"https://instagram.com/registanlc_academy\">Instagram</a>   📱<a href=\"https://goo.gl/maps/ziHA5ukgVtbGmwwR6\">Location</a>",
+    "parse_mode": "HTML"
+   }
+  }
+ ],
+ "results": [
+  {
+   "ok": true,
+   "result": {
+    "message_id": 3727,
+    "sender_chat": {
+     "id": -1001675672165,
+     "title": "Registan LC | Academy filiali",
+     "username": "RegistanLC_Academy",
+     "type": "channel"
+    },
+    "chat": {
+     "id": -1001675672165,
+     "title": "Registan LC | Academy filiali",
+     "username": "RegistanLC_Academy",
+     "type": "channel"
+    },
+    "date": 1793775361,
+    "photo": [
+     {
+      "file_id": "AgACAgQAAx0EY-C6ZQACDo5q6tbcZU89e_IgnvcC_cg52aT6YwAC1w9rG_MfVVP9MSlqJnle5AEAAwIAA3MAAz0E",
+      "file_unique_id": "AQAD1w9rG_MfVVN4",
+      "file_size": 826,
+      "width": 72,
+      "height": 90
+     },
+     {
+      "file_id": "AgACAgQAAx0EY-C6ZQACDo5q6tbcZU89e_IgnvcC_cg52aT6YwAC1w9rG_MfVVP9MSlqJnle5AEAAwIAA20AAz0E",
+      "file_unique_id": "AQAD1w9rG_MfVVNy",
+      "file_size": 8009,
+      "width": 256,
+      "height": 320
+     },
+     {
+      "file_id": "AgACAgQAAx0EY-C6ZQACDo5q6tbcZU89e_IgnvcC_cg52aT6YwAC1w9rG_MfVVP9MSlqJnle5AEAAwIAA3gAAz0E",
+      "file_unique_id": "AQAD1w9rG_MfVVN9",
+      "file_size": 31196,
+      "width": 640,
+      "height": 800
+     },
+     {
+      "file_id": "AgACAgQAAx0EY-C6ZQACDo5q6tbcZU89e_IgnvcC_cg52aT6YwAC1w9rG_MfVVP9MSlqJnle5AEAAwIAA3kAAz0E",
+      "file_unique_id": "AQAD1w9rG_MfVVN-",
+      "file_size": 60227,
+      "width": 1024,
+      "height": 1280
+     },
+     {
+      "file_id": "AgACAgQAAx0EY-C6ZQACDo5q6tbcZU89e_IgnvcC_cg52aT6YwAC1w9rG_MfVVP9MSlqJnle5AEAAwIAA3cAAz0E",
+      "file_unique_id": "AQAD1w9rG_MfVVN8",
+      "file_size": 218930,
+      "width": 2048,
+      "height": 2560
+     }
+    ],
+    "caption": "Ko'pchilik \"actually\"ni \"aktual\" deb o'ylaydi va \"This topic is very actually\" degan gap chiqadi. Afsuski, bunday deb bo'lmaydi 🙂\n\nActually \"aktual\" degani emas. Uning ma'nosi aslida, haqiqatda. Odatda kimdir o'ylagan narsa bilan haqiqiy holat farq qilganda ishlatiladi: I thought the test would be hard, but it was actually quite easy.\n\nSuhbatda birovning gapini muloyim tuzatish uchun ham qulay: Actually, I'm from Samarkand, not Tashkent. Yoki fikringizni o'zgartirganingizda: Actually, let's meet tomorrow instead.\n\nAgar \"aktual\" demoqchi bo'lsangiz, relevant yoki topical deng: This problem is still relevant today. \"Hozirda\" ma'nosi uchun esa currently yoki at the moment: I'm currently preparing for IELTS.\n\nSpeaking'da \"actually\"ni har gapga qo'shmang, o'z joyida bir-ikki marta ishlatilsa tabiiy eshitiladi.\n\n📌 https://registan.edutizim.uz/order/entry/?survey=s33\n\n📞 +998935512700\n\n📱 Follow us on social media:\n\n📱Telegram   📱Instagram   📱Location",
+    "caption_entities": [
+     {
+      "offset": 132,
+      "length": 8,
+      "type": "bold"
+     },
+     {
+      "offset": 272,
+      "length": 65,
+      "type": "italic"
+     },
+     {
+      "offset": 399,
+      "length": 43,
+      "type": "italic"
+     },
+     {
+      "offset": 481,
+      "length": 38,
+      "type": "italic"
+     },
+     {
+      "offset": 556,
+      "length": 8,
+      "type": "italic"
+     },
+     {
+      "offset": 570,
+      "length": 7,
+      "type": "italic"
+     },
+     {
+      "offset": 584,
+      "length": 37,
+      "type": "italic"
+     },
+     {
+      "offset": 650,
+      "length": 9,
+      "type": "italic"
+     },
+     {
+      "offset": 665,
+      "length": 13,
+      "type": "italic"
+     },
+     {
+      "offset": 680,
+      "length": 34,
+      "type": "italic"
+     },
+     {
+      "offset": 822,
+      "length": 52,
+      "type": "text_link",
+      "url": "https://registan.edutizim.uz/order/entry/?survey=s33"
+     },
+     {
+      "offset": 879,
+      "length": 13,
+      "type": "phone_number"
+     },
+     {
+      "offset": 897,
+      "length": 25,
+      "type": "text_link",
+      "url": "https://t.me/Registan_LC"
+     },
+     {
+      "offset": 927,
+      "length": 8,
+      "type": "text_link",
+      "url": "https://t.me/RegistanLC_Academy"
+     },
+     {
+      "offset": 940,
+      "length": 9,
+      "type": "text_link",
+      "url": "https://instagram.com/registanlc_academy"
+     },
+     {
+      "offset": 954,
+      "length": 8,
+      "type": "text_link",
+      "url": "https://goo.gl/maps/ziHA5ukgVtbGmwwR6"
+     }
+    ]
+   }
+  }
+ ],
+ "posted_at": "2026-11-04T06:56:01.891790+00:00"
+}
