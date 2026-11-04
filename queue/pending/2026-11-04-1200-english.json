@@ -1,0 +1,14 @@
+{
+ "id": "2026-11-04-1200-english",
+ "steps": [
+  {
+   "method": "sendPhoto",
+   "params": {
+    "chat_id": "@RegistanLC_Academy",
+    "photo": "https://raw.githubusercontent.com/registan-academy-post/registan-mediaa/main/posts/2026-11-04/1200_word_actually.jpg",
+    "caption": "Ko'pchilik \"actually\"ni \"aktual\" deb o'ylaydi va \"This topic is very actually\" degan gap chiqadi. Afsuski, bunday deb bo'lmaydi 🙂\n\n<b>Actually</b> \"aktual\" degani emas. Uning ma'nosi aslida, haqiqatda. Odatda kimdir o'ylagan narsa bilan haqiqiy holat farq qilganda ishlatiladi: <i>I thought the test would be hard, but it was actually quite easy.</i> Ya'ni test qiyin bo'ladi deb o'ylagandim, aslida ancha oson ekan.\n\nSuhbatda birovning gapini muloyim tuzatish uchun ham qulay: <i>Actually, I'm from Samarkand, not Tashkent.</i> Yoki fikringizni o'zgartirganingizda: <i>Actually, let's meet tomorrow instead.</i>\n\nAgar \"aktual\" demoqchi bo'lsangiz, <i>relevant</i> yoki <i>topical</i> deng: <i>This problem is still relevant today.</i> \"Hozirda\" ma'nosi uchun esa <i>currently</i> yoki <i>at the moment</i>: <i>I'm currently preparing for IELTS.</i>\n\nSpeaking'da \"actually\"ni har gapga qo'shib yubormang, bir-ikki marta o'z joyida ishlatilsa, tabiiy eshitiladi.\n\n📌 <a href=\"https://registan.edutizim.uz/order/entry/?survey=s33\">https://registan.edutizim.uz/order/entry/?survey=s33</a>\n\n📞 +998935512700\n\n📱 <a href=\"https://t.me/Registan_LC\">Follow us on social media</a>:\n\n📱<a href=\"https://t.me/RegistanLC_Academy\">Telegram</a>   📱<a href=\"https://instagram.com/registanlc_academy\">Instagram</a>   📱<a href=\"https://goo.gl/maps/ziHA5ukgVtbGmwwR6\">Location</a>",
+    "parse_mode": "HTML"
+   }
+  }
+ ]
+}
