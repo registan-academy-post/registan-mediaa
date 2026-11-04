@@ -1,0 +1,111 @@
+{
+ "id": "2026-11-04-2000-admission",
+ "steps": [
+  {
+   "method": "sendPhoto",
+   "params": {
+    "chat_id": "@RegistanLC_Academy",
+    "photo": "https://raw.githubusercontent.com/registan-academy-post/registan-mediaa/main/library/academy/03_placement_test.jpg",
+    "caption": "Ko'pchilik birinchi bo'lib shuni so'raydi: «Men qaysi guruhga to'g'ri kelaman?»\n\nBuni taxmin qilib o'tirish shart emas. Bepul sinov darsiga keling, darajangizni birga aniqlaymiz va sizga mos guruhni tanlaymiz. General English ham, IELTS ham bor, Beginner va Elementary guruhlar ertalab 09:30 da. Ustozlarimiz kuchli, darsdan keyin farqni o'zingiz sezasiz.\n\nSizningcha, hozir ingliz tilingiz qaysi darajada? Izohda yozib qoldiring 🙂 Yozilish uchun havola pastda.\n\n📌 <a href=\"https://registan.edutizim.uz/order/entry/?survey=s33\">https://registan.edutizim.uz/order/entry/?survey=s33</a>\n\n📞 +998935512700\n\n📱 <a href=\"https://t.me/Registan_LC\">Follow us on social media</a>:\n\n📱<a href=\"https://t.me/RegistanLC_Academy\">Telegram</a>   📱<a href=\"https://instagram.com/registanlc_academy\">Instagram</a>   📱<a href=\"https://goo.gl/maps/ziHA5ukgVtbGmwwR6\">Location</a>",
+    "parse_mode": "HTML"
+   }
+  }
+ ],
+ "results": [
+  {
+   "ok": true,
+   "result": {
+    "message_id": 3734,
+    "sender_chat": {
+     "id": -1001675672165,
+     "title": "Registan LC | Academy filiali",
+     "username": "RegistanLC_Academy",
+     "type": "channel"
+    },
+    "chat": {
+     "id": -1001675672165,
+     "title": "Registan LC | Academy filiali",
+     "username": "RegistanLC_Academy",
+     "type": "channel"
+    },
+    "date": 1793804122,
+    "photo": [
+     {
+      "file_id": "AgACAgQAAx0EY-C6ZQACDpZq60darAY7bCFOTsq5GdboZ0VPZwACow5rG5MHZFP0WKP2s5SwmAEAAwIAA3MAAz0E",
+      "file_unique_id": "AQADow5rG5MHZFN4",
+      "file_size": 1678,
+      "width": 72,
+      "height": 90
+     },
+     {
+      "file_id": "AgACAgQAAx0EY-C6ZQACDpZq60darAY7bCFOTsq5GdboZ0VPZwACow5rG5MHZFP0WKP2s5SwmAEAAwIAA20AAz0E",
+      "file_unique_id": "AQADow5rG5MHZFNy",
+      "file_size": 21801,
+      "width": 256,
+      "height": 320
+     },
+     {
+      "file_id": "AgACAgQAAx0EY-C6ZQACDpZq60darAY7bCFOTsq5GdboZ0VPZwACow5rG5MHZFP0WKP2s5SwmAEAAwIAA3gAAz0E",
+      "file_unique_id": "AQADow5rG5MHZFN9",
+      "file_size": 86961,
+      "width": 640,
+      "height": 800
+     },
+     {
+      "file_id": "AgACAgQAAx0EY-C6ZQACDpZq60darAY7bCFOTsq5GdboZ0VPZwACow5rG5MHZFP0WKP2s5SwmAEAAwIAA3kAAz0E",
+      "file_unique_id": "AQADow5rG5MHZFN-",
+      "file_size": 181056,
+      "width": 1024,
+      "height": 1280
+     },
+     {
+      "file_id": "AgACAgQAAx0EY-C6ZQACDpZq60darAY7bCFOTsq5GdboZ0VPZwACow5rG5MHZFP0WKP2s5SwmAEAAwIAA3cAAz0E",
+      "file_unique_id": "AQADow5rG5MHZFN8",
+      "file_size": 515477,
+      "width": 2048,
+      "height": 2560
+     }
+    ],
+    "caption": "Ko'pchilik birinchi bo'lib shuni so'raydi: «Men qaysi guruhga to'g'ri kelaman?»\n\nBuni taxmin qilib o'tirish shart emas. Bepul sinov darsiga keling, darajangizni birga aniqlaymiz va sizga mos guruhni tanlaymiz. General English ham, IELTS ham bor, Beginner va Elementary guruhlar ertalab 09:30 da. Ustozlarimiz kuchli, darsdan keyin farqni o'zingiz sezasiz.\n\nSizningcha, hozir ingliz tilingiz qaysi darajada? Izohda yozib qoldiring 🙂 Yozilish uchun havola pastda.\n\n📌 https://registan.edutizim.uz/order/entry/?survey=s33\n\n📞 +998935512700\n\n📱 Follow us on social media:\n\n📱Telegram   📱Instagram   📱Location",
+    "caption_entities": [
+     {
+      "offset": 467,
+      "length": 52,
+      "type": "text_link",
+      "url": "https://registan.edutizim.uz/order/entry/?survey=s33"
+     },
+     {
+      "offset": 524,
+      "length": 13,
+      "type": "phone_number"
+     },
+     {
+      "offset": 542,
+      "length": 25,
+      "type": "text_link",
+      "url": "https://t.me/Registan_LC"
+     },
+     {
+      "offset": 572,
+      "length": 8,
+      "type": "text_link",
+      "url": "https://t.me/RegistanLC_Academy"
+     },
+     {
+      "offset": 585,
+      "length": 9,
+      "type": "text_link",
+      "url": "https://instagram.com/registanlc_academy"
+     },
+     {
+      "offset": 599,
+      "length": 8,
+      "type": "text_link",
+      "url": "https://goo.gl/maps/ziHA5ukgVtbGmwwR6"
+     }
+    ]
+   }
+  }
+ ],
+ "posted_at": "2026-11-04T14:55:22.637441+00:00"
+}
