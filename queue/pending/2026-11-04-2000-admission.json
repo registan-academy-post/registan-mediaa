@@ -1,0 +1,14 @@
+{
+ "id": "2026-11-04-2000-admission",
+ "steps": [
+  {
+   "method": "sendPhoto",
+   "params": {
+    "chat_id": "@RegistanLC_Academy",
+    "photo": "https://raw.githubusercontent.com/registan-academy-post/registan-mediaa/main/library/academy/03_placement_test.jpg",
+    "caption": "Ko'pchilik birinchi bo'lib shuni so'raydi: «Men qaysi guruhga to'g'ri kelaman?»\n\nBuni taxmin qilib o'tirish shart emas. Bepul sinov darsiga keling, darajangizni birga aniqlaymiz va sizga mos guruhni tanlaymiz. General English ham, IELTS ham bor, Beginner va Elementary guruhlar ertalab 09:30 da. Ustozlarimiz kuchli, darsdan keyin farqni o'zingiz sezasiz.\n\nSizningcha, hozir ingliz tilingiz qaysi darajada? Izohda yozib qoldiring 🙂 Yozilish uchun havola pastda.\n\n📌 <a href=\"https://registan.edutizim.uz/order/entry/?survey=s33\">https://registan.edutizim.uz/order/entry/?survey=s33</a>\n\n📞 +998935512700\n\n📱 <a href=\"https://t.me/Registan_LC\">Follow us on social media</a>:\n\n📱<a href=\"https://t.me/RegistanLC_Academy\">Telegram</a>   📱<a href=\"https://instagram.com/registanlc_academy\">Instagram</a>   📱<a href=\"https://goo.gl/maps/ziHA5ukgVtbGmwwR6\">Location</a>",
+    "parse_mode": "HTML"
+   }
+  }
+ ]
+}
