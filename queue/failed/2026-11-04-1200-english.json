@@ -10,5 +10,13 @@
     "parse_mode": "HTML"
    }
   }
- ]
+ ],
+ "results": [
+  {
+   "ok": false,
+   "error_code": 400,
+   "description": "Bad Request: message caption is too long"
+  }
+ ],
+ "posted_at": "2026-11-04T06:55:08.749309+00:00"
 }
