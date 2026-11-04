@@ -1,0 +1,410 @@
+{
+ "id": "2026-11-04-1500-quiz",
+ "steps": [
+  {
+   "method": "sendMessage",
+   "params": {
+    "chat_id": "@RegistanLC_Academy",
+    "text": "Elementary guruhlar, bugun soatni aytamiz: half past, quarter to va boshqalar.\n5 ta savol, qani kim hammasini topadi ⏰"
+   }
+  },
+  {
+   "method": "sendPoll",
+   "params": {
+    "chat_id": "@RegistanLC_Academy",
+    "question": "How do you say 7:30 in English?",
+    "options": [
+     "seven and half",
+     "half past seven",
+     "half to eight",
+     "thirty past six"
+    ],
+    "type": "quiz",
+    "is_anonymous": true,
+    "correct_option_id": 1,
+    "explanation": "30 daqiqa o'tgan bo'lsa \"half past\" deymiz: 7:30 = half past seven, ya'ni yettidan yarim soat o'tdi."
+   }
+  },
+  {
+   "method": "sendPoll",
+   "params": {
+    "chat_id": "@RegistanLC_Academy",
+    "question": "It's 4:15. It's quarter ___ four.",
+    "options": [
+     "past",
+     "to",
+     "at",
+     "in"
+    ],
+    "type": "quiz",
+    "is_anonymous": true,
+    "correct_option_id": 0,
+    "explanation": "15 daqiqa o'tgan bo'lsa \"quarter past\". \"Quarter to\" esa 15 daqiqa qolganda: 3:45 = quarter to four."
+   }
+  },
+  {
+   "method": "sendPoll",
+   "params": {
+    "chat_id": "@RegistanLC_Academy",
+    "question": "A: Are ___ your keys on the table over there?\nB: Yes, they are.",
+    "options": [
+     "this",
+     "these",
+     "those",
+     "that"
+    ],
+    "type": "quiz",
+    "is_anonymous": true,
+    "correct_option_id": 2,
+    "explanation": "Kalitlar ko'plik va uzoqda turibdi (over there), shuning uchun \"those\". Yaqindagi ko'plik narsalar uchun \"these\"."
+   }
+  },
+  {
+   "method": "sendPoll",
+   "params": {
+    "chat_id": "@RegistanLC_Academy",
+    "question": "Choose the correct question.",
+    "options": [
+     "What time it is?",
+     "What is time?",
+     "How time is it?",
+     "What time is it?"
+    ],
+    "type": "quiz",
+    "is_anonymous": true,
+    "correct_option_id": 3,
+    "explanation": "Savolda \"is\" egadan oldin keladi: What time is it? \"What's the time?\" ham to'g'ri, lekin \"the\"siz bo'lmaydi."
+   }
+  },
+  {
+   "method": "sendPoll",
+   "params": {
+    "chat_id": "@RegistanLC_Academy",
+    "question": "Find the mistake:\nA: What time is your English lesson?\nB: It's at twenty to ten. It finishes in half past eleven.",
+    "options": [
+     "What time is",
+     "at twenty to ten",
+     "in half past eleven",
+     "No mistake"
+    ],
+    "type": "quiz",
+    "is_anonymous": true,
+    "correct_option_id": 2,
+    "explanation": "Aniq vaqt oldidan \"at\" ishlatiladi: at half past eleven. \"In\" oylar va yillar bilan keladi: in May, in 2026."
+   }
+  }
+ ],
+ "results": [
+  {
+   "ok": true,
+   "result": {
+    "message_id": 3728,
+    "sender_chat": {
+     "id": -1001675672165,
+     "title": "Registan LC | Academy filiali",
+     "username": "RegistanLC_Academy",
+     "type": "channel"
+    },
+    "chat": {
+     "id": -1001675672165,
+     "title": "Registan LC | Academy filiali",
+     "username": "RegistanLC_Academy",
+     "type": "channel"
+    },
+    "date": 1793786353,
+    "text": "Elementary guruhlar, bugun soatni aytamiz: half past, quarter to va boshqalar.\n5 ta savol, qani kim hammasini topadi ⏰"
+   }
+  },
+  {
+   "ok": true,
+   "result": {
+    "message_id": 3729,
+    "sender_chat": {
+     "id": -1001675672165,
+     "title": "Registan LC | Academy filiali",
+     "username": "RegistanLC_Academy",
+     "type": "channel"
+    },
+    "chat": {
+     "id": -1001675672165,
+     "title": "Registan LC | Academy filiali",
+     "username": "RegistanLC_Academy",
+     "type": "channel"
+    },
+    "date": 1793786354,
+    "poll": {
+     "id": "5429330852511226152",
+     "question": "How do you say 7:30 in English?",
+     "options": [
+      {
+       "persistent_id": "0",
+       "text": "seven and half",
+       "voter_count": 0
+      },
+      {
+       "persistent_id": "1",
+       "text": "half past seven",
+       "voter_count": 0
+      },
+      {
+       "persistent_id": "2",
+       "text": "half to eight",
+       "voter_count": 0
+      },
+      {
+       "persistent_id": "3",
+       "text": "thirty past six",
+       "voter_count": 0
+      }
+     ],
+     "total_voter_count": 0,
+     "is_closed": false,
+     "is_anonymous": true,
+     "allows_multiple_answers": false,
+     "allows_revoting": false,
+     "members_only": false,
+     "type": "quiz",
+     "correct_option_id": 1,
+     "correct_option_ids": [
+      1
+     ],
+     "explanation": "30 daqiqa o'tgan bo'lsa \"half past\" deymiz: 7:30 = half past seven, ya'ni yettidan yarim soat o'tdi.",
+     "explanation_entities": []
+    }
+   }
+  },
+  {
+   "ok": true,
+   "result": {
+    "message_id": 3730,
+    "sender_chat": {
+     "id": -1001675672165,
+     "title": "Registan LC | Academy filiali",
+     "username": "RegistanLC_Academy",
+     "type": "channel"
+    },
+    "chat": {
+     "id": -1001675672165,
+     "title": "Registan LC | Academy filiali",
+     "username": "RegistanLC_Academy",
+     "type": "channel"
+    },
+    "date": 1793786354,
+    "poll": {
+     "id": "5429330852511226153",
+     "question": "It's 4:15. It's quarter ___ four.",
+     "options": [
+      {
+       "persistent_id": "0",
+       "text": "past",
+       "voter_count": 0
+      },
+      {
+       "persistent_id": "1",
+       "text": "to",
+       "voter_count": 0
+      },
+      {
+       "persistent_id": "2",
+       "text": "at",
+       "voter_count": 0
+      },
+      {
+       "persistent_id": "3",
+       "text": "in",
+       "voter_count": 0
+      }
+     ],
+     "total_voter_count": 0,
+     "is_closed": false,
+     "is_anonymous": true,
+     "allows_multiple_answers": false,
+     "allows_revoting": false,
+     "members_only": false,
+     "type": "quiz",
+     "correct_option_id": 0,
+     "correct_option_ids": [
+      0
+     ],
+     "explanation": "15 daqiqa o'tgan bo'lsa \"quarter past\". \"Quarter to\" esa 15 daqiqa qolganda: 3:45 = quarter to four.",
+     "explanation_entities": []
+    }
+   }
+  },
+  {
+   "ok": true,
+   "result": {
+    "message_id": 3731,
+    "sender_chat": {
+     "id": -1001675672165,
+     "title": "Registan LC | Academy filiali",
+     "username": "RegistanLC_Academy",
+     "type": "channel"
+    },
+    "chat": {
+     "id": -1001675672165,
+     "title": "Registan LC | Academy filiali",
+     "username": "RegistanLC_Academy",
+     "type": "channel"
+    },
+    "date": 1793786355,
+    "poll": {
+     "id": "5429330852511226154",
+     "question": "A: Are ___ your keys on the table over there?\nB: Yes, they are.",
+     "options": [
+      {
+       "persistent_id": "0",
+       "text": "this",
+       "voter_count": 0
+      },
+      {
+       "persistent_id": "1",
+       "text": "these",
+       "voter_count": 0
+      },
+      {
+       "persistent_id": "2",
+       "text": "those",
+       "voter_count": 0
+      },
+      {
+       "persistent_id": "3",
+       "text": "that",
+       "voter_count": 0
+      }
+     ],
+     "total_voter_count": 0,
+     "is_closed": false,
+     "is_anonymous": true,
+     "allows_multiple_answers": false,
+     "allows_revoting": false,
+     "members_only": false,
+     "type": "quiz",
+     "correct_option_id": 2,
+     "correct_option_ids": [
+      2
+     ],
+     "explanation": "Kalitlar ko'plik va uzoqda turibdi (over there), shuning uchun \"those\". Yaqindagi ko'plik narsalar uchun \"these\".",
+     "explanation_entities": []
+    }
+   }
+  },
+  {
+   "ok": true,
+   "result": {
+    "message_id": 3732,
+    "sender_chat": {
+     "id": -1001675672165,
+     "title": "Registan LC | Academy filiali",
+     "username": "RegistanLC_Academy",
+     "type": "channel"
+    },
+    "chat": {
+     "id": -1001675672165,
+     "title": "Registan LC | Academy filiali",
+     "username": "RegistanLC_Academy",
+     "type": "channel"
+    },
+    "date": 1793786355,
+    "poll": {
+     "id": "5429330852511226155",
+     "question": "Choose the correct question.",
+     "options": [
+      {
+       "persistent_id": "0",
+       "text": "What time it is?",
+       "voter_count": 0
+      },
+      {
+       "persistent_id": "1",
+       "text": "What is time?",
+       "voter_count": 0
+      },
+      {
+       "persistent_id": "2",
+       "text": "How time is it?",
+       "voter_count": 0
+      },
+      {
+       "persistent_id": "3",
+       "text": "What time is it?",
+       "voter_count": 0
+      }
+     ],
+     "total_voter_count": 0,
+     "is_closed": false,
+     "is_anonymous": true,
+     "allows_multiple_answers": false,
+     "allows_revoting": false,
+     "members_only": false,
+     "type": "quiz",
+     "correct_option_id": 3,
+     "correct_option_ids": [
+      3
+     ],
+     "explanation": "Savolda \"is\" egadan oldin keladi: What time is it? \"What's the time?\" ham to'g'ri, lekin \"the\"siz bo'lmaydi.",
+     "explanation_entities": []
+    }
+   }
+  },
+  {
+   "ok": true,
+   "result": {
+    "message_id": 3733,
+    "sender_chat": {
+     "id": -1001675672165,
+     "title": "Registan LC | Academy filiali",
+     "username": "RegistanLC_Academy",
+     "type": "channel"
+    },
+    "chat": {
+     "id": -1001675672165,
+     "title": "Registan LC | Academy filiali",
+     "username": "RegistanLC_Academy",
+     "type": "channel"
+    },
+    "date": 1793786359,
+    "poll": {
+     "id": "5429330852511226156",
+     "question": "Find the mistake:\nA: What time is your English lesson?\nB: It's at twenty to ten. It finishes in half past eleven.",
+     "options": [
+      {
+       "persistent_id": "0",
+       "text": "What time is",
+       "voter_count": 0
+      },
+      {
+       "persistent_id": "1",
+       "text": "at twenty to ten",
+       "voter_count": 0
+      },
+      {
+       "persistent_id": "2",
+       "text": "in half past eleven",
+       "voter_count": 0
+      },
+      {
+       "persistent_id": "3",
+       "text": "No mistake",
+       "voter_count": 0
+      }
+     ],
+     "total_voter_count": 0,
+     "is_closed": false,
+     "is_anonymous": true,
+     "allows_multiple_answers": false,
+     "allows_revoting": false,
+     "members_only": false,
+     "type": "quiz",
+     "correct_option_id": 2,
+     "correct_option_ids": [
+      2
+     ],
+     "explanation": "Aniq vaqt oldidan \"at\" ishlatiladi: at half past eleven. \"In\" oylar va yillar bilan keladi: in May, in 2026.",
+     "explanation_entities": []
+    }
+   }
+  }
+ ],
+ "posted_at": "2026-11-04T09:59:19.413251+00:00"
+}
