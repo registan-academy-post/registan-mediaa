@@ -1,0 +1,186 @@
+{
+ "id": "2026-11-05-2000-math",
+ "steps": [
+  {
+   "method": "sendPhoto",
+   "params": {
+    "chat_id": "@RegistanLC_Academy",
+    "photo": "https://raw.githubusercontent.com/registan-academy-post/registan-mediaa/main/posts/2026-11-05/2000_math_4pow_x_plus1.jpg",
+    "caption": "Kechki choy bilan bitta kichkina masala.\n\n2 ning x-darajasi 5 ga teng. Unda 4 ning (x+1)-darajasi nechchi bo'ladi?\n\nBirinchi o'yingiz x ni topish bo'lsa, shoshilmang: 4 ni boshqacha yozib ko'rsangiz, hammasi ikki qatorda yechiladi. Javobni so'rovnomada belgilang, yechimingizni izohlarda ko'rsating 😉\n\n📌 <a href=\"https://registan.edutizim.uz/order/entry/?survey=s33\">https://registan.edutizim.uz/order/entry/?survey=s33</a>\n\n📞 +998935512700\n\n📱 <a href=\"https://t.me/Registan_LC\">Follow us on social media</a>:\n\n📱<a href=\"https://t.me/RegistanLC_Academy\">Telegram</a>   📱<a href=\"https://instagram.com/registanlc_academy\">Instagram</a>   📱<a href=\"https://goo.gl/maps/ziHA5ukgVtbGmwwR6\">Location</a>",
+    "parse_mode": "HTML"
+   }
+  },
+  {
+   "method": "sendPoll",
+   "params": {
+    "chat_id": "@RegistanLC_Academy",
+    "question": "2^x = 5 bo'lsa, 4^(x+1) nechaga teng?",
+    "options": [
+     "20",
+     "50",
+     "80",
+     "100"
+    ],
+    "type": "quiz",
+    "correct_option_id": 3,
+    "is_anonymous": true,
+    "explanation": "4^(x+1) = 4 · 4^x = 4 · (2^x)² = 4 · 5² = 4 · 25 = 100. x ni topish shart emas edi."
+   }
+  }
+ ],
+ "results": [
+  {
+   "ok": true,
+   "result": {
+    "message_id": 3745,
+    "sender_chat": {
+     "id": -1001675672165,
+     "title": "Registan LC | Academy filiali",
+     "username": "RegistanLC_Academy",
+     "type": "channel"
+    },
+    "chat": {
+     "id": -1001675672165,
+     "title": "Registan LC | Academy filiali",
+     "username": "RegistanLC_Academy",
+     "type": "channel"
+    },
+    "date": 1793890490,
+    "photo": [
+     {
+      "file_id": "AgACAgQAAx0EY-C6ZQACDqFq7Ji68-wjHsK2x6-SGmxdmyRoEAACXQ9rG3jObVOdjaMTNboV5wEAAwIAA3MAAz0E",
+      "file_unique_id": "AQADXQ9rG3jObVN4",
+      "file_size": 855,
+      "width": 72,
+      "height": 90
+     },
+     {
+      "file_id": "AgACAgQAAx0EY-C6ZQACDqFq7Ji68-wjHsK2x6-SGmxdmyRoEAACXQ9rG3jObVOdjaMTNboV5wEAAwIAA20AAz0E",
+      "file_unique_id": "AQADXQ9rG3jObVNy",
+      "file_size": 7132,
+      "width": 256,
+      "height": 320
+     },
+     {
+      "file_id": "AgACAgQAAx0EY-C6ZQACDqFq7Ji68-wjHsK2x6-SGmxdmyRoEAACXQ9rG3jObVOdjaMTNboV5wEAAwIAA3gAAz0E",
+      "file_unique_id": "AQADXQ9rG3jObVN9",
+      "file_size": 26912,
+      "width": 640,
+      "height": 800
+     },
+     {
+      "file_id": "AgACAgQAAx0EY-C6ZQACDqFq7Ji68-wjHsK2x6-SGmxdmyRoEAACXQ9rG3jObVOdjaMTNboV5wEAAwIAA3kAAz0E",
+      "file_unique_id": "AQADXQ9rG3jObVN-",
+      "file_size": 48753,
+      "width": 1024,
+      "height": 1280
+     },
+     {
+      "file_id": "AgACAgQAAx0EY-C6ZQACDqFq7Ji68-wjHsK2x6-SGmxdmyRoEAACXQ9rG3jObVOdjaMTNboV5wEAAwIAA3cAAz0E",
+      "file_unique_id": "AQADXQ9rG3jObVN8",
+      "file_size": 141816,
+      "width": 2048,
+      "height": 2560
+     }
+    ],
+    "caption": "Kechki choy bilan bitta kichkina masala.\n\n2 ning x-darajasi 5 ga teng. Unda 4 ning (x+1)-darajasi nechchi bo'ladi?\n\nBirinchi o'yingiz x ni topish bo'lsa, shoshilmang: 4 ni boshqacha yozib ko'rsangiz, hammasi ikki qatorda yechiladi. Javobni so'rovnomada belgilang, yechimingizni izohlarda ko'rsating 😉\n\n📌 https://registan.edutizim.uz/order/entry/?survey=s33\n\n📞 +998935512700\n\n📱 Follow us on social media:\n\n📱Telegram   📱Instagram   📱Location",
+    "caption_entities": [
+     {
+      "offset": 306,
+      "length": 52,
+      "type": "text_link",
+      "url": "https://registan.edutizim.uz/order/entry/?survey=s33"
+     },
+     {
+      "offset": 363,
+      "length": 13,
+      "type": "phone_number"
+     },
+     {
+      "offset": 381,
+      "length": 25,
+      "type": "text_link",
+      "url": "https://t.me/Registan_LC"
+     },
+     {
+      "offset": 411,
+      "length": 8,
+      "type": "text_link",
+      "url": "https://t.me/RegistanLC_Academy"
+     },
+     {
+      "offset": 424,
+      "length": 9,
+      "type": "text_link",
+      "url": "https://instagram.com/registanlc_academy"
+     },
+     {
+      "offset": 438,
+      "length": 8,
+      "type": "text_link",
+      "url": "https://goo.gl/maps/ziHA5ukgVtbGmwwR6"
+     }
+    ]
+   }
+  },
+  {
+   "ok": true,
+   "result": {
+    "message_id": 3746,
+    "sender_chat": {
+     "id": -1001675672165,
+     "title": "Registan LC | Academy filiali",
+     "username": "RegistanLC_Academy",
+     "type": "channel"
+    },
+    "chat": {
+     "id": -1001675672165,
+     "title": "Registan LC | Academy filiali",
+     "username": "RegistanLC_Academy",
+     "type": "channel"
+    },
+    "date": 1793890490,
+    "poll": {
+     "id": "5433671127417231406",
+     "question": "2^x = 5 bo'lsa, 4^(x+1) nechaga teng?",
+     "options": [
+      {
+       "persistent_id": "0",
+       "text": "20",
+       "voter_count": 0
+      },
+      {
+       "persistent_id": "1",
+       "text": "50",
+       "voter_count": 0
+      },
+      {
+       "persistent_id": "2",
+       "text": "80",
+       "voter_count": 0
+      },
+      {
+       "persistent_id": "3",
+       "text": "100",
+       "voter_count": 0
+      }
+     ],
+     "total_voter_count": 0,
+     "is_closed": false,
+     "is_anonymous": true,
+     "allows_multiple_answers": false,
+     "allows_revoting": false,
+     "members_only": false,
+     "type": "quiz",
+     "correct_option_id": 3,
+     "correct_option_ids": [
+      3
+     ],
+     "explanation": "4^(x+1) = 4 · 4^x = 4 · (2^x)² = 4 · 5² = 4 · 25 = 100. x ni topish shart emas edi.",
+     "explanation_entities": []
+    }
+   }
+  }
+ ],
+ "posted_at": "2026-11-05T14:54:51.066280+00:00"
+}
