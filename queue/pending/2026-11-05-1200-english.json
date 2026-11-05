@@ -1,0 +1,14 @@
+{
+ "id": "2026-11-05-1200-english",
+ "steps": [
+  {
+   "method": "sendPhoto",
+   "params": {
+    "chat_id": "@RegistanLC_Academy",
+    "photo": "https://raw.githubusercontent.com/registan-academy-post/registan-mediaa/main/posts/2026-11-05/1200_grammar_although_vs_despite.jpg",
+    "caption": "\"Despite it was raining, we went to class.\" Shu gapda bitta xato bor, topa olasizmi? 🙂\n\n<b>Although</b> ham, <b>despite</b> ham \"garchi ... bo'lsa ham\", \"-ga qaramay\" degan ma'noni beradi. Farqi keyin nima kelishida: although'dan keyin to'liq gap (ega + fe'l), despite'dan keyin esa ot yoki -ing shakl.\n\nDemak to'g'risi: <i>Although it was raining, we went to class.</i> yoki <i>Despite the rain, we went to class.</i> Yana ikki misol: <i>Although she was tired, she finished her essay.</i> <i>Despite feeling nervous, he did well in the Speaking test.</i>\n\n\"Despite of\" degan narsa yo'q, <i>in spite of</i> bor, despite esa o'zi yolg'iz turadi. Despite'dan keyin baribir to'liq gap kerak bo'lsa, <i>despite the fact that</i> qo'llang. IELTS Writing'da ikkalasini navbatma-navbat ishlatsangiz, gaplaringiz bir xil bo'lib qolmaydi.\n\n📌 <a href=\"https://registan.edutizim.uz/order/entry/?survey=s33\">https://registan.edutizim.uz/order/entry/?survey=s33</a>\n\n📞 +998935512700\n\n📱 <a href=\"https://t.me/Registan_LC\">Follow us on social media</a>:\n\n📱<a href=\"https://t.me/RegistanLC_Academy\">Telegram</a>   📱<a href=\"https://instagram.com/registanlc_academy\">Instagram</a>   📱<a href=\"https://goo.gl/maps/ziHA5ukgVtbGmwwR6\">Location</a>",
+    "parse_mode": "HTML"
+   }
+  }
+ ]
+}
