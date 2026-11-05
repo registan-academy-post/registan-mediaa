@@ -1,0 +1,151 @@
+{
+ "id": "2026-11-05-1200-english",
+ "steps": [
+  {
+   "method": "sendPhoto",
+   "params": {
+    "chat_id": "@RegistanLC_Academy",
+    "photo": "https://raw.githubusercontent.com/registan-academy-post/registan-mediaa/main/posts/2026-11-05/1200_grammar_although_vs_despite.jpg",
+    "caption": "\"Despite it was raining, we went to class.\" Shu gapda bitta xato bor, topa olasizmi? 🙂\n\n<b>Although</b> ham, <b>despite</b> ham \"garchi ... bo'lsa ham\", \"-ga qaramay\" degan ma'noni beradi. Farqi keyin nima kelishida: although'dan keyin to'liq gap (ega + fe'l), despite'dan keyin esa ot yoki -ing shakl.\n\nDemak to'g'risi: <i>Although it was raining, we went to class.</i> yoki <i>Despite the rain, we went to class.</i> Yana ikki misol: <i>Although she was tired, she finished her essay.</i> <i>Despite feeling nervous, he did well in the Speaking test.</i>\n\n\"Despite of\" degan narsa yo'q, <i>in spite of</i> bor, despite esa o'zi yolg'iz turadi. Despite'dan keyin baribir to'liq gap kerak bo'lsa, <i>despite the fact that</i> qo'llang. IELTS Writing'da ikkalasini navbatma-navbat ishlatsangiz, gaplaringiz bir xil bo'lib qolmaydi.\n\n📌 <a href=\"https://registan.edutizim.uz/order/entry/?survey=s33\">https://registan.edutizim.uz/order/entry/?survey=s33</a>\n\n📞 +998935512700\n\n📱 <a href=\"https://t.me/Registan_LC\">Follow us on social media</a>:\n\n📱<a href=\"https://t.me/RegistanLC_Academy\">Telegram</a>   📱<a href=\"https://instagram.com/registanlc_academy\">Instagram</a>   📱<a href=\"https://goo.gl/maps/ziHA5ukgVtbGmwwR6\">Location</a>",
+    "parse_mode": "HTML"
+   }
+  }
+ ],
+ "results": [
+  {
+   "ok": true,
+   "result": {
+    "message_id": 3738,
+    "sender_chat": {
+     "id": -1001675672165,
+     "title": "Registan LC | Academy filiali",
+     "username": "RegistanLC_Academy",
+     "type": "channel"
+    },
+    "chat": {
+     "id": -1001675672165,
+     "title": "Registan LC | Academy filiali",
+     "username": "RegistanLC_Academy",
+     "type": "channel"
+    },
+    "date": 1793861690,
+    "photo": [
+     {
+      "file_id": "AgACAgQAAx0EY-C6ZQACDppq7Cg6xKMzN5q-kOkP4PthyInzOwACdw9rG7RLZVO2y-EBy5GWewEAAwIAA3MAAz0E",
+      "file_unique_id": "AQADdw9rG7RLZVN4",
+      "file_size": 1343,
+      "width": 72,
+      "height": 90
+     },
+     {
+      "file_id": "AgACAgQAAx0EY-C6ZQACDppq7Cg6xKMzN5q-kOkP4PthyInzOwACdw9rG7RLZVO2y-EBy5GWewEAAwIAA20AAz0E",
+      "file_unique_id": "AQADdw9rG7RLZVNy",
+      "file_size": 12584,
+      "width": 256,
+      "height": 320
+     },
+     {
+      "file_id": "AgACAgQAAx0EY-C6ZQACDppq7Cg6xKMzN5q-kOkP4PthyInzOwACdw9rG7RLZVO2y-EBy5GWewEAAwIAA3gAAz0E",
+      "file_unique_id": "AQADdw9rG7RLZVN9",
+      "file_size": 39411,
+      "width": 640,
+      "height": 800
+     },
+     {
+      "file_id": "AgACAgQAAx0EY-C6ZQACDppq7Cg6xKMzN5q-kOkP4PthyInzOwACdw9rG7RLZVO2y-EBy5GWewEAAwIAA3kAAz0E",
+      "file_unique_id": "AQADdw9rG7RLZVN-",
+      "file_size": 67997,
+      "width": 1024,
+      "height": 1280
+     },
+     {
+      "file_id": "AgACAgQAAx0EY-C6ZQACDppq7Cg6xKMzN5q-kOkP4PthyInzOwACdw9rG7RLZVO2y-EBy5GWewEAAwIAA3cAAz0E",
+      "file_unique_id": "AQADdw9rG7RLZVN8",
+      "file_size": 153614,
+      "width": 2048,
+      "height": 2560
+     }
+    ],
+    "caption": "\"Despite it was raining, we went to class.\" Shu gapda bitta xato bor, topa olasizmi? 🙂\n\nAlthough ham, despite ham \"garchi ... bo'lsa ham\", \"-ga qaramay\" degan ma'noni beradi. Farqi keyin nima kelishida: although'dan keyin to'liq gap (ega + fe'l), despite'dan keyin esa ot yoki -ing shakl.\n\nDemak to'g'risi: Although it was raining, we went to class. yoki Despite the rain, we went to class. Yana ikki misol: Although she was tired, she finished her essay. Despite feeling nervous, he did well in the Speaking test.\n\n\"Despite of\" degan narsa yo'q, in spite of bor, despite esa o'zi yolg'iz turadi. Despite'dan keyin baribir to'liq gap kerak bo'lsa, despite the fact that qo'llang. IELTS Writing'da ikkalasini navbatma-navbat ishlatsangiz, gaplaringiz bir xil bo'lib qolmaydi.\n\n📌 https://registan.edutizim.uz/order/entry/?survey=s33\n\n📞 +998935512700\n\n📱 Follow us on social media:\n\n📱Telegram   📱Instagram   📱Location",
+    "caption_entities": [
+     {
+      "offset": 89,
+      "length": 8,
+      "type": "bold"
+     },
+     {
+      "offset": 103,
+      "length": 7,
+      "type": "bold"
+     },
+     {
+      "offset": 308,
+      "length": 42,
+      "type": "italic"
+     },
+     {
+      "offset": 356,
+      "length": 35,
+      "type": "italic"
+     },
+     {
+      "offset": 409,
+      "length": 47,
+      "type": "italic"
+     },
+     {
+      "offset": 457,
+      "length": 58,
+      "type": "italic"
+     },
+     {
+      "offset": 548,
+      "length": 11,
+      "type": "italic"
+     },
+     {
+      "offset": 649,
+      "length": 21,
+      "type": "italic"
+     },
+     {
+      "offset": 780,
+      "length": 52,
+      "type": "text_link",
+      "url": "https://registan.edutizim.uz/order/entry/?survey=s33"
+     },
+     {
+      "offset": 837,
+      "length": 13,
+      "type": "phone_number"
+     },
+     {
+      "offset": 855,
+      "length": 25,
+      "type": "text_link",
+      "url": "https://t.me/Registan_LC"
+     },
+     {
+      "offset": 885,
+      "length": 8,
+      "type": "text_link",
+      "url": "https://t.me/RegistanLC_Academy"
+     },
+     {
+      "offset": 898,
+      "length": 9,
+      "type": "text_link",
+      "url": "https://instagram.com/registanlc_academy"
+     },
+     {
+      "offset": 912,
+      "length": 8,
+      "type": "text_link",
+      "url": "https://goo.gl/maps/ziHA5ukgVtbGmwwR6"
+     }
+    ]
+   }
+  }
+ ],
+ "posted_at": "2026-11-05T06:54:50.300407+00:00"
+}
