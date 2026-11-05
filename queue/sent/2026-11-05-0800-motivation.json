@@ -1,0 +1,177 @@
+{
+ "id": "2026-11-05-0800-motivation",
+ "steps": [
+  {
+   "method": "sendMediaGroup",
+   "params": {
+    "chat_id": "@RegistanLC_Academy",
+    "media": [
+     {
+      "type": "photo",
+      "media": "https://raw.githubusercontent.com/registan-academy-post/registan-mediaa/main/posts/2026-11-05/0800_time_patience_tolstoy.jpg",
+      "caption": "Xayrli tong 🌤\n\nIngliz tilini o'rganayotgan har bir kishi bir kun shunday so'raydi: «Qachon ravon gapiraman?» Tolstoy bilan Franklin bu savolga allaqachon javob berib qo'yishgan: vaqt va sabr.\n\nNatija bir kunda ko'rinmaydi, lekin har kuni qilingan ozgina mehnat hech qachon behuda ketmaydi. Bugun ham o'sha ozginani qiling, qolganini vaqtga qo'yib bering.\n\n📌 <a href=\"https://registan.edutizim.uz/order/entry/?survey=s33\">https://registan.edutizim.uz/order/entry/?survey=s33</a>\n\n📞 +998935512700\n\n📱 <a href=\"https://t.me/Registan_LC\">Follow us on social media</a>:\n\n📱<a href=\"https://t.me/RegistanLC_Academy\">Telegram</a>   📱<a href=\"https://instagram.com/registanlc_academy\">Instagram</a>   📱<a href=\"https://goo.gl/maps/ziHA5ukgVtbGmwwR6\">Location</a>",
+      "parse_mode": "HTML"
+     },
+     {
+      "type": "photo",
+      "media": "https://raw.githubusercontent.com/registan-academy-post/registan-mediaa/main/posts/2026-11-05/0800_patience_franklin.jpg"
+     }
+    ]
+   }
+  }
+ ],
+ "results": [
+  {
+   "ok": true,
+   "result": [
+    {
+     "message_id": 3736,
+     "sender_chat": {
+      "id": -1001675672165,
+      "title": "Registan LC | Academy filiali",
+      "username": "RegistanLC_Academy",
+      "type": "channel"
+     },
+     "chat": {
+      "id": -1001675672165,
+      "title": "Registan LC | Academy filiali",
+      "username": "RegistanLC_Academy",
+      "type": "channel"
+     },
+     "date": 1793847298,
+     "media_group_id": "14350778388188898",
+     "photo": [
+      {
+       "file_id": "AgACAgQAAxUHauvwArrlZlxBpXmV0LK29-sozh0AAooPaxsgXWRTroLkDxyXCkcBAAMCAANzAAM9BA",
+       "file_unique_id": "AQADig9rGyBdZFN4",
+       "file_size": 1204,
+       "width": 72,
+       "height": 90
+      },
+      {
+       "file_id": "AgACAgQAAxUHauvwArrlZlxBpXmV0LK29-sozh0AAooPaxsgXWRTroLkDxyXCkcBAAMCAANtAAM9BA",
+       "file_unique_id": "AQADig9rGyBdZFNy",
+       "file_size": 15636,
+       "width": 256,
+       "height": 320
+      },
+      {
+       "file_id": "AgACAgQAAxUHauvwArrlZlxBpXmV0LK29-sozh0AAooPaxsgXWRTroLkDxyXCkcBAAMCAAN4AAM9BA",
+       "file_unique_id": "AQADig9rGyBdZFN9",
+       "file_size": 55195,
+       "width": 640,
+       "height": 800
+      },
+      {
+       "file_id": "AgACAgQAAxUHauvwArrlZlxBpXmV0LK29-sozh0AAooPaxsgXWRTroLkDxyXCkcBAAMCAAN5AAM9BA",
+       "file_unique_id": "AQADig9rGyBdZFN-",
+       "file_size": 103426,
+       "width": 1024,
+       "height": 1280
+      },
+      {
+       "file_id": "AgACAgQAAxUHauvwArrlZlxBpXmV0LK29-sozh0AAooPaxsgXWRTroLkDxyXCkcBAAMCAAN3AAM9BA",
+       "file_unique_id": "AQADig9rGyBdZFN8",
+       "file_size": 299836,
+       "width": 2048,
+       "height": 2560
+      }
+     ],
+     "caption": "Xayrli tong 🌤\n\nIngliz tilini o'rganayotgan har bir kishi bir kun shunday so'raydi: «Qachon ravon gapiraman?» Tolstoy bilan Franklin bu savolga allaqachon javob berib qo'yishgan: vaqt va sabr.\n\nNatija bir kunda ko'rinmaydi, lekin har kuni qilingan ozgina mehnat hech qachon behuda ketmaydi. Bugun ham o'sha ozginani qiling, qolganini vaqtga qo'yib bering.\n\n📌 https://registan.edutizim.uz/order/entry/?survey=s33\n\n📞 +998935512700\n\n📱 Follow us on social media:\n\n📱Telegram   📱Instagram   📱Location",
+     "caption_entities": [
+      {
+       "offset": 360,
+       "length": 52,
+       "type": "text_link",
+       "url": "https://registan.edutizim.uz/order/entry/?survey=s33"
+      },
+      {
+       "offset": 417,
+       "length": 13,
+       "type": "phone_number"
+      },
+      {
+       "offset": 435,
+       "length": 25,
+       "type": "text_link",
+       "url": "https://t.me/Registan_LC"
+      },
+      {
+       "offset": 465,
+       "length": 8,
+       "type": "text_link",
+       "url": "https://t.me/RegistanLC_Academy"
+      },
+      {
+       "offset": 478,
+       "length": 9,
+       "type": "text_link",
+       "url": "https://instagram.com/registanlc_academy"
+      },
+      {
+       "offset": 492,
+       "length": 8,
+       "type": "text_link",
+       "url": "https://goo.gl/maps/ziHA5ukgVtbGmwwR6"
+      }
+     ]
+    },
+    {
+     "message_id": 3737,
+     "sender_chat": {
+      "id": -1001675672165,
+      "title": "Registan LC | Academy filiali",
+      "username": "RegistanLC_Academy",
+      "type": "channel"
+     },
+     "chat": {
+      "id": -1001675672165,
+      "title": "Registan LC | Academy filiali",
+      "username": "RegistanLC_Academy",
+      "type": "channel"
+     },
+     "date": 1793847298,
+     "media_group_id": "14350778388188898",
+     "photo": [
+      {
+       "file_id": "AgACAgQAAxUHauvwAjCHjWNNJB1-LlvzCf2-yggAAiMOaxtrFGVTYG49G3c-rpUBAAMCAANzAAM9BA",
+       "file_unique_id": "AQADIw5rG2sUZVN4",
+       "file_size": 1275,
+       "width": 72,
+       "height": 90
+      },
+      {
+       "file_id": "AgACAgQAAxUHauvwAjCHjWNNJB1-LlvzCf2-yggAAiMOaxtrFGVTYG49G3c-rpUBAAMCAANtAAM9BA",
+       "file_unique_id": "AQADIw5rG2sUZVNy",
+       "file_size": 14492,
+       "width": 256,
+       "height": 320
+      },
+      {
+       "file_id": "AgACAgQAAxUHauvwAjCHjWNNJB1-LlvzCf2-yggAAiMOaxtrFGVTYG49G3c-rpUBAAMCAAN4AAM9BA",
+       "file_unique_id": "AQADIw5rG2sUZVN9",
+       "file_size": 53112,
+       "width": 640,
+       "height": 800
+      },
+      {
+       "file_id": "AgACAgQAAxUHauvwAjCHjWNNJB1-LlvzCf2-yggAAiMOaxtrFGVTYG49G3c-rpUBAAMCAAN5AAM9BA",
+       "file_unique_id": "AQADIw5rG2sUZVN-",
+       "file_size": 96861,
+       "width": 1024,
+       "height": 1280
+      },
+      {
+       "file_id": "AgACAgQAAxUHauvwAjCHjWNNJB1-LlvzCf2-yggAAiMOaxtrFGVTYG49G3c-rpUBAAMCAAN3AAM9BA",
+       "file_unique_id": "AQADIw5rG2sUZVN8",
+       "file_size": 265828,
+       "width": 2048,
+       "height": 2560
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "posted_at": "2026-11-05T02:54:58.666383+00:00"
+}
