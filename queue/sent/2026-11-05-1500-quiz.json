@@ -1,0 +1,410 @@
+{
+ "id": "2026-11-05-1500-quiz",
+ "steps": [
+  {
+   "method": "sendMessage",
+   "params": {
+    "chat_id": "@RegistanLC_Academy",
+    "text": "Beginner guruhlar, bugun yana kontakt ma'lumotlari: ismni harflab aytish, telefon va email.\nBitta savol o'tgan mavzudan, takrorlash uchun. Qani, 5 tadan nechtasini topasiz?"
+   }
+  },
+  {
+   "method": "sendPoll",
+   "params": {
+    "chat_id": "@RegistanLC_Academy",
+    "question": "Which letter do we say as \"double u\"?",
+    "options": [
+     "V",
+     "U",
+     "W",
+     "Y"
+    ],
+    "type": "quiz",
+    "is_anonymous": true,
+    "correct_option_id": 2,
+    "explanation": "\"Double u\" so'zma-so'z \"ikkita u\" degani, bu W harfi. Masalan, www \"double u, double u, double u\" deb o'qiladi."
+   }
+  },
+  {
+   "method": "sendPoll",
+   "params": {
+    "chat_id": "@RegistanLC_Academy",
+    "question": "A: How do you spell your name?\nB: ___",
+    "options": [
+     "It's Malika.",
+     "M-A-L-I-K-A.",
+     "Yes, I do.",
+     "My name Malika."
+    ],
+    "type": "quiz",
+    "is_anonymous": true,
+    "correct_option_id": 1,
+    "explanation": "\"Spell\" so'zni harfma-harf aytish degani. Shuning uchun javob harflar bilan beriladi: M-A-L-I-K-A."
+   }
+  },
+  {
+   "method": "sendPoll",
+   "params": {
+    "chat_id": "@RegistanLC_Academy",
+    "question": "Diyor and Lola ___ Russian. They're Uzbek.",
+    "options": [
+     "isn't",
+     "don't",
+     "aren't",
+     "not"
+    ],
+    "type": "quiz",
+    "is_anonymous": true,
+    "correct_option_id": 2,
+    "explanation": "Ikki kishi (they) uchun \"are\", inkori \"aren't\" (are not). \"Isn't\" faqat he/she/it bilan ishlatiladi."
+   }
+  },
+  {
+   "method": "sendPoll",
+   "params": {
+    "chat_id": "@RegistanLC_Academy",
+    "question": "Choose the correct question.",
+    "options": [
+     "How do you spell your surname?",
+     "How you spell your surname?",
+     "How are you spell your surname?",
+     "How spell you your surname?"
+    ],
+    "type": "quiz",
+    "is_anonymous": true,
+    "correct_option_id": 0,
+    "explanation": "Harflab so'rash uchun tayyor ibora: How do you spell...? Bu yerda \"do\" so'roq yasaydi, uni tushirib qoldirmaymiz va \"are\" bilan almashtirmaymiz."
+   }
+  },
+  {
+   "method": "sendPoll",
+   "params": {
+    "chat_id": "@RegistanLC_Academy",
+    "question": "Find the mistake:\nA: Can I have your phone number?\nB: Sure, it's 97 210 55 33.\nA: Thanks. And what's you email address?\nB: It's bek_2000@mail.ru.",
+    "options": [
+     "Can I have your phone number?",
+     "Sure, it's 97 210 55 33",
+     "what's you email address?",
+     "It's bek_2000@mail.ru"
+    ],
+    "type": "quiz",
+    "is_anonymous": true,
+    "correct_option_id": 2,
+    "explanation": "\"You\" bu \"siz\", \"your\" esa \"sizning\". Email sizga tegishli, shuning uchun: What's your email address?"
+   }
+  }
+ ],
+ "results": [
+  {
+   "ok": true,
+   "result": {
+    "message_id": 3739,
+    "sender_chat": {
+     "id": -1001675672165,
+     "title": "Registan LC | Academy filiali",
+     "username": "RegistanLC_Academy",
+     "type": "channel"
+    },
+    "chat": {
+     "id": -1001675672165,
+     "title": "Registan LC | Academy filiali",
+     "username": "RegistanLC_Academy",
+     "type": "channel"
+    },
+    "date": 1793872542,
+    "text": "Beginner guruhlar, bugun yana kontakt ma'lumotlari: ismni harflab aytish, telefon va email.\nBitta savol o'tgan mavzudan, takrorlash uchun. Qani, 5 tadan nechtasini topasiz?"
+   }
+  },
+  {
+   "ok": true,
+   "result": {
+    "message_id": 3740,
+    "sender_chat": {
+     "id": -1001675672165,
+     "title": "Registan LC | Academy filiali",
+     "username": "RegistanLC_Academy",
+     "type": "channel"
+    },
+    "chat": {
+     "id": -1001675672165,
+     "title": "Registan LC | Academy filiali",
+     "username": "RegistanLC_Academy",
+     "type": "channel"
+    },
+    "date": 1793872542,
+    "poll": {
+     "id": "5431419327603545655",
+     "question": "Which letter do we say as \"double u\"?",
+     "options": [
+      {
+       "persistent_id": "0",
+       "text": "V",
+       "voter_count": 0
+      },
+      {
+       "persistent_id": "1",
+       "text": "U",
+       "voter_count": 0
+      },
+      {
+       "persistent_id": "2",
+       "text": "W",
+       "voter_count": 0
+      },
+      {
+       "persistent_id": "3",
+       "text": "Y",
+       "voter_count": 0
+      }
+     ],
+     "total_voter_count": 0,
+     "is_closed": false,
+     "is_anonymous": true,
+     "allows_multiple_answers": false,
+     "allows_revoting": false,
+     "members_only": false,
+     "type": "quiz",
+     "correct_option_id": 2,
+     "correct_option_ids": [
+      2
+     ],
+     "explanation": "\"Double u\" so'zma-so'z \"ikkita u\" degani, bu W harfi. Masalan, www \"double u, double u, double u\" deb o'qiladi.",
+     "explanation_entities": []
+    }
+   }
+  },
+  {
+   "ok": true,
+   "result": {
+    "message_id": 3741,
+    "sender_chat": {
+     "id": -1001675672165,
+     "title": "Registan LC | Academy filiali",
+     "username": "RegistanLC_Academy",
+     "type": "channel"
+    },
+    "chat": {
+     "id": -1001675672165,
+     "title": "Registan LC | Academy filiali",
+     "username": "RegistanLC_Academy",
+     "type": "channel"
+    },
+    "date": 1793872543,
+    "poll": {
+     "id": "5431419327603545656",
+     "question": "A: How do you spell your name?\nB: ___",
+     "options": [
+      {
+       "persistent_id": "0",
+       "text": "It's Malika.",
+       "voter_count": 0
+      },
+      {
+       "persistent_id": "1",
+       "text": "M-A-L-I-K-A.",
+       "voter_count": 0
+      },
+      {
+       "persistent_id": "2",
+       "text": "Yes, I do.",
+       "voter_count": 0
+      },
+      {
+       "persistent_id": "3",
+       "text": "My name Malika.",
+       "voter_count": 0
+      }
+     ],
+     "total_voter_count": 0,
+     "is_closed": false,
+     "is_anonymous": true,
+     "allows_multiple_answers": false,
+     "allows_revoting": false,
+     "members_only": false,
+     "type": "quiz",
+     "correct_option_id": 1,
+     "correct_option_ids": [
+      1
+     ],
+     "explanation": "\"Spell\" so'zni harfma-harf aytish degani. Shuning uchun javob harflar bilan beriladi: M-A-L-I-K-A.",
+     "explanation_entities": []
+    }
+   }
+  },
+  {
+   "ok": true,
+   "result": {
+    "message_id": 3742,
+    "sender_chat": {
+     "id": -1001675672165,
+     "title": "Registan LC | Academy filiali",
+     "username": "RegistanLC_Academy",
+     "type": "channel"
+    },
+    "chat": {
+     "id": -1001675672165,
+     "title": "Registan LC | Academy filiali",
+     "username": "RegistanLC_Academy",
+     "type": "channel"
+    },
+    "date": 1793872543,
+    "poll": {
+     "id": "5431419327603545657",
+     "question": "Diyor and Lola ___ Russian. They're Uzbek.",
+     "options": [
+      {
+       "persistent_id": "0",
+       "text": "isn't",
+       "voter_count": 0
+      },
+      {
+       "persistent_id": "1",
+       "text": "don't",
+       "voter_count": 0
+      },
+      {
+       "persistent_id": "2",
+       "text": "aren't",
+       "voter_count": 0
+      },
+      {
+       "persistent_id": "3",
+       "text": "not",
+       "voter_count": 0
+      }
+     ],
+     "total_voter_count": 0,
+     "is_closed": false,
+     "is_anonymous": true,
+     "allows_multiple_answers": false,
+     "allows_revoting": false,
+     "members_only": false,
+     "type": "quiz",
+     "correct_option_id": 2,
+     "correct_option_ids": [
+      2
+     ],
+     "explanation": "Ikki kishi (they) uchun \"are\", inkori \"aren't\" (are not). \"Isn't\" faqat he/she/it bilan ishlatiladi.",
+     "explanation_entities": []
+    }
+   }
+  },
+  {
+   "ok": true,
+   "result": {
+    "message_id": 3743,
+    "sender_chat": {
+     "id": -1001675672165,
+     "title": "Registan LC | Academy filiali",
+     "username": "RegistanLC_Academy",
+     "type": "channel"
+    },
+    "chat": {
+     "id": -1001675672165,
+     "title": "Registan LC | Academy filiali",
+     "username": "RegistanLC_Academy",
+     "type": "channel"
+    },
+    "date": 1793872544,
+    "poll": {
+     "id": "5431419327603545658",
+     "question": "Choose the correct question.",
+     "options": [
+      {
+       "persistent_id": "0",
+       "text": "How do you spell your surname?",
+       "voter_count": 0
+      },
+      {
+       "persistent_id": "1",
+       "text": "How you spell your surname?",
+       "voter_count": 0
+      },
+      {
+       "persistent_id": "2",
+       "text": "How are you spell your surname?",
+       "voter_count": 0
+      },
+      {
+       "persistent_id": "3",
+       "text": "How spell you your surname?",
+       "voter_count": 0
+      }
+     ],
+     "total_voter_count": 0,
+     "is_closed": false,
+     "is_anonymous": true,
+     "allows_multiple_answers": false,
+     "allows_revoting": false,
+     "members_only": false,
+     "type": "quiz",
+     "correct_option_id": 0,
+     "correct_option_ids": [
+      0
+     ],
+     "explanation": "Harflab so'rash uchun tayyor ibora: How do you spell...? Bu yerda \"do\" so'roq yasaydi, uni tushirib qoldirmaymiz va \"are\" bilan almashtirmaymiz.",
+     "explanation_entities": []
+    }
+   }
+  },
+  {
+   "ok": true,
+   "result": {
+    "message_id": 3744,
+    "sender_chat": {
+     "id": -1001675672165,
+     "title": "Registan LC | Academy filiali",
+     "username": "RegistanLC_Academy",
+     "type": "channel"
+    },
+    "chat": {
+     "id": -1001675672165,
+     "title": "Registan LC | Academy filiali",
+     "username": "RegistanLC_Academy",
+     "type": "channel"
+    },
+    "date": 1793872547,
+    "poll": {
+     "id": "5431419327603545659",
+     "question": "Find the mistake:\nA: Can I have your phone number?\nB: Sure, it's 97 210 55 33. A: Thanks. And what's you email address? B: It's bek_2000@mail.ru.",
+     "options": [
+      {
+       "persistent_id": "0",
+       "text": "Can I have your phone number?",
+       "voter_count": 0
+      },
+      {
+       "persistent_id": "1",
+       "text": "Sure, it's 97 210 55 33",
+       "voter_count": 0
+      },
+      {
+       "persistent_id": "2",
+       "text": "what's you email address?",
+       "voter_count": 0
+      },
+      {
+       "persistent_id": "3",
+       "text": "It's bek_2000@mail.ru",
+       "voter_count": 0
+      }
+     ],
+     "total_voter_count": 0,
+     "is_closed": false,
+     "is_anonymous": true,
+     "allows_multiple_answers": false,
+     "allows_revoting": false,
+     "members_only": false,
+     "type": "quiz",
+     "correct_option_id": 2,
+     "correct_option_ids": [
+      2
+     ],
+     "explanation": "\"You\" bu \"siz\", \"your\" esa \"sizning\". Email sizga tegishli, shuning uchun: What's your email address?",
+     "explanation_entities": []
+    }
+   }
+  }
+ ],
+ "posted_at": "2026-11-05T09:55:48.053100+00:00"
+}
