@@ -1,0 +1,410 @@
+{
+ "id": "2026-11-06-1500-quiz",
+ "steps": [
+  {
+   "method": "sendMessage",
+   "params": {
+    "chat_id": "@RegistanLC_Academy",
+    "text": "Bugun Elementary uchun soat mavzusini davom ettiramiz 🕒\nQuarter to, twenty past... chalkashtirmasdan javob bera olasizmi? Bitta savol o'tgan darsdan."
+   }
+  },
+  {
+   "method": "sendPoll",
+   "params": {
+    "chat_id": "@RegistanLC_Academy",
+    "question": "It's 12 o'clock at night. In other words, it's ___.",
+    "options": [
+     "midday",
+     "morning",
+     "midnight",
+     "noon"
+    ],
+    "type": "quiz",
+    "is_anonymous": true,
+    "correct_option_id": 2,
+    "explanation": "Midnight tungi soat 12 degani. Midday va noon esa kunduzgi soat 12, ya'ni tush payti."
+   }
+  },
+  {
+   "method": "sendPoll",
+   "params": {
+    "chat_id": "@RegistanLC_Academy",
+    "question": "It's 10:40. It's twenty ___ eleven.",
+    "options": [
+     "to",
+     "past",
+     "from",
+     "before"
+    ],
+    "type": "quiz",
+    "is_anonymous": true,
+    "correct_option_id": 0,
+    "explanation": "40 daqiqa o'tdi, 11 gacha 20 daqiqa qoldi. Yarimdan keyin keyingi soatga qarab \"to\" ishlatamiz: twenty to eleven."
+   }
+  },
+  {
+   "method": "sendPoll",
+   "params": {
+    "chat_id": "@RegistanLC_Academy",
+    "question": "A: ___ is your English lesson?\nB: It's at ten o'clock.",
+    "options": [
+     "Where",
+     "Who",
+     "How",
+     "What time"
+    ],
+    "type": "quiz",
+    "is_anonymous": true,
+    "correct_option_id": 3,
+    "explanation": "Javob vaqt (at ten o'clock), shuning uchun \"What time\" bilan so'raymiz. Where joy haqida, Who odam haqida so'raydi."
+   }
+  },
+  {
+   "method": "sendPoll",
+   "params": {
+    "chat_id": "@RegistanLC_Academy",
+    "question": "Which sentence is correct for 6:05?",
+    "options": [
+     "It's six past five.",
+     "It's five past six.",
+     "It's five to six.",
+     "It's six and five past."
+    ],
+    "type": "quiz",
+    "is_anonymous": true,
+    "correct_option_id": 1,
+    "explanation": "Avval daqiqa, keyin past, keyin soat aytiladi: five past six. \"Five to six\" esa 5:55 bo'ladi."
+   }
+  },
+  {
+   "method": "sendPoll",
+   "params": {
+    "chat_id": "@RegistanLC_Academy",
+    "question": "Find the mistake:\n\"It's half to nine, so the shop is open. It opens at eight o'clock.\"",
+    "options": [
+     "the shop is open",
+     "It opens",
+     "half to nine",
+     "eight o'clock"
+    ],
+    "type": "quiz",
+    "is_anonymous": true,
+    "correct_option_id": 2,
+    "explanation": "\"Half\" faqat \"past\" bilan keladi: 8:30 = half past eight. Inglizchada \"half to\" deyilmaydi."
+   }
+  }
+ ],
+ "results": [
+  {
+   "ok": true,
+   "result": {
+    "message_id": 3750,
+    "sender_chat": {
+     "id": -1001675672165,
+     "title": "Registan LC | Academy filiali",
+     "username": "RegistanLC_Academy",
+     "type": "channel"
+    },
+    "chat": {
+     "id": -1001675672165,
+     "title": "Registan LC | Academy filiali",
+     "username": "RegistanLC_Academy",
+     "type": "channel"
+    },
+    "date": 1793958896,
+    "text": "Bugun Elementary uchun soat mavzusini davom ettiramiz 🕒\nQuarter to, twenty past... chalkashtirmasdan javob bera olasizmi? Bitta savol o'tgan darsdan."
+   }
+  },
+  {
+   "ok": true,
+   "result": {
+    "message_id": 3751,
+    "sender_chat": {
+     "id": -1001675672165,
+     "title": "Registan LC | Academy filiali",
+     "username": "RegistanLC_Academy",
+     "type": "channel"
+    },
+    "chat": {
+     "id": -1001675672165,
+     "title": "Registan LC | Academy filiali",
+     "username": "RegistanLC_Academy",
+     "type": "channel"
+    },
+    "date": 1793958897,
+    "poll": {
+     "id": "5435922927230915248",
+     "question": "It's 12 o'clock at night. In other words, it's ___.",
+     "options": [
+      {
+       "persistent_id": "0",
+       "text": "midday",
+       "voter_count": 0
+      },
+      {
+       "persistent_id": "1",
+       "text": "morning",
+       "voter_count": 0
+      },
+      {
+       "persistent_id": "2",
+       "text": "midnight",
+       "voter_count": 0
+      },
+      {
+       "persistent_id": "3",
+       "text": "noon",
+       "voter_count": 0
+      }
+     ],
+     "total_voter_count": 0,
+     "is_closed": false,
+     "is_anonymous": true,
+     "allows_multiple_answers": false,
+     "allows_revoting": false,
+     "members_only": false,
+     "type": "quiz",
+     "correct_option_id": 2,
+     "correct_option_ids": [
+      2
+     ],
+     "explanation": "Midnight tungi soat 12 degani. Midday va noon esa kunduzgi soat 12, ya'ni tush payti.",
+     "explanation_entities": []
+    }
+   }
+  },
+  {
+   "ok": true,
+   "result": {
+    "message_id": 3752,
+    "sender_chat": {
+     "id": -1001675672165,
+     "title": "Registan LC | Academy filiali",
+     "username": "RegistanLC_Academy",
+     "type": "channel"
+    },
+    "chat": {
+     "id": -1001675672165,
+     "title": "Registan LC | Academy filiali",
+     "username": "RegistanLC_Academy",
+     "type": "channel"
+    },
+    "date": 1793958897,
+    "poll": {
+     "id": "5435922927230915249",
+     "question": "It's 10:40. It's twenty ___ eleven.",
+     "options": [
+      {
+       "persistent_id": "0",
+       "text": "to",
+       "voter_count": 0
+      },
+      {
+       "persistent_id": "1",
+       "text": "past",
+       "voter_count": 0
+      },
+      {
+       "persistent_id": "2",
+       "text": "from",
+       "voter_count": 0
+      },
+      {
+       "persistent_id": "3",
+       "text": "before",
+       "voter_count": 0
+      }
+     ],
+     "total_voter_count": 0,
+     "is_closed": false,
+     "is_anonymous": true,
+     "allows_multiple_answers": false,
+     "allows_revoting": false,
+     "members_only": false,
+     "type": "quiz",
+     "correct_option_id": 0,
+     "correct_option_ids": [
+      0
+     ],
+     "explanation": "40 daqiqa o'tdi, 11 gacha 20 daqiqa qoldi. Yarimdan keyin keyingi soatga qarab \"to\" ishlatamiz: twenty to eleven.",
+     "explanation_entities": []
+    }
+   }
+  },
+  {
+   "ok": true,
+   "result": {
+    "message_id": 3753,
+    "sender_chat": {
+     "id": -1001675672165,
+     "title": "Registan LC | Academy filiali",
+     "username": "RegistanLC_Academy",
+     "type": "channel"
+    },
+    "chat": {
+     "id": -1001675672165,
+     "title": "Registan LC | Academy filiali",
+     "username": "RegistanLC_Academy",
+     "type": "channel"
+    },
+    "date": 1793958898,
+    "poll": {
+     "id": "5435922927230915250",
+     "question": "A: ___ is your English lesson?\nB: It's at ten o'clock.",
+     "options": [
+      {
+       "persistent_id": "0",
+       "text": "Where",
+       "voter_count": 0
+      },
+      {
+       "persistent_id": "1",
+       "text": "Who",
+       "voter_count": 0
+      },
+      {
+       "persistent_id": "2",
+       "text": "How",
+       "voter_count": 0
+      },
+      {
+       "persistent_id": "3",
+       "text": "What time",
+       "voter_count": 0
+      }
+     ],
+     "total_voter_count": 0,
+     "is_closed": false,
+     "is_anonymous": true,
+     "allows_multiple_answers": false,
+     "allows_revoting": false,
+     "members_only": false,
+     "type": "quiz",
+     "correct_option_id": 3,
+     "correct_option_ids": [
+      3
+     ],
+     "explanation": "Javob vaqt (at ten o'clock), shuning uchun \"What time\" bilan so'raymiz. Where joy haqida, Who odam haqida so'raydi.",
+     "explanation_entities": []
+    }
+   }
+  },
+  {
+   "ok": true,
+   "result": {
+    "message_id": 3754,
+    "sender_chat": {
+     "id": -1001675672165,
+     "title": "Registan LC | Academy filiali",
+     "username": "RegistanLC_Academy",
+     "type": "channel"
+    },
+    "chat": {
+     "id": -1001675672165,
+     "title": "Registan LC | Academy filiali",
+     "username": "RegistanLC_Academy",
+     "type": "channel"
+    },
+    "date": 1793958898,
+    "poll": {
+     "id": "5435922927230915251",
+     "question": "Which sentence is correct for 6:05?",
+     "options": [
+      {
+       "persistent_id": "0",
+       "text": "It's six past five.",
+       "voter_count": 0
+      },
+      {
+       "persistent_id": "1",
+       "text": "It's five past six.",
+       "voter_count": 0
+      },
+      {
+       "persistent_id": "2",
+       "text": "It's five to six.",
+       "voter_count": 0
+      },
+      {
+       "persistent_id": "3",
+       "text": "It's six and five past.",
+       "voter_count": 0
+      }
+     ],
+     "total_voter_count": 0,
+     "is_closed": false,
+     "is_anonymous": true,
+     "allows_multiple_answers": false,
+     "allows_revoting": false,
+     "members_only": false,
+     "type": "quiz",
+     "correct_option_id": 1,
+     "correct_option_ids": [
+      1
+     ],
+     "explanation": "Avval daqiqa, keyin past, keyin soat aytiladi: five past six. \"Five to six\" esa 5:55 bo'ladi.",
+     "explanation_entities": []
+    }
+   }
+  },
+  {
+   "ok": true,
+   "result": {
+    "message_id": 3755,
+    "sender_chat": {
+     "id": -1001675672165,
+     "title": "Registan LC | Academy filiali",
+     "username": "RegistanLC_Academy",
+     "type": "channel"
+    },
+    "chat": {
+     "id": -1001675672165,
+     "title": "Registan LC | Academy filiali",
+     "username": "RegistanLC_Academy",
+     "type": "channel"
+    },
+    "date": 1793958901,
+    "poll": {
+     "id": "5435922927230915252",
+     "question": "Find the mistake:\n\"It's half to nine, so the shop is open. It opens at eight o'clock.\"",
+     "options": [
+      {
+       "persistent_id": "0",
+       "text": "the shop is open",
+       "voter_count": 0
+      },
+      {
+       "persistent_id": "1",
+       "text": "It opens",
+       "voter_count": 0
+      },
+      {
+       "persistent_id": "2",
+       "text": "half to nine",
+       "voter_count": 0
+      },
+      {
+       "persistent_id": "3",
+       "text": "eight o'clock",
+       "voter_count": 0
+      }
+     ],
+     "total_voter_count": 0,
+     "is_closed": false,
+     "is_anonymous": true,
+     "allows_multiple_answers": false,
+     "allows_revoting": false,
+     "members_only": false,
+     "type": "quiz",
+     "correct_option_id": 2,
+     "correct_option_ids": [
+      2
+     ],
+     "explanation": "\"Half\" faqat \"past\" bilan keladi: 8:30 = half past eight. Inglizchada \"half to\" deyilmaydi.",
+     "explanation_entities": []
+    }
+   }
+  }
+ ],
+ "posted_at": "2026-11-06T09:55:01.921063+00:00"
+}
