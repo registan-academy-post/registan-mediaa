@@ -1,0 +1,169 @@
+{
+ "id": "2026-11-06-1200-english",
+ "steps": [
+  {
+   "method": "sendPhoto",
+   "params": {
+    "chat_id": "@RegistanLC_Academy",
+    "photo": "https://raw.githubusercontent.com/registan-academy-post/registan-mediaa/main/posts/2026-11-06/1200_phrasal_look_forward_to_ing.jpg",
+    "caption": "Ko'pchilik emailni shunday tugatadi: \"I look forward to hear from you.\" Juda tanish, to'g'rimi? Lekin shu gapda kichik tuzoq bor.\n\n<b>Look forward to</b> biror narsani intiqlik bilan kutmoq degani. Bu yerdagi <b>to</b> infinitiv emas, oddiy predlog, shuning uchun undan keyin ot yoki -ing shakl keladi: <i>I look forward to hearing from you.</i> <i>We're looking forward to the holidays.</i> <i>She is really looking forward to starting her IELTS course.</i>\n\nOson tekshirish usuli: to'dan keyin \"it\" qo'yib ko'ring. \"I'm looking forward to it\" bemalol aytiladi, demak fe'lga -ing qo'shiladi. IELTS General Writing'dagi rasmiy xatni <i>I look forward to hearing from you</i> bilan yakunlasangiz, juda o'rinli chiqadi 🙂\n\n📌 <a href=\"https://registan.edutizim.uz/order/entry/?survey=s33\">Bepul darsga yozilish</a>\n\n📞 +998935512700\n\n📱 <a href=\"https://t.me/Registan_LC\">Follow us on social media</a>:\n\n📱<a href=\"https://t.me/RegistanLC_Academy\">Telegram</a>   📱<a href=\"https://instagram.com/registanlc_academy\">Instagram</a>   📱<a href=\"https://goo.gl/maps/ziHA5ukgVtbGmwwR6\">Location</a>",
+    "parse_mode": "HTML",
+    "reply_markup": {
+     "inline_keyboard": [
+      [
+       {
+        "text": "✍️ Bepul darsga yozilish",
+        "url": "https://registan.edutizim.uz/order/entry/?survey=s33"
+       },
+       {
+        "text": "📍 Xaritada ochish",
+        "url": "https://goo.gl/maps/ziHA5ukgVtbGmwwR6"
+       }
+      ]
+     ]
+    }
+   }
+  }
+ ],
+ "results": [
+  {
+   "ok": true,
+   "result": {
+    "message_id": 3749,
+    "sender_chat": {
+     "id": -1001675672165,
+     "title": "Registan LC | Academy filiali",
+     "username": "RegistanLC_Academy",
+     "type": "channel"
+    },
+    "chat": {
+     "id": -1001675672165,
+     "title": "Registan LC | Academy filiali",
+     "username": "RegistanLC_Academy",
+     "type": "channel"
+    },
+    "date": 1793948114,
+    "photo": [
+     {
+      "file_id": "AgACAgQAAx0EY-C6ZQACDqVq7XnSRYkwztccDvGXuh4RlX8WzwACVQ5rGwgYdFOVEManlFwfJwEAAwIAA3MAAz0E",
+      "file_unique_id": "AQADVQ5rGwgYdFN4",
+      "file_size": 916,
+      "width": 72,
+      "height": 90
+     },
+     {
+      "file_id": "AgACAgQAAx0EY-C6ZQACDqVq7XnSRYkwztccDvGXuh4RlX8WzwACVQ5rGwgYdFOVEManlFwfJwEAAwIAA20AAz0E",
+      "file_unique_id": "AQADVQ5rGwgYdFNy",
+      "file_size": 8422,
+      "width": 256,
+      "height": 320
+     },
+     {
+      "file_id": "AgACAgQAAx0EY-C6ZQACDqVq7XnSRYkwztccDvGXuh4RlX8WzwACVQ5rGwgYdFOVEManlFwfJwEAAwIAA3gAAz0E",
+      "file_unique_id": "AQADVQ5rGwgYdFN9",
+      "file_size": 33050,
+      "width": 640,
+      "height": 800
+     },
+     {
+      "file_id": "AgACAgQAAx0EY-C6ZQACDqVq7XnSRYkwztccDvGXuh4RlX8WzwACVQ5rGwgYdFOVEManlFwfJwEAAwIAA3kAAz0E",
+      "file_unique_id": "AQADVQ5rGwgYdFN-",
+      "file_size": 64194,
+      "width": 1024,
+      "height": 1280
+     },
+     {
+      "file_id": "AgACAgQAAx0EY-C6ZQACDqVq7XnSRYkwztccDvGXuh4RlX8WzwACVQ5rGwgYdFOVEManlFwfJwEAAwIAA3cAAz0E",
+      "file_unique_id": "AQADVQ5rGwgYdFN8",
+      "file_size": 217840,
+      "width": 2048,
+      "height": 2560
+     }
+    ],
+    "caption": "Ko'pchilik emailni shunday tugatadi: \"I look forward to hear from you.\" Juda tanish, to'g'rimi? Lekin shu gapda kichik tuzoq bor.\n\nLook forward to biror narsani intiqlik bilan kutmoq degani. Bu yerdagi to infinitiv emas, oddiy predlog, shuning uchun undan keyin ot yoki -ing shakl keladi: I look forward to hearing from you. We're looking forward to the holidays. She is really looking forward to starting her IELTS course.\n\nOson tekshirish usuli: to'dan keyin \"it\" qo'yib ko'ring. \"I'm looking forward to it\" bemalol aytiladi, demak fe'lga -ing qo'shiladi. IELTS General Writing'dagi rasmiy xatni I look forward to hearing from you bilan yakunlasangiz, juda o'rinli chiqadi 🙂\n\n📌 Bepul darsga yozilish\n\n📞 +998935512700\n\n📱 Follow us on social media:\n\n📱Telegram   📱Instagram   📱Location",
+    "caption_entities": [
+     {
+      "offset": 131,
+      "length": 15,
+      "type": "bold"
+     },
+     {
+      "offset": 202,
+      "length": 2,
+      "type": "bold"
+     },
+     {
+      "offset": 289,
+      "length": 35,
+      "type": "italic"
+     },
+     {
+      "offset": 325,
+      "length": 38,
+      "type": "italic"
+     },
+     {
+      "offset": 364,
+      "length": 59,
+      "type": "italic"
+     },
+     {
+      "offset": 598,
+      "length": 34,
+      "type": "italic"
+     },
+     {
+      "offset": 682,
+      "length": 21,
+      "type": "text_link",
+      "url": "https://registan.edutizim.uz/order/entry/?survey=s33"
+     },
+     {
+      "offset": 708,
+      "length": 13,
+      "type": "phone_number"
+     },
+     {
+      "offset": 726,
+      "length": 25,
+      "type": "text_link",
+      "url": "https://t.me/Registan_LC"
+     },
+     {
+      "offset": 756,
+      "length": 8,
+      "type": "text_link",
+      "url": "https://t.me/RegistanLC_Academy"
+     },
+     {
+      "offset": 769,
+      "length": 9,
+      "type": "text_link",
+      "url": "https://instagram.com/registanlc_academy"
+     },
+     {
+      "offset": 783,
+      "length": 8,
+      "type": "text_link",
+      "url": "https://goo.gl/maps/ziHA5ukgVtbGmwwR6"
+     }
+    ],
+    "reply_markup": {
+     "inline_keyboard": [
+      [
+       {
+        "text": "✍️ Bepul darsga yozilish",
+        "url": "https://registan.edutizim.uz/order/entry/?survey=s33"
+       },
+       {
+        "text": "📍 Xaritada ochish",
+        "url": "https://goo.gl/maps/ziHA5ukgVtbGmwwR6"
+       }
+      ]
+     ]
+    }
+   }
+  }
+ ],
+ "posted_at": "2026-11-06T06:55:14.364325+00:00"
+}
