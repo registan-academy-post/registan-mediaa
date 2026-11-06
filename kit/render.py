@@ -106,7 +106,16 @@ def s5(c):
     css = "#box{left:110px;right:110px;top:250px;bottom:250px;justify-content:center} #txt em{color:%s;font-style:normal}" % OR
     return shell("#F4F1EC", deco, content, css, branch="#7d7068", rule="rgba(0,0,0,0)", tag=c.get("tag", ""))
 
-STYLES = {1: s1, 2: s2, 3: s3, 4: s4, 5: s5}
+def s6(c):
+    """News card for the 08:00 morning post: cream, small orange eyebrow, huge bold dark title, one-line sub."""
+    eb = f'<div style="display:flex;align-items:center;gap:20px"><i style="width:56px;height:4px;background:{OR}"></i><span style="font-family:Inter;font-size:28px;font-weight:700;letter-spacing:8px;color:{OR};text-transform:uppercase">{esc(c.get("eyebrow"))}</span></div>' if c.get("eyebrow") else ""
+    sub = f'<div style="margin-top:44px;font-family:Inter;font-size:34px;line-height:1.4;color:#5e5048;max-width:860px">{esc(c.get("sub"))}</div>' if c.get("sub") else ""
+    content = f'{eb}<div id="txt" style="margin-top:48px;font-family:\'Inter Display\',Inter,sans-serif;font-weight:900;font-size:150px;line-height:1.0;color:#1d1410;letter-spacing:-3px">{c["text"]}</div>{sub}'
+    deco = f'<div class="abs" style="width:760px;height:760px;right:-320px;bottom:-260px;border-radius:50%;background:radial-gradient(circle,rgba(232,78,15,.12),rgba(232,78,15,0) 65%)"></div>{GRAIN}'
+    css = "#box{left:90px;right:90px;top:250px;bottom:200px;justify-content:center} #txt em{color:%s;font-style:normal}" % OR
+    return shell("#FBF4EC", deco, content, css, tag=c.get("tag", ""))
+
+STYLES = {1: s1, 2: s2, 3: s3, 4: s4, 5: s5, 6: s6}
 
 FIT = """() => { const box=document.getElementById('box'), t=document.getElementById('txt');
   let fs=parseFloat(getComputedStyle(t).fontSize);
