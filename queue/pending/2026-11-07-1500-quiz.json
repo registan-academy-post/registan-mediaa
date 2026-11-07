@@ -1,0 +1,97 @@
+{
+ "id": "2026-11-07-1500-quiz",
+ "steps": [
+  {
+   "method": "sendMessage",
+   "params": {
+    "chat_id": "@RegistanLC_Academy",
+    "text": "Beginner guruhlar, bugun yangi mavzu: oila a'zolari va my, his, her, 's.\nBitta savol o'tgan darsdan. Qani, 5 tadan nechtasini topasiz?"
+   }
+  },
+  {
+   "method": "sendPoll",
+   "params": {
+    "chat_id": "@RegistanLC_Academy",
+    "question": "My mother's mother is my ___.",
+    "options": [
+     "aunt",
+     "grandmother",
+     "sister",
+     "daughter"
+    ],
+    "type": "quiz",
+    "is_anonymous": true,
+    "correct_option_id": 1,
+    "explanation": "Onamning onasi, ya'ni buvim: grandmother. Aunt esa xola yoki amma."
+   }
+  },
+  {
+   "method": "sendPoll",
+   "params": {
+    "chat_id": "@RegistanLC_Academy",
+    "question": "This is Sardor. ___ wife is a teacher.",
+    "options": [
+     "He's",
+     "Her",
+     "His",
+     "Their"
+    ],
+    "type": "quiz",
+    "is_anonymous": true,
+    "correct_option_id": 2,
+    "explanation": "Sardor erkak, \"uning\" degani uchun his ishlatamiz. Her ayolga tegishli, he's esa \"he is\" degani."
+   }
+  },
+  {
+   "method": "sendPoll",
+   "params": {
+    "chat_id": "@RegistanLC_Academy",
+    "question": "A: What's your email address?\nB: It's aziz99@gmail.com.\nHow do we say the \".\" in an email address?",
+    "options": [
+     "point",
+     "full stop",
+     "comma",
+     "dot"
+    ],
+    "type": "quiz",
+    "is_anonymous": true,
+    "correct_option_id": 3,
+    "explanation": "Email va sayt manzillarida nuqtani \"dot\" deb o'qiymiz: gmail dot com."
+   }
+  },
+  {
+   "method": "sendPoll",
+   "params": {
+    "chat_id": "@RegistanLC_Academy",
+    "question": "Choose the correct sentence.",
+    "options": [
+     "My brother's name is Jasur.",
+     "My brothers name is Jasur.",
+     "The name my brother is Jasur.",
+     "My brother name's is Jasur."
+    ],
+    "type": "quiz",
+    "is_anonymous": true,
+    "correct_option_id": 0,
+    "explanation": "Kimningdir narsasini aytish uchun ismdan keyin 's qo'shamiz: my brother's name = akamning ismi."
+   }
+  },
+  {
+   "method": "sendPoll",
+   "params": {
+    "chat_id": "@RegistanLC_Academy",
+    "question": "Find the mistake:\nThis is my family. My parents are doctors. Their house is very big. My sister's husband is Rustam, and she children are very funny.",
+    "options": [
+     "Their house is big",
+     "My sister's husband",
+     "she children are",
+     "My parents are doctors"
+    ],
+    "type": "quiz",
+    "is_anonymous": true,
+    "correct_option_id": 2,
+    "explanation": "\"She\" bu \"u\" (ayol), \"uning\" esa her bo'ladi. To'g'risi: her children are very funny."
+   }
+  }
+ ]
+}
