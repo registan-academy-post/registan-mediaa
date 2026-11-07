@@ -1,0 +1,169 @@
+{
+ "id": "2026-11-07-1200-english",
+ "steps": [
+  {
+   "method": "sendPhoto",
+   "params": {
+    "chat_id": "@RegistanLC_Academy",
+    "photo": "https://raw.githubusercontent.com/registan-academy-post/registan-mediaa/main/posts/2026-11-07/1200_idiom_break_the_ice.jpg",
+    "caption": "Tasavvur qiling: yangi guruhdagi birinchi dars, hamma jim o'tiribdi. Keyin kimdir kulib \"So, who else is a bit nervous?\" deydi va xonadagi noqulay sukunat birdan yo'qoladi.\n\nIngliz tilida buni <b>break the ice</b> deyishadi: notanish odamlar orasidagi tortinchoqlikni yo'qotib, suhbatni boshlab yubormoq. <i>A short game at the start of the lesson helped us break the ice.</i> <i>He told a funny story to break the ice.</i> <i>Asking about someone's hobbies is an easy way to break the ice.</i>\n\nShu iboradan <b>icebreaker</b> degan so'z ham chiqqan, ya'ni tanishish uchun beriladigan qisqa savol yoki o'yin: <i>Let's start with a quick icebreaker.</i> Ibora so'zlashuvga xos, IELTS Speaking'da tabiiy eshitiladi, rasmiy essega esa unchalik mos emas.\n\nSiz notanish davrada odatda qanday gap boshlaysiz? 🙂\n\n📌 <a href=\"https://registan.edutizim.uz/order/entry/?survey=s33\">Bepul darsga yozilish</a>\n\n📞 +998935512700\n\n📱 <a href=\"https://t.me/Registan_LC\">Follow us on social media</a>:\n\n📱<a href=\"https://t.me/RegistanLC_Academy\">Telegram</a>   📱<a href=\"https://instagram.com/registanlc_academy\">Instagram</a>   📱<a href=\"https://goo.gl/maps/ziHA5ukgVtbGmwwR6\">Location</a>",
+    "parse_mode": "HTML",
+    "reply_markup": {
+     "inline_keyboard": [
+      [
+       {
+        "text": "✍️ Bepul darsga yozilish",
+        "url": "https://registan.edutizim.uz/order/entry/?survey=s33"
+       },
+       {
+        "text": "📍 Xaritada ochish",
+        "url": "https://goo.gl/maps/ziHA5ukgVtbGmwwR6"
+       }
+      ]
+     ]
+    }
+   }
+  }
+ ],
+ "results": [
+  {
+   "ok": true,
+   "result": {
+    "message_id": 3759,
+    "sender_chat": {
+     "id": -1001675672165,
+     "title": "Registan LC | Academy filiali",
+     "username": "RegistanLC_Academy",
+     "type": "channel"
+    },
+    "chat": {
+     "id": -1001675672165,
+     "title": "Registan LC | Academy filiali",
+     "username": "RegistanLC_Academy",
+     "type": "channel"
+    },
+    "date": 1794034573,
+    "photo": [
+     {
+      "file_id": "AgACAgQAAx0EY-C6ZQACDq9q7suNAAEgLbk5gLIUMgEqQl_jPwoAAiIQaxs94XVTaH0MJUGM0p4BAAMCAANzAAM9BA",
+      "file_unique_id": "AQADIhBrGz3hdVN4",
+      "file_size": 833,
+      "width": 72,
+      "height": 90
+     },
+     {
+      "file_id": "AgACAgQAAx0EY-C6ZQACDq9q7suNAAEgLbk5gLIUMgEqQl_jPwoAAiIQaxs94XVTaH0MJUGM0p4BAAMCAANtAAM9BA",
+      "file_unique_id": "AQADIhBrGz3hdVNy",
+      "file_size": 8121,
+      "width": 256,
+      "height": 320
+     },
+     {
+      "file_id": "AgACAgQAAx0EY-C6ZQACDq9q7suNAAEgLbk5gLIUMgEqQl_jPwoAAiIQaxs94XVTaH0MJUGM0p4BAAMCAAN4AAM9BA",
+      "file_unique_id": "AQADIhBrGz3hdVN9",
+      "file_size": 31649,
+      "width": 640,
+      "height": 800
+     },
+     {
+      "file_id": "AgACAgQAAx0EY-C6ZQACDq9q7suNAAEgLbk5gLIUMgEqQl_jPwoAAiIQaxs94XVTaH0MJUGM0p4BAAMCAAN5AAM9BA",
+      "file_unique_id": "AQADIhBrGz3hdVN-",
+      "file_size": 58688,
+      "width": 1024,
+      "height": 1280
+     },
+     {
+      "file_id": "AgACAgQAAx0EY-C6ZQACDq9q7suNAAEgLbk5gLIUMgEqQl_jPwoAAiIQaxs94XVTaH0MJUGM0p4BAAMCAAN3AAM9BA",
+      "file_unique_id": "AQADIhBrGz3hdVN8",
+      "file_size": 188647,
+      "width": 2048,
+      "height": 2560
+     }
+    ],
+    "caption": "Tasavvur qiling: yangi guruhdagi birinchi dars, hamma jim o'tiribdi. Keyin kimdir kulib \"So, who else is a bit nervous?\" deydi va xonadagi noqulay sukunat birdan yo'qoladi.\n\nIngliz tilida buni break the ice deyishadi: notanish odamlar orasidagi tortinchoqlikni yo'qotib, suhbatni boshlab yubormoq. A short game at the start of the lesson helped us break the ice. He told a funny story to break the ice. Asking about someone's hobbies is an easy way to break the ice.\n\nShu iboradan icebreaker degan so'z ham chiqqan, ya'ni tanishish uchun beriladigan qisqa savol yoki o'yin: Let's start with a quick icebreaker. Ibora so'zlashuvga xos, IELTS Speaking'da tabiiy eshitiladi, rasmiy essega esa unchalik mos emas.\n\nSiz notanish davrada odatda qanday gap boshlaysiz? 🙂\n\n📌 Bepul darsga yozilish\n\n📞 +998935512700\n\n📱 Follow us on social media:\n\n📱Telegram   📱Instagram   📱Location",
+    "caption_entities": [
+     {
+      "offset": 193,
+      "length": 13,
+      "type": "bold"
+     },
+     {
+      "offset": 298,
+      "length": 64,
+      "type": "italic"
+     },
+     {
+      "offset": 363,
+      "length": 39,
+      "type": "italic"
+     },
+     {
+      "offset": 403,
+      "length": 63,
+      "type": "italic"
+     },
+     {
+      "offset": 481,
+      "length": 10,
+      "type": "bold"
+     },
+     {
+      "offset": 574,
+      "length": 36,
+      "type": "italic"
+     },
+     {
+      "offset": 768,
+      "length": 21,
+      "type": "text_link",
+      "url": "https://registan.edutizim.uz/order/entry/?survey=s33"
+     },
+     {
+      "offset": 794,
+      "length": 13,
+      "type": "phone_number"
+     },
+     {
+      "offset": 812,
+      "length": 25,
+      "type": "text_link",
+      "url": "https://t.me/Registan_LC"
+     },
+     {
+      "offset": 842,
+      "length": 8,
+      "type": "text_link",
+      "url": "https://t.me/RegistanLC_Academy"
+     },
+     {
+      "offset": 855,
+      "length": 9,
+      "type": "text_link",
+      "url": "https://instagram.com/registanlc_academy"
+     },
+     {
+      "offset": 869,
+      "length": 8,
+      "type": "text_link",
+      "url": "https://goo.gl/maps/ziHA5ukgVtbGmwwR6"
+     }
+    ],
+    "reply_markup": {
+     "inline_keyboard": [
+      [
+       {
+        "text": "✍️ Bepul darsga yozilish",
+        "url": "https://registan.edutizim.uz/order/entry/?survey=s33"
+       },
+       {
+        "text": "📍 Xaritada ochish",
+        "url": "https://goo.gl/maps/ziHA5ukgVtbGmwwR6"
+       }
+      ]
+     ]
+    }
+   }
+  }
+ ],
+ "posted_at": "2026-11-07T06:56:13.418445+00:00"
+}
