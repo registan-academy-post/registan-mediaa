@@ -1,0 +1,139 @@
+{
+ "id": "2026-11-08-2000-russian",
+ "steps": [
+  {
+   "method": "sendPhoto",
+   "params": {
+    "chat_id": "@RegistanLC_Academy",
+    "photo": "https://raw.githubusercontent.com/registan-academy-post/registan-mediaa/main/posts/2026-11-08/2000_ru_bez_pyati_minut.jpg",
+    "caption": "Rus tilida «без пяти минут» faqat soat haqida emas. «Он без пяти минут врач» desa, u deyarli shifokor, o'qishini tugatishiga oz qolgan degani. «Без пяти минут жених» esa to'yi yaqinlashib qolgan yigit 🙂\n\nSiz hozir «без пяти минут» kimsiz? Izohda ruscha bitta gap bilan yozing: «Я без пяти минут ...»\n\n📌 <a href=\"https://registan.edutizim.uz/order/entry/?survey=s33\">Bepul darsga yozilish</a>\n\n📞 +998935512700\n\n📱 <a href=\"https://t.me/Registan_LC\">Follow us on social media</a>:\n\n📱<a href=\"https://t.me/RegistanLC_Academy\">Telegram</a>   📱<a href=\"https://instagram.com/registanlc_academy\">Instagram</a>   📱<a href=\"https://goo.gl/maps/ziHA5ukgVtbGmwwR6\">Location</a>",
+    "parse_mode": "HTML",
+    "reply_markup": {
+     "inline_keyboard": [
+      [
+       {
+        "text": "✍️ Bepul darsga yozilish",
+        "url": "https://registan.edutizim.uz/order/entry/?survey=s33"
+       },
+       {
+        "text": "📍 Xaritada ochish",
+        "url": "https://goo.gl/maps/ziHA5ukgVtbGmwwR6"
+       }
+      ]
+     ]
+    }
+   }
+  }
+ ],
+ "results": [
+  {
+   "ok": true,
+   "result": {
+    "message_id": 3776,
+    "sender_chat": {
+     "id": -1001675672165,
+     "title": "Registan LC | Academy filiali",
+     "username": "RegistanLC_Academy",
+     "type": "channel"
+    },
+    "chat": {
+     "id": -1001675672165,
+     "title": "Registan LC | Academy filiali",
+     "username": "RegistanLC_Academy",
+     "type": "channel"
+    },
+    "date": 1794149657,
+    "photo": [
+     {
+      "file_id": "AgACAgQAAx0EY-C6ZQACDsBq8I0ZY4QfeR--xhlOyPXHeRMfpAACIw9rGxHLhFM0wiG20hkLJwEAAwIAA3MAAz0E",
+      "file_unique_id": "AQADIw9rGxHLhFN4",
+      "file_size": 805,
+      "width": 72,
+      "height": 90
+     },
+     {
+      "file_id": "AgACAgQAAx0EY-C6ZQACDsBq8I0ZY4QfeR--xhlOyPXHeRMfpAACIw9rGxHLhFM0wiG20hkLJwEAAwIAA20AAz0E",
+      "file_unique_id": "AQADIw9rGxHLhFNy",
+      "file_size": 7777,
+      "width": 256,
+      "height": 320
+     },
+     {
+      "file_id": "AgACAgQAAx0EY-C6ZQACDsBq8I0ZY4QfeR--xhlOyPXHeRMfpAACIw9rGxHLhFM0wiG20hkLJwEAAwIAA3gAAz0E",
+      "file_unique_id": "AQADIw9rGxHLhFN9",
+      "file_size": 30162,
+      "width": 640,
+      "height": 800
+     },
+     {
+      "file_id": "AgACAgQAAx0EY-C6ZQACDsBq8I0ZY4QfeR--xhlOyPXHeRMfpAACIw9rGxHLhFM0wiG20hkLJwEAAwIAA3kAAz0E",
+      "file_unique_id": "AQADIw9rGxHLhFN-",
+      "file_size": 58784,
+      "width": 1024,
+      "height": 1280
+     },
+     {
+      "file_id": "AgACAgQAAx0EY-C6ZQACDsBq8I0ZY4QfeR--xhlOyPXHeRMfpAACIw9rGxHLhFM0wiG20hkLJwEAAwIAA3cAAz0E",
+      "file_unique_id": "AQADIw9rGxHLhFN8",
+      "file_size": 214882,
+      "width": 2048,
+      "height": 2560
+     }
+    ],
+    "caption": "Rus tilida «без пяти минут» faqat soat haqida emas. «Он без пяти минут врач» desa, u deyarli shifokor, o'qishini tugatishiga oz qolgan degani. «Без пяти минут жених» esa to'yi yaqinlashib qolgan yigit 🙂\n\nSiz hozir «без пяти минут» kimsiz? Izohda ruscha bitta gap bilan yozing: «Я без пяти минут ...»\n\n📌 Bepul darsga yozilish\n\n📞 +998935512700\n\n📱 Follow us on social media:\n\n📱Telegram   📱Instagram   📱Location",
+    "caption_entities": [
+     {
+      "offset": 305,
+      "length": 21,
+      "type": "text_link",
+      "url": "https://registan.edutizim.uz/order/entry/?survey=s33"
+     },
+     {
+      "offset": 331,
+      "length": 13,
+      "type": "phone_number"
+     },
+     {
+      "offset": 349,
+      "length": 25,
+      "type": "text_link",
+      "url": "https://t.me/Registan_LC"
+     },
+     {
+      "offset": 379,
+      "length": 8,
+      "type": "text_link",
+      "url": "https://t.me/RegistanLC_Academy"
+     },
+     {
+      "offset": 392,
+      "length": 9,
+      "type": "text_link",
+      "url": "https://instagram.com/registanlc_academy"
+     },
+     {
+      "offset": 406,
+      "length": 8,
+      "type": "text_link",
+      "url": "https://goo.gl/maps/ziHA5ukgVtbGmwwR6"
+     }
+    ],
+    "reply_markup": {
+     "inline_keyboard": [
+      [
+       {
+        "text": "✍️ Bepul darsga yozilish",
+        "url": "https://registan.edutizim.uz/order/entry/?survey=s33"
+       },
+       {
+        "text": "📍 Xaritada ochish",
+        "url": "https://goo.gl/maps/ziHA5ukgVtbGmwwR6"
+       }
+      ]
+     ]
+    }
+   }
+  }
+ ],
+ "posted_at": "2026-11-08T14:54:17.920498+00:00"
+}
