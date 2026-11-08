@@ -1,0 +1,111 @@
+{
+ "id": "2026-11-08-1500-quiz",
+ "steps": [
+  {
+   "method": "sendMessage",
+   "params": {
+    "chat_id": "@RegistanLC_Academy",
+    "text": "Elementary guruhlar, bugun oila mavzusi: my, their va 's.\n5 ta savol, bittasi o'tgan darslardan. Avval o'zingiz o'ylab ko'ring, keyin izohini o'qing 😉",
+    "reply_markup": {
+     "inline_keyboard": [
+      [
+       {
+        "text": "✍️ Bepul darsga yozilish",
+        "url": "https://registan.edutizim.uz/order/entry/?survey=s33"
+       },
+       {
+        "text": "📍 Xaritada ochish",
+        "url": "https://goo.gl/maps/ziHA5ukgVtbGmwwR6"
+       }
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "method": "sendPoll",
+   "params": {
+    "chat_id": "@RegistanLC_Academy",
+    "question": "My father's sister is my ___.",
+    "options": [
+     "niece",
+     "aunt",
+     "cousin",
+     "uncle"
+    ],
+    "type": "quiz",
+    "is_anonymous": true,
+    "correct_option_id": 1,
+    "explanation": "Otaning yoki onaning opa-singlisi aunt (xola, amma). Uncle esa erkak qarindosh, cousin amakivachcha yoki xolavachcha."
+   }
+  },
+  {
+   "method": "sendPoll",
+   "params": {
+    "chat_id": "@RegistanLC_Academy",
+    "question": "Kamila and Sherzod have a new flat. ___ flat is near the park.",
+    "options": [
+     "Their",
+     "There",
+     "They're",
+     "Them"
+    ],
+    "type": "quiz",
+    "is_anonymous": true,
+    "correct_option_id": 0,
+    "explanation": "Kimningdir narsasi haqida gapirganda their (ularning) ishlatamiz. There joyni bildiradi, they're esa they are degani."
+   }
+  },
+  {
+   "method": "sendPoll",
+   "params": {
+    "chat_id": "@RegistanLC_Academy",
+    "question": "Our lesson starts at 9:45. That's quarter ___ ten.",
+    "options": [
+     "past",
+     "half",
+     "to",
+     "at"
+    ],
+    "type": "quiz",
+    "is_anonymous": true,
+    "correct_option_id": 2,
+    "explanation": "45 daqiqa o'tdi, 10 gacha 15 daqiqa qoldi. Shuning uchun quarter to ten deymiz. Quarter past ten esa 10:15 bo'ladi."
+   }
+  },
+  {
+   "method": "sendPoll",
+   "params": {
+    "chat_id": "@RegistanLC_Academy",
+    "question": "Choose the correct sentence.",
+    "options": [
+     "The childrens' room is very big.",
+     "The childs' room is very big.",
+     "The children room's is very big.",
+     "The children's room is very big."
+    ],
+    "type": "quiz",
+    "is_anonymous": true,
+    "correct_option_id": 3,
+    "explanation": "Children o'zi ko'plik, s bilan tugamaydi, shuning uchun unga 's qo'shamiz: children's. Childs degan so'z yo'q."
+   }
+  },
+  {
+   "method": "sendPoll",
+   "params": {
+    "chat_id": "@RegistanLC_Academy",
+    "question": "Find the mistake:\n\"Is this Aziz bag? No, it's his brother's. His brother's name is Timur.\"",
+    "options": [
+     "it's",
+     "his brother's",
+     "Aziz bag",
+     "name is Timur"
+    ],
+    "type": "quiz",
+    "is_anonymous": true,
+    "correct_option_id": 2,
+    "explanation": "Ism bilan egalikni 's orqali ko'rsatamiz: Aziz's bag. \"It's his brother's\" esa to'g'ri, bag so'zi takrorlanmagan, xolos."
+   }
+  }
+ ]
+}
