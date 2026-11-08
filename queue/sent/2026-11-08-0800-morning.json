@@ -1,0 +1,175 @@
+{
+ "id": "2026-11-08-0800-morning",
+ "steps": [
+  {
+   "method": "sendPhoto",
+   "params": {
+    "chat_id": "@RegistanLC_Academy",
+    "photo": "https://raw.githubusercontent.com/registan-academy-post/registan-mediaa/main/posts/2026-11-08/0800_ielts_overall_ball.jpg",
+    "caption": "<b>📊 IELTS umumiy bali qanday hisoblanadi?</b>\n<blockquote>Sertifikatda hech qachon 6.25 yoki 6.75 degan ball ko'rmaysiz. Nega shunday ekanini bilib qo'ying.</blockquote>\n✅ <b>O'rtacha ball:</b> Listening, Reading, Writing va Speaking ballari qo'shilib, to'rtga bo'linadi.\n✅ <b>.25 chiqsa:</b> keyingi yarim ballga yaxlitlanadi, masalan 6.5, 6.5, 5.0 va 7.0 o'rtachasi 6.25, sertifikatda esa 6.5.\n✅ <b>.75 chiqsa:</b> keyingi butun ballga ko'tariladi, ya'ni 6.75 bo'lsa umumiy ball 7.0 bo'ladi.\n✅ <b>Bo'limlar ham muhim:</b> ko'p universitetlar umumiy balldan tashqari har bir bo'lim uchun alohida minimal ball so'raydi, shuning uchun bitta zaif bo'limga umid bog'lamang.\n<a href=\"https://ielts.idp.com/canada/results/band-score-calculation\">Manba</a>\n\nSizga qaysi bo'lim qiyinroq: Writingmi yoki Speaking?\n\n📌 <a href=\"https://registan.edutizim.uz/order/entry/?survey=s33\">Bepul darsga yozilish</a>\n\n📞 +998935512700\n\n📱 <a href=\"https://t.me/Registan_LC\">Follow us on social media</a>:\n\n📱<a href=\"https://t.me/RegistanLC_Academy\">Telegram</a>   📱<a href=\"https://instagram.com/registanlc_academy\">Instagram</a>   📱<a href=\"https://goo.gl/maps/ziHA5ukgVtbGmwwR6\">Location</a>",
+    "parse_mode": "HTML",
+    "reply_markup": {
+     "inline_keyboard": [
+      [
+       {
+        "text": "✍️ Bepul darsga yozilish",
+        "url": "https://registan.edutizim.uz/order/entry/?survey=s33"
+       },
+       {
+        "text": "📍 Xaritada ochish",
+        "url": "https://goo.gl/maps/ziHA5ukgVtbGmwwR6"
+       }
+      ]
+     ]
+    }
+   }
+  }
+ ],
+ "results": [
+  {
+   "ok": true,
+   "result": {
+    "message_id": 3768,
+    "sender_chat": {
+     "id": -1001675672165,
+     "title": "Registan LC | Academy filiali",
+     "username": "RegistanLC_Academy",
+     "type": "channel"
+    },
+    "chat": {
+     "id": -1001675672165,
+     "title": "Registan LC | Academy filiali",
+     "username": "RegistanLC_Academy",
+     "type": "channel"
+    },
+    "date": 1794106530,
+    "photo": [
+     {
+      "file_id": "AgACAgQAAx0EY-C6ZQACDrhq7-SjA_3dZIhbiMs1Si22yAFeKgACQw5rG29thVPWQbrbNQAB4_0BAAMCAANzAAM9BA",
+      "file_unique_id": "AQADQw5rG29thVN4",
+      "file_size": 1099,
+      "width": 72,
+      "height": 90
+     },
+     {
+      "file_id": "AgACAgQAAx0EY-C6ZQACDrhq7-SjA_3dZIhbiMs1Si22yAFeKgACQw5rG29thVPWQbrbNQAB4_0BAAMCAANtAAM9BA",
+      "file_unique_id": "AQADQw5rG29thVNy",
+      "file_size": 10834,
+      "width": 256,
+      "height": 320
+     },
+     {
+      "file_id": "AgACAgQAAx0EY-C6ZQACDrhq7-SjA_3dZIhbiMs1Si22yAFeKgACQw5rG29thVPWQbrbNQAB4_0BAAMCAAN4AAM9BA",
+      "file_unique_id": "AQADQw5rG29thVN9",
+      "file_size": 36321,
+      "width": 640,
+      "height": 800
+     },
+     {
+      "file_id": "AgACAgQAAx0EY-C6ZQACDrhq7-SjA_3dZIhbiMs1Si22yAFeKgACQw5rG29thVPWQbrbNQAB4_0BAAMCAAN5AAM9BA",
+      "file_unique_id": "AQADQw5rG29thVN-",
+      "file_size": 62797,
+      "width": 1024,
+      "height": 1280
+     },
+     {
+      "file_id": "AgACAgQAAx0EY-C6ZQACDrhq7-SjA_3dZIhbiMs1Si22yAFeKgACQw5rG29thVPWQbrbNQAB4_0BAAMCAAN3AAM9BA",
+      "file_unique_id": "AQADQw5rG29thVN8",
+      "file_size": 216874,
+      "width": 2048,
+      "height": 2560
+     }
+    ],
+    "caption": "📊 IELTS umumiy bali qanday hisoblanadi?\nSertifikatda hech qachon 6.25 yoki 6.75 degan ball ko'rmaysiz. Nega shunday ekanini bilib qo'ying.\n✅ O'rtacha ball: Listening, Reading, Writing va Speaking ballari qo'shilib, to'rtga bo'linadi.\n✅ .25 chiqsa: keyingi yarim ballga yaxlitlanadi, masalan 6.5, 6.5, 5.0 va 7.0 o'rtachasi 6.25, sertifikatda esa 6.5.\n✅ .75 chiqsa: keyingi butun ballga ko'tariladi, ya'ni 6.75 bo'lsa umumiy ball 7.0 bo'ladi.\n✅ Bo'limlar ham muhim: ko'p universitetlar umumiy balldan tashqari har bir bo'lim uchun alohida minimal ball so'raydi, shuning uchun bitta zaif bo'limga umid bog'lamang.\nManba\n\nSizga qaysi bo'lim qiyinroq: Writingmi yoki Speaking?\n\n📌 Bepul darsga yozilish\n\n📞 +998935512700\n\n📱 Follow us on social media:\n\n📱Telegram   📱Instagram   📱Location",
+    "caption_entities": [
+     {
+      "offset": 0,
+      "length": 40,
+      "type": "bold"
+     },
+     {
+      "offset": 41,
+      "length": 98,
+      "type": "blockquote"
+     },
+     {
+      "offset": 142,
+      "length": 14,
+      "type": "bold"
+     },
+     {
+      "offset": 237,
+      "length": 11,
+      "type": "bold"
+     },
+     {
+      "offset": 354,
+      "length": 11,
+      "type": "bold"
+     },
+     {
+      "offset": 445,
+      "length": 20,
+      "type": "bold"
+     },
+     {
+      "offset": 613,
+      "length": 5,
+      "type": "text_link",
+      "url": "https://ielts.idp.com/canada/results/band-score-calculation"
+     },
+     {
+      "offset": 678,
+      "length": 21,
+      "type": "text_link",
+      "url": "https://registan.edutizim.uz/order/entry/?survey=s33"
+     },
+     {
+      "offset": 704,
+      "length": 13,
+      "type": "phone_number"
+     },
+     {
+      "offset": 722,
+      "length": 25,
+      "type": "text_link",
+      "url": "https://t.me/Registan_LC"
+     },
+     {
+      "offset": 752,
+      "length": 8,
+      "type": "text_link",
+      "url": "https://t.me/RegistanLC_Academy"
+     },
+     {
+      "offset": 765,
+      "length": 9,
+      "type": "text_link",
+      "url": "https://instagram.com/registanlc_academy"
+     },
+     {
+      "offset": 779,
+      "length": 8,
+      "type": "text_link",
+      "url": "https://goo.gl/maps/ziHA5ukgVtbGmwwR6"
+     }
+    ],
+    "reply_markup": {
+     "inline_keyboard": [
+      [
+       {
+        "text": "✍️ Bepul darsga yozilish",
+        "url": "https://registan.edutizim.uz/order/entry/?survey=s33"
+       },
+       {
+        "text": "📍 Xaritada ochish",
+        "url": "https://goo.gl/maps/ziHA5ukgVtbGmwwR6"
+       }
+      ]
+     ]
+    }
+   }
+  }
+ ],
+ "posted_at": "2026-11-08T02:55:31.076340+00:00"
+}
