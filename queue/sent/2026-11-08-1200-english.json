@@ -1,0 +1,179 @@
+{
+ "id": "2026-11-08-1200-english",
+ "steps": [
+  {
+   "method": "sendPhoto",
+   "params": {
+    "chat_id": "@RegistanLC_Academy",
+    "photo": "https://raw.githubusercontent.com/registan-academy-post/registan-mediaa/main/posts/2026-11-08/1200_collocation_make_a_mistake.jpg",
+    "caption": "O'zbekchada \"xato qildim\" deymiz, shuning uchun ko'pchilik beixtiyor <i>I did a mistake</i> deb yuboradi. Ingliz tilida esa mistake faqat <b>make</b> bilan ishlatiladi: <b>make a mistake</b>, ya'ni xato qilmoq.\n\n<i>I made a silly mistake in the last question.</i> Oxirgi savolda kulgili xato qilib qo'ydim.\n<i>Everyone makes mistakes when they start speaking.</i> Gapirishni endi boshlaganda hamma xato qiladi.\n<i>Don't be afraid of making mistakes.</i> Xato qilishdan qo'rqmang.\n\nYana bitta foydali ibora bor: <b>by mistake</b>, ya'ni adashib, bilmasdan. <i>I took your pen by mistake, sorry.</i>\n\nEslab qolishning oson yo'li: do odatda ish va vazifalar bilan keladi (do homework, do the dishes), mistake esa make tomonda turadi, xuddi make progress, make a decision kabi.\n\nDarvoqe, so'nggi marta qanday xato qilganingizni inglizchada yozib ko'ring 🙂\n\n📌 <a href=\"https://registan.edutizim.uz/order/entry/?survey=s33\">Bepul darsga yozilish</a>\n\n📞 +998935512700\n\n📱 <a href=\"https://t.me/Registan_LC\">Follow us on social media</a>:\n\n📱<a href=\"https://t.me/RegistanLC_Academy\">Telegram</a>   📱<a href=\"https://instagram.com/registanlc_academy\">Instagram</a>   📱<a href=\"https://goo.gl/maps/ziHA5ukgVtbGmwwR6\">Location</a>",
+    "parse_mode": "HTML",
+    "reply_markup": {
+     "inline_keyboard": [
+      [
+       {
+        "text": "✍️ Bepul darsga yozilish",
+        "url": "https://registan.edutizim.uz/order/entry/?survey=s33"
+       },
+       {
+        "text": "📍 Xaritada ochish",
+        "url": "https://goo.gl/maps/ziHA5ukgVtbGmwwR6"
+       }
+      ]
+     ]
+    }
+   }
+  }
+ ],
+ "results": [
+  {
+   "ok": true,
+   "result": {
+    "message_id": 3769,
+    "sender_chat": {
+     "id": -1001675672165,
+     "title": "Registan LC | Academy filiali",
+     "username": "RegistanLC_Academy",
+     "type": "channel"
+    },
+    "chat": {
+     "id": -1001675672165,
+     "title": "Registan LC | Academy filiali",
+     "username": "RegistanLC_Academy",
+     "type": "channel"
+    },
+    "date": 1794120892,
+    "photo": [
+     {
+      "file_id": "AgACAgQAAx0EY-C6ZQACDrlq8By8JpaxRu-ENxxO-hMIEQdnjwACkQ5rG2KrhFMe8g6axVF2nwEAAwIAA3MAAz0E",
+      "file_unique_id": "AQADkQ5rG2KrhFN4",
+      "file_size": 970,
+      "width": 72,
+      "height": 90
+     },
+     {
+      "file_id": "AgACAgQAAx0EY-C6ZQACDrlq8By8JpaxRu-ENxxO-hMIEQdnjwACkQ5rG2KrhFMe8g6axVF2nwEAAwIAA20AAz0E",
+      "file_unique_id": "AQADkQ5rG2KrhFNy",
+      "file_size": 9392,
+      "width": 256,
+      "height": 320
+     },
+     {
+      "file_id": "AgACAgQAAx0EY-C6ZQACDrlq8By8JpaxRu-ENxxO-hMIEQdnjwACkQ5rG2KrhFMe8g6axVF2nwEAAwIAA3gAAz0E",
+      "file_unique_id": "AQADkQ5rG2KrhFN9",
+      "file_size": 36297,
+      "width": 640,
+      "height": 800
+     },
+     {
+      "file_id": "AgACAgQAAx0EY-C6ZQACDrlq8By8JpaxRu-ENxxO-hMIEQdnjwACkQ5rG2KrhFMe8g6axVF2nwEAAwIAA3kAAz0E",
+      "file_unique_id": "AQADkQ5rG2KrhFN-",
+      "file_size": 68340,
+      "width": 1024,
+      "height": 1280
+     },
+     {
+      "file_id": "AgACAgQAAx0EY-C6ZQACDrlq8By8JpaxRu-ENxxO-hMIEQdnjwACkQ5rG2KrhFMe8g6axVF2nwEAAwIAA3cAAz0E",
+      "file_unique_id": "AQADkQ5rG2KrhFN8",
+      "file_size": 182410,
+      "width": 2048,
+      "height": 2560
+     }
+    ],
+    "caption": "O'zbekchada \"xato qildim\" deymiz, shuning uchun ko'pchilik beixtiyor I did a mistake deb yuboradi. Ingliz tilida esa mistake faqat make bilan ishlatiladi: make a mistake, ya'ni xato qilmoq.\n\nI made a silly mistake in the last question. Oxirgi savolda kulgili xato qilib qo'ydim.\nEveryone makes mistakes when they start speaking. Gapirishni endi boshlaganda hamma xato qiladi.\nDon't be afraid of making mistakes. Xato qilishdan qo'rqmang.\n\nYana bitta foydali ibora bor: by mistake, ya'ni adashib, bilmasdan. I took your pen by mistake, sorry.\n\nEslab qolishning oson yo'li: do odatda ish va vazifalar bilan keladi (do homework, do the dishes), mistake esa make tomonda turadi, xuddi make progress, make a decision kabi.\n\nDarvoqe, so'nggi marta qanday xato qilganingizni inglizchada yozib ko'ring 🙂\n\n📌 Bepul darsga yozilish\n\n📞 +998935512700\n\n📱 Follow us on social media:\n\n📱Telegram   📱Instagram   📱Location",
+    "caption_entities": [
+     {
+      "offset": 69,
+      "length": 15,
+      "type": "italic"
+     },
+     {
+      "offset": 131,
+      "length": 4,
+      "type": "bold"
+     },
+     {
+      "offset": 155,
+      "length": 14,
+      "type": "bold"
+     },
+     {
+      "offset": 191,
+      "length": 44,
+      "type": "italic"
+     },
+     {
+      "offset": 279,
+      "length": 49,
+      "type": "italic"
+     },
+     {
+      "offset": 376,
+      "length": 35,
+      "type": "italic"
+     },
+     {
+      "offset": 469,
+      "length": 10,
+      "type": "bold"
+     },
+     {
+      "offset": 507,
+      "length": 34,
+      "type": "italic"
+     },
+     {
+      "offset": 801,
+      "length": 21,
+      "type": "text_link",
+      "url": "https://registan.edutizim.uz/order/entry/?survey=s33"
+     },
+     {
+      "offset": 827,
+      "length": 13,
+      "type": "phone_number"
+     },
+     {
+      "offset": 845,
+      "length": 25,
+      "type": "text_link",
+      "url": "https://t.me/Registan_LC"
+     },
+     {
+      "offset": 875,
+      "length": 8,
+      "type": "text_link",
+      "url": "https://t.me/RegistanLC_Academy"
+     },
+     {
+      "offset": 888,
+      "length": 9,
+      "type": "text_link",
+      "url": "https://instagram.com/registanlc_academy"
+     },
+     {
+      "offset": 902,
+      "length": 8,
+      "type": "text_link",
+      "url": "https://goo.gl/maps/ziHA5ukgVtbGmwwR6"
+     }
+    ],
+    "reply_markup": {
+     "inline_keyboard": [
+      [
+       {
+        "text": "✍️ Bepul darsga yozilish",
+        "url": "https://registan.edutizim.uz/order/entry/?survey=s33"
+       },
+       {
+        "text": "📍 Xaritada ochish",
+        "url": "https://goo.gl/maps/ziHA5ukgVtbGmwwR6"
+       }
+      ]
+     ]
+    }
+   }
+  }
+ ],
+ "posted_at": "2026-11-08T06:54:52.461091+00:00"
+}
