@@ -1,0 +1,404 @@
+{
+ "id": "2026-11-09-1500-quiz",
+ "steps": [
+  {
+   "method": "sendMessage",
+   "params": {
+    "chat_id": "@RegistanLC_Academy",
+    "text": "Beginner guruhlar uchun bugun yana oila mavzusi: my, his, her, their va 's.\nBitta savol o'tgan darsdan, oxirgisida esa kichik tuzoq bor. Ehtiyot bo'ling 🙂"
+   }
+  },
+  {
+   "method": "sendPoll",
+   "params": {
+    "chat_id": "@RegistanLC_Academy",
+    "question": "My mother and my father are my ___.",
+    "options": [
+     "parents",
+     "children",
+     "cousins",
+     "grandparents"
+    ],
+    "type": "quiz",
+    "is_anonymous": true,
+    "correct_option_id": 0,
+    "explanation": "Ona va ota birgalikda parents bo'ladi. Children = farzandlar, grandparents = buvi va bobolar."
+   }
+  },
+  {
+   "method": "sendPoll",
+   "params": {
+    "chat_id": "@RegistanLC_Academy",
+    "question": "Malika has a brother. ___ brother is a student.",
+    "options": [
+     "His",
+     "Our",
+     "Her",
+     "She's"
+    ],
+    "type": "quiz",
+    "is_anonymous": true,
+    "correct_option_id": 2,
+    "explanation": "Malika qiz, shuning uchun \"uning\" = her. His erkakka tegishli, she's esa \"she is\" degani."
+   }
+  },
+  {
+   "method": "sendPoll",
+   "params": {
+    "chat_id": "@RegistanLC_Academy",
+    "question": "Lola and I ___ from Bukhara.",
+    "options": [
+     "is",
+     "are",
+     "am"
+    ],
+    "type": "quiz",
+    "is_anonymous": true,
+    "correct_option_id": 1,
+    "explanation": "Lola and I = we. We bilan doim are ishlatamiz: we are from Bukhara."
+   }
+  },
+  {
+   "method": "sendPoll",
+   "params": {
+    "chat_id": "@RegistanLC_Academy",
+    "question": "Choose the correct sentence.",
+    "options": [
+     "This is my father car.",
+     "This is my's father car.",
+     "This is my parents car.",
+     "This is my father's car."
+    ],
+    "type": "quiz",
+    "is_anonymous": true,
+    "correct_option_id": 3,
+    "explanation": "Kimningdir narsasini aytish uchun 's qo'shamiz: my father's car = otamning mashinasi."
+   }
+  },
+  {
+   "method": "sendPoll",
+   "params": {
+    "chat_id": "@RegistanLC_Academy",
+    "question": "Find the mistake:\nWe have two children. Our son is ten and our daughter is seven. They're names are Aziz and Laylo. Aziz's favourite colour is blue.",
+    "options": [
+     "Our son is ten",
+     "Aziz's favourite colour",
+     "They're names are",
+     "We have two children"
+    ],
+    "type": "quiz",
+    "is_anonymous": true,
+    "correct_option_id": 2,
+    "explanation": "They're = they are. \"Ularning\" deyish uchun their kerak: Their names are Aziz and Laylo."
+   }
+  }
+ ],
+ "results": [
+  {
+   "ok": true,
+   "result": {
+    "message_id": 3779,
+    "sender_chat": {
+     "id": -1001675672165,
+     "title": "Registan LC | Academy filiali",
+     "username": "RegistanLC_Academy",
+     "type": "channel"
+    },
+    "chat": {
+     "id": -1001675672165,
+     "title": "Registan LC | Academy filiali",
+     "username": "RegistanLC_Academy",
+     "type": "channel"
+    },
+    "date": 1794218138,
+    "text": "Beginner guruhlar uchun bugun yana oila mavzusi: my, his, her, their va 's.\nBitta savol o'tgan darsdan, oxirgisida esa kichik tuzoq bor. Ehtiyot bo'ling 🙂"
+   }
+  },
+  {
+   "ok": true,
+   "result": {
+    "message_id": 3780,
+    "sender_chat": {
+     "id": -1001675672165,
+     "title": "Registan LC | Academy filiali",
+     "username": "RegistanLC_Academy",
+     "type": "channel"
+    },
+    "chat": {
+     "id": -1001675672165,
+     "title": "Registan LC | Academy filiali",
+     "username": "RegistanLC_Academy",
+     "type": "channel"
+    },
+    "date": 1794218139,
+    "poll": {
+     "id": "5442834057891157600",
+     "question": "My mother and my father are my ___.",
+     "options": [
+      {
+       "persistent_id": "0",
+       "text": "parents",
+       "voter_count": 0
+      },
+      {
+       "persistent_id": "1",
+       "text": "children",
+       "voter_count": 0
+      },
+      {
+       "persistent_id": "2",
+       "text": "cousins",
+       "voter_count": 0
+      },
+      {
+       "persistent_id": "3",
+       "text": "grandparents",
+       "voter_count": 0
+      }
+     ],
+     "total_voter_count": 0,
+     "is_closed": false,
+     "is_anonymous": true,
+     "allows_multiple_answers": false,
+     "allows_revoting": false,
+     "members_only": false,
+     "type": "quiz",
+     "correct_option_id": 0,
+     "correct_option_ids": [
+      0
+     ],
+     "explanation": "Ona va ota birgalikda parents bo'ladi. Children = farzandlar, grandparents = buvi va bobolar.",
+     "explanation_entities": []
+    }
+   }
+  },
+  {
+   "ok": true,
+   "result": {
+    "message_id": 3781,
+    "sender_chat": {
+     "id": -1001675672165,
+     "title": "Registan LC | Academy filiali",
+     "username": "RegistanLC_Academy",
+     "type": "channel"
+    },
+    "chat": {
+     "id": -1001675672165,
+     "title": "Registan LC | Academy filiali",
+     "username": "RegistanLC_Academy",
+     "type": "channel"
+    },
+    "date": 1794218139,
+    "poll": {
+     "id": "5442834057891157601",
+     "question": "Malika has a brother. ___ brother is a student.",
+     "options": [
+      {
+       "persistent_id": "0",
+       "text": "His",
+       "voter_count": 0
+      },
+      {
+       "persistent_id": "1",
+       "text": "Our",
+       "voter_count": 0
+      },
+      {
+       "persistent_id": "2",
+       "text": "Her",
+       "voter_count": 0
+      },
+      {
+       "persistent_id": "3",
+       "text": "She's",
+       "voter_count": 0
+      }
+     ],
+     "total_voter_count": 0,
+     "is_closed": false,
+     "is_anonymous": true,
+     "allows_multiple_answers": false,
+     "allows_revoting": false,
+     "members_only": false,
+     "type": "quiz",
+     "correct_option_id": 2,
+     "correct_option_ids": [
+      2
+     ],
+     "explanation": "Malika qiz, shuning uchun \"uning\" = her. His erkakka tegishli, she's esa \"she is\" degani.",
+     "explanation_entities": []
+    }
+   }
+  },
+  {
+   "ok": true,
+   "result": {
+    "message_id": 3782,
+    "sender_chat": {
+     "id": -1001675672165,
+     "title": "Registan LC | Academy filiali",
+     "username": "RegistanLC_Academy",
+     "type": "channel"
+    },
+    "chat": {
+     "id": -1001675672165,
+     "title": "Registan LC | Academy filiali",
+     "username": "RegistanLC_Academy",
+     "type": "channel"
+    },
+    "date": 1794218140,
+    "poll": {
+     "id": "5442834057891157602",
+     "question": "Lola and I ___ from Bukhara.",
+     "options": [
+      {
+       "persistent_id": "0",
+       "text": "is",
+       "voter_count": 0
+      },
+      {
+       "persistent_id": "1",
+       "text": "are",
+       "voter_count": 0
+      },
+      {
+       "persistent_id": "2",
+       "text": "am",
+       "voter_count": 0
+      }
+     ],
+     "total_voter_count": 0,
+     "is_closed": false,
+     "is_anonymous": true,
+     "allows_multiple_answers": false,
+     "allows_revoting": false,
+     "members_only": false,
+     "type": "quiz",
+     "correct_option_id": 1,
+     "correct_option_ids": [
+      1
+     ],
+     "explanation": "Lola and I = we. We bilan doim are ishlatamiz: we are from Bukhara.",
+     "explanation_entities": []
+    }
+   }
+  },
+  {
+   "ok": true,
+   "result": {
+    "message_id": 3783,
+    "sender_chat": {
+     "id": -1001675672165,
+     "title": "Registan LC | Academy filiali",
+     "username": "RegistanLC_Academy",
+     "type": "channel"
+    },
+    "chat": {
+     "id": -1001675672165,
+     "title": "Registan LC | Academy filiali",
+     "username": "RegistanLC_Academy",
+     "type": "channel"
+    },
+    "date": 1794218140,
+    "poll": {
+     "id": "5442834057891157603",
+     "question": "Choose the correct sentence.",
+     "options": [
+      {
+       "persistent_id": "0",
+       "text": "This is my father car.",
+       "voter_count": 0
+      },
+      {
+       "persistent_id": "1",
+       "text": "This is my's father car.",
+       "voter_count": 0
+      },
+      {
+       "persistent_id": "2",
+       "text": "This is my parents car.",
+       "voter_count": 0
+      },
+      {
+       "persistent_id": "3",
+       "text": "This is my father's car.",
+       "voter_count": 0
+      }
+     ],
+     "total_voter_count": 0,
+     "is_closed": false,
+     "is_anonymous": true,
+     "allows_multiple_answers": false,
+     "allows_revoting": false,
+     "members_only": false,
+     "type": "quiz",
+     "correct_option_id": 3,
+     "correct_option_ids": [
+      3
+     ],
+     "explanation": "Kimningdir narsasini aytish uchun 's qo'shamiz: my father's car = otamning mashinasi.",
+     "explanation_entities": []
+    }
+   }
+  },
+  {
+   "ok": true,
+   "result": {
+    "message_id": 3784,
+    "sender_chat": {
+     "id": -1001675672165,
+     "title": "Registan LC | Academy filiali",
+     "username": "RegistanLC_Academy",
+     "type": "channel"
+    },
+    "chat": {
+     "id": -1001675672165,
+     "title": "Registan LC | Academy filiali",
+     "username": "RegistanLC_Academy",
+     "type": "channel"
+    },
+    "date": 1794218144,
+    "poll": {
+     "id": "5442834057891157604",
+     "question": "Find the mistake:\nWe have two children. Our son is ten and our daughter is seven. They're names are Aziz and Laylo. Aziz's favourite colour is blue.",
+     "options": [
+      {
+       "persistent_id": "0",
+       "text": "Our son is ten",
+       "voter_count": 0
+      },
+      {
+       "persistent_id": "1",
+       "text": "Aziz's favourite colour",
+       "voter_count": 0
+      },
+      {
+       "persistent_id": "2",
+       "text": "They're names are",
+       "voter_count": 0
+      },
+      {
+       "persistent_id": "3",
+       "text": "We have two children",
+       "voter_count": 0
+      }
+     ],
+     "total_voter_count": 0,
+     "is_closed": false,
+     "is_anonymous": true,
+     "allows_multiple_answers": false,
+     "allows_revoting": false,
+     "members_only": false,
+     "type": "quiz",
+     "correct_option_id": 2,
+     "correct_option_ids": [
+      2
+     ],
+     "explanation": "They're = they are. \"Ularning\" deyish uchun their kerak: Their names are Aziz and Laylo.",
+     "explanation_entities": []
+    }
+   }
+  }
+ ],
+ "posted_at": "2026-11-09T09:55:44.353661+00:00"
+}
