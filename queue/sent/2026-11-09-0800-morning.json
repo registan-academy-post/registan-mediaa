@@ -1,0 +1,175 @@
+{
+ "id": "2026-11-09-0800-morning",
+ "steps": [
+  {
+   "method": "sendPhoto",
+   "params": {
+    "chat_id": "@RegistanLC_Academy",
+    "photo": "https://raw.githubusercontent.com/registan-academy-post/registan-mediaa/main/posts/2026-11-09/0800_el_yurt_umidi_kengaymoqda.jpg",
+    "caption": "<b>🎓 El-yurt umidi qo'shimcha xarajatlarni ham qoplaydi</b>\n<blockquote>Farzandingiz chet elda o'qishni orzu qilsa, bu yangilik aynan siz uchun.</blockquote>\n✅ <b>Yangi qaror:</b> 2026-yil 17-iyuldagi PQ-269-son Prezident qarori bilan jamg'arma imkoniyatlari kengaytirildi.\n✅ <b>2027/2028 o'quv yilidan:</b> jamg'arma integratsiyalashgan dasturlardagi birinchi (foundation) yil kontraktini ham to'lashi mumkin.\n✅ <b>Top-300 universitetlar:</b> o'qishni dunyoning 300 ta yetakchi oliygohida davom ettiradiganlarning chet elda o'qish xarajatlari ham moliyalashtiriladi.\n✅ <b>Tanlov asosida:</b> bu imkoniyat faqat belgilangan tartibda tanlovdan o'tganlarga beriladi, til sertifikati esa birinchi qadam.\n<a href=\"https://yuz.uz/en/news/v-uzbekistane-rasshiryat-finansirovanie-stipendiatov-fonda-el-yurt-umidi\">Manba</a>\n\nSiz yoki farzandingiz qaysi davlatda o'qishni xohlaysiz?\n\n📌 <a href=\"https://registan.edutizim.uz/order/entry/?survey=s33\">Bepul darsga yozilish</a>\n\n📞 +998935512700\n\n📱 <a href=\"https://t.me/Registan_LC\">Follow us on social media</a>:\n\n📱<a href=\"https://t.me/RegistanLC_Academy\">Telegram</a>   📱<a href=\"https://instagram.com/registanlc_academy\">Instagram</a>   📱<a href=\"https://goo.gl/maps/ziHA5ukgVtbGmwwR6\">Location</a>",
+    "parse_mode": "HTML",
+    "reply_markup": {
+     "inline_keyboard": [
+      [
+       {
+        "text": "✍️ Bepul darsga yozilish",
+        "url": "https://registan.edutizim.uz/order/entry/?survey=s33"
+       },
+       {
+        "text": "📍 Xaritada ochish",
+        "url": "https://goo.gl/maps/ziHA5ukgVtbGmwwR6"
+       }
+      ]
+     ]
+    }
+   }
+  }
+ ],
+ "results": [
+  {
+   "ok": true,
+   "result": {
+    "message_id": 3777,
+    "sender_chat": {
+     "id": -1001675672165,
+     "title": "Registan LC | Academy filiali",
+     "username": "RegistanLC_Academy",
+     "type": "channel"
+    },
+    "chat": {
+     "id": -1001675672165,
+     "title": "Registan LC | Academy filiali",
+     "username": "RegistanLC_Academy",
+     "type": "channel"
+    },
+    "date": 1794192910,
+    "photo": [
+     {
+      "file_id": "AgACAgQAAx0EY-C6ZQACDsFq8TYO-RaaVruOQvyT-5Ni9LXNSwACLw9rG3nQjVNlj0nDfdw3NwEAAwIAA3MAAz0E",
+      "file_unique_id": "AQADLw9rG3nQjVN4",
+      "file_size": 1200,
+      "width": 72,
+      "height": 90
+     },
+     {
+      "file_id": "AgACAgQAAx0EY-C6ZQACDsFq8TYO-RaaVruOQvyT-5Ni9LXNSwACLw9rG3nQjVNlj0nDfdw3NwEAAwIAA20AAz0E",
+      "file_unique_id": "AQADLw9rG3nQjVNy",
+      "file_size": 12703,
+      "width": 256,
+      "height": 320
+     },
+     {
+      "file_id": "AgACAgQAAx0EY-C6ZQACDsFq8TYO-RaaVruOQvyT-5Ni9LXNSwACLw9rG3nQjVNlj0nDfdw3NwEAAwIAA3gAAz0E",
+      "file_unique_id": "AQADLw9rG3nQjVN9",
+      "file_size": 41398,
+      "width": 640,
+      "height": 800
+     },
+     {
+      "file_id": "AgACAgQAAx0EY-C6ZQACDsFq8TYO-RaaVruOQvyT-5Ni9LXNSwACLw9rG3nQjVNlj0nDfdw3NwEAAwIAA3kAAz0E",
+      "file_unique_id": "AQADLw9rG3nQjVN-",
+      "file_size": 74423,
+      "width": 1024,
+      "height": 1280
+     },
+     {
+      "file_id": "AgACAgQAAx0EY-C6ZQACDsFq8TYO-RaaVruOQvyT-5Ni9LXNSwACLw9rG3nQjVNlj0nDfdw3NwEAAwIAA3cAAz0E",
+      "file_unique_id": "AQADLw9rG3nQjVN8",
+      "file_size": 239361,
+      "width": 2048,
+      "height": 2560
+     }
+    ],
+    "caption": "🎓 El-yurt umidi qo'shimcha xarajatlarni ham qoplaydi\nFarzandingiz chet elda o'qishni orzu qilsa, bu yangilik aynan siz uchun.\n✅ Yangi qaror: 2026-yil 17-iyuldagi PQ-269-son Prezident qarori bilan jamg'arma imkoniyatlari kengaytirildi.\n✅ 2027/2028 o'quv yilidan: jamg'arma integratsiyalashgan dasturlardagi birinchi (foundation) yil kontraktini ham to'lashi mumkin.\n✅ Top-300 universitetlar: o'qishni dunyoning 300 ta yetakchi oliygohida davom ettiradiganlarning chet elda o'qish xarajatlari ham moliyalashtiriladi.\n✅ Tanlov asosida: bu imkoniyat faqat belgilangan tartibda tanlovdan o'tganlarga beriladi, til sertifikati esa birinchi qadam.\nManba\n\nSiz yoki farzandingiz qaysi davlatda o'qishni xohlaysiz?\n\n📌 Bepul darsga yozilish\n\n📞 +998935512700\n\n📱 Follow us on social media:\n\n📱Telegram   📱Instagram   📱Location",
+    "caption_entities": [
+     {
+      "offset": 0,
+      "length": 53,
+      "type": "bold"
+     },
+     {
+      "offset": 54,
+      "length": 72,
+      "type": "blockquote"
+     },
+     {
+      "offset": 129,
+      "length": 12,
+      "type": "bold"
+     },
+     {
+      "offset": 238,
+      "length": 24,
+      "type": "bold"
+     },
+     {
+      "offset": 368,
+      "length": 23,
+      "type": "bold"
+     },
+     {
+      "offset": 518,
+      "length": 15,
+      "type": "bold"
+     },
+     {
+      "offset": 642,
+      "length": 5,
+      "type": "text_link",
+      "url": "https://yuz.uz/en/news/v-uzbekistane-rasshiryat-finansirovanie-stipendiatov-fonda-el-yurt-umidi"
+     },
+     {
+      "offset": 710,
+      "length": 21,
+      "type": "text_link",
+      "url": "https://registan.edutizim.uz/order/entry/?survey=s33"
+     },
+     {
+      "offset": 736,
+      "length": 13,
+      "type": "phone_number"
+     },
+     {
+      "offset": 754,
+      "length": 25,
+      "type": "text_link",
+      "url": "https://t.me/Registan_LC"
+     },
+     {
+      "offset": 784,
+      "length": 8,
+      "type": "text_link",
+      "url": "https://t.me/RegistanLC_Academy"
+     },
+     {
+      "offset": 797,
+      "length": 9,
+      "type": "text_link",
+      "url": "https://instagram.com/registanlc_academy"
+     },
+     {
+      "offset": 811,
+      "length": 8,
+      "type": "text_link",
+      "url": "https://goo.gl/maps/ziHA5ukgVtbGmwwR6"
+     }
+    ],
+    "reply_markup": {
+     "inline_keyboard": [
+      [
+       {
+        "text": "✍️ Bepul darsga yozilish",
+        "url": "https://registan.edutizim.uz/order/entry/?survey=s33"
+       },
+       {
+        "text": "📍 Xaritada ochish",
+        "url": "https://goo.gl/maps/ziHA5ukgVtbGmwwR6"
+       }
+      ]
+     ]
+    }
+   }
+  }
+ ],
+ "posted_at": "2026-11-09T02:55:10.429924+00:00"
+}
