@@ -1,0 +1,96 @@
+{
+ "id": "2026-11-09-1500-quiz",
+ "steps": [
+  {
+   "method": "sendMessage",
+   "params": {
+    "chat_id": "@RegistanLC_Academy",
+    "text": "Beginner guruhlar uchun bugun yana oila mavzusi: my, his, her, their va 's.\nBitta savol o'tgan darsdan, oxirgisida esa kichik tuzoq bor. Ehtiyot bo'ling 🙂"
+   }
+  },
+  {
+   "method": "sendPoll",
+   "params": {
+    "chat_id": "@RegistanLC_Academy",
+    "question": "My mother and my father are my ___.",
+    "options": [
+     "parents",
+     "children",
+     "cousins",
+     "grandparents"
+    ],
+    "type": "quiz",
+    "is_anonymous": true,
+    "correct_option_id": 0,
+    "explanation": "Ona va ota birgalikda parents bo'ladi. Children = farzandlar, grandparents = buvi va bobolar."
+   }
+  },
+  {
+   "method": "sendPoll",
+   "params": {
+    "chat_id": "@RegistanLC_Academy",
+    "question": "Malika has a brother. ___ brother is a student.",
+    "options": [
+     "His",
+     "Our",
+     "Her",
+     "She's"
+    ],
+    "type": "quiz",
+    "is_anonymous": true,
+    "correct_option_id": 2,
+    "explanation": "Malika qiz, shuning uchun \"uning\" = her. His erkakka tegishli, she's esa \"she is\" degani."
+   }
+  },
+  {
+   "method": "sendPoll",
+   "params": {
+    "chat_id": "@RegistanLC_Academy",
+    "question": "Lola and I ___ from Bukhara.",
+    "options": [
+     "is",
+     "are",
+     "am"
+    ],
+    "type": "quiz",
+    "is_anonymous": true,
+    "correct_option_id": 1,
+    "explanation": "Lola and I = we. We bilan doim are ishlatamiz: we are from Bukhara."
+   }
+  },
+  {
+   "method": "sendPoll",
+   "params": {
+    "chat_id": "@RegistanLC_Academy",
+    "question": "Choose the correct sentence.",
+    "options": [
+     "This is my father car.",
+     "This is my's father car.",
+     "This is my parents car.",
+     "This is my father's car."
+    ],
+    "type": "quiz",
+    "is_anonymous": true,
+    "correct_option_id": 3,
+    "explanation": "Kimningdir narsasini aytish uchun 's qo'shamiz: my father's car = otamning mashinasi."
+   }
+  },
+  {
+   "method": "sendPoll",
+   "params": {
+    "chat_id": "@RegistanLC_Academy",
+    "question": "Find the mistake:\nWe have two children. Our son is ten and our daughter is seven. They're names are Aziz and Laylo. Aziz's favourite colour is blue.",
+    "options": [
+     "Our son is ten",
+     "Aziz's favourite colour",
+     "They're names are",
+     "We have two children"
+    ],
+    "type": "quiz",
+    "is_anonymous": true,
+    "correct_option_id": 2,
+    "explanation": "They're = they are. \"Ularning\" deyish uchun their kerak: Their names are Aziz and Laylo."
+   }
+  }
+ ]
+}
