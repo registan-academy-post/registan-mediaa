@@ -1,0 +1,169 @@
+{
+ "id": "2026-11-09-1200-english",
+ "steps": [
+  {
+   "method": "sendPhoto",
+   "params": {
+    "chat_id": "@RegistanLC_Academy",
+    "photo": "https://raw.githubusercontent.com/registan-academy-post/registan-mediaa/main/posts/2026-11-09/1200_word_eventually.jpg",
+    "caption": "Rus tilini biladiganlar ko'pincha shu so'zda adashadi: \"eventualno\" ruschada \"ehtimol, kerak bo'lsa\" degani, inglizcha <b>eventually</b> esa umuman boshqa narsa. U \"oxir-oqibat, axiyri\" degan ma'noni beradi, ya'ni ancha vaqt yoki qiyinchilikdan keyin baribir sodir bo'lgan ish haqida.\n\n<i>I failed the test twice, but eventually I passed.</i> Ikki marta yiqildim, lekin oxiri o'tdim. <i>The bus was late, but it eventually came.</i> <i>If you keep practising, you will eventually feel more confident.</i>\n\nYana bir farq: essedagi oxirgi fikrni sanab berishda <i>Finally,</i> ishlatiladi, <i>Eventually,</i> emas. Eventually doim \"uzoq jarayondan keyin\" degan ohangni olib yuradi.\n\nSizda ham avval qiyin bo'lib, keyin eventually o'rganib olgan narsa bormi? 🙂\n\n📌 <a href=\"https://registan.edutizim.uz/order/entry/?survey=s33\">Bepul darsga yozilish</a>\n\n📞 +998935512700\n\n📱 <a href=\"https://t.me/Registan_LC\">Follow us on social media</a>:\n\n📱<a href=\"https://t.me/RegistanLC_Academy\">Telegram</a>   📱<a href=\"https://instagram.com/registanlc_academy\">Instagram</a>   📱<a href=\"https://goo.gl/maps/ziHA5ukgVtbGmwwR6\">Location</a>",
+    "parse_mode": "HTML",
+    "reply_markup": {
+     "inline_keyboard": [
+      [
+       {
+        "text": "✍️ Bepul darsga yozilish",
+        "url": "https://registan.edutizim.uz/order/entry/?survey=s33"
+       },
+       {
+        "text": "📍 Xaritada ochish",
+        "url": "https://goo.gl/maps/ziHA5ukgVtbGmwwR6"
+       }
+      ]
+     ]
+    }
+   }
+  }
+ ],
+ "results": [
+  {
+   "ok": true,
+   "result": {
+    "message_id": 3778,
+    "sender_chat": {
+     "id": -1001675672165,
+     "title": "Registan LC | Academy filiali",
+     "username": "RegistanLC_Academy",
+     "type": "channel"
+    },
+    "chat": {
+     "id": -1001675672165,
+     "title": "Registan LC | Academy filiali",
+     "username": "RegistanLC_Academy",
+     "type": "channel"
+    },
+    "date": 1794207434,
+    "photo": [
+     {
+      "file_id": "AgACAgQAAx0EY-C6ZQACDsJq8W7KQoaTC68EkZ-HMLHa41iqlAACnw5rGzdLlVPLqY2P5r2gcgEAAwIAA3MAAz0E",
+      "file_unique_id": "AQADnw5rGzdLlVN4",
+      "file_size": 874,
+      "width": 72,
+      "height": 90
+     },
+     {
+      "file_id": "AgACAgQAAx0EY-C6ZQACDsJq8W7KQoaTC68EkZ-HMLHa41iqlAACnw5rGzdLlVPLqY2P5r2gcgEAAwIAA20AAz0E",
+      "file_unique_id": "AQADnw5rGzdLlVNy",
+      "file_size": 9068,
+      "width": 256,
+      "height": 320
+     },
+     {
+      "file_id": "AgACAgQAAx0EY-C6ZQACDsJq8W7KQoaTC68EkZ-HMLHa41iqlAACnw5rGzdLlVPLqY2P5r2gcgEAAwIAA3gAAz0E",
+      "file_unique_id": "AQADnw5rGzdLlVN9",
+      "file_size": 35935,
+      "width": 640,
+      "height": 800
+     },
+     {
+      "file_id": "AgACAgQAAx0EY-C6ZQACDsJq8W7KQoaTC68EkZ-HMLHa41iqlAACnw5rGzdLlVPLqY2P5r2gcgEAAwIAA3kAAz0E",
+      "file_unique_id": "AQADnw5rGzdLlVN-",
+      "file_size": 67421,
+      "width": 1024,
+      "height": 1280
+     },
+     {
+      "file_id": "AgACAgQAAx0EY-C6ZQACDsJq8W7KQoaTC68EkZ-HMLHa41iqlAACnw5rGzdLlVPLqY2P5r2gcgEAAwIAA3cAAz0E",
+      "file_unique_id": "AQADnw5rGzdLlVN8",
+      "file_size": 234511,
+      "width": 2048,
+      "height": 2560
+     }
+    ],
+    "caption": "Rus tilini biladiganlar ko'pincha shu so'zda adashadi: \"eventualno\" ruschada \"ehtimol, kerak bo'lsa\" degani, inglizcha eventually esa umuman boshqa narsa. U \"oxir-oqibat, axiyri\" degan ma'noni beradi, ya'ni ancha vaqt yoki qiyinchilikdan keyin baribir sodir bo'lgan ish haqida.\n\nI failed the test twice, but eventually I passed. Ikki marta yiqildim, lekin oxiri o'tdim. The bus was late, but it eventually came. If you keep practising, you will eventually feel more confident.\n\nYana bir farq: essedagi oxirgi fikrni sanab berishda Finally, ishlatiladi, Eventually, emas. Eventually doim \"uzoq jarayondan keyin\" degan ohangni olib yuradi.\n\nSizda ham avval qiyin bo'lib, keyin eventually o'rganib olgan narsa bormi? 🙂\n\n📌 Bepul darsga yozilish\n\n📞 +998935512700\n\n📱 Follow us on social media:\n\n📱Telegram   📱Instagram   📱Location",
+    "caption_entities": [
+     {
+      "offset": 119,
+      "length": 10,
+      "type": "bold"
+     },
+     {
+      "offset": 279,
+      "length": 49,
+      "type": "italic"
+     },
+     {
+      "offset": 370,
+      "length": 41,
+      "type": "italic"
+     },
+     {
+      "offset": 412,
+      "length": 64,
+      "type": "italic"
+     },
+     {
+      "offset": 531,
+      "length": 8,
+      "type": "italic"
+     },
+     {
+      "offset": 553,
+      "length": 11,
+      "type": "italic"
+     },
+     {
+      "offset": 721,
+      "length": 21,
+      "type": "text_link",
+      "url": "https://registan.edutizim.uz/order/entry/?survey=s33"
+     },
+     {
+      "offset": 747,
+      "length": 13,
+      "type": "phone_number"
+     },
+     {
+      "offset": 765,
+      "length": 25,
+      "type": "text_link",
+      "url": "https://t.me/Registan_LC"
+     },
+     {
+      "offset": 795,
+      "length": 8,
+      "type": "text_link",
+      "url": "https://t.me/RegistanLC_Academy"
+     },
+     {
+      "offset": 808,
+      "length": 9,
+      "type": "text_link",
+      "url": "https://instagram.com/registanlc_academy"
+     },
+     {
+      "offset": 822,
+      "length": 8,
+      "type": "text_link",
+      "url": "https://goo.gl/maps/ziHA5ukgVtbGmwwR6"
+     }
+    ],
+    "reply_markup": {
+     "inline_keyboard": [
+      [
+       {
+        "text": "✍️ Bepul darsga yozilish",
+        "url": "https://registan.edutizim.uz/order/entry/?survey=s33"
+       },
+       {
+        "text": "📍 Xaritada ochish",
+        "url": "https://goo.gl/maps/ziHA5ukgVtbGmwwR6"
+       }
+      ]
+     ]
+    }
+   }
+  }
+ ],
+ "posted_at": "2026-11-09T06:57:14.125905+00:00"
+}
