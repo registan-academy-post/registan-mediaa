@@ -1,0 +1,214 @@
+{
+ "id": "2026-11-09-2000-math",
+ "steps": [
+  {
+   "method": "sendPhoto",
+   "params": {
+    "chat_id": "@RegistanLC_Academy",
+    "photo": "https://raw.githubusercontent.com/registan-academy-post/registan-mediaa/main/posts/2026-11-09/2000_math_handshakes_45.jpg",
+    "caption": "Tasavvur qiling: bir xonada bir guruh odam yig'ildi va har biri qolgan hamma bilan bittadan qo'l berib ko'rishdi. Sanab chiqishsa, jami 45 ta qo'l berish bo'libdi.\n\nXonada nechta odam bo'lgan? Bitta maslahat: har bir qo'l berishda ikki kishi qatnashadi. Javobni so'rovnomada belgilang, qanday hisoblaganingizni izohlarda yozing 🤝\n\n📌 <a href=\"https://registan.edutizim.uz/order/entry/?survey=s33\">Bepul darsga yozilish</a>\n\n📞 +998935512700\n\n📱 <a href=\"https://t.me/Registan_LC\">Follow us on social media</a>:\n\n📱<a href=\"https://t.me/RegistanLC_Academy\">Telegram</a>   📱<a href=\"https://instagram.com/registanlc_academy\">Instagram</a>   📱<a href=\"https://goo.gl/maps/ziHA5ukgVtbGmwwR6\">Location</a>",
+    "parse_mode": "HTML",
+    "reply_markup": {
+     "inline_keyboard": [
+      [
+       {
+        "text": "✍️ Bepul darsga yozilish",
+        "url": "https://registan.edutizim.uz/order/entry/?survey=s33"
+       },
+       {
+        "text": "📍 Xaritada ochish",
+        "url": "https://goo.gl/maps/ziHA5ukgVtbGmwwR6"
+       }
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "method": "sendPoll",
+   "params": {
+    "chat_id": "@RegistanLC_Academy",
+    "question": "Har kim har kim bilan bir marta qo'l berdi, jami 45 ta. Necha kishi bor edi?",
+    "options": [
+     "9",
+     "10",
+     "15",
+     "45"
+    ],
+    "type": "quiz",
+    "correct_option_id": 1,
+    "is_anonymous": true,
+    "explanation": "n kishi bo'lsa, qo'l berishlar soni n·(n−1)/2. 10·9/2 = 45, demak 10 kishi."
+   }
+  }
+ ],
+ "results": [
+  {
+   "ok": true,
+   "result": {
+    "message_id": 3785,
+    "sender_chat": {
+     "id": -1001675672165,
+     "title": "Registan LC | Academy filiali",
+     "username": "RegistanLC_Academy",
+     "type": "channel"
+    },
+    "chat": {
+     "id": -1001675672165,
+     "title": "Registan LC | Academy filiali",
+     "username": "RegistanLC_Academy",
+     "type": "channel"
+    },
+    "date": 1794236110,
+    "photo": [
+     {
+      "file_id": "AgACAgQAAx0EY-C6ZQACDslq8d7Oyd9ei3wQaWEMxKLxAAGqNNIAAkMPaxstoJRTA_irY1BDsS8BAAMCAANzAAM9BA",
+      "file_unique_id": "AQADQw9rGy2glFN4",
+      "file_size": 1314,
+      "width": 72,
+      "height": 90
+     },
+     {
+      "file_id": "AgACAgQAAx0EY-C6ZQACDslq8d7Oyd9ei3wQaWEMxKLxAAGqNNIAAkMPaxstoJRTA_irY1BDsS8BAAMCAANtAAM9BA",
+      "file_unique_id": "AQADQw9rGy2glFNy",
+      "file_size": 17152,
+      "width": 256,
+      "height": 320
+     },
+     {
+      "file_id": "AgACAgQAAx0EY-C6ZQACDslq8d7Oyd9ei3wQaWEMxKLxAAGqNNIAAkMPaxstoJRTA_irY1BDsS8BAAMCAAN4AAM9BA",
+      "file_unique_id": "AQADQw9rGy2glFN9",
+      "file_size": 60188,
+      "width": 640,
+      "height": 800
+     },
+     {
+      "file_id": "AgACAgQAAx0EY-C6ZQACDslq8d7Oyd9ei3wQaWEMxKLxAAGqNNIAAkMPaxstoJRTA_irY1BDsS8BAAMCAAN5AAM9BA",
+      "file_unique_id": "AQADQw9rGy2glFN-",
+      "file_size": 107331,
+      "width": 1024,
+      "height": 1280
+     },
+     {
+      "file_id": "AgACAgQAAx0EY-C6ZQACDslq8d7Oyd9ei3wQaWEMxKLxAAGqNNIAAkMPaxstoJRTA_irY1BDsS8BAAMCAAN3AAM9BA",
+      "file_unique_id": "AQADQw9rGy2glFN8",
+      "file_size": 295207,
+      "width": 2048,
+      "height": 2560
+     }
+    ],
+    "caption": "Tasavvur qiling: bir xonada bir guruh odam yig'ildi va har biri qolgan hamma bilan bittadan qo'l berib ko'rishdi. Sanab chiqishsa, jami 45 ta qo'l berish bo'libdi.\n\nXonada nechta odam bo'lgan? Bitta maslahat: har bir qo'l berishda ikki kishi qatnashadi. Javobni so'rovnomada belgilang, qanday hisoblaganingizni izohlarda yozing 🤝\n\n📌 Bepul darsga yozilish\n\n📞 +998935512700\n\n📱 Follow us on social media:\n\n📱Telegram   📱Instagram   📱Location",
+    "caption_entities": [
+     {
+      "offset": 335,
+      "length": 21,
+      "type": "text_link",
+      "url": "https://registan.edutizim.uz/order/entry/?survey=s33"
+     },
+     {
+      "offset": 361,
+      "length": 13,
+      "type": "phone_number"
+     },
+     {
+      "offset": 379,
+      "length": 25,
+      "type": "text_link",
+      "url": "https://t.me/Registan_LC"
+     },
+     {
+      "offset": 409,
+      "length": 8,
+      "type": "text_link",
+      "url": "https://t.me/RegistanLC_Academy"
+     },
+     {
+      "offset": 422,
+      "length": 9,
+      "type": "text_link",
+      "url": "https://instagram.com/registanlc_academy"
+     },
+     {
+      "offset": 436,
+      "length": 8,
+      "type": "text_link",
+      "url": "https://goo.gl/maps/ziHA5ukgVtbGmwwR6"
+     }
+    ],
+    "reply_markup": {
+     "inline_keyboard": [
+      [
+       {
+        "text": "✍️ Bepul darsga yozilish",
+        "url": "https://registan.edutizim.uz/order/entry/?survey=s33"
+       },
+       {
+        "text": "📍 Xaritada ochish",
+        "url": "https://goo.gl/maps/ziHA5ukgVtbGmwwR6"
+       }
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "ok": true,
+   "result": {
+    "message_id": 3786,
+    "sender_chat": {
+     "id": -1001675672165,
+     "title": "Registan LC | Academy filiali",
+     "username": "RegistanLC_Academy",
+     "type": "channel"
+    },
+    "chat": {
+     "id": -1001675672165,
+     "title": "Registan LC | Academy filiali",
+     "username": "RegistanLC_Academy",
+     "type": "channel"
+    },
+    "date": 1794236110,
+    "poll": {
+     "id": "5445280857810017378",
+     "question": "Har kim har kim bilan bir marta qo'l berdi, jami 45 ta. Necha kishi bor edi?",
+     "options": [
+      {
+       "persistent_id": "0",
+       "text": "9",
+       "voter_count": 0
+      },
+      {
+       "persistent_id": "1",
+       "text": "10",
+       "voter_count": 0
+      },
+      {
+       "persistent_id": "2",
+       "text": "15",
+       "voter_count": 0
+      },
+      {
+       "persistent_id": "3",
+       "text": "45",
+       "voter_count": 0
+      }
+     ],
+     "total_voter_count": 0,
+     "is_closed": false,
+     "is_anonymous": true,
+     "allows_multiple_answers": false,
+     "allows_revoting": false,
+     "members_only": false,
+     "type": "quiz",
+     "correct_option_id": 1,
+     "correct_option_ids": [
+      1
+     ],
+     "explanation": "n kishi bo'lsa, qo'l berishlar soni n·(n−1)/2. 10·9/2 = 45, demak 10 kishi.",
+     "explanation_entities": []
+    }
+   }
+  }
+ ],
+ "posted_at": "2026-11-09T14:55:10.606524+00:00"
+}
