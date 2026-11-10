@@ -1,0 +1,28 @@
+{
+ "id": "2026-11-10-1200-english",
+ "steps": [
+  {
+   "method": "sendPhoto",
+   "params": {
+    "chat_id": "@RegistanLC_Academy",
+    "photo": "https://raw.githubusercontent.com/registan-academy-post/registan-mediaa/main/posts/2026-11-10/1200_mistake_interested_vs_interesting.jpg",
+    "caption": "Shu gapni ko'p eshitamiz: <i>I am interesting in English.</i> Niyat yaxshi, lekin aslida bu \"men qiziqarli odamman\" degandek chiqib qoladi 🙂 To'g'risi: <b>I'm interested in English</b>, ya'ni \"ingliz tiliga qiziqaman\".\n\nFarqi oddiy. <b>-ed</b> bilan odam nimani his qilayotganini aytamiz, <b>-ing</b> bilan esa o'sha hisni nima uyg'otayotganini. <i>The film was boring, so I was bored.</i> Kino zerikarli edi, shuning uchun zerikdim. <i>I'm always tired after a tiring day.</i> <i>We were surprised, the results were really surprising.</i>\n\nKichik maslahat: o'z his-tuyg'uingiz haqida gapirayotgan bo'lsangiz, deyarli har doim -ed kerak. Darsda \"I'm boring\" desangiz, \"zerikdim\" emas, \"men zerikarli odamman\" degan bo'lasiz, o'qituvchi kulib yuborishi mumkin.\n\nYana bitta narsa: interested'dan keyin <i>in</i> keladi, <i>interested in music</i>, <i>interested in learning Korean</i>.\n\n📌 <a href=\"https://registan.edutizim.uz/order/entry/?survey=s33\">Bepul darsga yozilish</a>\n\n📞 +998935512700\n\n📱 <a href=\"https://t.me/Registan_LC\">Follow us on social media</a>:\n\n📱<a href=\"https://t.me/RegistanLC_Academy\">Telegram</a>   📱<a href=\"https://instagram.com/registanlc_academy\">Instagram</a>   📱<a href=\"https://goo.gl/maps/ziHA5ukgVtbGmwwR6\">Location</a>",
+    "parse_mode": "HTML",
+    "reply_markup": {
+     "inline_keyboard": [
+      [
+       {
+        "text": "✍️ Bepul darsga yozilish",
+        "url": "https://registan.edutizim.uz/order/entry/?survey=s33"
+       },
+       {
+        "text": "📍 Xaritada ochish",
+        "url": "https://goo.gl/maps/ziHA5ukgVtbGmwwR6"
+       }
+      ]
+     ]
+    }
+   }
+  }
+ ]
+}
