@@ -1,0 +1,139 @@
+{
+ "id": "2026-11-10-2000-russian",
+ "steps": [
+  {
+   "method": "sendPhoto",
+   "params": {
+    "chat_id": "@RegistanLC_Academy",
+    "photo": "https://raw.githubusercontent.com/registan-academy-post/registan-mediaa/main/posts/2026-11-10/2000_ru_kot_naplakal.jpg",
+    "caption": "Oy oxiri. Do'stingiz so'raydi: «Деньги есть?» Siz esa xo'rsinib: «Какие деньги, кот наплакал» 😅\n\nSo'zma-so'z «mushuk yig'lab qo'ygancha». Mushukning ko'z yoshi qancha bo'lardi? Shuning uchun ruslar juda oz, deyarli yo'q narsani shunday deydi. Pulga ham, vaqtga ham, uyquga ham bemalol ishlatsa bo'ladi.\n\nSizda hozir nima кот наплакал? Izohda ruscha bitta gap yozing, masalan: «Свободного времени у меня кот наплакал».\n\n📌 <a href=\"https://registan.edutizim.uz/order/entry/?survey=s33\">Bepul darsga yozilish</a>\n\n📞 +998935512700\n\n📱 <a href=\"https://t.me/Registan_LC\">Follow us on social media</a>:\n\n📱<a href=\"https://t.me/RegistanLC_Academy\">Telegram</a>   📱<a href=\"https://instagram.com/registanlc_academy\">Instagram</a>   📱<a href=\"https://goo.gl/maps/ziHA5ukgVtbGmwwR6\">Location</a>",
+    "parse_mode": "HTML",
+    "reply_markup": {
+     "inline_keyboard": [
+      [
+       {
+        "text": "✍️ Bepul darsga yozilish",
+        "url": "https://registan.edutizim.uz/order/entry/?survey=s33"
+       },
+       {
+        "text": "📍 Xaritada ochish",
+        "url": "https://goo.gl/maps/ziHA5ukgVtbGmwwR6"
+       }
+      ]
+     ]
+    }
+   }
+  }
+ ],
+ "results": [
+  {
+   "ok": true,
+   "result": {
+    "message_id": 3795,
+    "sender_chat": {
+     "id": -1001675672165,
+     "title": "Registan LC | Academy filiali",
+     "username": "RegistanLC_Academy",
+     "type": "channel"
+    },
+    "chat": {
+     "id": -1001675672165,
+     "title": "Registan LC | Academy filiali",
+     "username": "RegistanLC_Academy",
+     "type": "channel"
+    },
+    "date": 1794322508,
+    "photo": [
+     {
+      "file_id": "AgACAgQAAx0EY-C6ZQACDtNq8zBMlg4VMHYj4_5kE6jBsm0qCwACWg9rGzlKnFPX6ZIUEn1uPQEAAwIAA3MAAz0E",
+      "file_unique_id": "AQADWg9rGzlKnFN4",
+      "file_size": 862,
+      "width": 72,
+      "height": 90
+     },
+     {
+      "file_id": "AgACAgQAAx0EY-C6ZQACDtNq8zBMlg4VMHYj4_5kE6jBsm0qCwACWg9rGzlKnFPX6ZIUEn1uPQEAAwIAA20AAz0E",
+      "file_unique_id": "AQADWg9rGzlKnFNy",
+      "file_size": 7858,
+      "width": 256,
+      "height": 320
+     },
+     {
+      "file_id": "AgACAgQAAx0EY-C6ZQACDtNq8zBMlg4VMHYj4_5kE6jBsm0qCwACWg9rGzlKnFPX6ZIUEn1uPQEAAwIAA3gAAz0E",
+      "file_unique_id": "AQADWg9rGzlKnFN9",
+      "file_size": 29193,
+      "width": 640,
+      "height": 800
+     },
+     {
+      "file_id": "AgACAgQAAx0EY-C6ZQACDtNq8zBMlg4VMHYj4_5kE6jBsm0qCwACWg9rGzlKnFPX6ZIUEn1uPQEAAwIAA3kAAz0E",
+      "file_unique_id": "AQADWg9rGzlKnFN-",
+      "file_size": 54395,
+      "width": 1024,
+      "height": 1280
+     },
+     {
+      "file_id": "AgACAgQAAx0EY-C6ZQACDtNq8zBMlg4VMHYj4_5kE6jBsm0qCwACWg9rGzlKnFPX6ZIUEn1uPQEAAwIAA3cAAz0E",
+      "file_unique_id": "AQADWg9rGzlKnFN8",
+      "file_size": 153304,
+      "width": 2048,
+      "height": 2560
+     }
+    ],
+    "caption": "Oy oxiri. Do'stingiz so'raydi: «Деньги есть?» Siz esa xo'rsinib: «Какие деньги, кот наплакал» 😅\n\nSo'zma-so'z «mushuk yig'lab qo'ygancha». Mushukning ko'z yoshi qancha bo'lardi? Shuning uchun ruslar juda oz, deyarli yo'q narsani shunday deydi. Pulga ham, vaqtga ham, uyquga ham bemalol ishlatsa bo'ladi.\n\nSizda hozir nima кот наплакал? Izohda ruscha bitta gap yozing, masalan: «Свободного времени у меня кот наплакал».\n\n📌 Bepul darsga yozilish\n\n📞 +998935512700\n\n📱 Follow us on social media:\n\n📱Telegram   📱Instagram   📱Location",
+    "caption_entities": [
+     {
+      "offset": 423,
+      "length": 21,
+      "type": "text_link",
+      "url": "https://registan.edutizim.uz/order/entry/?survey=s33"
+     },
+     {
+      "offset": 449,
+      "length": 13,
+      "type": "phone_number"
+     },
+     {
+      "offset": 467,
+      "length": 25,
+      "type": "text_link",
+      "url": "https://t.me/Registan_LC"
+     },
+     {
+      "offset": 497,
+      "length": 8,
+      "type": "text_link",
+      "url": "https://t.me/RegistanLC_Academy"
+     },
+     {
+      "offset": 510,
+      "length": 9,
+      "type": "text_link",
+      "url": "https://instagram.com/registanlc_academy"
+     },
+     {
+      "offset": 524,
+      "length": 8,
+      "type": "text_link",
+      "url": "https://goo.gl/maps/ziHA5ukgVtbGmwwR6"
+     }
+    ],
+    "reply_markup": {
+     "inline_keyboard": [
+      [
+       {
+        "text": "✍️ Bepul darsga yozilish",
+        "url": "https://registan.edutizim.uz/order/entry/?survey=s33"
+       },
+       {
+        "text": "📍 Xaritada ochish",
+        "url": "https://goo.gl/maps/ziHA5ukgVtbGmwwR6"
+       }
+      ]
+     ]
+    }
+   }
+  }
+ ],
+ "posted_at": "2026-11-10T14:55:08.233828+00:00"
+}
