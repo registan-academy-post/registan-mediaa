@@ -1,0 +1,164 @@
+{
+ "id": "2026-11-11-1200-english",
+ "steps": [
+  {
+   "method": "sendPhoto",
+   "params": {
+    "chat_id": "@RegistanLC_Academy",
+    "photo": "https://raw.githubusercontent.com/registan-academy-post/registan-mediaa/main/posts/2026-11-11/1200_ielts_part2_keywords.jpg",
+    "caption": "Speaking 2-qismda sizga kartochka berishadi va tayyorlanishga atigi 1 daqiqa qoladi. Ko'pchilik shu daqiqada to'liq gap yozishni boshlaydi: <i>\"Last summer I went to Samarkand with my family and...\"</i>, vaqt esa tugab qoladi.\n\nUndan ko'ra har bir savolga 2-3 tadan kalit so'z yozing. Masalan, <i>Describe a trip you enjoyed</i> tushsa, qog'ozda shunchaki: <b>Samarkand, last summer, family, Registan at night, plov, felt proud</b>. Gapirganda esa shu so'zlarga qarab gapni o'zingiz qurasiz: <i>\"The trip I'd like to talk about is the one to Samarkand last summer. I went there with my family, and the best part was seeing the Registan at night.\"</i>\n\nSo'zlarni kartochkadagi tartibda yozsangiz, birorta savolni tashlab ketmaysiz. Voqea o'tgan bo'lsa, past tense'ni unutmang: <i>we went, we visited, it was amazing</i>.\n\nUyda sinab ko'ring: telefonda 1 daqiqa taymer, keyin 2 daqiqa gapirib, ovozingizni yozib oling 🎧\n\n📌 <a href=\"https://registan.edutizim.uz/order/entry/?survey=s33\">Bepul darsga yozilish</a>\n\n📞 +998935512700\n\n📱 <a href=\"https://t.me/Registan_LC\">Follow us on social media</a>:\n\n📱<a href=\"https://t.me/RegistanLC_Academy\">Telegram</a>   📱<a href=\"https://instagram.com/registanlc_academy\">Instagram</a>   📱<a href=\"https://goo.gl/maps/ziHA5ukgVtbGmwwR6\">Location</a>",
+    "parse_mode": "HTML",
+    "reply_markup": {
+     "inline_keyboard": [
+      [
+       {
+        "text": "✍️ Bepul darsga yozilish",
+        "url": "https://registan.edutizim.uz/order/entry/?survey=s33"
+       },
+       {
+        "text": "📍 Xaritada ochish",
+        "url": "https://goo.gl/maps/ziHA5ukgVtbGmwwR6"
+       }
+      ]
+     ]
+    }
+   }
+  }
+ ],
+ "results": [
+  {
+   "ok": true,
+   "result": {
+    "message_id": 3797,
+    "sender_chat": {
+     "id": -1001675672165,
+     "title": "Registan LC | Academy filiali",
+     "username": "RegistanLC_Academy",
+     "type": "channel"
+    },
+    "chat": {
+     "id": -1001675672165,
+     "title": "Registan LC | Academy filiali",
+     "username": "RegistanLC_Academy",
+     "type": "channel"
+    },
+    "date": 1794380091,
+    "photo": [
+     {
+      "file_id": "AgACAgQAAx0EY-C6ZQACDtVq9BE7jzbuj0ELtdUsVTnkp4DTEQACwA9rG2ZMpFMGhbhxp8ahxAEAAwIAA3MAAz0E",
+      "file_unique_id": "AQADwA9rG2ZMpFN4",
+      "file_size": 906,
+      "width": 72,
+      "height": 90
+     },
+     {
+      "file_id": "AgACAgQAAx0EY-C6ZQACDtVq9BE7jzbuj0ELtdUsVTnkp4DTEQACwA9rG2ZMpFMGhbhxp8ahxAEAAwIAA20AAz0E",
+      "file_unique_id": "AQADwA9rG2ZMpFNy",
+      "file_size": 9270,
+      "width": 256,
+      "height": 320
+     },
+     {
+      "file_id": "AgACAgQAAx0EY-C6ZQACDtVq9BE7jzbuj0ELtdUsVTnkp4DTEQACwA9rG2ZMpFMGhbhxp8ahxAEAAwIAA3gAAz0E",
+      "file_unique_id": "AQADwA9rG2ZMpFN9",
+      "file_size": 37138,
+      "width": 640,
+      "height": 800
+     },
+     {
+      "file_id": "AgACAgQAAx0EY-C6ZQACDtVq9BE7jzbuj0ELtdUsVTnkp4DTEQACwA9rG2ZMpFMGhbhxp8ahxAEAAwIAA3kAAz0E",
+      "file_unique_id": "AQADwA9rG2ZMpFN-",
+      "file_size": 71244,
+      "width": 1024,
+      "height": 1280
+     },
+     {
+      "file_id": "AgACAgQAAx0EY-C6ZQACDtVq9BE7jzbuj0ELtdUsVTnkp4DTEQACwA9rG2ZMpFMGhbhxp8ahxAEAAwIAA3cAAz0E",
+      "file_unique_id": "AQADwA9rG2ZMpFN8",
+      "file_size": 235062,
+      "width": 2048,
+      "height": 2560
+     }
+    ],
+    "caption": "Speaking 2-qismda sizga kartochka berishadi va tayyorlanishga atigi 1 daqiqa qoladi. Ko'pchilik shu daqiqada to'liq gap yozishni boshlaydi: \"Last summer I went to Samarkand with my family and...\", vaqt esa tugab qoladi.\n\nUndan ko'ra har bir savolga 2-3 tadan kalit so'z yozing. Masalan, Describe a trip you enjoyed tushsa, qog'ozda shunchaki: Samarkand, last summer, family, Registan at night, plov, felt proud. Gapirganda esa shu so'zlarga qarab gapni o'zingiz qurasiz: \"The trip I'd like to talk about is the one to Samarkand last summer. I went there with my family, and the best part was seeing the Registan at night.\"\n\nSo'zlarni kartochkadagi tartibda yozsangiz, birorta savolni tashlab ketmaysiz. Voqea o'tgan bo'lsa, past tense'ni unutmang: we went, we visited, it was amazing.\n\nUyda sinab ko'ring: telefonda 1 daqiqa taymer, keyin 2 daqiqa gapirib, ovozingizni yozib oling 🎧\n\n📌 Bepul darsga yozilish\n\n📞 +998935512700\n\n📱 Follow us on social media:\n\n📱Telegram   📱Instagram   📱Location",
+    "caption_entities": [
+     {
+      "offset": 140,
+      "length": 55,
+      "type": "italic"
+     },
+     {
+      "offset": 287,
+      "length": 27,
+      "type": "italic"
+     },
+     {
+      "offset": 343,
+      "length": 67,
+      "type": "bold"
+     },
+     {
+      "offset": 471,
+      "length": 151,
+      "type": "italic"
+     },
+     {
+      "offset": 748,
+      "length": 35,
+      "type": "italic"
+     },
+     {
+      "offset": 888,
+      "length": 21,
+      "type": "text_link",
+      "url": "https://registan.edutizim.uz/order/entry/?survey=s33"
+     },
+     {
+      "offset": 914,
+      "length": 13,
+      "type": "phone_number"
+     },
+     {
+      "offset": 932,
+      "length": 25,
+      "type": "text_link",
+      "url": "https://t.me/Registan_LC"
+     },
+     {
+      "offset": 962,
+      "length": 8,
+      "type": "text_link",
+      "url": "https://t.me/RegistanLC_Academy"
+     },
+     {
+      "offset": 975,
+      "length": 9,
+      "type": "text_link",
+      "url": "https://instagram.com/registanlc_academy"
+     },
+     {
+      "offset": 989,
+      "length": 8,
+      "type": "text_link",
+      "url": "https://goo.gl/maps/ziHA5ukgVtbGmwwR6"
+     }
+    ],
+    "reply_markup": {
+     "inline_keyboard": [
+      [
+       {
+        "text": "✍️ Bepul darsga yozilish",
+        "url": "https://registan.edutizim.uz/order/entry/?survey=s33"
+       },
+       {
+        "text": "📍 Xaritada ochish",
+        "url": "https://goo.gl/maps/ziHA5ukgVtbGmwwR6"
+       }
+      ]
+     ]
+    }
+   }
+  }
+ ],
+ "posted_at": "2026-11-11T06:54:52.042506+00:00"
+}
