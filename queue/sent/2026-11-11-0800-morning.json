@@ -1,0 +1,175 @@
+{
+ "id": "2026-11-11-0800-morning",
+ "steps": [
+  {
+   "method": "sendPhoto",
+   "params": {
+    "chat_id": "@RegistanLC_Academy",
+    "photo": "https://raw.githubusercontent.com/registan-academy-post/registan-mediaa/main/posts/2026-11-11/0800_yagona_talim_vazirligi.jpg",
+    "caption": "<b>🏛 Ta'lim tizimida katta o'zgarish: endi bitta vazirlik</b>\n<blockquote>Bog'cha, maktab va universitet endi bitta tizim ichida. Bu farzandingiz uchun nimani anglatadi?</blockquote>\n✅ <b>Ikki vazirlik birlashdi:</b> Prezident farmoni bilan Maktabgacha va maktab ta'limi hamda Oliy ta'lim, fan va innovatsiyalar vazirliklari o'rniga yagona Ta'lim va fan vazirligi tuzildi.\n✅ <b>Bog'chadan universitetgacha:</b> yangi vazirlik maktabgacha ta'lim, maktab, kasb-hunar va oliy ta'limni bir joydan boshqaradi, maqsad bosqichlar orasidagi uzviylik.\n✅ <b>Sifat nazorati:</b> o'quv dasturlari, darsliklar va qo'llanmalarni ishlab chiqib, sinovdan o'tkazadigan Ta'lim sifatini ta'minlash milliy agentligi tashkil etilishi kutilmoqda.\n✅ <b>Universitetlarga erkinlik:</b> oliy ta'limda davlat aralashuvi kamaytirilib, universitetlar mustaqilligi va raqobat kengaytirilishi rejalashtirilgan.\n<a href=\"https://kun.uz/en/news/2026/10/04/uzbekistan-creates-new-ministry-of-education-and-science-by-merging-two-ministries\">Manba</a>\n\nSizningcha, bu o'zgarish o'quvchilarga qanday ta'sir qiladi?\n\n📌 <a href=\"https://registan.edutizim.uz/order/entry/?survey=s33\">Bepul darsga yozilish</a>\n\n📞 +998935512700\n\n📱 <a href=\"https://t.me/Registan_LC\">Follow us on social media</a>:\n\n📱<a href=\"https://t.me/RegistanLC_Academy\">Telegram</a>   📱<a href=\"https://instagram.com/registanlc_academy\">Instagram</a>   📱<a href=\"https://goo.gl/maps/ziHA5ukgVtbGmwwR6\">Location</a>",
+    "parse_mode": "HTML",
+    "reply_markup": {
+     "inline_keyboard": [
+      [
+       {
+        "text": "✍️ Bepul darsga yozilish",
+        "url": "https://registan.edutizim.uz/order/entry/?survey=s33"
+       },
+       {
+        "text": "📍 Xaritada ochish",
+        "url": "https://goo.gl/maps/ziHA5ukgVtbGmwwR6"
+       }
+      ]
+     ]
+    }
+   }
+  }
+ ],
+ "results": [
+  {
+   "ok": true,
+   "result": {
+    "message_id": 3796,
+    "sender_chat": {
+     "id": -1001675672165,
+     "title": "Registan LC | Academy filiali",
+     "username": "RegistanLC_Academy",
+     "type": "channel"
+    },
+    "chat": {
+     "id": -1001675672165,
+     "title": "Registan LC | Academy filiali",
+     "username": "RegistanLC_Academy",
+     "type": "channel"
+    },
+    "date": 1794365710,
+    "photo": [
+     {
+      "file_id": "AgACAgQAAx0EY-C6ZQACDtRq89kO69T9NQZp_A0g3J-GAAEcKlQAAvoOaxsnY6RTfA-62ywOBbEBAAMCAANzAAM9BA",
+      "file_unique_id": "AQAD-g5rGydjpFN4",
+      "file_size": 1115,
+      "width": 72,
+      "height": 90
+     },
+     {
+      "file_id": "AgACAgQAAx0EY-C6ZQACDtRq89kO69T9NQZp_A0g3J-GAAEcKlQAAvoOaxsnY6RTfA-62ywOBbEBAAMCAANtAAM9BA",
+      "file_unique_id": "AQAD-g5rGydjpFNy",
+      "file_size": 10140,
+      "width": 256,
+      "height": 320
+     },
+     {
+      "file_id": "AgACAgQAAx0EY-C6ZQACDtRq89kO69T9NQZp_A0g3J-GAAEcKlQAAvoOaxsnY6RTfA-62ywOBbEBAAMCAAN4AAM9BA",
+      "file_unique_id": "AQAD-g5rGydjpFN9",
+      "file_size": 36265,
+      "width": 640,
+      "height": 800
+     },
+     {
+      "file_id": "AgACAgQAAx0EY-C6ZQACDtRq89kO69T9NQZp_A0g3J-GAAEcKlQAAvoOaxsnY6RTfA-62ywOBbEBAAMCAAN5AAM9BA",
+      "file_unique_id": "AQAD-g5rGydjpFN-",
+      "file_size": 63800,
+      "width": 1024,
+      "height": 1280
+     },
+     {
+      "file_id": "AgACAgQAAx0EY-C6ZQACDtRq89kO69T9NQZp_A0g3J-GAAEcKlQAAvoOaxsnY6RTfA-62ywOBbEBAAMCAAN3AAM9BA",
+      "file_unique_id": "AQAD-g5rGydjpFN8",
+      "file_size": 220450,
+      "width": 2048,
+      "height": 2560
+     }
+    ],
+    "caption": "🏛 Ta'lim tizimida katta o'zgarish: endi bitta vazirlik\nBog'cha, maktab va universitet endi bitta tizim ichida. Bu farzandingiz uchun nimani anglatadi?\n✅ Ikki vazirlik birlashdi: Prezident farmoni bilan Maktabgacha va maktab ta'limi hamda Oliy ta'lim, fan va innovatsiyalar vazirliklari o'rniga yagona Ta'lim va fan vazirligi tuzildi.\n✅ Bog'chadan universitetgacha: yangi vazirlik maktabgacha ta'lim, maktab, kasb-hunar va oliy ta'limni bir joydan boshqaradi, maqsad bosqichlar orasidagi uzviylik.\n✅ Sifat nazorati: o'quv dasturlari, darsliklar va qo'llanmalarni ishlab chiqib, sinovdan o'tkazadigan Ta'lim sifatini ta'minlash milliy agentligi tashkil etilishi kutilmoqda.\n✅ Universitetlarga erkinlik: oliy ta'limda davlat aralashuvi kamaytirilib, universitetlar mustaqilligi va raqobat kengaytirilishi rejalashtirilgan.\nManba\n\nSizningcha, bu o'zgarish o'quvchilarga qanday ta'sir qiladi?\n\n📌 Bepul darsga yozilish\n\n📞 +998935512700\n\n📱 Follow us on social media:\n\n📱Telegram   📱Instagram   📱Location",
+    "caption_entities": [
+     {
+      "offset": 0,
+      "length": 55,
+      "type": "bold"
+     },
+     {
+      "offset": 56,
+      "length": 95,
+      "type": "blockquote"
+     },
+     {
+      "offset": 154,
+      "length": 24,
+      "type": "bold"
+     },
+     {
+      "offset": 337,
+      "length": 28,
+      "type": "bold"
+     },
+     {
+      "offset": 500,
+      "length": 15,
+      "type": "bold"
+     },
+     {
+      "offset": 675,
+      "length": 26,
+      "type": "bold"
+     },
+     {
+      "offset": 821,
+      "length": 5,
+      "type": "text_link",
+      "url": "https://kun.uz/en/news/2026/10/04/uzbekistan-creates-new-ministry-of-education-and-science-by-merging-two-ministries"
+     },
+     {
+      "offset": 893,
+      "length": 21,
+      "type": "text_link",
+      "url": "https://registan.edutizim.uz/order/entry/?survey=s33"
+     },
+     {
+      "offset": 919,
+      "length": 13,
+      "type": "phone_number"
+     },
+     {
+      "offset": 937,
+      "length": 25,
+      "type": "text_link",
+      "url": "https://t.me/Registan_LC"
+     },
+     {
+      "offset": 967,
+      "length": 8,
+      "type": "text_link",
+      "url": "https://t.me/RegistanLC_Academy"
+     },
+     {
+      "offset": 980,
+      "length": 9,
+      "type": "text_link",
+      "url": "https://instagram.com/registanlc_academy"
+     },
+     {
+      "offset": 994,
+      "length": 8,
+      "type": "text_link",
+      "url": "https://goo.gl/maps/ziHA5ukgVtbGmwwR6"
+     }
+    ],
+    "reply_markup": {
+     "inline_keyboard": [
+      [
+       {
+        "text": "✍️ Bepul darsga yozilish",
+        "url": "https://registan.edutizim.uz/order/entry/?survey=s33"
+       },
+       {
+        "text": "📍 Xaritada ochish",
+        "url": "https://goo.gl/maps/ziHA5ukgVtbGmwwR6"
+       }
+      ]
+     ]
+    }
+   }
+  }
+ ],
+ "posted_at": "2026-11-11T02:55:10.554389+00:00"
+}
