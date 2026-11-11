@@ -1,0 +1,404 @@
+{
+ "id": "2026-11-11-1500-quiz",
+ "steps": [
+  {
+   "method": "sendMessage",
+   "params": {
+    "chat_id": "@RegistanLC_Academy",
+    "text": "Beginner guruhlar, bugun this, that, these va those.\nNarsa yaqindami yoki uzoqda, bittami yoki ko'p, shunga qarab tanlaysiz. Besh savol, omad 🙂"
+   }
+  },
+  {
+   "method": "sendPoll",
+   "params": {
+    "chat_id": "@RegistanLC_Academy",
+    "question": "You wear it on your wrist and it shows the time. What is it?",
+    "options": [
+     "a watch",
+     "a comb",
+     "an umbrella"
+    ],
+    "type": "quiz",
+    "is_anonymous": true,
+    "correct_option_id": 0,
+    "explanation": "Watch qo'l soati, bilakka taqiladi va vaqtni ko'rsatadi. Comb taroq, umbrella esa soyabon."
+   }
+  },
+  {
+   "method": "sendPoll",
+   "params": {
+    "chat_id": "@RegistanLC_Academy",
+    "question": "I've got two books in my hands. ___ books are for my English lessons.",
+    "options": [
+     "That",
+     "This",
+     "These",
+     "Those"
+    ],
+    "type": "quiz",
+    "is_anonymous": true,
+    "correct_option_id": 2,
+    "explanation": "Qo'limizdagi, ya'ni yaqindagi bir nechta narsa uchun these ishlatamiz. This bitta narsa uchun, that va those esa uzoqdagi narsalar uchun."
+   }
+  },
+  {
+   "method": "sendPoll",
+   "params": {
+    "chat_id": "@RegistanLC_Academy",
+    "question": "Sardor and Jasur are brothers. ___ sister is a doctor.",
+    "options": [
+     "They're",
+     "Their",
+     "There",
+     "Them"
+    ],
+    "type": "quiz",
+    "is_anonymous": true,
+    "correct_option_id": 1,
+    "explanation": "Their \"ularning\" degani: their sister. They're bu they are, there \"u yerda\", them esa \"ularni\"."
+   }
+  },
+  {
+   "method": "sendPoll",
+   "params": {
+    "chat_id": "@RegistanLC_Academy",
+    "question": "Choose the correct sentence.",
+    "options": [
+     "Those umbrella is red.",
+     "That are my sunglasses.",
+     "This chairs are new.",
+     "Those are my sunglasses."
+    ],
+    "type": "quiz",
+    "is_anonymous": true,
+    "correct_option_id": 3,
+    "explanation": "Ko'plikda these/those + are: Those are my sunglasses. Birlikda this/that + is keladi, shuning uchun qolgan gaplar xato."
+   }
+  },
+  {
+   "method": "sendPoll",
+   "params": {
+    "chat_id": "@RegistanLC_Academy",
+    "question": "Which sentence has a mistake?",
+    "options": [
+     "What are that things on the table?",
+     "Is this your pen?",
+     "Those shoes over there are nice.",
+     "These are my brother's books."
+    ],
+    "type": "quiz",
+    "is_anonymous": true,
+    "correct_option_id": 0,
+    "explanation": "Things ko'plikda, shuning uchun that emas, those kerak: What are those things on the table?"
+   }
+  }
+ ],
+ "results": [
+  {
+   "ok": true,
+   "result": {
+    "message_id": 3798,
+    "sender_chat": {
+     "id": -1001675672165,
+     "title": "Registan LC | Academy filiali",
+     "username": "RegistanLC_Academy",
+     "type": "channel"
+    },
+    "chat": {
+     "id": -1001675672165,
+     "title": "Registan LC | Academy filiali",
+     "username": "RegistanLC_Academy",
+     "type": "channel"
+    },
+    "date": 1794391082,
+    "text": "Beginner guruhlar, bugun this, that, these va those.\nNarsa yaqindami yoki uzoqda, bittami yoki ko'p, shunga qarab tanlaysiz. Besh savol, omad 🙂"
+   }
+  },
+  {
+   "ok": true,
+   "result": {
+    "message_id": 3799,
+    "sender_chat": {
+     "id": -1001675672165,
+     "title": "Registan LC | Academy filiali",
+     "username": "RegistanLC_Academy",
+     "type": "channel"
+    },
+    "chat": {
+     "id": -1001675672165,
+     "title": "Registan LC | Academy filiali",
+     "username": "RegistanLC_Academy",
+     "type": "channel"
+    },
+    "date": 1794391082,
+    "poll": {
+     "id": "5452130278380149618",
+     "question": "You wear it on your wrist and it shows the time. What is it?",
+     "options": [
+      {
+       "persistent_id": "0",
+       "text": "a watch",
+       "voter_count": 0
+      },
+      {
+       "persistent_id": "1",
+       "text": "a comb",
+       "voter_count": 0
+      },
+      {
+       "persistent_id": "2",
+       "text": "an umbrella",
+       "voter_count": 0
+      }
+     ],
+     "total_voter_count": 0,
+     "is_closed": false,
+     "is_anonymous": true,
+     "allows_multiple_answers": false,
+     "allows_revoting": false,
+     "members_only": false,
+     "type": "quiz",
+     "correct_option_id": 0,
+     "correct_option_ids": [
+      0
+     ],
+     "explanation": "Watch qo'l soati, bilakka taqiladi va vaqtni ko'rsatadi. Comb taroq, umbrella esa soyabon.",
+     "explanation_entities": []
+    }
+   }
+  },
+  {
+   "ok": true,
+   "result": {
+    "message_id": 3800,
+    "sender_chat": {
+     "id": -1001675672165,
+     "title": "Registan LC | Academy filiali",
+     "username": "RegistanLC_Academy",
+     "type": "channel"
+    },
+    "chat": {
+     "id": -1001675672165,
+     "title": "Registan LC | Academy filiali",
+     "username": "RegistanLC_Academy",
+     "type": "channel"
+    },
+    "date": 1794391083,
+    "poll": {
+     "id": "5452130278380149619",
+     "question": "I've got two books in my hands. ___ books are for my English lessons.",
+     "options": [
+      {
+       "persistent_id": "0",
+       "text": "That",
+       "voter_count": 0
+      },
+      {
+       "persistent_id": "1",
+       "text": "This",
+       "voter_count": 0
+      },
+      {
+       "persistent_id": "2",
+       "text": "These",
+       "voter_count": 0
+      },
+      {
+       "persistent_id": "3",
+       "text": "Those",
+       "voter_count": 0
+      }
+     ],
+     "total_voter_count": 0,
+     "is_closed": false,
+     "is_anonymous": true,
+     "allows_multiple_answers": false,
+     "allows_revoting": false,
+     "members_only": false,
+     "type": "quiz",
+     "correct_option_id": 2,
+     "correct_option_ids": [
+      2
+     ],
+     "explanation": "Qo'limizdagi, ya'ni yaqindagi bir nechta narsa uchun these ishlatamiz. This bitta narsa uchun, that va those esa uzoqdagi narsalar uchun.",
+     "explanation_entities": []
+    }
+   }
+  },
+  {
+   "ok": true,
+   "result": {
+    "message_id": 3801,
+    "sender_chat": {
+     "id": -1001675672165,
+     "title": "Registan LC | Academy filiali",
+     "username": "RegistanLC_Academy",
+     "type": "channel"
+    },
+    "chat": {
+     "id": -1001675672165,
+     "title": "Registan LC | Academy filiali",
+     "username": "RegistanLC_Academy",
+     "type": "channel"
+    },
+    "date": 1794391083,
+    "poll": {
+     "id": "5452130278380149620",
+     "question": "Sardor and Jasur are brothers. ___ sister is a doctor.",
+     "options": [
+      {
+       "persistent_id": "0",
+       "text": "They're",
+       "voter_count": 0
+      },
+      {
+       "persistent_id": "1",
+       "text": "Their",
+       "voter_count": 0
+      },
+      {
+       "persistent_id": "2",
+       "text": "There",
+       "voter_count": 0
+      },
+      {
+       "persistent_id": "3",
+       "text": "Them",
+       "voter_count": 0
+      }
+     ],
+     "total_voter_count": 0,
+     "is_closed": false,
+     "is_anonymous": true,
+     "allows_multiple_answers": false,
+     "allows_revoting": false,
+     "members_only": false,
+     "type": "quiz",
+     "correct_option_id": 1,
+     "correct_option_ids": [
+      1
+     ],
+     "explanation": "Their \"ularning\" degani: their sister. They're bu they are, there \"u yerda\", them esa \"ularni\".",
+     "explanation_entities": []
+    }
+   }
+  },
+  {
+   "ok": true,
+   "result": {
+    "message_id": 3802,
+    "sender_chat": {
+     "id": -1001675672165,
+     "title": "Registan LC | Academy filiali",
+     "username": "RegistanLC_Academy",
+     "type": "channel"
+    },
+    "chat": {
+     "id": -1001675672165,
+     "title": "Registan LC | Academy filiali",
+     "username": "RegistanLC_Academy",
+     "type": "channel"
+    },
+    "date": 1794391084,
+    "poll": {
+     "id": "5452130278380149621",
+     "question": "Choose the correct sentence.",
+     "options": [
+      {
+       "persistent_id": "0",
+       "text": "Those umbrella is red.",
+       "voter_count": 0
+      },
+      {
+       "persistent_id": "1",
+       "text": "That are my sunglasses.",
+       "voter_count": 0
+      },
+      {
+       "persistent_id": "2",
+       "text": "This chairs are new.",
+       "voter_count": 0
+      },
+      {
+       "persistent_id": "3",
+       "text": "Those are my sunglasses.",
+       "voter_count": 0
+      }
+     ],
+     "total_voter_count": 0,
+     "is_closed": false,
+     "is_anonymous": true,
+     "allows_multiple_answers": false,
+     "allows_revoting": false,
+     "members_only": false,
+     "type": "quiz",
+     "correct_option_id": 3,
+     "correct_option_ids": [
+      3
+     ],
+     "explanation": "Ko'plikda these/those + are: Those are my sunglasses. Birlikda this/that + is keladi, shuning uchun qolgan gaplar xato.",
+     "explanation_entities": []
+    }
+   }
+  },
+  {
+   "ok": true,
+   "result": {
+    "message_id": 3803,
+    "sender_chat": {
+     "id": -1001675672165,
+     "title": "Registan LC | Academy filiali",
+     "username": "RegistanLC_Academy",
+     "type": "channel"
+    },
+    "chat": {
+     "id": -1001675672165,
+     "title": "Registan LC | Academy filiali",
+     "username": "RegistanLC_Academy",
+     "type": "channel"
+    },
+    "date": 1794391087,
+    "poll": {
+     "id": "5452130278380149622",
+     "question": "Which sentence has a mistake?",
+     "options": [
+      {
+       "persistent_id": "0",
+       "text": "What are that things on the table?",
+       "voter_count": 0
+      },
+      {
+       "persistent_id": "1",
+       "text": "Is this your pen?",
+       "voter_count": 0
+      },
+      {
+       "persistent_id": "2",
+       "text": "Those shoes over there are nice.",
+       "voter_count": 0
+      },
+      {
+       "persistent_id": "3",
+       "text": "These are my brother's books.",
+       "voter_count": 0
+      }
+     ],
+     "total_voter_count": 0,
+     "is_closed": false,
+     "is_anonymous": true,
+     "allows_multiple_answers": false,
+     "allows_revoting": false,
+     "members_only": false,
+     "type": "quiz",
+     "correct_option_id": 0,
+     "correct_option_ids": [
+      0
+     ],
+     "explanation": "Things ko'plikda, shuning uchun that emas, those kerak: What are those things on the table?",
+     "explanation_entities": []
+    }
+   }
+  }
+ ],
+ "posted_at": "2026-11-11T09:58:07.596385+00:00"
+}
