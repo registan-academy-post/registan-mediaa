@@ -1,0 +1,202 @@
+{
+ "id": "2026-11-12-0800-morning",
+ "steps": [
+  {
+   "method": "sendPhoto",
+   "params": {
+    "chat_id": "@RegistanLC_Academy",
+    "photo": "https://raw.githubusercontent.com/registan-academy-post/registan-mediaa/main/posts/2026-11-12/0800_ielts_listening_bir_marta.jpg",
+    "caption": "<b>🎧 IELTS Listening: audio faqat bir marta qo'yiladi</b>\n<blockquote>Ko'p o'quvchi ballni bilmaganidan emas, bitta so'zni noto'g'ri yozgani uchun yo'qotadi.</blockquote>\n✅ <b>Tuzilishi:</b> 4 qism, 40 savol, taxminan 30 daqiqa, har bir to'g'ri javob 1 ball.\n✅ <b>Qayta eshittirilmaydi:</b> har bir yozuv faqat bir marta yangraydi, shuning uchun savollarni oldindan o'qib olish juda muhim.\n✅ <b>Imlo hisoblanadi:</b> so'z xato yozilsa, javob noto'g'ri deb olinadi.\n✅ <b>Vaqt farqi:</b> qog'ozda javoblarni ko'chirish uchun 10 daqiqa beriladi, kompyuterda esa tekshirish uchun atigi 2 daqiqa.\n<a href=\"https://ielts.org/take-a-test/test-types/ielts-academic-test/ielts-academic-format-listening\">Manba</a>\n\nSizga Listening'ning qaysi qismi eng qiyin tuyuladi?\n\n📌 <a href=\"https://registan.edutizim.uz/order/entry/?survey=s33\">Bepul darsga yozilish</a>\n\n📞 +998935512700\n\n📱 <a href=\"https://t.me/Registan_LC\">Follow us on social media</a>:\n\n📱<a href=\"https://t.me/RegistanLC_Academy\">Telegram</a>   📱<a href=\"https://instagram.com/registanlc_academy\">Instagram</a>   📱<a href=\"https://goo.gl/maps/ziHA5ukgVtbGmwwR6\">Location</a>",
+    "parse_mode": "HTML",
+    "reply_markup": {
+     "inline_keyboard": [
+      [
+       {
+        "text": "✍️ Bepul darsga yozilish",
+        "url": "https://registan.edutizim.uz/order/entry/?survey=s33"
+       },
+       {
+        "text": "📍 Xaritada ochish",
+        "url": "https://goo.gl/maps/ziHA5ukgVtbGmwwR6"
+       }
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "method": "sendMessage",
+   "params": {
+    "chat_id": "5663766757",
+    "text": "Assalomu alaykum! Bugun (12-noyabr) ertalabki postda 15-noyabr, yakshanba kungi Speaking Club afishasi chiqishi kerak edi, lekin afisha topilmadi. Iltimos, botga afishani \"SC 15-Noyabr\" izohi bilan yuboring. Bugun oddiy ertalabki post chiqdi."
+   }
+  }
+ ],
+ "results": [
+  {
+   "ok": true,
+   "result": {
+    "message_id": 3805,
+    "sender_chat": {
+     "id": -1001675672165,
+     "title": "Registan LC | Academy filiali",
+     "username": "RegistanLC_Academy",
+     "type": "channel"
+    },
+    "chat": {
+     "id": -1001675672165,
+     "title": "Registan LC | Academy filiali",
+     "username": "RegistanLC_Academy",
+     "type": "channel"
+    },
+    "date": 1794452090,
+    "photo": [
+     {
+      "file_id": "AgACAgQAAx0EY-C6ZQACDt1q9Sp6McAiz5SUKZc1djvUqhFRfQACpA5rGwExrFOkr9YTTfjFMAEAAwIAA3MAAz0E",
+      "file_unique_id": "AQADpA5rGwExrFN4",
+      "file_size": 1282,
+      "width": 72,
+      "height": 90
+     },
+     {
+      "file_id": "AgACAgQAAx0EY-C6ZQACDt1q9Sp6McAiz5SUKZc1djvUqhFRfQACpA5rGwExrFOkr9YTTfjFMAEAAwIAA20AAz0E",
+      "file_unique_id": "AQADpA5rGwExrFNy",
+      "file_size": 12032,
+      "width": 256,
+      "height": 320
+     },
+     {
+      "file_id": "AgACAgQAAx0EY-C6ZQACDt1q9Sp6McAiz5SUKZc1djvUqhFRfQACpA5rGwExrFOkr9YTTfjFMAEAAwIAA3gAAz0E",
+      "file_unique_id": "AQADpA5rGwExrFN9",
+      "file_size": 42143,
+      "width": 640,
+      "height": 800
+     },
+     {
+      "file_id": "AgACAgQAAx0EY-C6ZQACDt1q9Sp6McAiz5SUKZc1djvUqhFRfQACpA5rGwExrFOkr9YTTfjFMAEAAwIAA3kAAz0E",
+      "file_unique_id": "AQADpA5rGwExrFN-",
+      "file_size": 71163,
+      "width": 1024,
+      "height": 1280
+     },
+     {
+      "file_id": "AgACAgQAAx0EY-C6ZQACDt1q9Sp6McAiz5SUKZc1djvUqhFRfQACpA5rGwExrFOkr9YTTfjFMAEAAwIAA3cAAz0E",
+      "file_unique_id": "AQADpA5rGwExrFN8",
+      "file_size": 233370,
+      "width": 2048,
+      "height": 2560
+     }
+    ],
+    "caption": "🎧 IELTS Listening: audio faqat bir marta qo'yiladi\nKo'p o'quvchi ballni bilmaganidan emas, bitta so'zni noto'g'ri yozgani uchun yo'qotadi.\n✅ Tuzilishi: 4 qism, 40 savol, taxminan 30 daqiqa, har bir to'g'ri javob 1 ball.\n✅ Qayta eshittirilmaydi: har bir yozuv faqat bir marta yangraydi, shuning uchun savollarni oldindan o'qib olish juda muhim.\n✅ Imlo hisoblanadi: so'z xato yozilsa, javob noto'g'ri deb olinadi.\n✅ Vaqt farqi: qog'ozda javoblarni ko'chirish uchun 10 daqiqa beriladi, kompyuterda esa tekshirish uchun atigi 2 daqiqa.\nManba\n\nSizga Listening'ning qaysi qismi eng qiyin tuyuladi?\n\n📌 Bepul darsga yozilish\n\n📞 +998935512700\n\n📱 Follow us on social media:\n\n📱Telegram   📱Instagram   📱Location",
+    "caption_entities": [
+     {
+      "offset": 0,
+      "length": 51,
+      "type": "bold"
+     },
+     {
+      "offset": 52,
+      "length": 87,
+      "type": "blockquote"
+     },
+     {
+      "offset": 142,
+      "length": 10,
+      "type": "bold"
+     },
+     {
+      "offset": 223,
+      "length": 22,
+      "type": "bold"
+     },
+     {
+      "offset": 347,
+      "length": 17,
+      "type": "bold"
+     },
+     {
+      "offset": 415,
+      "length": 11,
+      "type": "bold"
+     },
+     {
+      "offset": 533,
+      "length": 5,
+      "type": "text_link",
+      "url": "https://ielts.org/take-a-test/test-types/ielts-academic-test/ielts-academic-format-listening"
+     },
+     {
+      "offset": 597,
+      "length": 21,
+      "type": "text_link",
+      "url": "https://registan.edutizim.uz/order/entry/?survey=s33"
+     },
+     {
+      "offset": 623,
+      "length": 13,
+      "type": "phone_number"
+     },
+     {
+      "offset": 641,
+      "length": 25,
+      "type": "text_link",
+      "url": "https://t.me/Registan_LC"
+     },
+     {
+      "offset": 671,
+      "length": 8,
+      "type": "text_link",
+      "url": "https://t.me/RegistanLC_Academy"
+     },
+     {
+      "offset": 684,
+      "length": 9,
+      "type": "text_link",
+      "url": "https://instagram.com/registanlc_academy"
+     },
+     {
+      "offset": 698,
+      "length": 8,
+      "type": "text_link",
+      "url": "https://goo.gl/maps/ziHA5ukgVtbGmwwR6"
+     }
+    ],
+    "reply_markup": {
+     "inline_keyboard": [
+      [
+       {
+        "text": "✍️ Bepul darsga yozilish",
+        "url": "https://registan.edutizim.uz/order/entry/?survey=s33"
+       },
+       {
+        "text": "📍 Xaritada ochish",
+        "url": "https://goo.gl/maps/ziHA5ukgVtbGmwwR6"
+       }
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "ok": true,
+   "result": {
+    "message_id": 14,
+    "from": {
+     "id": 8968527786,
+     "is_bot": true,
+     "first_name": "reg_academy_post",
+     "username": "Registan_Academy_Post_bot"
+    },
+    "chat": {
+     "id": 5663766757,
+     "first_name": "Komronbek Yuldashev",
+     "username": "Komron_Yuldashev",
+     "type": "private"
+    },
+    "date": 1794452090,
+    "text": "Assalomu alaykum! Bugun (12-noyabr) ertalabki postda 15-noyabr, yakshanba kungi Speaking Club afishasi chiqishi kerak edi, lekin afisha topilmadi. Iltimos, botga afishani \"SC 15-Noyabr\" izohi bilan yuboring. Bugun oddiy ertalabki post chiqdi."
+   }
+  }
+ ],
+ "posted_at": "2026-11-12T02:54:50.731414+00:00"
+}
