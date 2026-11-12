@@ -1,0 +1,45 @@
+{
+ "id": "2026-11-12-2000-math",
+ "steps": [
+  {
+   "method": "sendPhoto",
+   "params": {
+    "chat_id": "@RegistanLC_Academy",
+    "photo": "https://raw.githubusercontent.com/registan-academy-post/registan-mediaa/main/posts/2026-11-12/2000_math_gisht_yarim.jpg",
+    "caption": "Bugungi masala bolalikdan tanish bo'lishi mumkin, lekin kattalar ham ko'pincha shu yerda adashadi.\n\nBir g'isht 1 kg va yana yarim g'isht og'irlikda. Ko'pchilik darrov \"1,5 kg\" deydi. Siz-chi? Javobni so'rovnomada belgilang, qanday o'ylaganingizni izohlarda yozing 🧱\n\n📌 <a href=\"https://registan.edutizim.uz/order/entry/?survey=s33\">Bepul darsga yozilish</a>\n\n📞 +998935512700\n\n📱 <a href=\"https://t.me/Registan_LC\">Follow us on social media</a>:\n\n📱<a href=\"https://t.me/RegistanLC_Academy\">Telegram</a>   📱<a href=\"https://instagram.com/registanlc_academy\">Instagram</a>   📱<a href=\"https://goo.gl/maps/ziHA5ukgVtbGmwwR6\">Location</a>",
+    "parse_mode": "HTML",
+    "reply_markup": {
+     "inline_keyboard": [
+      [
+       {
+        "text": "✍️ Bepul darsga yozilish",
+        "url": "https://registan.edutizim.uz/order/entry/?survey=s33"
+       },
+       {
+        "text": "📍 Xaritada ochish",
+        "url": "https://goo.gl/maps/ziHA5ukgVtbGmwwR6"
+       }
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "method": "sendPoll",
+   "params": {
+    "chat_id": "@RegistanLC_Academy",
+    "question": "G'isht 1 kg va yana yarim g'isht keladi. G'isht necha kg?",
+    "options": [
+     "1 kg",
+     "1,5 kg",
+     "2 kg",
+     "3 kg"
+    ],
+    "type": "quiz",
+    "correct_option_id": 2,
+    "is_anonymous": true,
+    "explanation": "G'isht x kg bo'lsin: x = 1 + x/2. Demak yarim g'isht 1 kg ga teng, butun g'isht 2 kg."
+   }
+  }
+ ]
+}
