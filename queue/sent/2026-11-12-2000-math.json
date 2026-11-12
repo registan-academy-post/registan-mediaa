@@ -1,0 +1,214 @@
+{
+ "id": "2026-11-12-2000-math",
+ "steps": [
+  {
+   "method": "sendPhoto",
+   "params": {
+    "chat_id": "@RegistanLC_Academy",
+    "photo": "https://raw.githubusercontent.com/registan-academy-post/registan-mediaa/main/posts/2026-11-12/2000_math_gisht_yarim.jpg",
+    "caption": "Bugungi masala bolalikdan tanish bo'lishi mumkin, lekin kattalar ham ko'pincha shu yerda adashadi.\n\nBir g'isht 1 kg va yana yarim g'isht og'irlikda. Ko'pchilik darrov \"1,5 kg\" deydi. Siz-chi? Javobni so'rovnomada belgilang, qanday o'ylaganingizni izohlarda yozing 🧱\n\n📌 <a href=\"https://registan.edutizim.uz/order/entry/?survey=s33\">Bepul darsga yozilish</a>\n\n📞 +998935512700\n\n📱 <a href=\"https://t.me/Registan_LC\">Follow us on social media</a>:\n\n📱<a href=\"https://t.me/RegistanLC_Academy\">Telegram</a>   📱<a href=\"https://instagram.com/registanlc_academy\">Instagram</a>   📱<a href=\"https://goo.gl/maps/ziHA5ukgVtbGmwwR6\">Location</a>",
+    "parse_mode": "HTML",
+    "reply_markup": {
+     "inline_keyboard": [
+      [
+       {
+        "text": "✍️ Bepul darsga yozilish",
+        "url": "https://registan.edutizim.uz/order/entry/?survey=s33"
+       },
+       {
+        "text": "📍 Xaritada ochish",
+        "url": "https://goo.gl/maps/ziHA5ukgVtbGmwwR6"
+       }
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "method": "sendPoll",
+   "params": {
+    "chat_id": "@RegistanLC_Academy",
+    "question": "G'isht 1 kg va yana yarim g'isht keladi. G'isht necha kg?",
+    "options": [
+     "1 kg",
+     "1,5 kg",
+     "2 kg",
+     "3 kg"
+    ],
+    "type": "quiz",
+    "correct_option_id": 2,
+    "is_anonymous": true,
+    "explanation": "G'isht x kg bo'lsin: x = 1 + x/2. Demak yarim g'isht 1 kg ga teng, butun g'isht 2 kg."
+   }
+  }
+ ],
+ "results": [
+  {
+   "ok": true,
+   "result": {
+    "message_id": 3813,
+    "sender_chat": {
+     "id": -1001675672165,
+     "title": "Registan LC | Academy filiali",
+     "username": "RegistanLC_Academy",
+     "type": "channel"
+    },
+    "chat": {
+     "id": -1001675672165,
+     "title": "Registan LC | Academy filiali",
+     "username": "RegistanLC_Academy",
+     "type": "channel"
+    },
+    "date": 1794495291,
+    "photo": [
+     {
+      "file_id": "AgACAgQAAx0EY-C6ZQACDuVq9dM7_8rJZeKy6AfvcFd5-PCUgAACLA9rG118tVN45alJrROBVgEAAwIAA3MAAz0E",
+      "file_unique_id": "AQADLA9rG118tVN4",
+      "file_size": 1198,
+      "width": 72,
+      "height": 90
+     },
+     {
+      "file_id": "AgACAgQAAx0EY-C6ZQACDuVq9dM7_8rJZeKy6AfvcFd5-PCUgAACLA9rG118tVN45alJrROBVgEAAwIAA20AAz0E",
+      "file_unique_id": "AQADLA9rG118tVNy",
+      "file_size": 12912,
+      "width": 256,
+      "height": 320
+     },
+     {
+      "file_id": "AgACAgQAAx0EY-C6ZQACDuVq9dM7_8rJZeKy6AfvcFd5-PCUgAACLA9rG118tVN45alJrROBVgEAAwIAA3gAAz0E",
+      "file_unique_id": "AQADLA9rG118tVN9",
+      "file_size": 49340,
+      "width": 640,
+      "height": 800
+     },
+     {
+      "file_id": "AgACAgQAAx0EY-C6ZQACDuVq9dM7_8rJZeKy6AfvcFd5-PCUgAACLA9rG118tVN45alJrROBVgEAAwIAA3kAAz0E",
+      "file_unique_id": "AQADLA9rG118tVN-",
+      "file_size": 90699,
+      "width": 1024,
+      "height": 1280
+     },
+     {
+      "file_id": "AgACAgQAAx0EY-C6ZQACDuVq9dM7_8rJZeKy6AfvcFd5-PCUgAACLA9rG118tVN45alJrROBVgEAAwIAA3cAAz0E",
+      "file_unique_id": "AQADLA9rG118tVN8",
+      "file_size": 272600,
+      "width": 2048,
+      "height": 2560
+     }
+    ],
+    "caption": "Bugungi masala bolalikdan tanish bo'lishi mumkin, lekin kattalar ham ko'pincha shu yerda adashadi.\n\nBir g'isht 1 kg va yana yarim g'isht og'irlikda. Ko'pchilik darrov \"1,5 kg\" deydi. Siz-chi? Javobni so'rovnomada belgilang, qanday o'ylaganingizni izohlarda yozing 🧱\n\n📌 Bepul darsga yozilish\n\n📞 +998935512700\n\n📱 Follow us on social media:\n\n📱Telegram   📱Instagram   📱Location",
+    "caption_entities": [
+     {
+      "offset": 271,
+      "length": 21,
+      "type": "text_link",
+      "url": "https://registan.edutizim.uz/order/entry/?survey=s33"
+     },
+     {
+      "offset": 297,
+      "length": 13,
+      "type": "phone_number"
+     },
+     {
+      "offset": 315,
+      "length": 25,
+      "type": "text_link",
+      "url": "https://t.me/Registan_LC"
+     },
+     {
+      "offset": 345,
+      "length": 8,
+      "type": "text_link",
+      "url": "https://t.me/RegistanLC_Academy"
+     },
+     {
+      "offset": 358,
+      "length": 9,
+      "type": "text_link",
+      "url": "https://instagram.com/registanlc_academy"
+     },
+     {
+      "offset": 372,
+      "length": 8,
+      "type": "text_link",
+      "url": "https://goo.gl/maps/ziHA5ukgVtbGmwwR6"
+     }
+    ],
+    "reply_markup": {
+     "inline_keyboard": [
+      [
+       {
+        "text": "✍️ Bepul darsga yozilish",
+        "url": "https://registan.edutizim.uz/order/entry/?survey=s33"
+       },
+       {
+        "text": "📍 Xaritada ochish",
+        "url": "https://goo.gl/maps/ziHA5ukgVtbGmwwR6"
+       }
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "ok": true,
+   "result": {
+    "message_id": 3814,
+    "sender_chat": {
+     "id": -1001675672165,
+     "title": "Registan LC | Academy filiali",
+     "username": "RegistanLC_Academy",
+     "type": "channel"
+    },
+    "chat": {
+     "id": -1001675672165,
+     "title": "Registan LC | Academy filiali",
+     "username": "RegistanLC_Academy",
+     "type": "channel"
+    },
+    "date": 1794495292,
+    "poll": {
+     "id": "5453935899811256319",
+     "question": "G'isht 1 kg va yana yarim g'isht keladi. G'isht necha kg?",
+     "options": [
+      {
+       "persistent_id": "0",
+       "text": "1 kg",
+       "voter_count": 0
+      },
+      {
+       "persistent_id": "1",
+       "text": "1,5 kg",
+       "voter_count": 0
+      },
+      {
+       "persistent_id": "2",
+       "text": "2 kg",
+       "voter_count": 0
+      },
+      {
+       "persistent_id": "3",
+       "text": "3 kg",
+       "voter_count": 0
+      }
+     ],
+     "total_voter_count": 0,
+     "is_closed": false,
+     "is_anonymous": true,
+     "allows_multiple_answers": false,
+     "allows_revoting": false,
+     "members_only": false,
+     "type": "quiz",
+     "correct_option_id": 2,
+     "correct_option_ids": [
+      2
+     ],
+     "explanation": "G'isht x kg bo'lsin: x = 1 + x/2. Demak yarim g'isht 1 kg ga teng, butun g'isht 2 kg.",
+     "explanation_entities": []
+    }
+   }
+  }
+ ],
+ "posted_at": "2026-11-12T14:54:52.225554+00:00"
+}
