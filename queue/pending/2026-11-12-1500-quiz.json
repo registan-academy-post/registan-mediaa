@@ -1,0 +1,97 @@
+{
+ "id": "2026-11-12-1500-quiz",
+ "steps": [
+  {
+   "method": "sendMessage",
+   "params": {
+    "chat_id": "@RegistanLC_Academy",
+    "text": "Elementary guruhlar, bugun whose va mine, yours, hers, theirs kabi so'zlar.\nNarsa kimniki ekanini to'g'ri aytishni mashq qilamiz, 5 ta savol."
+   }
+  },
+  {
+   "method": "sendPoll",
+   "params": {
+    "chat_id": "@RegistanLC_Academy",
+    "question": "You use it to charge your phone when the battery is low. What is it?",
+    "options": [
+     "a wallet",
+     "a mirror",
+     "a charger",
+     "a comb"
+    ],
+    "type": "quiz",
+    "is_anonymous": true,
+    "correct_option_id": 2,
+    "explanation": "Charger zaryadlovchi, telefonni quvvatlaydi. Wallet hamyon, mirror ko'zgu, comb esa taroq."
+   }
+  },
+  {
+   "method": "sendPoll",
+   "params": {
+    "chat_id": "@RegistanLC_Academy",
+    "question": "This isn't my umbrella. Mine is black. Is it ___?",
+    "options": [
+     "your",
+     "yours",
+     "your's",
+     "you're"
+    ],
+    "type": "quiz",
+    "is_anonymous": true,
+    "correct_option_id": 1,
+    "explanation": "Keyin ot kelmayapti, shuning uchun yours (sizniki) kerak. Your faqat otdan oldin keladi: your umbrella."
+   }
+  },
+  {
+   "method": "sendPoll",
+   "params": {
+    "chat_id": "@RegistanLC_Academy",
+    "question": "My grandmother and grandfather live here. This is my ___ house.",
+    "options": [
+     "grandparents'",
+     "grandparents's",
+     "grandparent's",
+     "grandparents"
+    ],
+    "type": "quiz",
+    "is_anonymous": true,
+    "correct_option_id": 0,
+    "explanation": "Ikki kishi, -s bilan tugagan ko'plik so'z, shuning uchun faqat apostrof qo'shamiz: grandparents'. Grandparent's bitta kishi uchun bo'lardi."
+   }
+  },
+  {
+   "method": "sendPoll",
+   "params": {
+    "chat_id": "@RegistanLC_Academy",
+    "question": "Choose the correct sentence.",
+    "options": [
+     "Who's book is this?",
+     "Whose book is this?",
+     "Whose is book this?",
+     "Who book is this?"
+    ],
+    "type": "quiz",
+    "is_anonymous": true,
+    "correct_option_id": 1,
+    "explanation": "Whose \"kimning\" degani va darhol otdan oldin keladi: Whose book is this? Who's esa who is ning qisqasi."
+   }
+  },
+  {
+   "method": "sendPoll",
+   "params": {
+    "chat_id": "@RegistanLC_Academy",
+    "question": "Which sentence has a mistake?",
+    "options": [
+     "These keys are ours.",
+     "Is this bag hers?",
+     "That phone isn't their, it's mine.",
+     "Whose glasses are these?"
+    ],
+    "type": "quiz",
+    "is_anonymous": true,
+    "correct_option_id": 2,
+    "explanation": "Otsiz kelganda their emas, theirs bo'ladi: it isn't theirs, it's mine. Qolgan gaplar to'g'ri."
+   }
+  }
+ ]
+}
