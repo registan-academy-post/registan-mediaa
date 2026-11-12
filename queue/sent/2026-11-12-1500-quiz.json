@@ -1,0 +1,410 @@
+{
+ "id": "2026-11-12-1500-quiz",
+ "steps": [
+  {
+   "method": "sendMessage",
+   "params": {
+    "chat_id": "@RegistanLC_Academy",
+    "text": "Elementary guruhlar, bugun whose va mine, yours, hers, theirs kabi so'zlar.\nNarsa kimniki ekanini to'g'ri aytishni mashq qilamiz, 5 ta savol."
+   }
+  },
+  {
+   "method": "sendPoll",
+   "params": {
+    "chat_id": "@RegistanLC_Academy",
+    "question": "You use it to charge your phone when the battery is low. What is it?",
+    "options": [
+     "a wallet",
+     "a mirror",
+     "a charger",
+     "a comb"
+    ],
+    "type": "quiz",
+    "is_anonymous": true,
+    "correct_option_id": 2,
+    "explanation": "Charger zaryadlovchi, telefonni quvvatlaydi. Wallet hamyon, mirror ko'zgu, comb esa taroq."
+   }
+  },
+  {
+   "method": "sendPoll",
+   "params": {
+    "chat_id": "@RegistanLC_Academy",
+    "question": "This isn't my umbrella. Mine is black. Is it ___?",
+    "options": [
+     "your",
+     "yours",
+     "your's",
+     "you're"
+    ],
+    "type": "quiz",
+    "is_anonymous": true,
+    "correct_option_id": 1,
+    "explanation": "Keyin ot kelmayapti, shuning uchun yours (sizniki) kerak. Your faqat otdan oldin keladi: your umbrella."
+   }
+  },
+  {
+   "method": "sendPoll",
+   "params": {
+    "chat_id": "@RegistanLC_Academy",
+    "question": "My grandmother and grandfather live here. This is my ___ house.",
+    "options": [
+     "grandparents'",
+     "grandparents's",
+     "grandparent's",
+     "grandparents"
+    ],
+    "type": "quiz",
+    "is_anonymous": true,
+    "correct_option_id": 0,
+    "explanation": "Ikki kishi, -s bilan tugagan ko'plik so'z, shuning uchun faqat apostrof qo'shamiz: grandparents'. Grandparent's bitta kishi uchun bo'lardi."
+   }
+  },
+  {
+   "method": "sendPoll",
+   "params": {
+    "chat_id": "@RegistanLC_Academy",
+    "question": "Choose the correct sentence.",
+    "options": [
+     "Who's book is this?",
+     "Whose book is this?",
+     "Whose is book this?",
+     "Who book is this?"
+    ],
+    "type": "quiz",
+    "is_anonymous": true,
+    "correct_option_id": 1,
+    "explanation": "Whose \"kimning\" degani va darhol otdan oldin keladi: Whose book is this? Who's esa who is ning qisqasi."
+   }
+  },
+  {
+   "method": "sendPoll",
+   "params": {
+    "chat_id": "@RegistanLC_Academy",
+    "question": "Which sentence has a mistake?",
+    "options": [
+     "These keys are ours.",
+     "Is this bag hers?",
+     "That phone isn't their, it's mine.",
+     "Whose glasses are these?"
+    ],
+    "type": "quiz",
+    "is_anonymous": true,
+    "correct_option_id": 2,
+    "explanation": "Otsiz kelganda their emas, theirs bo'ladi: it isn't theirs, it's mine. Qolgan gaplar to'g'ri."
+   }
+  }
+ ],
+ "results": [
+  {
+   "ok": true,
+   "result": {
+    "message_id": 3807,
+    "sender_chat": {
+     "id": -1001675672165,
+     "title": "Registan LC | Academy filiali",
+     "username": "RegistanLC_Academy",
+     "type": "channel"
+    },
+    "chat": {
+     "id": -1001675672165,
+     "title": "Registan LC | Academy filiali",
+     "username": "RegistanLC_Academy",
+     "type": "channel"
+    },
+    "date": 1794477292,
+    "text": "Elementary guruhlar, bugun whose va mine, yours, hers, theirs kabi so'zlar.\nNarsa kimniki ekanini to'g'ri aytishni mashq qilamiz, 5 ta savol."
+   }
+  },
+  {
+   "ok": true,
+   "result": {
+    "message_id": 3808,
+    "sender_chat": {
+     "id": -1001675672165,
+     "title": "Registan LC | Academy filiali",
+     "username": "RegistanLC_Academy",
+     "type": "channel"
+    },
+    "chat": {
+     "id": -1001675672165,
+     "title": "Registan LC | Academy filiali",
+     "username": "RegistanLC_Academy",
+     "type": "channel"
+    },
+    "date": 1794477293,
+    "poll": {
+     "id": "5454382078193834908",
+     "question": "You use it to charge your phone when the battery is low. What is it?",
+     "options": [
+      {
+       "persistent_id": "0",
+       "text": "a wallet",
+       "voter_count": 0
+      },
+      {
+       "persistent_id": "1",
+       "text": "a mirror",
+       "voter_count": 0
+      },
+      {
+       "persistent_id": "2",
+       "text": "a charger",
+       "voter_count": 0
+      },
+      {
+       "persistent_id": "3",
+       "text": "a comb",
+       "voter_count": 0
+      }
+     ],
+     "total_voter_count": 0,
+     "is_closed": false,
+     "is_anonymous": true,
+     "allows_multiple_answers": false,
+     "allows_revoting": false,
+     "members_only": false,
+     "type": "quiz",
+     "correct_option_id": 2,
+     "correct_option_ids": [
+      2
+     ],
+     "explanation": "Charger zaryadlovchi, telefonni quvvatlaydi. Wallet hamyon, mirror ko'zgu, comb esa taroq.",
+     "explanation_entities": []
+    }
+   }
+  },
+  {
+   "ok": true,
+   "result": {
+    "message_id": 3809,
+    "sender_chat": {
+     "id": -1001675672165,
+     "title": "Registan LC | Academy filiali",
+     "username": "RegistanLC_Academy",
+     "type": "channel"
+    },
+    "chat": {
+     "id": -1001675672165,
+     "title": "Registan LC | Academy filiali",
+     "username": "RegistanLC_Academy",
+     "type": "channel"
+    },
+    "date": 1794477293,
+    "poll": {
+     "id": "5454382078193834909",
+     "question": "This isn't my umbrella. Mine is black. Is it ___?",
+     "options": [
+      {
+       "persistent_id": "0",
+       "text": "your",
+       "voter_count": 0
+      },
+      {
+       "persistent_id": "1",
+       "text": "yours",
+       "voter_count": 0
+      },
+      {
+       "persistent_id": "2",
+       "text": "your's",
+       "voter_count": 0
+      },
+      {
+       "persistent_id": "3",
+       "text": "you're",
+       "voter_count": 0
+      }
+     ],
+     "total_voter_count": 0,
+     "is_closed": false,
+     "is_anonymous": true,
+     "allows_multiple_answers": false,
+     "allows_revoting": false,
+     "members_only": false,
+     "type": "quiz",
+     "correct_option_id": 1,
+     "correct_option_ids": [
+      1
+     ],
+     "explanation": "Keyin ot kelmayapti, shuning uchun yours (sizniki) kerak. Your faqat otdan oldin keladi: your umbrella.",
+     "explanation_entities": []
+    }
+   }
+  },
+  {
+   "ok": true,
+   "result": {
+    "message_id": 3810,
+    "sender_chat": {
+     "id": -1001675672165,
+     "title": "Registan LC | Academy filiali",
+     "username": "RegistanLC_Academy",
+     "type": "channel"
+    },
+    "chat": {
+     "id": -1001675672165,
+     "title": "Registan LC | Academy filiali",
+     "username": "RegistanLC_Academy",
+     "type": "channel"
+    },
+    "date": 1794477294,
+    "poll": {
+     "id": "5454382078193834910",
+     "question": "My grandmother and grandfather live here. This is my ___ house.",
+     "options": [
+      {
+       "persistent_id": "0",
+       "text": "grandparents'",
+       "voter_count": 0
+      },
+      {
+       "persistent_id": "1",
+       "text": "grandparents's",
+       "voter_count": 0
+      },
+      {
+       "persistent_id": "2",
+       "text": "grandparent's",
+       "voter_count": 0
+      },
+      {
+       "persistent_id": "3",
+       "text": "grandparents",
+       "voter_count": 0
+      }
+     ],
+     "total_voter_count": 0,
+     "is_closed": false,
+     "is_anonymous": true,
+     "allows_multiple_answers": false,
+     "allows_revoting": false,
+     "members_only": false,
+     "type": "quiz",
+     "correct_option_id": 0,
+     "correct_option_ids": [
+      0
+     ],
+     "explanation": "Ikki kishi, -s bilan tugagan ko'plik so'z, shuning uchun faqat apostrof qo'shamiz: grandparents'. Grandparent's bitta kishi uchun bo'lardi.",
+     "explanation_entities": []
+    }
+   }
+  },
+  {
+   "ok": true,
+   "result": {
+    "message_id": 3811,
+    "sender_chat": {
+     "id": -1001675672165,
+     "title": "Registan LC | Academy filiali",
+     "username": "RegistanLC_Academy",
+     "type": "channel"
+    },
+    "chat": {
+     "id": -1001675672165,
+     "title": "Registan LC | Academy filiali",
+     "username": "RegistanLC_Academy",
+     "type": "channel"
+    },
+    "date": 1794477294,
+    "poll": {
+     "id": "5454382078193834911",
+     "question": "Choose the correct sentence.",
+     "options": [
+      {
+       "persistent_id": "0",
+       "text": "Who's book is this?",
+       "voter_count": 0
+      },
+      {
+       "persistent_id": "1",
+       "text": "Whose book is this?",
+       "voter_count": 0
+      },
+      {
+       "persistent_id": "2",
+       "text": "Whose is book this?",
+       "voter_count": 0
+      },
+      {
+       "persistent_id": "3",
+       "text": "Who book is this?",
+       "voter_count": 0
+      }
+     ],
+     "total_voter_count": 0,
+     "is_closed": false,
+     "is_anonymous": true,
+     "allows_multiple_answers": false,
+     "allows_revoting": false,
+     "members_only": false,
+     "type": "quiz",
+     "correct_option_id": 1,
+     "correct_option_ids": [
+      1
+     ],
+     "explanation": "Whose \"kimning\" degani va darhol otdan oldin keladi: Whose book is this? Who's esa who is ning qisqasi.",
+     "explanation_entities": []
+    }
+   }
+  },
+  {
+   "ok": true,
+   "result": {
+    "message_id": 3812,
+    "sender_chat": {
+     "id": -1001675672165,
+     "title": "Registan LC | Academy filiali",
+     "username": "RegistanLC_Academy",
+     "type": "channel"
+    },
+    "chat": {
+     "id": -1001675672165,
+     "title": "Registan LC | Academy filiali",
+     "username": "RegistanLC_Academy",
+     "type": "channel"
+    },
+    "date": 1794477298,
+    "poll": {
+     "id": "5454382078193834912",
+     "question": "Which sentence has a mistake?",
+     "options": [
+      {
+       "persistent_id": "0",
+       "text": "These keys are ours.",
+       "voter_count": 0
+      },
+      {
+       "persistent_id": "1",
+       "text": "Is this bag hers?",
+       "voter_count": 0
+      },
+      {
+       "persistent_id": "2",
+       "text": "That phone isn't their, it's mine.",
+       "voter_count": 0
+      },
+      {
+       "persistent_id": "3",
+       "text": "Whose glasses are these?",
+       "voter_count": 0
+      }
+     ],
+     "total_voter_count": 0,
+     "is_closed": false,
+     "is_anonymous": true,
+     "allows_multiple_answers": false,
+     "allows_revoting": false,
+     "members_only": false,
+     "type": "quiz",
+     "correct_option_id": 2,
+     "correct_option_ids": [
+      2
+     ],
+     "explanation": "Otsiz kelganda their emas, theirs bo'ladi: it isn't theirs, it's mine. Qolgan gaplar to'g'ri.",
+     "explanation_entities": []
+    }
+   }
+  }
+ ],
+ "posted_at": "2026-11-12T09:54:58.333594+00:00"
+}
