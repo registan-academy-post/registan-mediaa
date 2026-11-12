@@ -1,0 +1,189 @@
+{
+ "id": "2026-11-12-1200-english",
+ "steps": [
+  {
+   "method": "sendPhoto",
+   "params": {
+    "chat_id": "@RegistanLC_Academy",
+    "photo": "https://raw.githubusercontent.com/registan-academy-post/registan-mediaa/main/posts/2026-11-12/1200_phrasal_come_up_with.jpg",
+    "caption": "Darsda o'qituvchi \"Give me an example\" desa, miya bir zumda bo'm-bo'sh bo'lib qoladimi? Aynan shu holat uchun inglizlarda qulay ibora bor: <b>come up with</b>, ya'ni biror g'oya, yechim yoki javobni o'ylab topmoq.\n\n<i>She came up with a great idea for our project.</i> Loyihamiz uchun zo'r g'oya o'ylab topdi.\n<i>We need to come up with a solution by Friday.</i> Jumagacha yechim topishimiz kerak.\n<i>I couldn't come up with a good answer.</i> Yaxshi javob topa olmadim.\n\nBu iboraning bo'laklari ajralmaydi, shuning uchun olmosh oxirida turadi: <i>come up with it</i> deyiladi, <i>come it up with</i> emas. Ortidan doim nimadir keladi: an idea, a plan, a name, an excuse.\n\nSpeaking'da bemalol ishlating. Rasmiyroq essay'da esa o'rniga <i>develop</i> yoki <i>propose</i> ham chiroyli chiqadi: <i>The government should develop a new plan.</i>\n\nSiz oxirgi marta qanday bahona o'ylab topgansiz? 😄 Izohda <i>I came up with...</i> deb boshlab yozing.\n\n📌 <a href=\"https://registan.edutizim.uz/order/entry/?survey=s33\">Bepul darsga yozilish</a>\n\n📞 +998935512700\n\n📱 <a href=\"https://t.me/Registan_LC\">Follow us on social media</a>:\n\n📱<a href=\"https://t.me/RegistanLC_Academy\">Telegram</a>   📱<a href=\"https://instagram.com/registanlc_academy\">Instagram</a>   📱<a href=\"https://goo.gl/maps/ziHA5ukgVtbGmwwR6\">Location</a>",
+    "parse_mode": "HTML",
+    "reply_markup": {
+     "inline_keyboard": [
+      [
+       {
+        "text": "✍️ Bepul darsga yozilish",
+        "url": "https://registan.edutizim.uz/order/entry/?survey=s33"
+       },
+       {
+        "text": "📍 Xaritada ochish",
+        "url": "https://goo.gl/maps/ziHA5ukgVtbGmwwR6"
+       }
+      ]
+     ]
+    }
+   }
+  }
+ ],
+ "results": [
+  {
+   "ok": true,
+   "result": {
+    "message_id": 3806,
+    "sender_chat": {
+     "id": -1001675672165,
+     "title": "Registan LC | Academy filiali",
+     "username": "RegistanLC_Academy",
+     "type": "channel"
+    },
+    "chat": {
+     "id": -1001675672165,
+     "title": "Registan LC | Academy filiali",
+     "username": "RegistanLC_Academy",
+     "type": "channel"
+    },
+    "date": 1794466479,
+    "photo": [
+     {
+      "file_id": "AgACAgQAAx0EY-C6ZQACDt5q9WKviNqN8XautoffyoVWWTcCBAACzQ5rG1mErVM3DVvMUt8PRwEAAwIAA3MAAz0E",
+      "file_unique_id": "AQADzQ5rG1mErVN4",
+      "file_size": 949,
+      "width": 72,
+      "height": 90
+     },
+     {
+      "file_id": "AgACAgQAAx0EY-C6ZQACDt5q9WKviNqN8XautoffyoVWWTcCBAACzQ5rG1mErVM3DVvMUt8PRwEAAwIAA20AAz0E",
+      "file_unique_id": "AQADzQ5rG1mErVNy",
+      "file_size": 9517,
+      "width": 256,
+      "height": 320
+     },
+     {
+      "file_id": "AgACAgQAAx0EY-C6ZQACDt5q9WKviNqN8XautoffyoVWWTcCBAACzQ5rG1mErVM3DVvMUt8PRwEAAwIAA3gAAz0E",
+      "file_unique_id": "AQADzQ5rG1mErVN9",
+      "file_size": 34711,
+      "width": 640,
+      "height": 800
+     },
+     {
+      "file_id": "AgACAgQAAx0EY-C6ZQACDt5q9WKviNqN8XautoffyoVWWTcCBAACzQ5rG1mErVM3DVvMUt8PRwEAAwIAA3kAAz0E",
+      "file_unique_id": "AQADzQ5rG1mErVN-",
+      "file_size": 65653,
+      "width": 1024,
+      "height": 1280
+     },
+     {
+      "file_id": "AgACAgQAAx0EY-C6ZQACDt5q9WKviNqN8XautoffyoVWWTcCBAACzQ5rG1mErVM3DVvMUt8PRwEAAwIAA3cAAz0E",
+      "file_unique_id": "AQADzQ5rG1mErVN8",
+      "file_size": 201503,
+      "width": 2048,
+      "height": 2560
+     }
+    ],
+    "caption": "Darsda o'qituvchi \"Give me an example\" desa, miya bir zumda bo'm-bo'sh bo'lib qoladimi? Aynan shu holat uchun inglizlarda qulay ibora bor: come up with, ya'ni biror g'oya, yechim yoki javobni o'ylab topmoq.\n\nShe came up with a great idea for our project. Loyihamiz uchun zo'r g'oya o'ylab topdi.\nWe need to come up with a solution by Friday. Jumagacha yechim topishimiz kerak.\nI couldn't come up with a good answer. Yaxshi javob topa olmadim.\n\nBu iboraning bo'laklari ajralmaydi, shuning uchun olmosh oxirida turadi: come up with it deyiladi, come it up with emas. Ortidan doim nimadir keladi: an idea, a plan, a name, an excuse.\n\nSpeaking'da bemalol ishlating. Rasmiyroq essay'da esa o'rniga develop yoki propose ham chiroyli chiqadi: The government should develop a new plan.\n\nSiz oxirgi marta qanday bahona o'ylab topgansiz? 😄 Izohda I came up with... deb boshlab yozing.\n\n📌 Bepul darsga yozilish\n\n📞 +998935512700\n\n📱 Follow us on social media:\n\n📱Telegram   📱Instagram   📱Location",
+    "caption_entities": [
+     {
+      "offset": 139,
+      "length": 12,
+      "type": "bold"
+     },
+     {
+      "offset": 208,
+      "length": 46,
+      "type": "italic"
+     },
+     {
+      "offset": 296,
+      "length": 45,
+      "type": "italic"
+     },
+     {
+      "offset": 377,
+      "length": 38,
+      "type": "italic"
+     },
+     {
+      "offset": 517,
+      "length": 15,
+      "type": "italic"
+     },
+     {
+      "offset": 543,
+      "length": 15,
+      "type": "italic"
+     },
+     {
+      "offset": 693,
+      "length": 7,
+      "type": "italic"
+     },
+     {
+      "offset": 706,
+      "length": 7,
+      "type": "italic"
+     },
+     {
+      "offset": 736,
+      "length": 41,
+      "type": "italic"
+     },
+     {
+      "offset": 838,
+      "length": 17,
+      "type": "italic"
+     },
+     {
+      "offset": 880,
+      "length": 21,
+      "type": "text_link",
+      "url": "https://registan.edutizim.uz/order/entry/?survey=s33"
+     },
+     {
+      "offset": 906,
+      "length": 13,
+      "type": "phone_number"
+     },
+     {
+      "offset": 924,
+      "length": 25,
+      "type": "text_link",
+      "url": "https://t.me/Registan_LC"
+     },
+     {
+      "offset": 954,
+      "length": 8,
+      "type": "text_link",
+      "url": "https://t.me/RegistanLC_Academy"
+     },
+     {
+      "offset": 967,
+      "length": 9,
+      "type": "text_link",
+      "url": "https://instagram.com/registanlc_academy"
+     },
+     {
+      "offset": 981,
+      "length": 8,
+      "type": "text_link",
+      "url": "https://goo.gl/maps/ziHA5ukgVtbGmwwR6"
+     }
+    ],
+    "reply_markup": {
+     "inline_keyboard": [
+      [
+       {
+        "text": "✍️ Bepul darsga yozilish",
+        "url": "https://registan.edutizim.uz/order/entry/?survey=s33"
+       },
+       {
+        "text": "📍 Xaritada ochish",
+        "url": "https://goo.gl/maps/ziHA5ukgVtbGmwwR6"
+       }
+      ]
+     ]
+    }
+   }
+  }
+ ],
+ "posted_at": "2026-11-12T06:54:39.814587+00:00"
+}
