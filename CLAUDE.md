@@ -15,5 +15,6 @@ Egasi "post" deganda shu loyihani nazarda tutadi: @RegistanLC_Academy Telegram k
 - Shrift: sarlavha Inter Black, KATTA HARF, zich, 2-3 so'z; kichik matn Inter SemiBold. Serif va kursiv yo'q.
 - 4:5 tik rasm: yuqori ~60% surat, pastda rangli blok: yorliq (pill) -> kichik qator -> ulkan sarlavha. Chap yuqorida oq REGISTON logotipi.
 - Ko'p ko'riladigan postlar: real suratlar (g'oliblar, darslar, ustozlar), natija kartalari, test natijalari TOP-3.
+- Odam (ustoz, o'quvchi) bor postlar YORUG' fonda: oq / och to'q sariq fon, orqada to'q sariq doira, yozuvlar pastdagi to'q sariq blokda. Qora/to'q fon ishlatilmaydi, odam aniq ko'rinishi kerak.
 - Post rasmlarida pastda hech qanday username (@RegistanLC_Academy va h.k.) yozilmaydi. Telefon raqam mumkin.
 - Testlar kanalda 5 ta poll emas: botda o'tadi, kanalga e'lon va natija chiqadi.
