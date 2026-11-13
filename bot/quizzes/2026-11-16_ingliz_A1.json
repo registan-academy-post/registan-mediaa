@@ -1,0 +1,13 @@
+{"subject":"Ingliz tili","level":"A1","topic":"to be va Present Simple",
+"questions":[
+{"q":"I ___ a student.","o":["is","are","am","be"],"c":2,"e":"\"I\" bilan doim \"am\" ishlatiladi: I am."},
+{"q":"She ___ from Tashkent.","o":["is","am","are","be"],"c":0,"e":"He / she / it bilan \"is\" ishlatiladi."},
+{"q":"They ___ my friends.","o":["am","is","be","are"],"c":3,"e":"We / you / they bilan \"are\" ishlatiladi."},
+{"q":"___ you happy today?","o":["Is","Are","Am","Be"],"c":1,"e":"\"You\" bilan so‘roq gapda \"Are\" keladi: Are you...?"},
+{"q":"He ___ football every day.","o":["play","playing","plays","is play"],"c":2,"e":"Present Simple: he/she/it bilan fe’lga -s qo‘shiladi: plays."},
+{"q":"We ___ like milk.","o":["don't","doesn't","isn't","not"],"c":0,"e":"I / we / you / they bilan inkorda \"don't\" ishlatiladi."},
+{"q":"___ she speak English?","o":["Do","Is","Are","Does"],"c":3,"e":"He/she/it bilan so‘roq \"Does\" bilan boshlanadi, fe’l -s siz qoladi: Does she speak?"},
+{"q":"My father ___ to work at 8 o'clock.","o":["go","goes","going","is go"],"c":1,"e":"\"My father\" = he, shuning uchun go → goes (-es qo‘shiladi)."},
+{"q":"There ___ two books on the table.","o":["is","are","am","be"],"c":1,"e":"Ko‘plik (two books) bilan \"There are\" ishlatiladi."},
+{"q":"Qaysi gap to‘g‘ri?","o":["She don't like tea.","She doesn't likes tea.","She doesn't like tea.","She not like tea."],"c":2,"e":"\"doesn't\" dan keyin fe’l -s siz keladi: She doesn't like."}
+]}

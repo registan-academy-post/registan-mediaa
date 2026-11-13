@@ -18,3 +18,6 @@ Egasi "post" deganda shu loyihani nazarda tutadi: @RegistanLC_Academy Telegram k
 - Odam (ustoz, o'quvchi) bor postlar YORUG' fonda: oq / och to'q sariq fon, orqada to'q sariq doira, yozuvlar pastdagi to'q sariq blokda. Qora/to'q fon ishlatilmaydi, odam aniq ko'rinishi kerak.
 - Post rasmlarida pastda hech qanday username (@RegistanLC_Academy va h.k.) yozilmaydi. Telefon raqam mumkin.
 - Testlar kanalda 5 ta poll emas: botda o'tadi, kanalga e'lon va natija chiqadi.
+
+## Test boti
+- @RegistanAcademyYordamchiBot, kod: bot/ (README ichida). Du ingliz, Chor matematika, Ju rus tili, 18:00-21:00.
