@@ -26,3 +26,10 @@ Uslub g'oyalari:
 - 06_ielts_qabul_ochiq — Mr Johns bilan IELTS/General English qabul
 - 07_ingliz_tili_white — Beginner/Elementary qabul, oq uslub
 - 08_kurslar_banner — kurslar ro'yxati banneri (2:1)
+
+## print/ — bosma materiallar
+- reg_coin — REG coin pullari (1, 2, 5, 10, 20, 50, 100)
+- auksion_2026-11-15 — Kids o'quvchilar uchun AUKSION (15-noyabr, 11:00)
+  - Auksion_A4.pdf / .png — A4 e'lon, pastida "Auksionga olib kelgan har bir do'sting uchun 20 COIN SOVG'A!" (eshik va koridorga)
+  - Auksion_HQ_4x5.png / .pdf — asl afisha, 3x sifati oshirilgan (yozuvsiz)
+  - asl_rasm.webp — kelgan asl fayl
