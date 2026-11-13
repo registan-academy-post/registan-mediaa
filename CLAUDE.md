@@ -1,6 +1,6 @@
-# Registan Academy — "Post" loyihasi
+# KANAL YURITISH — Registan Academy "Post" loyihasi
 
-Egasi "post" deganda shu loyihani nazarda tutadi: @RegistanLC_Academy Telegram kanali postlari, dizayni va botlari.
+Egasi "post" yoki "kanal yuritish" deganda shu loyihani nazarda tutadi: @RegistanLC_Academy Telegram kanali postlari, dizayni va botlari.
 
 - Loyiha sahifasi (tahlil va reja, pin qilingan): https://claude.ai/artifact/RkC3qPc8w7JgaDREmQyxxF
 - Holat (2026-11-13): postlash TO'XTATILGAN. Obunachilarga eski dizayn (och bej fon, serif+kursiv aralash, faqat yozuv) yoqmadi.
@@ -21,3 +21,17 @@ Egasi "post" deganda shu loyihani nazarda tutadi: @RegistanLC_Academy Telegram k
 
 ## Test boti
 - @RegistanAcademyYordamchiBot, kod: bot/ (README ichida). Du ingliz, Chor matematika, Ju rus tili, 18:00-21:00.
+
+## Qayerda to'xtadik (2026-11-13) — keyingi safar shu yerdan davom etamiz
+Bajarildi: raqobatchi kanallar tahlili, yangi dizayn (kit/design2, egasi ma'qulladi), test boti joylandi (Cloudflare),
+Du/Chor/Ju jadvali, rus tili (13-noyabr) va ingliz tili (16-noyabr) savollari KV ga qo'yildi.
+Qilinadigan ishlar:
+1. Egasi bot setup havolasini ochib, botni sinab ko'rishi kerak (13-noyabr holatida hali hech kim /start qilmagan).
+   Setup havolasi kaliti WEBHOOK_SECRET da (Cloudflare secret); kerak bo'lsa yangisini qo'yib, yangi havola berish mumkin.
+2. Egasining Telegram ID sini tasdiqlash (/id) — ADMINS hozir 5663766757 (eski RULES.md dan).
+3. Egasi testlar uchun kitoblar yuboradi (ingliz tili, matematika, rus tili; mundarija + joriy unitlar).
+4. Chorshanba 18-noyabr uchun MATEMATIKA testi hali yo'q — kitob kelsa unga moslab, kelmasa umumiy 5-7 sinf darajasida.
+5. Kanalga avtomatik "Kunlik test" e'loni (18:00) va ertasi "Test natijalari" TOP-3 rasmi (5_test_natijalari shabloni).
+6. Postlashni yangi dizayn bilan qayta yoqish: kuniga 3 post — faqat egasi "boshla" desa.
+7. Ochiq savollar: ism "MR JOHNS" yoki "MR JHONS"? library/academy 06 va 07 (Johnsning xato tahrirlangan surati) o'chirilsinmi/qayta yasalsinmi?
+8. Egasidan ustozlar (oq fonda), darslar, g'oliblar suratlari kerak.
