@@ -1,3 +1,8 @@
+# ⛔ POSTING PAUSED (2026-11-13, owner's order)
+The owner stopped ALL posting to @RegistanLC_Academy: subscribers disliked the current design.
+Any scheduled run that reads this: do NOT render images, do NOT write queue files, do NOT post.
+Just exit and report "posting paused". A new design and schedule (3 posts a day) will replace these rules.
+
 # Registan LC | Academy filiali — Telegram autoposting rules
 
 These rules are the source of truth for every scheduled posting run. The owner
