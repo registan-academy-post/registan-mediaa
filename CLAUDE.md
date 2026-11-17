@@ -30,7 +30,9 @@ Qilinadigan ishlar:
    Setup havolasi kaliti WEBHOOK_SECRET da (Cloudflare secret); kerak bo'lsa yangisini qo'yib, yangi havola berish mumkin.
 2. Egasining Telegram ID sini tasdiqlash (/id) — ADMINS hozir 5663766757 (eski RULES.md dan).
 3. Egasi testlar uchun kitoblar yuboradi (ingliz tili, matematika, rus tili; mundarija + joriy unitlar).
-   Chatga fayl yuklash ishlamadi (17-noyabr) -> kitoblarni @Registan_Academy_Post_bot ga yuboradi; inbox workflow (har 30 daqiqa) ularni inbox/docs/ ga saqlaydi, indeks inbox/index.jsonl (type doc). 20 MB dan katta fayl yuklanmaydi.
+   17-noyabr: egasi kitoblarni @Registan_Academy_Post_bot ga yubordi. Repo OCHIQ (public), shuning uchun kitoblar repodan olib tashlandi
+   va egasining Cloudflare KV `registan-books` (yopiq) ga `book:<fayl nomi>` kaliti bilan saqlandi (14 fayl). Endi inbox hujjatlarni repoga yuklamaydi (faqat file_id).
+   20 MB dan katta 5 ta fayl yuklanmadi (index.jsonl da path null). Git tarixida kitoblar hali bor — tozalash egasining qaroriga bog'liq.
 4. Chorshanba 18-noyabr MATEMATIKA testi KV ga qo'yildi (17-noyabr, umumiy 5-7 sinf). Keyingilar: Ju 20-noyabr rus tili, Du 23-noyabr ingliz tili — hali yo'q.
    17-noyabr holati: botdan hali hech kim foydalanmagan (KV da user: kaliti yo'q) — setup havolasi ochilmagan bo'lishi mumkin.
 5. Kanalga avtomatik "Kunlik test" e'loni (18:00) va ertasi "Test natijalari" TOP-3 rasmi (5_test_natijalari shabloni).

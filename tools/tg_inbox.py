@@ -54,7 +54,7 @@ def main():
         date = datetime.fromtimestamp(m["date"], timezone.utc).astimezone().strftime("%Y-%m-%d")
         path = f"inbox/{kind}s/{date}_{m['message_id']}{ext}"
         saved = None
-        if obj.get("file_size", 0) <= MAX:
+        if kind != "doc" and obj.get("file_size", 0) <= MAX:
             try:
                 saved = download(obj["file_id"], path)
             except Exception as e:
@@ -70,7 +70,9 @@ def main():
             rec["file_name"] = obj.get("file_name")
         print("stored", kind, path if saved else "(too big, file_id only)")
         try:
-            if saved:
+            if kind == "doc":
+                note = "✅ Fayl qayd etildi: " + (obj.get("file_name") or "hujjat")
+            elif saved:
                 note = "✅ Qabul qilindi: " + (obj.get("file_name") or path.split("/")[-1])
             else:
                 note = "⚠️ Fayl 20 MB dan katta, yuklab bo‘lmadi. Uni bo‘lib (masalan, mundarija va kerakli unitlar) yoki sahifalar suratini yuboring."
