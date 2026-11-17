@@ -1,4 +1,4 @@
-// Registan Academy — test boti (Du: ingliz tili, Chor: matematika, Ju: rus tili) (Cloudflare Worker, Telegram webhook)
+// Registan Academy — test boti (Du: matematika, Chor: ingliz tili, Ju: rus tili) (Cloudflare Worker, Telegram webhook)
 // KV kalitlari:
 //   user:<uid>              {name, username, state, joined}
 //   quiz:<YYYY-MM-DD>       {subject, level, topic, questions:[...]}  yoki darajali:
