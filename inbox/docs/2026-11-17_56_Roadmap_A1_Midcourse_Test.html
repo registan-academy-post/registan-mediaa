@@ -1,0 +1,1211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Roadmap A1 – Mid-course Test (Units 1–5)</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=Inter:wght@400;500;600&display=swap');
+
+:root {
+  --ink: #1c1c2e;
+  --paper: #f5f3ef;
+  --white: #ffffff;
+  --blue: #2563eb;
+  --blue-light: #eff6ff;
+  --green: #16a34a;
+  --green-light: #f0fdf4;
+  --red: #dc2626;
+  --red-light: #fef2f2;
+  --amber: #d97706;
+  --amber-light: #fffbeb;
+  --border: #e2ddd6;
+  --muted: #6b7280;
+  --section-colors: #2563eb, #7c3aed, #0d9488, #c2410c, #1d4ed8, #065f46, #7c2d12, #831843, #1e3a5f, #3f3f46;
+}
+
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+  font-family: 'Inter', sans-serif;
+  background: var(--paper);
+  color: var(--ink);
+  font-size: 15px;
+  line-height: 1.6;
+}
+
+/* ── HEADER ── */
+header {
+  background: var(--ink);
+  color: white;
+  padding: 0;
+}
+.header-top {
+  max-width: 820px;
+  margin: 0 auto;
+  padding: 20px 24px 24px;
+}
+.roadmap-tag {
+  font-family: 'Syne', sans-serif;
+  font-size: .7rem;
+  font-weight: 700;
+  letter-spacing: .18em;
+  text-transform: uppercase;
+  color: rgba(255,255,255,.45);
+  margin-bottom: 8px;
+}
+.header-top h1 {
+  font-family: 'Syne', sans-serif;
+  font-size: clamp(1.6rem, 4vw, 2.4rem);
+  font-weight: 800;
+  line-height: 1.1;
+  letter-spacing: -.02em;
+}
+.header-top h1 span { color: #60a5fa; }
+.header-meta {
+  display: flex;
+  gap: 20px;
+  margin-top: 14px;
+  flex-wrap: wrap;
+}
+.meta-pill {
+  font-size: .78rem;
+  color: rgba(255,255,255,.6);
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.meta-pill strong { color: white; }
+
+/* ── PROGRESS BAR ── */
+.progress-bar-wrap {
+  background: rgba(255,255,255,.08);
+  height: 4px;
+}
+.progress-bar-fill {
+  height: 100%;
+  background: #60a5fa;
+  width: 0%;
+  transition: width .4s ease;
+}
+
+/* ── SECTION NAV ── */
+.section-nav {
+  background: var(--white);
+  border-bottom: 1px solid var(--border);
+  position: sticky;
+  top: 0;
+  z-index: 50;
+}
+.section-nav-inner {
+  max-width: 820px;
+  margin: 0 auto;
+  display: flex;
+  gap: 0;
+  overflow-x: auto;
+  scrollbar-width: none;
+}
+.section-nav-inner::-webkit-scrollbar { display: none; }
+.nav-tab {
+  padding: 12px 16px;
+  font-family: 'Syne', sans-serif;
+  font-size: .75rem;
+  font-weight: 700;
+  letter-spacing: .05em;
+  text-transform: uppercase;
+  color: var(--muted);
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  white-space: nowrap;
+  border-bottom: 2px solid transparent;
+  transition: all .15s;
+  flex-shrink: 0;
+}
+.nav-tab:hover { color: var(--ink); }
+.nav-tab.active { color: var(--blue); border-bottom-color: var(--blue); }
+.nav-tab.done { color: var(--green); }
+.nav-tab.done::after { content: ' ✓'; }
+
+/* ── MAIN ── */
+.page {
+  max-width: 820px;
+  margin: 0 auto;
+  padding: 32px 24px 100px;
+}
+
+/* ── SECTION ── */
+.test-section {
+  display: none;
+  animation: fadeIn .3s ease;
+}
+.test-section.active { display: block; }
+@keyframes fadeIn { from { opacity: 0; transform: translateY(6px); } to { opacity: 1; transform: translateY(0); } }
+
+.section-header {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  margin-bottom: 24px;
+  padding-bottom: 18px;
+  border-bottom: 1px solid var(--border);
+}
+.section-icon {
+  width: 44px; height: 44px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.3rem;
+  flex-shrink: 0;
+}
+.section-title { font-family: 'Syne', sans-serif; font-size: 1.25rem; font-weight: 700; }
+.section-marks { font-size: .8rem; color: var(--muted); margin-top: 2px; }
+
+/* ── QUESTION CARD ── */
+.q-card {
+  background: var(--white);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 20px 22px;
+  margin-bottom: 14px;
+}
+.q-label {
+  font-family: 'Syne', sans-serif;
+  font-size: .72rem;
+  font-weight: 700;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+  color: var(--muted);
+  margin-bottom: 8px;
+}
+.q-text {
+  font-size: .95rem;
+  margin-bottom: 14px;
+  line-height: 1.55;
+}
+.q-text strong { color: var(--blue); }
+
+/* ── RADIO / CHECKBOX OPTIONS ── */
+.options { display: flex; flex-direction: column; gap: 7px; }
+.opt {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 9px 14px;
+  border: 1.5px solid var(--border);
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: .88rem;
+  transition: all .15s;
+  user-select: none;
+}
+.opt:hover { border-color: var(--blue); background: var(--blue-light); }
+.opt input[type=radio], .opt input[type=checkbox] { accent-color: var(--blue); width: 16px; height: 16px; cursor: pointer; }
+.opt.correct { border-color: var(--green); background: var(--green-light); color: var(--green); font-weight: 500; }
+.opt.wrong { border-color: var(--red); background: var(--red-light); color: var(--red); }
+.opt.reveal-correct { border-color: var(--green); background: var(--green-light); color: var(--green); font-weight: 500; }
+
+/* ── TEXT INPUTS ── */
+.text-input {
+  width: 100%;
+  border: 1.5px solid var(--border);
+  border-radius: 8px;
+  padding: 9px 13px;
+  font-family: 'Inter', sans-serif;
+  font-size: .9rem;
+  background: var(--white);
+  color: var(--ink);
+  outline: none;
+  transition: border .15s;
+}
+.text-input:focus { border-color: var(--blue); }
+.text-input.correct { border-color: var(--green); background: var(--green-light); }
+.text-input.wrong { border-color: var(--red); background: var(--red-light); }
+.inline-input {
+  border: none;
+  border-bottom: 2px solid var(--blue);
+  padding: 2px 6px;
+  font-family: 'Inter', sans-serif;
+  font-size: .93rem;
+  background: transparent;
+  color: var(--ink);
+  outline: none;
+  min-width: 100px;
+  max-width: 160px;
+}
+.inline-input:focus { border-color: var(--amber); }
+.inline-input.correct { border-color: var(--green); color: var(--green); }
+.inline-input.wrong { border-color: var(--red); color: var(--red); }
+
+/* ── TRUE/FALSE ── */
+.tf-row {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 8px 0;
+  border-bottom: 1px solid var(--border);
+  font-size: .88rem;
+}
+.tf-row:last-child { border-bottom: none; }
+.tf-row .stmt { flex: 1; }
+.tf-btns { display: flex; gap: 6px; }
+.tf-btn {
+  padding: 5px 14px;
+  border-radius: 6px;
+  border: 1.5px solid var(--border);
+  background: white;
+  font-size: .78rem;
+  font-weight: 700;
+  cursor: pointer;
+  font-family: 'Syne', sans-serif;
+  transition: all .15s;
+}
+.tf-btn:hover { border-color: var(--blue); color: var(--blue); }
+.tf-btn.selected-t, .tf-btn.selected-f { background: var(--blue); color: white; border-color: var(--blue); }
+.tf-btn.corr { background: var(--green); color: white; border-color: var(--green); }
+.tf-btn.err { background: var(--red); color: white; border-color: var(--red); }
+
+/* ── FEEDBACK ── */
+.q-feedback {
+  margin-top: 10px;
+  padding: 8px 12px;
+  border-radius: 7px;
+  font-size: .82rem;
+  display: none;
+}
+.q-feedback.show { display: block; }
+.q-feedback.correct { background: var(--green-light); color: var(--green); border: 1px solid #bbf7d0; }
+.q-feedback.wrong { background: var(--red-light); color: var(--red); border: 1px solid #fecaca; }
+
+/* ── READING TEXT BOX ── */
+.reading-box {
+  background: #fafaf9;
+  border: 1px solid var(--border);
+  border-left: 4px solid var(--blue);
+  border-radius: 0 10px 10px 0;
+  padding: 18px 20px;
+  margin-bottom: 20px;
+  font-size: .88rem;
+  line-height: 1.7;
+}
+.reading-box h4 { font-family: 'Syne', sans-serif; font-size: .9rem; margin-bottom: 10px; color: var(--blue); }
+.reading-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; margin-bottom: 20px; }
+@media (max-width: 580px) { .reading-grid { grid-template-columns: 1fr; } }
+
+/* ── WRITING AREA ── */
+.writing-area {
+  width: 100%;
+  min-height: 160px;
+  border: 1.5px solid var(--border);
+  border-radius: 10px;
+  padding: 14px;
+  font-family: 'Inter', sans-serif;
+  font-size: .9rem;
+  line-height: 1.65;
+  resize: vertical;
+  outline: none;
+  transition: border .15s;
+}
+.writing-area:focus { border-color: var(--blue); }
+.word-count { font-size: .78rem; color: var(--muted); margin-top: 6px; text-align: right; }
+.word-count.ok { color: var(--green); }
+.word-count.over { color: var(--red); }
+
+/* ── INSTRUCTIONS BOX ── */
+.instructions {
+  background: var(--amber-light);
+  border: 1px solid #fde68a;
+  border-radius: 10px;
+  padding: 14px 18px;
+  font-size: .85rem;
+  margin-bottom: 18px;
+  line-height: 1.6;
+  color: #78350f;
+}
+.instructions strong { color: var(--amber); }
+
+/* ── NAV BUTTONS ── */
+.section-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 28px;
+  padding-top: 20px;
+  border-top: 1px solid var(--border);
+  gap: 12px;
+  flex-wrap: wrap;
+}
+.btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-family: 'Syne', sans-serif;
+  font-weight: 700;
+  font-size: .82rem;
+  letter-spacing: .04em;
+  padding: 10px 20px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  transition: all .15s;
+}
+.btn-primary { background: var(--blue); color: white; }
+.btn-primary:hover { background: #1d4ed8; }
+.btn-check { background: var(--ink); color: white; }
+.btn-check:hover { background: #374151; }
+.btn-ghost { background: white; border: 1.5px solid var(--border); color: var(--ink); }
+.btn-ghost:hover { border-color: var(--blue); color: var(--blue); }
+.section-score { font-family: 'Syne', sans-serif; font-size: .88rem; font-weight: 600; color: var(--muted); }
+
+/* ── RESULTS PAGE ── */
+#resultsSection { display: none; }
+#resultsSection.active { display: block; }
+.results-hero {
+  text-align: center;
+  padding: 40px 20px;
+  background: var(--white);
+  border-radius: 16px;
+  border: 1px solid var(--border);
+  margin-bottom: 24px;
+}
+.results-emoji { font-size: 3rem; margin-bottom: 12px; }
+.results-score {
+  font-family: 'Syne', sans-serif;
+  font-size: 3.5rem;
+  font-weight: 800;
+  color: var(--blue);
+  line-height: 1;
+}
+.results-label { color: var(--muted); font-size: .9rem; margin-top: 6px; }
+.results-grade {
+  display: inline-block;
+  font-family: 'Syne', sans-serif;
+  font-weight: 700;
+  font-size: 1.1rem;
+  padding: 6px 18px;
+  border-radius: 99px;
+  margin-top: 14px;
+}
+.grade-A { background: var(--green-light); color: var(--green); }
+.grade-B { background: var(--blue-light); color: var(--blue); }
+.grade-C { background: var(--amber-light); color: var(--amber); }
+.grade-D { background: var(--red-light); color: var(--red); }
+
+.breakdown-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  gap: 10px;
+  margin-bottom: 24px;
+}
+.breakdown-card {
+  background: white;
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 14px 16px;
+  text-align: center;
+}
+.breakdown-card .bd-score { font-family: 'Syne', sans-serif; font-weight: 800; font-size: 1.4rem; }
+.breakdown-card .bd-label { font-size: .75rem; color: var(--muted); margin-top: 3px; }
+.ai-feedback-box {
+  background: linear-gradient(135deg, #1c1c2e 0%, #1e3a5f 100%);
+  border-radius: 14px;
+  padding: 28px;
+  color: white;
+  margin-bottom: 20px;
+}
+.ai-feedback-box h3 { font-family: 'Syne', sans-serif; color: #93c5fd; margin-bottom: 6px; }
+.ai-feedback-box .ai-sub { color: rgba(255,255,255,.55); font-size: .83rem; margin-bottom: 18px; }
+.ai-fb-content { font-size: .88rem; line-height: 1.65; color: rgba(255,255,255,.85); min-height: 60px; }
+.ai-fb-content.loading { opacity: .5; font-style: italic; }
+
+/* ── DRAG MATCH (Q10) ── */
+.match-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+@media(max-width:520px) { .match-grid { grid-template-columns: 1fr; } }
+.match-q { display: flex; align-items: center; gap: 10px; margin-bottom: 8px; font-size: .88rem; }
+.match-q span { font-weight: 600; min-width: 18px; }
+
+/* ── WORD BOX ── */
+.word-box {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  background: #f9fafb;
+  border: 1px dashed var(--border);
+  border-radius: 8px;
+  padding: 12px;
+  margin-bottom: 16px;
+}
+.word-chip {
+  background: white;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 4px 12px;
+  font-size: .82rem;
+  font-weight: 600;
+  color: var(--ink);
+  font-family: 'Syne', sans-serif;
+}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="header-top">
+    <div class="roadmap-tag">Roadmap™ — Pearson Education</div>
+    <h1>A1 <span>Mid-course Test</span></h1>
+    <div class="header-meta">
+      <div class="meta-pill">📚 <strong>Units 1–5</strong></div>
+      <div class="meta-pill">⏱ <strong>45–60 min</strong></div>
+      <div class="meta-pill">🎯 <strong>100 marks total</strong></div>
+    </div>
+  </div>
+  <div class="progress-bar-wrap"><div class="progress-bar-fill" id="topProgress"></div></div>
+</header>
+
+<nav class="section-nav">
+  <div class="section-nav-inner">
+    <button class="nav-tab active" onclick="goSection(0)">Listening</button>
+    <button class="nav-tab" onclick="goSection(1)">Grammar</button>
+    <button class="nav-tab" onclick="goSection(2)">Vocabulary</button>
+    <button class="nav-tab" onclick="goSection(3)">Function</button>
+    <button class="nav-tab" onclick="goSection(4)">Reading</button>
+    <button class="nav-tab" onclick="goSection(5)">Writing</button>
+    <button class="nav-tab" onclick="goSection(6)" id="resultsTab" style="color:#d97706;">Results</button>
+  </div>
+</nav>
+
+<div class="page">
+
+<!-- ══════════ SECTION 0: LISTENING ══════════ -->
+<div class="test-section active" id="sec0">
+  <div class="section-header">
+    <div class="section-icon" style="background:#eff6ff;">🎧</div>
+    <div>
+      <div class="section-title">Listening</div>
+      <div class="section-marks">Questions 1–3 · 15 marks</div>
+    </div>
+  </div>
+
+  <div class="instructions">
+    <strong>Note:</strong> This is an interactive version of the test. The listening exercises have been adapted — read the information carefully and choose the best answers based on the text provided.
+  </div>
+
+  <!-- Q1 -->
+  <div class="q-card">
+    <div class="q-label">Exercise 1 · /5 marks</div>
+    <div class="q-text">Read the conversation summary and choose the correct answers.</div>
+    <div style="background:#f1f5f9; border-radius:8px; padding:14px 16px; font-size:.85rem; margin-bottom:16px; line-height:1.7;">
+      <strong>Recording 1 – Summary:</strong> Ellen meets her brother Thomas at the bus station. With them is Claudia, who is Ellen's university friend. They all study English together. Claudia is a nurse. Thomas is a student. Claudia's father works at the university. Ellen and Thomas take bus number 12.
+    </div>
+
+    <div class="q-text">1. Thomas is Ellen's ___.</div>
+    <div class="options" id="q1_1">
+      <label class="opt"><input type="radio" name="q1_1" value="a"> a) brother</label>
+      <label class="opt"><input type="radio" name="q1_1" value="b"> b) father</label>
+      <label class="opt"><input type="radio" name="q1_1" value="c"> c) friend</label>
+    </div>
+    <div class="q-feedback" id="fb_q1_1"></div>
+
+    <div class="q-text" style="margin-top:14px;">2. Ellen and Claudia study ___.</div>
+    <div class="options" id="q1_2">
+      <label class="opt"><input type="radio" name="q1_2" value="a"> a) at university</label>
+      <label class="opt"><input type="radio" name="q1_2" value="b"> b) Spanish</label>
+      <label class="opt"><input type="radio" name="q1_2" value="c"> c) English</label>
+    </div>
+    <div class="q-feedback" id="fb_q1_2"></div>
+
+    <div class="q-text" style="margin-top:14px;">3. Claudia is ___.</div>
+    <div class="options" id="q1_3">
+      <label class="opt"><input type="radio" name="q1_3" value="a"> a) a doctor</label>
+      <label class="opt"><input type="radio" name="q1_3" value="b"> b) a nurse</label>
+      <label class="opt"><input type="radio" name="q1_3" value="c"> c) an office worker</label>
+    </div>
+    <div class="q-feedback" id="fb_q1_3"></div>
+
+    <div class="q-text" style="margin-top:14px;">4. Thomas is ___.</div>
+    <div class="options" id="q1_4">
+      <label class="opt"><input type="radio" name="q1_4" value="a"> a) a teacher</label>
+      <label class="opt"><input type="radio" name="q1_4" value="b"> b) a student</label>
+      <label class="opt"><input type="radio" name="q1_4" value="c"> c) a bus driver</label>
+    </div>
+    <div class="q-feedback" id="fb_q1_4"></div>
+
+    <div class="q-text" style="margin-top:14px;">5. Claudia's ___ works at the university.</div>
+    <div class="options" id="q1_5">
+      <label class="opt"><input type="radio" name="q1_5" value="a"> a) mother</label>
+      <label class="opt"><input type="radio" name="q1_5" value="b"> b) father</label>
+      <label class="opt"><input type="radio" name="q1_5" value="c"> c) brother</label>
+    </div>
+    <div class="q-feedback" id="fb_q1_5"></div>
+
+    <div class="q-text" style="margin-top:14px;">6. Ellen and Thomas take bus number ___.</div>
+    <div class="options" id="q1_6">
+      <label class="opt"><input type="radio" name="q1_6" value="a"> a) 52</label>
+      <label class="opt"><input type="radio" name="q1_6" value="b"> b) 12</label>
+      <label class="opt"><input type="radio" name="q1_6" value="c"> c) 2</label>
+    </div>
+    <div class="q-feedback" id="fb_q1_6"></div>
+  </div>
+
+  <!-- Q2 -->
+  <div class="q-card">
+    <div class="q-label">Exercise 2 · /5 marks — True or False</div>
+    <div style="background:#f1f5f9; border-radius:8px; padding:14px 16px; font-size:.85rem; margin-bottom:16px; line-height:1.7;">
+      <strong>Recording 2 – Summary:</strong> Karl interviews Petra and her husband Jon (not Peter). Every morning Petra and Jon go to a café for breakfast — they don't eat at home. They walk to the café. They sometimes arrive late for work. They work Tuesday to Saturday. On Mondays they don't work and they get up late. They go running in the park on weekday mornings.
+    </div>
+
+    <div id="tf2">
+      <div class="tf-row"><span class="stmt">1. Karl talks to Petra and her husband, Jon.</span><div class="tf-btns"><button class="tf-btn" onclick="doTF(this,'q2_1','T')">T</button><button class="tf-btn" onclick="doTF(this,'q2_1','F')">F</button></div></div>
+      <div class="tf-row"><span class="stmt">2. Petra and Jon have breakfast in the café.</span><div class="tf-btns"><button class="tf-btn" onclick="doTF(this,'q2_2','T')">T</button><button class="tf-btn" onclick="doTF(this,'q2_2','F')">F</button></div></div>
+      <div class="tf-row"><span class="stmt">3. They take a bus to work.</span><div class="tf-btns"><button class="tf-btn" onclick="doTF(this,'q2_3','T')">T</button><button class="tf-btn" onclick="doTF(this,'q2_3','F')">F</button></div></div>
+      <div class="tf-row"><span class="stmt">4. They're sometimes late for work.</span><div class="tf-btns"><button class="tf-btn" onclick="doTF(this,'q2_4','T')">T</button><button class="tf-btn" onclick="doTF(this,'q2_4','F')">F</button></div></div>
+      <div class="tf-row"><span class="stmt">5. They work on Mondays.</span><div class="tf-btns"><button class="tf-btn" onclick="doTF(this,'q2_5','T')">T</button><button class="tf-btn" onclick="doTF(this,'q2_5','F')">F</button></div></div>
+      <div class="tf-row"><span class="stmt">6. Petra and Jon don't get up early on Mondays.</span><div class="tf-btns"><button class="tf-btn" onclick="doTF(this,'q2_6','T')">T</button><button class="tf-btn" onclick="doTF(this,'q2_6','F')">F</button></div></div>
+    </div>
+  </div>
+
+  <!-- Q3 -->
+  <div class="q-card">
+    <div class="q-label">Exercise 3 · /5 marks — Complete the sentences</div>
+    <p class="q-text">Complete each sentence with <strong>one word</strong> from the podcast summary above.</p>
+
+    <div style="display:flex; flex-direction:column; gap:10px;">
+      <div>1. Petra is Karl's sister's <input class="inline-input" id="q3_1" placeholder="word…">.</div>
+      <div>2. Petra and Jon leave the flat at <input class="inline-input" id="q3_2" placeholder="word…"> o'clock.</div>
+      <div>3. They <input class="inline-input" id="q3_3" placeholder="word…"> to the café.</div>
+      <div>4. On Sundays, Petra and Jon go to the <input class="inline-input" id="q3_4" placeholder="word…">.</div>
+      <div>5. Monday isn't a <input class="inline-input" id="q3_5" placeholder="word…"> day.</div>
+      <div>6. They <input class="inline-input" id="q3_6" placeholder="word…"> in the park.</div>
+    </div>
+  </div>
+
+  <div class="section-footer">
+    <button class="btn btn-check" onclick="checkSection(0)">Check Answers</button>
+    <button class="btn btn-primary" onclick="goSection(1)">Next: Grammar →</button>
+  </div>
+  <div id="secScore0" style="margin-top:10px; font-size:.85rem; color:var(--muted);"></div>
+</div>
+
+<!-- ══════════ SECTION 1: GRAMMAR ══════════ -->
+<div class="test-section" id="sec1">
+  <div class="section-header">
+    <div class="section-icon" style="background:#f5f3ff;">📝</div>
+    <div>
+      <div class="section-title">Grammar</div>
+      <div class="section-marks">Questions 4–6 · 20 marks</div>
+    </div>
+  </div>
+
+  <!-- Q4 -->
+  <div class="q-card">
+    <div class="q-label">Exercise 4 · /6 marks — Present Simple</div>
+    <p class="q-text">Complete the sentences with the correct <strong>present simple</strong> form of the verbs in brackets.</p>
+    <div style="display:flex; flex-direction:column; gap:10px;">
+      <div>1. They <input class="inline-input" id="q4_1" placeholder="(not, be)"> from Tokyo.</div>
+      <div>2. He <input class="inline-input" id="q4_2" placeholder="(have got)"> a new phone.</div>
+      <div>3. We <input class="inline-input" id="q4_3" placeholder="(not, have)"> breakfast in the café.</div>
+      <div>4. Stefan and Mark <input class="inline-input" id="q4_4" placeholder="(be)"> my good friends.</div>
+      <div>5. It <input class="inline-input" id="q4_5" placeholder="(not, be)"> a new bag.</div>
+      <div>6. My wife and I <input class="inline-input" id="q4_6" placeholder="(leave)"> home at 9 a.m.</div>
+      <div>7. She <input class="inline-input" id="q4_7" placeholder="(not, have got)"> blue eyes.</div>
+    </div>
+  </div>
+
+  <!-- Q5 -->
+  <div class="q-card">
+    <div class="q-label">Exercise 5 · /8 marks — Choose the correct alternative</div>
+    <div style="display:flex; flex-direction:column; gap:10px; font-size:.9rem;">
+      <div>1. A: <select class="inline-input" style="width:80px;" id="q5_1"><option value="">…</option><option>Has</option><option>Do</option></select> he got a passport? &nbsp; B: No, he <select class="inline-input" style="width:80px;" id="q5_1b"><option value="">…</option><option>has</option><option>hasn't</option></select>.</div>
+      <div>2. <select class="inline-input" style="width:60px;" id="q5_2"><option value="">…</option><option>Is</option><option>Are</option></select> there a cinema in your town?</div>
+      <div>3. What time <select class="inline-input" style="width:60px;" id="q5_3"><option value="">…</option><option>are</option><option>do</option></select> you go to work?</div>
+      <div>4. A: Is <select class="inline-input" style="width:70px;" id="q5_4"><option value="">…</option><option>that</option><option>those</option></select> Jo's bag? &nbsp; B: No, it's <select class="inline-input" style="width:60px;" id="q5_4b"><option value="">…</option><option>my</option><option>me</option></select> bag.</div>
+      <div>5. A: How <select class="inline-input" style="width:70px;" id="q5_5"><option value="">…</option><option>old</option><option>age</option></select> are you? &nbsp; B: I <select class="inline-input" style="width:80px;" id="q5_5b"><option value="">…</option><option>'ve got</option><option>'m</option></select> twenty five.</div>
+      <div>6. <select class="inline-input" style="width:60px;" id="q5_6"><option value="">…</option><option>Have</option><option>Do</option></select> you cycle to university?</div>
+    </div>
+  </div>
+
+  <!-- Q6 -->
+  <div class="q-card">
+    <div class="q-label">Exercise 6 · /6 marks — Correct the mistakes</div>
+    <p class="q-text">Each sentence has a mistake. Write the <strong>correct version</strong>.</p>
+    <div style="display:flex; flex-direction:column; gap:12px; font-size:.88rem;">
+      <div>
+        <div style="color:var(--muted); margin-bottom:4px;">❌ How many rooms there are?</div>
+        <input class="text-input" id="q6_1" placeholder="Write the correct sentence…">
+      </div>
+      <div>
+        <div style="color:var(--muted); margin-bottom:4px;">❌ We have always breakfast at 8 o'clock.</div>
+        <input class="text-input" id="q6_2" placeholder="Write the correct sentence…">
+      </div>
+      <div>
+        <div style="color:var(--muted); margin-bottom:4px;">❌ A coat take!</div>
+        <input class="text-input" id="q6_3" placeholder="Write the correct sentence…">
+      </div>
+      <div>
+        <div style="color:var(--muted); margin-bottom:4px;">❌ There's a hotel cheap near their house.</div>
+        <input class="text-input" id="q6_4" placeholder="Write the correct sentence…">
+      </div>
+      <div>
+        <div style="color:var(--muted); margin-bottom:4px;">❌ Often how do you go to the park?</div>
+        <input class="text-input" id="q6_5" placeholder="Write the correct sentence…">
+      </div>
+      <div>
+        <div style="color:var(--muted); margin-bottom:4px;">❌ There aren't no supermarkets near here.</div>
+        <input class="text-input" id="q6_6" placeholder="Write the correct sentence…">
+      </div>
+      <div>
+        <div style="color:var(--muted); margin-bottom:4px;">❌ Those are Rachel's fathers' books.</div>
+        <input class="text-input" id="q6_7" placeholder="Write the correct sentence…">
+      </div>
+    </div>
+  </div>
+
+  <div class="section-footer">
+    <button class="btn btn-ghost" onclick="goSection(0)">← Back</button>
+    <button class="btn btn-check" onclick="checkSection(1)">Check Answers</button>
+    <button class="btn btn-primary" onclick="goSection(2)">Next: Vocabulary →</button>
+  </div>
+  <div id="secScore1" style="margin-top:10px; font-size:.85rem; color:var(--muted);"></div>
+</div>
+
+<!-- ══════════ SECTION 2: VOCABULARY ══════════ -->
+<div class="test-section" id="sec2">
+  <div class="section-header">
+    <div class="section-icon" style="background:#f0fdf4;">🗂</div>
+    <div>
+      <div class="section-title">Vocabulary</div>
+      <div class="section-marks">Questions 7–9 · 20 marks</div>
+    </div>
+  </div>
+
+  <!-- Q7 -->
+  <div class="q-card">
+    <div class="q-label">Exercise 7 · /6 marks — Odd one out</div>
+    <p class="q-text">Choose the <strong>wrong word</strong> in each group (the one that doesn't belong).</p>
+    <div style="display:flex; flex-direction:column; gap:10px;">
+      <div>1. taxi / train / plane / drive &nbsp;→&nbsp; <input class="inline-input" id="q7_1" placeholder="odd word…"></div>
+      <div>2. address / expensive / bad / good &nbsp;→&nbsp; <input class="inline-input" id="q7_2" placeholder="odd word…"></div>
+      <div>3. chicken / coffee / salad / cakes &nbsp;→&nbsp; <input class="inline-input" id="q7_3" placeholder="odd word…"></div>
+      <div>4. flat / café / cinema / kitchen &nbsp;→&nbsp; <input class="inline-input" id="q7_4" placeholder="odd word…"></div>
+      <div>5. Spanish / Japanese / Thai / Canada &nbsp;→&nbsp; <input class="inline-input" id="q7_5" placeholder="odd word…"></div>
+      <div>6. nurse / doctor / wife / pilot &nbsp;→&nbsp; <input class="inline-input" id="q7_6" placeholder="odd word…"></div>
+      <div>7. twelve / brown / blonde / grey &nbsp;→&nbsp; <input class="inline-input" id="q7_7" placeholder="odd word…"></div>
+    </div>
+  </div>
+
+  <!-- Q8 -->
+  <div class="q-card">
+    <div class="q-label">Exercise 8 · /8 marks — Choose the correct word</div>
+    <div style="display:flex; flex-direction:column; gap:10px; font-size:.9rem;">
+      <div>1. I have breakfast and drink a cup of <select class="inline-input" style="width:90px;" id="q8_1"><option value="">…</option><option>sugar</option><option>tea</option></select>.</div>
+      <div>2. This is my <select class="inline-input" style="width:90px;" id="q8_2"><option value="">…</option><option>mother</option><option>sister</option></select>. I'm her daughter.</div>
+      <div>3. He's British. He's from the <select class="inline-input" style="width:60px;" id="q8_3"><option value="">…</option><option>UK</option><option>US</option></select>.</div>
+      <div>4. We <select class="inline-input" style="width:70px;" id="q8_4"><option value="">…</option><option>wear</option><option>put</option></select> hats and coats.</div>
+      <div>5. They <select class="inline-input" style="width:80px;" id="q8_5"><option value="">…</option><option>cycle</option><option>take</option></select> the train to work.</div>
+      <div>6. I take photos with my <select class="inline-input" style="width:80px;" id="q8_6"><option value="">…</option><option>camera</option><option>bag</option></select>.</div>
+      <div>7. This flat has got wifi / <select class="inline-input" style="width:100px;" id="q8_7"><option value="">…</option><option>wifi</option><option>a market</option></select>.</div>
+      <div>8. I get up at 7 a.m. and <select class="inline-input" style="width:60px;" id="q8_8"><option value="">…</option><option>go</option><option>leave</option></select> to bed at 10 p.m.</div>
+      <div>9. On Saturdays, I <select class="inline-input" style="width:80px;" id="q8_9"><option value="">…</option><option>watch</option><option>have</option></select> TV.</div>
+    </div>
+  </div>
+
+  <!-- Q9 -->
+  <div class="q-card">
+    <div class="q-label">Exercise 9 · /6 marks — Complete the sentences</div>
+    <p class="q-text">Complete each sentence. The <strong>first letter</strong> of the missing word is given.</p>
+    <div style="display:flex; flex-direction:column; gap:10px; font-size:.88rem; line-height:1.8;">
+      <div>1. She's from Istanbul in Turkey. She's <strong>T</strong><input class="inline-input" id="q9_1" placeholder="urkish…" style="min-width:80px;">.</div>
+      <div>2. They're parents. Those are their daughters and that's their <strong>s</strong><input class="inline-input" id="q9_2" placeholder="on…" style="min-width:60px;">.</div>
+      <div>3. That clock isn't cheap. It's <strong>e</strong><input class="inline-input" id="q9_3" placeholder="xpensive…" style="min-width:100px;">.</div>
+      <div>4. On Mondays I go to English class and on <strong>W</strong><input class="inline-input" id="q9_4" placeholder="ednesdays…" style="min-width:110px;"> I play football.</div>
+      <div>5. There's a new oven in the <strong>k</strong><input class="inline-input" id="q9_5" placeholder="itchen…" style="min-width:80px;">.</div>
+      <div>6. We pay at the supermarket with our <strong>c</strong><input class="inline-input" id="q9_6a" placeholder="redit…" style="min-width:70px;"> <strong>c</strong><input class="inline-input" id="q9_6b" placeholder="ard…" style="min-width:60px;">.</div>
+      <div>7. Take a <strong>t</strong><input class="inline-input" id="q9_7" placeholder="axi…" style="min-width:60px;"> to the station.</div>
+    </div>
+  </div>
+
+  <div class="section-footer">
+    <button class="btn btn-ghost" onclick="goSection(1)">← Back</button>
+    <button class="btn btn-check" onclick="checkSection(2)">Check Answers</button>
+    <button class="btn btn-primary" onclick="goSection(3)">Next: Function →</button>
+  </div>
+  <div id="secScore2" style="margin-top:10px; font-size:.85rem; color:var(--muted);"></div>
+</div>
+
+<!-- ══════════ SECTION 3: FUNCTION ══════════ -->
+<div class="test-section" id="sec3">
+  <div class="section-header">
+    <div class="section-icon" style="background:#fff7ed;">💬</div>
+    <div>
+      <div class="section-title">Function</div>
+      <div class="section-marks">Question 10 · 15 marks</div>
+    </div>
+  </div>
+
+  <div class="q-card">
+    <div class="q-label">Exercise 10 · /15 marks</div>
+    <p class="q-text">Complete the questions with words from the box. Then match each question (1–8) with the correct reply (a–h).</p>
+
+    <div class="word-box">
+      <span class="word-chip">How much</span>
+      <span class="word-chip">phone</span>
+      <span class="word-chip">spell</span>
+      <span class="word-chip">time</span>
+      <span class="word-chip">What</span>
+      <span class="word-chip">Where's</span>
+      <span class="word-chip">would</span>
+    </div>
+
+    <div style="font-size:.88rem; margin-bottom:14px; color:var(--muted);">Part A — Fill the missing word in each question:</div>
+    <div style="display:flex; flex-direction:column; gap:9px; margin-bottom:20px;">
+      <div>1. What's your <input class="inline-input" id="q10_1" placeholder="word…"> number?</div>
+      <div>2. <input class="inline-input" id="q10_2" placeholder="word…"> are those bags?</div>
+      <div>3. Excuse me. <input class="inline-input" id="q10_3" placeholder="word…"> the park, please?</div>
+      <div>4. What <input class="inline-input" id="q10_4" placeholder="word…"> is it?</div>
+      <div>5. What <input class="inline-input" id="q10_5" placeholder="word…"> you like?</div>
+      <div>6. What <input class="inline-input" id="q10_6" placeholder="word…"> is the train to Oxford?</div>
+      <div>7. How <input class="inline-input" id="q10_7" placeholder="word…"> is that?</div>
+      <div>8. How do you <input class="inline-input" id="q10_8" placeholder="word…"> your first name?</div>
+    </div>
+
+    <div style="font-size:.88rem; margin-bottom:10px; color:var(--muted);">Part B — Match each question (1–8) with the reply (a–h):</div>
+    <div style="background:#f9fafb; border-radius:8px; padding:14px 16px; font-size:.85rem; margin-bottom:14px;">
+      <div><strong>a.</strong> I-S-A-O. Isao. &nbsp;&nbsp; <strong>b.</strong> It's half past four. &nbsp;&nbsp; <strong>c.</strong> They're £12.99.</div>
+      <div style="margin-top:6px;"><strong>d.</strong> Go down Main Road and it's next to the station. &nbsp;&nbsp; <strong>e.</strong> It's at six o'clock.</div>
+      <div style="margin-top:6px;"><strong>f.</strong> I'd like a coffee, please. &nbsp;&nbsp; <strong>g.</strong> My number is 0330-213-5467. &nbsp;&nbsp; <strong>h.</strong> It's £3.20.</div>
+    </div>
+    <div style="display:grid; grid-template-columns: repeat(4,1fr); gap:8px;">
+      <div>1 → <select class="inline-input" style="width:50px;" id="m10_1"><option value="">?</option><option>a</option><option>b</option><option>c</option><option>d</option><option>e</option><option>f</option><option>g</option><option>h</option></select></div>
+      <div>2 → <select class="inline-input" style="width:50px;" id="m10_2"><option value="">?</option><option>a</option><option>b</option><option>c</option><option>d</option><option>e</option><option>f</option><option>g</option><option>h</option></select></div>
+      <div>3 → <select class="inline-input" style="width:50px;" id="m10_3"><option value="">?</option><option>a</option><option>b</option><option>c</option><option>d</option><option>e</option><option>f</option><option>g</option><option>h</option></select></div>
+      <div>4 → <select class="inline-input" style="width:50px;" id="m10_4"><option value="">?</option><option>a</option><option>b</option><option>c</option><option>d</option><option>e</option><option>f</option><option>g</option><option>h</option></select></div>
+      <div>5 → <select class="inline-input" style="width:50px;" id="m10_5"><option value="">?</option><option>a</option><option>b</option><option>c</option><option>d</option><option>e</option><option>f</option><option>g</option><option>h</option></select></div>
+      <div>6 → <select class="inline-input" style="width:50px;" id="m10_6"><option value="">?</option><option>a</option><option>b</option><option>c</option><option>d</option><option>e</option><option>f</option><option>g</option><option>h</option></select></div>
+      <div>7 → <select class="inline-input" style="width:50px;" id="m10_7"><option value="">?</option><option>a</option><option>b</option><option>c</option><option>d</option><option>e</option><option>f</option><option>g</option><option>h</option></select></div>
+      <div>8 → <select class="inline-input" style="width:50px;" id="m10_8"><option value="">?</option><option>a</option><option>b</option><option>c</option><option>d</option><option>e</option><option>f</option><option>g</option><option>h</option></select></div>
+    </div>
+  </div>
+
+  <div class="section-footer">
+    <button class="btn btn-ghost" onclick="goSection(2)">← Back</button>
+    <button class="btn btn-check" onclick="checkSection(3)">Check Answers</button>
+    <button class="btn btn-primary" onclick="goSection(4)">Next: Reading →</button>
+  </div>
+  <div id="secScore3" style="margin-top:10px; font-size:.85rem; color:var(--muted);"></div>
+</div>
+
+<!-- ══════════ SECTION 4: READING ══════════ -->
+<div class="test-section" id="sec4">
+  <div class="section-header">
+    <div class="section-icon" style="background:#fef3c7;">📖</div>
+    <div>
+      <div class="section-title">Reading</div>
+      <div class="section-marks">Questions 11–12 · 15 marks</div>
+    </div>
+  </div>
+
+  <div class="reading-grid">
+    <div class="reading-box">
+      <h4>Email from Paula</h4>
+      Hi Lupe,<br>I'm from a small town in Spain. My dad is a farmer and my mum is a nurse. My two sisters go to university. I study English at a school on Mondays, Wednesdays and Fridays from 6.30 to 8.30. On Saturdays, I always go to the cinema with my friends. On Sundays, I sometimes go to the park with my sisters and take photos. I've got a good camera.<br><br>See you! Paula
+    </div>
+    <div class="reading-box" style="border-left-color: #7c3aed;">
+      <h4>Email from Lupe</h4>
+      Hi Paula,<br>Thanks for your email. I'm from a big city in Mexico. My mother is a school teacher and my father is a taxi driver. I haven't got any brothers and sisters. I go to English class from 4.30 to 6.30 on Mondays, Tuesdays and Saturdays. I work on Sundays in an office. I take photos but I haven't got a good camera. It's old. Sometimes I play football with my friends.<br><br>Bye! Lupe
+    </div>
+  </div>
+
+  <!-- Q11 -->
+  <div class="q-card">
+    <div class="q-label">Exercise 11 · /5 marks — Choose the correct name</div>
+    <div style="display:flex; flex-direction:column; gap:10px; font-size:.9rem;">
+      <div>1. <select class="inline-input" id="q11_1" style="width:90px;"><option value="">…</option><option>Paula</option><option>Lupe</option></select> is from a small town.</div>
+      <div>2. <select class="inline-input" id="q11_2" style="width:90px;"><option value="">…</option><option>Paula</option><option>Lupe</option></select> is Mexican.</div>
+      <div>3. <select class="inline-input" id="q11_3" style="width:90px;"><option value="">…</option><option>Paula's</option><option>Lupe's</option></select> mother is a nurse.</div>
+      <div>4. <select class="inline-input" id="q11_4" style="width:90px;"><option value="">…</option><option>Paula</option><option>Lupe</option></select> hasn't got a sister.</div>
+      <div>5. <select class="inline-input" id="q11_5" style="width:90px;"><option value="">…</option><option>Paula's</option><option>Lupe's</option></select> English class is from 4.30 to 6.30.</div>
+      <div>6. <select class="inline-input" id="q11_6" style="width:90px;"><option value="">…</option><option>Paula</option><option>Lupe</option></select> and her friends play football.</div>
+    </div>
+  </div>
+
+  <!-- Q12 -->
+  <div class="q-card">
+    <div class="q-label">Exercise 12 · /10 marks — True or False</div>
+    <div id="tf12">
+      <div class="tf-row"><span class="stmt">1. Paula's dad is a taxi driver.</span><div class="tf-btns"><button class="tf-btn" onclick="doTF(this,'q12_1','T')">T</button><button class="tf-btn" onclick="doTF(this,'q12_1','F')">F</button></div></div>
+      <div class="tf-row"><span class="stmt">2. Paula's sisters go to university.</span><div class="tf-btns"><button class="tf-btn" onclick="doTF(this,'q12_2','T')">T</button><button class="tf-btn" onclick="doTF(this,'q12_2','F')">F</button></div></div>
+      <div class="tf-row"><span class="stmt">3. Paula and her friends always go to the café.</span><div class="tf-btns"><button class="tf-btn" onclick="doTF(this,'q12_3','T')">T</button><button class="tf-btn" onclick="doTF(this,'q12_3','F')">F</button></div></div>
+      <div class="tf-row"><span class="stmt">4. Paula always goes to the park on Sundays.</span><div class="tf-btns"><button class="tf-btn" onclick="doTF(this,'q12_4','T')">T</button><button class="tf-btn" onclick="doTF(this,'q12_4','F')">F</button></div></div>
+      <div class="tf-row"><span class="stmt">5. Paula's sisters don't go to the park.</span><div class="tf-btns"><button class="tf-btn" onclick="doTF(this,'q12_5','T')">T</button><button class="tf-btn" onclick="doTF(this,'q12_5','F')">F</button></div></div>
+      <div class="tf-row"><span class="stmt">6. Lupe's mother is a school teacher.</span><div class="tf-btns"><button class="tf-btn" onclick="doTF(this,'q12_6','T')">T</button><button class="tf-btn" onclick="doTF(this,'q12_6','F')">F</button></div></div>
+      <div class="tf-row"><span class="stmt">7. Lupe's father is a farmer.</span><div class="tf-btns"><button class="tf-btn" onclick="doTF(this,'q12_7','T')">T</button><button class="tf-btn" onclick="doTF(this,'q12_7','F')">F</button></div></div>
+      <div class="tf-row"><span class="stmt">8. Lupe has got one brother.</span><div class="tf-btns"><button class="tf-btn" onclick="doTF(this,'q12_8','T')">T</button><button class="tf-btn" onclick="doTF(this,'q12_8','F')">F</button></div></div>
+      <div class="tf-row"><span class="stmt">9. Lupe has got an old camera.</span><div class="tf-btns"><button class="tf-btn" onclick="doTF(this,'q12_9','T')">T</button><button class="tf-btn" onclick="doTF(this,'q12_9','F')">F</button></div></div>
+      <div class="tf-row"><span class="stmt">10. Paula and Lupe study English on Fridays.</span><div class="tf-btns"><button class="tf-btn" onclick="doTF(this,'q12_10','T')">T</button><button class="tf-btn" onclick="doTF(this,'q12_10','F')">F</button></div></div>
+      <div class="tf-row"><span class="stmt">11. Paula and Lupe take photos.</span><div class="tf-btns"><button class="tf-btn" onclick="doTF(this,'q12_11','T')">T</button><button class="tf-btn" onclick="doTF(this,'q12_11','F')">F</button></div></div>
+    </div>
+  </div>
+
+  <div class="section-footer">
+    <button class="btn btn-ghost" onclick="goSection(3)">← Back</button>
+    <button class="btn btn-check" onclick="checkSection(4)">Check Answers</button>
+    <button class="btn btn-primary" onclick="goSection(5)">Next: Writing →</button>
+  </div>
+  <div id="secScore4" style="margin-top:10px; font-size:.85rem; color:var(--muted);"></div>
+</div>
+
+<!-- ══════════ SECTION 5: WRITING ══════════ -->
+<div class="test-section" id="sec5">
+  <div class="section-header">
+    <div class="section-icon" style="background:#fdf4ff;">✍️</div>
+    <div>
+      <div class="section-title">Writing</div>
+      <div class="section-marks">Questions 13–14 · 15 marks</div>
+    </div>
+  </div>
+
+  <!-- Q13 -->
+  <div class="q-card">
+    <div class="q-label">Exercise 13 · /5 marks — Correct the punctuation</div>
+    <p class="q-text">Each sentence has a punctuation mistake. Write the <strong>correct version</strong>.</p>
+    <div style="display:flex; flex-direction:column; gap:12px; font-size:.88rem;">
+      <div>
+        <div style="color:var(--muted); margin-bottom:4px;">❌ Dont take photos at the museum.</div>
+        <input class="text-input" id="q13_1" placeholder="Correct version…">
+      </div>
+      <div>
+        <div style="color:var(--muted); margin-bottom:4px;">❌ He's Stefans brother.</div>
+        <input class="text-input" id="q13_2" placeholder="Correct version…">
+      </div>
+      <div>
+        <div style="color:var(--muted); margin-bottom:4px;">❌ Have you got a car</div>
+        <input class="text-input" id="q13_3" placeholder="Correct version…">
+      </div>
+      <div>
+        <div style="color:var(--muted); margin-bottom:4px;">❌ The parks got a swimming pool.</div>
+        <input class="text-input" id="q13_4" placeholder="Correct version…">
+      </div>
+      <div>
+        <div style="color:var(--muted); margin-bottom:4px;">❌ They've got sandwiches cakes and drinks.</div>
+        <input class="text-input" id="q13_5" placeholder="Correct version…">
+      </div>
+      <div>
+        <div style="color:var(--muted); margin-bottom:4px;">❌ Weve got salad and bread.</div>
+        <input class="text-input" id="q13_6" placeholder="Correct version…">
+      </div>
+    </div>
+  </div>
+
+  <!-- Q14 -->
+  <div class="q-card">
+    <div class="q-label">Exercise 14 · /10 marks — Write a message</div>
+    <div class="instructions" style="margin-bottom:14px;">
+      You are in the park with some friends. Write a message to another friend.<br>
+      <strong>Tell them:</strong> where you are · where the park is · who you are with · what you have got to eat and drink<br>
+      <strong>Ask them:</strong> what time they can get to the park · what things they have got<br>
+      <strong>Write 50–70 words.</strong>
+    </div>
+    <textarea class="writing-area" id="q14" placeholder="Write your message here (50–70 words)…" oninput="updateWordCount()"></textarea>
+    <div class="word-count" id="wordCount">0 words (target: 50–70)</div>
+  </div>
+
+  <div class="section-footer">
+    <button class="btn btn-ghost" onclick="goSection(4)">← Back</button>
+    <button class="btn btn-check" onclick="checkSection(5)">Check Answers</button>
+    <button class="btn btn-primary" onclick="submitTest()" style="background:var(--green);">🎯 Submit Test & Get Results</button>
+  </div>
+  <div id="secScore5" style="margin-top:10px; font-size:.85rem; color:var(--muted);"></div>
+</div>
+
+<!-- ══════════ RESULTS ══════════ -->
+<div class="test-section" id="sec6">
+  <div class="results-hero">
+    <div class="results-emoji" id="resultsEmoji">🎓</div>
+    <div class="results-score" id="resultsScore">–</div>
+    <div class="results-label">out of 100 marks</div>
+    <div class="results-grade" id="resultsGrade"></div>
+  </div>
+
+  <div class="breakdown-grid" id="breakdownGrid"></div>
+
+  <div class="ai-feedback-box">
+    <h3>🤖 AI Feedback &amp; Tips</h3>
+    <p class="ai-sub">Personalised feedback based on your answers — powered by Claude</p>
+    <div class="ai-fb-content loading" id="aiFeedback">Generating your personalised feedback…</div>
+  </div>
+
+  <div class="q-card" id="writingFeedbackCard" style="display:none;">
+    <div class="q-label">✍️ Writing Feedback (Exercise 14)</div>
+    <div id="writingFeedback" style="font-size:.88rem; line-height:1.65;"></div>
+  </div>
+
+  <div style="text-align:center; margin-top:24px;">
+    <button class="btn btn-ghost" onclick="location.reload()">↺ Retake Test</button>
+  </div>
+</div>
+
+</div><!-- end .page -->
+
+<script>
+// ─────────────────────────────────────────────
+// ANSWER KEY
+// ─────────────────────────────────────────────
+const ANSWERS = {
+  // Q1 radio (Recording 1)
+  q1_1: 'a', q1_2: 'c', q1_3: 'b', q1_4: 'b', q1_5: 'b', q1_6: 'b',
+  // Q2 T/F
+  q2_1:'T', q2_2:'T', q2_3:'F', q2_4:'T', q2_5:'F', q2_6:'T',
+  // Q3 text
+  q3_1:'friend', q3_2:'seven', q3_3:'walk', q3_4:'cinema', q3_5:'work', q3_6:'run',
+  // Q4 text
+  q4_1:"aren't", q4_2:"has got", q4_3:"don't have", q4_4:"are", q4_5:"isn't", q4_6:"leave", q4_7:"hasn't got",
+  // Q5 select
+  q5_1:'Has', q5_1b:"hasn't", q5_2:'Is', q5_3:'do', q5_4:'that', q5_4b:'my', q5_5:'old', q5_5b:"'m", q5_6:'Do',
+  // Q6 text (key phrases)
+  q6_1:'how many rooms are there', q6_2:'we always have breakfast', q6_3:'take a coat', q6_4:"there's a cheap hotel", q6_5:'how often do you go', q6_6:"there aren't any supermarkets", q6_7:"rachel's father's books",
+  // Q7 odd one out
+  q7_1:'drive', q7_2:'address', q7_3:'coffee', q7_4:'kitchen', q7_5:'canada', q7_6:'wife', q7_7:'twelve',
+  // Q8 select
+  q8_1:'tea', q8_2:'mother', q8_3:'UK', q8_4:'wear', q8_5:'take', q8_6:'camera', q8_7:'wifi', q8_8:'go', q8_9:'watch',
+  // Q9 text
+  q9_1:'turkish', q9_2:'son', q9_3:'expensive', q9_4:'wednesdays', q9_5:'kitchen', q9_6a:'credit', q9_6b:'card', q9_7:'taxi',
+  // Q10 fill words
+  q10_1:'phone', q10_2:'how much', q10_3:"where's", q10_4:'time', q10_5:'would', q10_6:'time', q10_7:'much', q10_8:'spell',
+  // Q10 matches
+  m10_1:'g', m10_2:'c', m10_3:'d', m10_4:'b', m10_5:'f', m10_6:'e', m10_7:'h', m10_8:'a',
+  // Q11
+  q11_1:'Paula', q11_2:'Lupe', q11_3:"Paula's", q11_4:'Lupe', q11_5:"Lupe's", q11_6:'Lupe',
+  // Q12 T/F
+  q12_1:'F', q12_2:'T', q12_3:'F', q12_4:'F', q12_5:'F', q12_6:'T', q12_7:'F', q12_8:'F', q12_9:'T', q12_10:'F', q12_11:'T',
+  // Q13 punctuation
+  q13_1:"don't take photos at the museum", q13_2:"he's stefan's brother", q13_3:"have you got a car?", q13_4:"the park's got a swimming pool", q13_5:"they've got sandwiches, cakes and drinks", q13_6:"we've got salad and bread",
+};
+
+// scores per section [earned, total]
+const sectionScores = [0,0,0,0,0,0];
+const sectionTotals = [15, 20, 20, 15, 15, 15]; // writing section gets manual 10 + auto 5
+let tfAnswers = {};
+let currentSection = 0;
+
+// ─── NAVIGATION ───
+function goSection(n) {
+  document.querySelectorAll('.test-section').forEach((s,i) => s.classList.toggle('active', i===n));
+  document.querySelectorAll('.nav-tab').forEach((t,i) => t.classList.toggle('active', i===n));
+  currentSection = n;
+  window.scrollTo({ top: 0, behavior: 'smooth' });
+  updateProgress();
+}
+
+function updateProgress() {
+  const pct = Math.round((currentSection / 6) * 100);
+  document.getElementById('topProgress').style.width = pct + '%';
+}
+
+// ─── T/F ───
+function doTF(btn, key, val) {
+  const row = btn.closest('.tf-row');
+  row.querySelectorAll('.tf-btn').forEach(b => { b.classList.remove('selected-t','selected-f'); });
+  btn.classList.add(val==='T' ? 'selected-t' : 'selected-f');
+  tfAnswers[key] = val;
+}
+
+// ─── WORD COUNT ───
+function updateWordCount() {
+  const txt = document.getElementById('q14').value.trim();
+  const count = txt ? txt.split(/\s+/).length : 0;
+  const el = document.getElementById('wordCount');
+  el.textContent = `${count} words (target: 50–70)`;
+  el.className = 'word-count' + (count >= 50 && count <= 70 ? ' ok' : count > 70 ? ' over' : '');
+}
+
+// ─── CHECK HELPERS ───
+function normalize(s) { return s.toLowerCase().trim().replace(/['.!?,]/g,'').replace(/\s+/g,' '); }
+function checkText(id, answerKey) {
+  const el = document.getElementById(id);
+  if (!el) return 0;
+  const val = normalize(el.value);
+  const ans = normalize(ANSWERS[answerKey] || '');
+  // partial match: student answer includes key phrase
+  const correct = val === ans || val.includes(ans) || ans.includes(val) && val.length > 2;
+  el.classList.toggle('correct', correct);
+  el.classList.toggle('wrong', !correct && val.length > 0);
+  return correct ? 1 : 0;
+}
+function checkSelect(id, answerKey) {
+  const el = document.getElementById(id);
+  if (!el) return 0;
+  const val = el.value.toLowerCase().trim();
+  const ans = (ANSWERS[answerKey]||'').toLowerCase().trim();
+  const correct = val === ans;
+  el.classList.toggle('correct', correct);
+  el.classList.toggle('wrong', !correct && val !== '');
+  return correct ? 1 : 0;
+}
+function checkRadio(name, answerKey) {
+  const selected = document.querySelector(`input[name="${name}"]:checked`);
+  const val = selected ? selected.value : '';
+  const correct = val === ANSWERS[answerKey];
+  if (selected) {
+    const label = selected.closest('.opt');
+    label.classList.toggle('correct', correct);
+    label.classList.toggle('wrong', !correct);
+  }
+  // reveal correct
+  if (!correct) {
+    document.querySelectorAll(`input[name="${name}"]`).forEach(r => {
+      if (r.value === ANSWERS[answerKey]) r.closest('.opt').classList.add('reveal-correct');
+    });
+  }
+  return correct ? 1 : 0;
+}
+function checkTF(key, answerKey) {
+  const userAns = tfAnswers[key];
+  const correct = userAns === ANSWERS[answerKey];
+  // find the buttons for this key
+  document.querySelectorAll('.tf-btn').forEach(btn => {
+    const row = btn.closest('.tf-row');
+    const onclick = btn.getAttribute('onclick');
+    if (onclick && onclick.includes(`'${key}'`)) {
+      const btnVal = onclick.includes(",'T')") ? 'T' : 'F';
+      const isCorrectBtn = btnVal === ANSWERS[answerKey];
+      const isSelected = btnVal === userAns;
+      btn.classList.remove('selected-t','selected-f','corr','err');
+      if (isCorrectBtn) btn.classList.add('corr');
+      else if (isSelected && !isCorrectBtn) btn.classList.add('err');
+    }
+  });
+  return correct ? 1 : 0;
+}
+
+// ─── CHECK SECTIONS ───
+function checkSection(n) {
+  let score = 0, total = 0;
+
+  if (n === 0) { // Listening
+    ['q1_1','q1_2','q1_3','q1_4','q1_5','q1_6'].forEach(k => { score += checkRadio(k,k); total++; });
+    ['q2_1','q2_2','q2_3','q2_4','q2_5','q2_6'].forEach(k => { score += checkTF(k,k); total++; });
+    ['q3_1','q3_2','q3_3','q3_4','q3_5','q3_6'].forEach(k => { score += checkText(k,k); total++; });
+  }
+  if (n === 1) { // Grammar
+    ['q4_1','q4_2','q4_3','q4_4','q4_5','q4_6','q4_7'].forEach(k => { score += checkText(k,k); total++; });
+    ['q5_1','q5_1b','q5_2','q5_3','q5_4','q5_4b','q5_5','q5_5b','q5_6'].forEach(k => { score += checkSelect(k,k); total++; });
+    ['q6_1','q6_2','q6_3','q6_4','q6_5','q6_6','q6_7'].forEach(k => { score += checkText(k,k); total++; });
+  }
+  if (n === 2) { // Vocabulary
+    ['q7_1','q7_2','q7_3','q7_4','q7_5','q7_6','q7_7'].forEach(k => { score += checkText(k,k); total++; });
+    ['q8_1','q8_2','q8_3','q8_4','q8_5','q8_6','q8_7','q8_8','q8_9'].forEach(k => { score += checkSelect(k,k); total++; });
+    ['q9_1','q9_2','q9_3','q9_4','q9_5','q9_6a','q9_6b','q9_7'].forEach(k => { score += checkText(k,k); total++; });
+  }
+  if (n === 3) { // Function
+    ['q10_1','q10_2','q10_3','q10_4','q10_5','q10_6','q10_7','q10_8'].forEach(k => { score += checkText(k,k); total++; });
+    ['m10_1','m10_2','m10_3','m10_4','m10_5','m10_6','m10_7','m10_8'].forEach(k => { score += checkSelect(k,k); total++; });
+  }
+  if (n === 4) { // Reading
+    ['q11_1','q11_2','q11_3','q11_4','q11_5','q11_6'].forEach(k => { score += checkSelect(k,k); total++; });
+    ['q12_1','q12_2','q12_3','q12_4','q12_5','q12_6','q12_7','q12_8','q12_9','q12_10','q12_11'].forEach(k => { score += checkTF(k,k); total++; });
+  }
+  if (n === 5) { // Writing
+    ['q13_1','q13_2','q13_3','q13_4','q13_5','q13_6'].forEach(k => { score += checkText(k,k); total++; });
+    // Writing Q14 scored by AI
+  }
+
+  sectionScores[n] = score;
+  const label = document.getElementById('secScore' + n);
+  if (label) label.textContent = `✅ Section score: ${score} / ${total} (auto-checked items)`;
+  document.querySelectorAll('.nav-tab')[n].classList.add('done');
+}
+
+// ─── SUBMIT ───
+async function submitTest() {
+  // Check all sections first
+  for (let i = 0; i < 6; i++) checkSection(i);
+  goSection(6);
+
+  // Calculate scores scaled to marks
+  // Listening: 18 items → 15 marks; Grammar: 23 items → 20 marks; Vocab: 24 items → 20 marks
+  // Function: 16 items → 15 marks; Reading: 17 items → 15 marks; Writing: 6 auto + 10 AI = 15
+  const listening = Math.round((sectionScores[0] / 18) * 15);
+  const grammar   = Math.round((sectionScores[1] / 23) * 20);
+  const vocab     = Math.round((sectionScores[2] / 24) * 20);
+  const func      = Math.round((sectionScores[3] / 16) * 15);
+  const reading   = Math.round((sectionScores[4] / 17) * 15);
+  const writingAuto = Math.round((sectionScores[5] / 6) * 5);
+  const writingAI = 0; // AI will assess
+  const total = listening + grammar + vocab + func + reading + writingAuto;
+
+  document.getElementById('resultsScore').textContent = total;
+  const emoji = total >= 80 ? '🏆' : total >= 60 ? '🎉' : total >= 40 ? '👍' : '📚';
+  document.getElementById('resultsEmoji').textContent = emoji;
+  const grade = total >= 80 ? {cls:'grade-A', txt:'Excellent — A'} : total >= 65 ? {cls:'grade-B', txt:'Good — B'} : total >= 50 ? {cls:'grade-C', txt:'Pass — C'} : {cls:'grade-D', txt:'Needs Work — D'};
+  const gr = document.getElementById('resultsGrade');
+  gr.textContent = grade.txt;
+  gr.className = 'results-grade ' + grade.cls;
+
+  document.getElementById('breakdownGrid').innerHTML = [
+    ['🎧 Listening', listening, 15],
+    ['📝 Grammar', grammar, 20],
+    ['🗂 Vocabulary', vocab, 20],
+    ['💬 Function', func, 15],
+    ['📖 Reading', reading, 15],
+    ['✍️ Writing (auto)', writingAuto, 5],
+  ].map(([l,s,t]) => `<div class="breakdown-card">
+    <div class="bd-score" style="color:${s/t>=0.7?'var(--green)':s/t>=0.5?'var(--blue)':'var(--red)'}">${s}/${t}</div>
+    <div class="bd-label">${l}</div>
+  </div>`).join('');
+
+  // AI feedback
+  const writingText = document.getElementById('q14').value.trim();
+  const systemPrompt = `You are an expert EFL teacher giving feedback on an A1 English test (Roadmap, Units 1–5). Be warm, encouraging, and specific. Keep total response under 200 words. Structure as:
+1. Overall comment (1–2 sentences)
+2. Strengths (1–2 bullet points)
+3. Areas to improve (1–2 bullet points)
+4. One specific grammar tip relevant to A1 level`;
+
+  const userMsg = `Student results: Listening ${listening}/15, Grammar ${grammar}/20, Vocabulary ${vocab}/20, Function ${func}/15, Reading ${reading}/15, Writing punctuation ${writingAuto}/5. Total (excl full writing): ${total}/90.
+
+Their writing sample (Exercise 14): "${writingText || '(left blank)'}"
+
+Give personalised feedback.`;
+
+  try {
+    const res = await fetch('https://api.anthropic.com/v1/messages', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({
+        model: 'claude-sonnet-4-6',
+        max_tokens: 1000,
+        system: systemPrompt,
+        messages: [{ role: 'user', content: userMsg }]
+      })
+    });
+    const data = await res.json();
+    const fb = data.content?.map(c => c.text||'').join('') || '';
+    document.getElementById('aiFeedback').className = 'ai-fb-content';
+    document.getElementById('aiFeedback').innerHTML = fb.replace(/\n/g,'<br>').replace(/\*\*(.*?)\*\*/g,'<strong>$1</strong>');
+
+    // Writing feedback
+    if (writingText) {
+      document.getElementById('writingFeedbackCard').style.display = 'block';
+      const wRes = await fetch('https://api.anthropic.com/v1/messages', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          model: 'claude-sonnet-4-6',
+          max_tokens: 1000,
+          system: 'You are an A1 EFL teacher. Mark the student writing out of 10 and give specific feedback on: content (did they include all required points?), grammar, vocabulary, and punctuation. Keep it under 150 words. End with a mark: X/10.',
+          messages: [{ role: 'user', content: `Task: Write a message (50-70 words) to a friend from the park, telling them where you are, where the park is, who you are with, what food/drink you have, and asking what time they can arrive and what they have.\n\nStudent's writing: "${writingText}"` }]
+        })
+      });
+      const wData = await wRes.json();
+      const wFb = wData.content?.map(c=>c.text||'').join('') || '';
+      document.getElementById('writingFeedback').innerHTML = wFb.replace(/\n/g,'<br>');
+    }
+  } catch(e) {
+    document.getElementById('aiFeedback').className = 'ai-fb-content';
+    document.getElementById('aiFeedback').textContent = 'Could not load AI feedback. Please check your connection.';
+  }
+}
+</script>
+</body>
+</html>
