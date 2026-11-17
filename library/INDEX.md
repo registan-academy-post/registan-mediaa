@@ -23,6 +23,4 @@ Uslub g'oyalari:
 - 03_placement_test — bepul daraja aniqlash testi
 - 04_ota_onalar_yigilishi — ota-onalar yig'ilishi (sana yo'q, matnda yoziladi)
 - 05_missiyamiz — Registan missiyasi
-- 06_ielts_qabul_ochiq — Mr Johns bilan IELTS/General English qabul
-- 07_ingliz_tili_white — Beginner/Elementary qabul, oq uslub
 - 08_kurslar_banner — kurslar ro'yxati banneri (2:1)
