@@ -20,7 +20,9 @@ Egasi "post" yoki "kanal yuritish" deganda shu loyihani nazarda tutadi: @Regista
 - Testlar kanalda 5 ta poll emas: botda o'tadi, kanalga e'lon va natija chiqadi.
 
 ## Test boti
-- @RegistanAcademyYordamchiBot, kod: bot/ (README ichida). Du matematika, Chor ingliz tili, Ju rus tili (17-noyabrdan; egasi ingliz tilini chorshanbaga o'tkazdi), 18:00-21:00.
+- @RegistanAcademyYordamchiBot, kod: bot/ (README ichida). Uchtepa filiallari botidek: kanal posti -> ?start=test_<id> -> Boshlash,
+  10 savol / 15 daqiqa / bir marta, test oldingi kun 20:00 dan shu kun 20:00 gacha. Du matematika, Chor ingliz tili, Ju rus tili.
+  Darajalar (3 daraja) egasining "xuddi filiallardagidek" talabi bilan olib tashlandi (17-noyabr) — bitta test, masalan A1–A2.
 
 ## Qayerda to'xtadik (2026-11-13) — keyingi safar shu yerdan davom etamiz
 Bajarildi: raqobatchi kanallar tahlili, yangi dizayn (kit/design2, egasi ma'qulladi), test boti joylandi (Cloudflare),
@@ -35,8 +37,8 @@ Qilinadigan ishlar:
    va egasining Cloudflare KV `registan-books` (yopiq) ga `book:<fayl nomi>` kaliti bilan saqlandi (14 fayl). Endi inbox hujjatlarni repoga yuklamaydi (faqat file_id).
    20 MB dan katta 5 ta fayl yuklanmadi (index.jsonl da path null). Git tarixida kitoblar hali bor — tozalash egasining qaroriga bog'liq.
    Matematika mavzulari: bot/syllabus/matematika.md (Yosh matematiklar I-II, Milliy sertifikat).
-4. KV dagi testlar: Chor 18-noyabr ingliz tili (3 daraja), Ju 20-noyabr rus tili (A1), Du 23-noyabr matematika (1 daraja, umumiy).
-   Hali yo'q: Chor 25-noyabr ingliz tili (3 daraja), Ju 27-noyabr rus tili, Du 30-noyabr MATEMATIKA 3 DARAJADA (egasi darajalarni ma'qulladi).
+4. KV dagi testlar: 20261118 ingliz tili A1–A2, 20261120 rus tili, 20261123 matematika.
+   Hali yo'q: 25-noyabr ingliz tili, 27-noyabr rus tili, 30-noyabr matematika.
    17-noyabr holati: botdan hali hech kim foydalanmagan (KV da user: kaliti yo'q) — setup havolasi ochilmagan bo'lishi mumkin.
 5. Kanalga avtomatik "Kunlik test" e'loni (18:00) va ertasi "Test natijalari" TOP-3 rasmi (5_test_natijalari shabloni).
 6. Postlashni yangi dizayn bilan qayta yoqish: kuniga 3 post — faqat egasi "boshla" desa.
