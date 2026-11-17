@@ -39,65 +39,79 @@ function pack(quiz, lvl) {
 const MENU = { reply_markup: { inline_keyboard: [[{ text: "📝 Testni boshlash", callback_data: "start_test" }], [{ text: "🏆 Natijalar", callback_data: "top" }]] } };
 
 // ---------- test oqimi ----------
-async function startTest(env, uid, chat, lvl = null) {
-  const user = await getJ(env, `user:${uid}`);
-  if (!user || !user.name) { await askName(env, uid, chat); return; }
+// Foydalanuvchini Telegram ismidan avtomatik yaratish (ism so'ralmaydi)
+async function ensureUser(env, from) {
+  let user = await getJ(env, `user:${from.id}`);
+  if (!user || !user.name) {
+    const name = [from.first_name, from.last_name].filter(Boolean).join(" ").slice(0, 40) || "O‘quvchi";
+    user = { ...(user || {}), joined: user?.joined || Date.now(), name, username: from.username || null, state: null };
+    await putJ(env, `user:${from.id}`, user);
+  }
+  return user;
+}
+// Bitta xabarni yangilab borish: msgId bo'lsa tahrirlaydi, bo'lmasa yangi yuboradi
+function show(env, chat, msgId, text, kb) {
+  const extra = kb ? { reply_markup: { inline_keyboard: kb } } : {};
+  if (msgId) return tg(env, "editMessageText", { chat_id: chat, message_id: msgId, text, parse_mode: "HTML", ...extra });
+  return send(env, chat, text, extra);
+}
+function questionView(Q, i, note = "") {
+  const q = Q.questions[i];
+  const text = (note ? note + "\n\n" : "") + `<b>${esc(Q.subject)}</b> · ${esc(Q.level)}\n❓ <b>${i + 1}/${Q.questions.length}</b>\n\n${esc(q.q)}`;
+  const kb = q.o.map((o, k) => [{ text: o.length > 60 ? o.slice(0, 57) + "…" : o, callback_data: `a:${i}:${k}` }]);
+  return [text, kb];
+}
+
+async function startTest(env, from, chat, lvl = null, msgId = null) {
+  const uid = from.id;
+  await ensureUser(env, from);
   const d = today(), h = tashHour();
   const open = Number(env.OPEN_HOUR ?? 0), close = Number(env.CLOSE_HOUR ?? 24);
   if (!isAdmin(env, uid) && (!isTestDay(env) || h < open || h >= close)) {
-    return send(env, chat, `⏰ Testlar har <b>${daysText(env)}</b> kuni <b>${open}:00 dan ${close}:00 gacha</b> ochiq bo‘ladi.\nO‘sha vaqtda qayta kiring!`);
+    return show(env, chat, msgId, `⏰ Testlar har <b>${daysText(env)}</b> kuni <b>${open}:00 dan ${close}:00 gacha</b> bo‘ladi.\nO‘sha vaqtda shu yerga kiring!`, MENU.reply_markup.inline_keyboard);
   }
   const quiz = await getJ(env, `quiz:${d}`);
-  if (!quiz) return send(env, chat, "📭 Bugungi test hali joylanmagan. Kanalda e’lonni kuting!");
+  if (!quiz) return show(env, chat, msgId, "📭 Bugungi test hali joylanmagan. Kanalda e’lonni kuting!");
   const att = await getJ(env, `att:${d}:${uid}`);
-  if (att && att.done) { const Q = pack(quiz, att.lvl); return send(env, chat, `✅ Siz bugungi testni ishlab bo‘lgansiz: <b>${att.score}/${Q.questions.length}</b> (${fmtTime(att.time)}).\nKeyingi testda ham omad!`, MENU); }
-  if (att) return sendQuestion(env, chat, pack(quiz, att.lvl), att.i); // davom ettirish
+  if (att && att.done) { const Q = pack(quiz, att.lvl); return show(env, chat, msgId, `✅ Siz bugungi testni ishlab bo‘lgansiz: <b>${att.score}/${Q.questions.length}</b> (${fmtTime(att.time)}).\nKeyingi testda ham omad!`, MENU.reply_markup.inline_keyboard); }
+  if (att) { const [t, kb] = questionView(pack(quiz, att.lvl), att.i); return show(env, chat, msgId, t, kb); }
   if (quiz.levels && lvl == null) {
     const kb = quiz.levels.map(L => [{ text: L.name, callback_data: `lvl:${L.id}` }]);
-    return send(env, chat, `📊 <b>${esc(quiz.subject)}</b> — darajangizni tanlang:\n\n` + quiz.levels.map(L => `• <b>${esc(L.name)}</b> — ${esc(L.topic)}`).join("\n") + `\n\n⚠️ Tanlagandan keyin o‘zgartirib bo‘lmaydi.`, { reply_markup: { inline_keyboard: kb } });
+    return show(env, chat, msgId, `📝 <b>${esc(quiz.subject)}</b> testi\n\nDarajangizni tanlang 👇`, kb);
   }
   const Q = pack(quiz, lvl);
-  const fresh = { i: 0, ans: [], start: Date.now(), done: false, lvl: Q.lvl };
-  await putJ(env, `att:${d}:${uid}`, fresh, { expirationTtl: 60 * 60 * 24 * 40 });
-  await send(env, chat, `🚀 <b>${esc(Q.subject)} · ${esc(Q.level)}</b>\nMavzu: ${esc(Q.topic)}\n\n${Q.questions.length} ta savol. Vaqt hisoblanmoqda — tez va to‘g‘ri javob bering!`);
-  return sendQuestion(env, chat, Q, 0);
-}
-
-function sendQuestion(env, chat, quiz, i) {
-  const q = quiz.questions[i];
-  const text = `❓ <b>${i + 1}/${quiz.questions.length}</b>\n\n${esc(q.q)}\n\n` + q.o.map((o, k) => `<b>${LETTERS[k]})</b> ${esc(o)}`).join("\n");
-  const kb = [[0, 1], [2, 3]].map(row => row.filter(k => k < q.o.length).map(k => ({ text: LETTERS[k], callback_data: `a:${i}:${k}` })));
-  return send(env, chat, text, { reply_markup: { inline_keyboard: kb } });
+  await putJ(env, `att:${d}:${uid}`, { i: 0, ans: [], start: Date.now(), done: false, lvl: Q.lvl }, { expirationTtl: 60 * 60 * 24 * 40 });
+  const [t, kb] = questionView(Q, 0, `🚀 ${Q.questions.length} ta savol. Vaqt ketdi!`);
+  return show(env, chat, msgId, t, kb);
 }
 
 async function onAnswer(env, cb, i, k) {
-  const uid = cb.from.id, chat = cb.message.chat.id, d = today();
+  const uid = cb.from.id, chat = cb.message.chat.id, mid = cb.message.message_id, d = today();
   const raw = await getJ(env, `quiz:${d}`);
   const att = await getJ(env, `att:${d}:${uid}`);
   const quiz = raw && att ? pack(raw, att.lvl) : null;
   if (!quiz || !att || att.done || att.i !== i) { await tg(env, "answerCallbackQuery", { callback_query_id: cb.id }); return; }
   const q = quiz.questions[i], ok = k === q.c;
   att.ans.push(k); att.i = i + 1;
-  await tg(env, "answerCallbackQuery", { callback_query_id: cb.id, text: ok ? "✅ To‘g‘ri!" : "❌ Noto‘g‘ri" });
-  const mark = q.o.map((o, n) => `${n === q.c ? "✅" : n === k ? "❌" : "▫️"} ${esc(o)}`).join("\n");
-  await tg(env, "editMessageText", { chat_id: chat, message_id: cb.message.message_id, parse_mode: "HTML",
-    text: `❓ <b>${i + 1}/${quiz.questions.length}</b>\n\n${esc(q.q)}\n\n${mark}` });
+  await tg(env, "answerCallbackQuery", { callback_query_id: cb.id, text: ok ? "✅ To‘g‘ri!" : `❌ To‘g‘ri javob: ${q.o[q.c]}`.slice(0, 190) });
+  const note = ok ? "✅ To‘g‘ri!" : `❌ Noto‘g‘ri. To‘g‘ri javob: <b>${esc(q.o[q.c])}</b>`;
   if (att.i < quiz.questions.length) {
     await putJ(env, `att:${d}:${uid}`, att, { expirationTtl: 60 * 60 * 24 * 40 });
-    return sendQuestion(env, chat, quiz, att.i);
+    const [t, kb] = questionView(quiz, att.i, note);
+    return show(env, chat, mid, t, kb);
   }
   // tugadi
   att.done = true; att.end = Date.now(); att.time = att.end - att.start;
   att.score = att.ans.reduce((s, a, n) => s + (a === quiz.questions[n].c ? 1 : 0), 0);
   await putJ(env, `att:${d}:${uid}`, att, { expirationTtl: 60 * 60 * 24 * 40 });
-  const user = await getJ(env, `user:${uid}`);
-  await env.KV.put(`res:${d}:${uid}`, "", { metadata: { name: user?.name || cb.from.first_name, score: att.score, time: att.time, lvl: att.lvl || null }, expirationTtl: 60 * 60 * 24 * 40 });
+  const user = await ensureUser(env, cb.from);
+  await env.KV.put(`res:${d}:${uid}`, "", { metadata: { name: user.name, score: att.score, time: att.time, lvl: att.lvl || null }, expirationTtl: 60 * 60 * 24 * 40 });
   const wrong = quiz.questions.map((qq, n) => ({ qq, n, a: att.ans[n] })).filter(x => x.a !== x.qq.c);
-  let text = `🏁 <b>Test tugadi!</b>\n\nNatija: <b>${att.score}/${quiz.questions.length}</b>\nVaqt: <b>${fmtTime(att.time)}</b>\n`;
-  text += att.score === quiz.questions.length ? "\n🔥 Ajoyib! Hammasi to‘g‘ri!" : `\n📚 <b>Xatolar tahlili:</b>\n` +
-    wrong.map(x => `\n<b>${x.n + 1}.</b> ${esc(x.qq.q)}\nTo‘g‘ri javob: <b>${esc(x.qq.o[x.qq.c])}</b>\n💡 ${esc(x.qq.e)}`).join("\n");
-  text += `\n\n🏆 TOP-3 natijalar soat ${env.CLOSE_HOUR ?? 21}:00 dan keyin e’lon qilinadi. G‘oliblarga sertifikat va bepul sinov darsi!`;
-  return send(env, chat, text.slice(0, 4000), MENU);
+  let text = `🏁 <b>Test tugadi!</b>\n\nNatija: <b>${att.score}/${quiz.questions.length}</b> · Vaqt: <b>${fmtTime(att.time)}</b>\n`;
+  text += att.score === quiz.questions.length ? "\n🔥 Ajoyib! Hammasi to‘g‘ri!" : `\n📚 <b>Xatolaringiz:</b>\n` +
+    wrong.map(x => `\n<b>${x.n + 1}.</b> ${esc(x.qq.q)}\n✅ ${esc(x.qq.o[x.qq.c])}\n💡 ${esc(x.qq.e)}`).join("\n");
+  text += `\n\n🏆 G‘oliblar soat ${env.CLOSE_HOUR ?? 21}:00 dan keyin e’lon qilinadi.`;
+  return show(env, chat, mid, text.slice(0, 4000), MENU.reply_markup.inline_keyboard);
 }
 
 // ---------- natijalar ----------
@@ -132,19 +146,17 @@ async function askName(env, uid, chat) {
   const user = (await getJ(env, `user:${uid}`)) || { joined: Date.now() };
   user.state = "await_name";
   await putJ(env, `user:${uid}`, user);
-  return send(env, chat, "👋 Assalomu alaykum! <b>Registan Academy</b> test botiga xush kelibsiz.\n\nIsm va familiyangizni yozing (masalan: <i>Aziza Karimova</i>). Natijalarda shu ism ko‘rinadi.");
+  return send(env, chat, "Natijalarda ko‘rinadigan ism-familiyangizni yozing (masalan: <i>Aziza Karimova</i>).");
 }
 
 async function onMessage(env, m) {
   const uid = m.from.id, chat = m.chat.id, text = (m.text || "").trim();
   if (m.chat.type !== "private") return;
-  if (text.startsWith("/start")) {
-    const user = await getJ(env, `user:${uid}`);
-    if (!user || !user.name) return askName(env, uid, chat);
-    if (text.includes("test")) return startTest(env, uid, chat);
-    return send(env, chat, `Salom, <b>${esc(user.name)}</b>! 👋\nTestni boshlash uchun pastdagi tugmani bosing.`, MENU);
+  if (text.startsWith("/start") || text === "/test") {
+    await ensureUser(env, m.from);
+    if (text === "/start") await send(env, chat, "👋 Assalomu alaykum! <b>Registan Academy</b> test boti.");
+    return startTest(env, m.from, chat);
   }
-  if (text === "/test") return startTest(env, uid, chat);
   if (text === "/top") return sendTop(env, chat);
   if (text === "/ism") return askName(env, uid, chat);
   if (text === "/id") return send(env, chat, `Sizning ID: <code>${uid}</code>`);
@@ -158,7 +170,7 @@ async function onMessage(env, m) {
     if (name.length < 3 || name.startsWith("/")) return send(env, chat, "Iltimos, ism va familiyangizni yozing.");
     user.name = name; user.username = m.from.username || null; user.state = null;
     await putJ(env, `user:${uid}`, user);
-    return send(env, chat, `Rahmat, <b>${esc(name)}</b>! ✅\nTestlar har ${daysText(env)} kuni ${env.OPEN_HOUR ?? 18}:00 dan ${env.CLOSE_HOUR ?? 21}:00 gacha ochiq bo‘ladi.`, MENU);
+    return send(env, chat, `✅ Ism saqlandi: <b>${esc(name)}</b>`, MENU);
   }
   return send(env, chat, "Testni boshlash uchun tugmani bosing 👇", MENU);
 }
@@ -189,9 +201,9 @@ export default {
         if (u.message) await onMessage(env, u.message);
         else if (u.callback_query) {
           const cb = u.callback_query, data = cb.data || "";
-          if (data === "start_test") { await tg(env, "answerCallbackQuery", { callback_query_id: cb.id }); await startTest(env, cb.from.id, cb.message.chat.id); }
+          if (data === "start_test") { await tg(env, "answerCallbackQuery", { callback_query_id: cb.id }); await startTest(env, cb.from, cb.message.chat.id, null, cb.message.message_id); }
           else if (data === "top") { await tg(env, "answerCallbackQuery", { callback_query_id: cb.id }); await sendTop(env, cb.message.chat.id); }
-          else if (data.startsWith("lvl:")) { await tg(env, "answerCallbackQuery", { callback_query_id: cb.id }); await tg(env, "editMessageReplyMarkup", { chat_id: cb.message.chat.id, message_id: cb.message.message_id, reply_markup: { inline_keyboard: [] } }); await startTest(env, cb.from.id, cb.message.chat.id, data.slice(4)); }
+          else if (data.startsWith("lvl:")) { await tg(env, "answerCallbackQuery", { callback_query_id: cb.id }); await startTest(env, cb.from, cb.message.chat.id, data.slice(4), cb.message.message_id); }
           else if (data.startsWith("a:")) { const [, i, k] = data.split(":").map(Number); await onAnswer(env, cb, i, k); }
         }
       } catch (e) { console.log("error", e.stack || e); }
@@ -203,7 +215,7 @@ export default {
       await tg(env, "setMyCommands", { commands: [
         { command: "test", description: "Testni boshlash" },
         { command: "top", description: "Test natijalari" },
-        { command: "ism", description: "Ismni o‘zgartirish" } ] });
+        { command: "ism", description: "Natijadagi ismni o‘zgartirish" } ] });
       const me = await tg(env, "getMe", {});
       const ok = hook.ok && me.ok;
       return new Response(`<meta charset="utf-8"><body style="font:20px system-ui;padding:40px">${ok ? "✅ Bot ulandi: @" + me.result.username + "<br><br>Endi Telegramda botga /start yozing." : "❌ Xato: " + esc(JSON.stringify(hook))}</body>`, { headers: { "content-type": "text/html; charset=utf-8" } });
