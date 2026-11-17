@@ -30,7 +30,8 @@ Qilinadigan ishlar:
    Setup havolasi kaliti WEBHOOK_SECRET da (Cloudflare secret); kerak bo'lsa yangisini qo'yib, yangi havola berish mumkin.
 2. Egasining Telegram ID sini tasdiqlash (/id) — ADMINS hozir 5663766757 (eski RULES.md dan).
 3. Egasi testlar uchun kitoblar yuboradi (ingliz tili, matematika, rus tili; mundarija + joriy unitlar).
-4. Chorshanba 18-noyabr uchun MATEMATIKA testi hali yo'q — kitob kelsa unga moslab, kelmasa umumiy 5-7 sinf darajasida.
+4. Chorshanba 18-noyabr MATEMATIKA testi KV ga qo'yildi (17-noyabr, umumiy 5-7 sinf). Keyingilar: Ju 20-noyabr rus tili, Du 23-noyabr ingliz tili — hali yo'q.
+   17-noyabr holati: botdan hali hech kim foydalanmagan (KV da user: kaliti yo'q) — setup havolasi ochilmagan bo'lishi mumkin.
 5. Kanalga avtomatik "Kunlik test" e'loni (18:00) va ertasi "Test natijalari" TOP-3 rasmi (5_test_natijalari shabloni).
 6. Postlashni yangi dizayn bilan qayta yoqish: kuniga 3 post — faqat egasi "boshla" desa.
 7. Ochiq savollar: ism "MR JOHNS" yoki "MR JHONS"? library/academy 06 va 07 (Johnsning xato tahrirlangan surati) o'chirilsinmi/qayta yasalsinmi?
