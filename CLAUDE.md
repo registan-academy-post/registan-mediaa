@@ -35,5 +35,5 @@ Qilinadigan ishlar:
    17-noyabr holati: botdan hali hech kim foydalanmagan (KV da user: kaliti yo'q) — setup havolasi ochilmagan bo'lishi mumkin.
 5. Kanalga avtomatik "Kunlik test" e'loni (18:00) va ertasi "Test natijalari" TOP-3 rasmi (5_test_natijalari shabloni).
 6. Postlashni yangi dizayn bilan qayta yoqish: kuniga 3 post — faqat egasi "boshla" desa.
-7. Ochiq savollar: ism "MR JOHNS" yoki "MR JHONS"? library/academy 06 va 07 (Johnsning xato tahrirlangan surati) o'chirilsinmi/qayta yasalsinmi?
+7. Ism tasdiqlandi: "MR JOHNS" (egasi, 17-noyabr; kartochkadagi "JHONS" xato). Ochiq savol: library/academy 06 va 07 (Johnsning xato tahrirlangan surati) o'chirilsinmi/qayta yasalsinmi?
 8. Egasidan ustozlar (oq fonda), darslar, g'oliblar suratlari kerak.
