@@ -1,4 +1,4 @@
-"""Collect photos and videos the owner sends to the bot and store them in the repo,
+"""Collect photos, videos and documents (PDF books etc.) the owner sends to the bot and store them in the repo,
 so Claude's scheduled runs can design with them. Run by GitHub Actions."""
 import json, os, time, urllib.request, urllib.error
 from datetime import datetime, timezone
@@ -45,6 +45,10 @@ def main():
                 kind, obj, ext = "video", m["document"], ".mp4"
             elif mt.startswith("image/"):
                 kind, obj, ext = "photo", m["document"], "." + mt.split("/")[-1].replace("jpeg", "jpg")
+            else:
+                name = m["document"].get("file_name") or "file"
+                safe = "".join(c if c.isalnum() or c in "._-" else "_" for c in name)[-80:]
+                kind, obj, ext = "doc", m["document"], "_" + safe
         if not kind or obj["file_unique_id"] in known:
             continue
         date = datetime.fromtimestamp(m["date"], timezone.utc).astimezone().strftime("%Y-%m-%d")
@@ -62,7 +66,17 @@ def main():
         if kind == "video":
             rec.update({k: m["video"].get(k) for k in ("duration", "width", "height")} if m.get("video") else {})
         out.write(json.dumps(rec, ensure_ascii=False) + "\n"); known.add(obj["file_unique_id"])
+        if kind == "doc":
+            rec["file_name"] = obj.get("file_name")
         print("stored", kind, path if saved else "(too big, file_id only)")
+        try:
+            if saved:
+                note = "✅ Qabul qilindi: " + (obj.get("file_name") or path.split("/")[-1])
+            else:
+                note = "⚠️ Fayl 20 MB dan katta, yuklab bo‘lmadi. Uni bo‘lib (masalan, mundarija va kerakli unitlar) yoki sahifalar suratini yuboring."
+            call("sendMessage", {"chat_id": OWNER, "text": note, "reply_to_message_id": m["message_id"]})
+        except Exception as e:
+            print("notify failed", e)
     out.close()
     open("inbox/offset.txt", "w").write(str(offset))
     if upd["result"]:
