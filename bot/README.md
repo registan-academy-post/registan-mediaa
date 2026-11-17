@@ -7,3 +7,7 @@ Cloudflare Worker `registan-test-bot` (hisob: egasining Cloudflare hisobi), KV: 
 - Savollar KV da `quiz:<YYYY-MM-DD>` kalitida: {subject, level, topic, questions:[{q, o:[4], c, e}]}. Namunalar: quizzes/.
 - Maxfiy: BOT_TOKEN (egasi Cloudflare da qo'ygan), WEBHOOK_SECRET. Repoga yozilmaydi.
 - Joylash: Cloudflare API (api.cloudflare.com, token muhitda saqlangan), metadata `keep_bindings: ["secret_text"]` bilan — aks holda BOT_TOKEN o'chib ketadi.
+- Darajalar (17-noyabr): quiz `levels:[{id,name,topic,questions}]` bo'lsa, bot test boshida darajani tanlatadi; TOP-3 har daraja uchun alohida.
+  Sovg'a tabrigi faqat MIN_SCORE (5) va undan yuqori ballga. Rejasi: matematika 3 daraja (Boshlang'ich / O'rta / Yuqori — bot/syllabus/matematika.md),
+  ingliz tili 3 daraja (Beginner A1 / Elementary A2 / Pre-Intermediate+ B1), rus tili hozircha 1 daraja.
+- Lokal sinov: `node bot/test_harness.mjs` (Telegram va KV soxta, darajali oqimni tekshiradi).

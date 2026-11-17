@@ -1,0 +1,356 @@
+{
+ "subject": "Ingliz tili",
+ "levels": [
+  {
+   "id": "beg",
+   "name": "🟢 Beginner (A1)",
+   "topic": "to be va Present Simple",
+   "questions": [
+    {
+     "q": "I ___ a student.",
+     "o": [
+      "is",
+      "are",
+      "am",
+      "be"
+     ],
+     "c": 2,
+     "e": "\"I\" bilan doim \"am\" ishlatiladi: I am."
+    },
+    {
+     "q": "She ___ from Tashkent.",
+     "o": [
+      "is",
+      "am",
+      "are",
+      "be"
+     ],
+     "c": 0,
+     "e": "He / she / it bilan \"is\" ishlatiladi."
+    },
+    {
+     "q": "They ___ my friends.",
+     "o": [
+      "am",
+      "is",
+      "be",
+      "are"
+     ],
+     "c": 3,
+     "e": "We / you / they bilan \"are\" ishlatiladi."
+    },
+    {
+     "q": "___ you happy today?",
+     "o": [
+      "Is",
+      "Are",
+      "Am",
+      "Be"
+     ],
+     "c": 1,
+     "e": "\"You\" bilan so‘roq gapda \"Are\" keladi: Are you...?"
+    },
+    {
+     "q": "He ___ football every day.",
+     "o": [
+      "play",
+      "playing",
+      "plays",
+      "is play"
+     ],
+     "c": 2,
+     "e": "Present Simple: he/she/it bilan fe’lga -s qo‘shiladi: plays."
+    },
+    {
+     "q": "We ___ like milk.",
+     "o": [
+      "don't",
+      "doesn't",
+      "isn't",
+      "not"
+     ],
+     "c": 0,
+     "e": "I / we / you / they bilan inkorda \"don't\" ishlatiladi."
+    },
+    {
+     "q": "___ she speak English?",
+     "o": [
+      "Do",
+      "Is",
+      "Are",
+      "Does"
+     ],
+     "c": 3,
+     "e": "He/she/it bilan so‘roq \"Does\" bilan boshlanadi, fe’l -s siz qoladi: Does she speak?"
+    },
+    {
+     "q": "My father ___ to work at 8 o'clock.",
+     "o": [
+      "go",
+      "goes",
+      "going",
+      "is go"
+     ],
+     "c": 1,
+     "e": "\"My father\" = he, shuning uchun go → goes (-es qo‘shiladi)."
+    },
+    {
+     "q": "There ___ two books on the table.",
+     "o": [
+      "is",
+      "are",
+      "am",
+      "be"
+     ],
+     "c": 1,
+     "e": "Ko‘plik (two books) bilan \"There are\" ishlatiladi."
+    },
+    {
+     "q": "Qaysi gap to‘g‘ri?",
+     "o": [
+      "She don't like tea.",
+      "She doesn't likes tea.",
+      "She doesn't like tea.",
+      "She not like tea."
+     ],
+     "c": 2,
+     "e": "\"doesn't\" dan keyin fe’l -s siz keladi: She doesn't like."
+    }
+   ]
+  },
+  {
+   "id": "ele",
+   "name": "🟡 Elementary (A2)",
+   "topic": "Past Simple, qiyoslash, much/many, some/any",
+   "questions": [
+    {
+     "q": "Yesterday I ___ to the cinema.",
+     "o": [
+      "went",
+      "go",
+      "gone",
+      "going"
+     ],
+     "c": 0,
+     "e": "O‘tgan zamon (Past Simple): go → went. \"Yesterday\" o‘tgan zamon belgisi."
+    },
+    {
+     "q": "My brother is ___ than me.",
+     "o": [
+      "tall",
+      "tallest",
+      "more tall",
+      "taller"
+     ],
+     "c": 3,
+     "e": "Qisqa sifatlarda qiyoslash -er bilan: tall → taller than."
+    },
+    {
+     "q": "How ___ water do you drink every day?",
+     "o": [
+      "many",
+      "much",
+      "more",
+      "lot"
+     ],
+     "c": 1,
+     "e": "Water — sanalmaydigan ot, shuning uchun \"How much\"."
+    },
+    {
+     "q": "She ___ TV at the moment.",
+     "o": [
+      "is watching",
+      "watches",
+      "watched",
+      "watch"
+     ],
+     "c": 0,
+     "e": "\"At the moment\" — hozir davom etayotgan ish: Present Continuous (is watching)."
+    },
+    {
+     "q": "We ___ going to visit our grandmother next weekend.",
+     "o": [
+      "is",
+      "am",
+      "are",
+      "be"
+     ],
+     "c": 2,
+     "e": "We bilan \"are\": We are going to..."
+    },
+    {
+     "q": "___ you got a pet?",
+     "o": [
+      "Do",
+      "Has",
+      "Are",
+      "Have"
+     ],
+     "c": 3,
+     "e": "I/you/we/they bilan: Have you got...? He/she bilan: Has she got...?"
+    },
+    {
+     "q": "This is the ___ day of my life!",
+     "o": [
+      "good",
+      "better",
+      "best",
+      "most good"
+     ],
+     "c": 2,
+     "e": "Good → better → the best (noto‘g‘ri sifat)."
+    },
+    {
+     "q": "There aren't ___ apples in the fridge.",
+     "o": [
+      "some",
+      "any",
+      "much",
+      "a"
+     ],
+     "c": 1,
+     "e": "Inkor va so‘roq gaplarda \"any\" ishlatiladi."
+    },
+    {
+     "q": "Did you ___ your homework?",
+     "o": [
+      "did",
+      "does",
+      "do",
+      "done"
+     ],
+     "c": 2,
+     "e": "\"Did\" dan keyin fe’l asosiy shaklda qoladi: Did you do...?"
+    },
+    {
+     "q": "I'm good ___ playing football.",
+     "o": [
+      "in",
+      "on",
+      "for",
+      "at"
+     ],
+     "c": 3,
+     "e": "Doim \"good at\": I'm good at football."
+    }
+   ]
+  },
+  {
+   "id": "pre",
+   "name": "🔴 Pre-Intermediate+ (B1)",
+   "topic": "Present Perfect, shart gaplar, majhul nisbat, used to",
+   "questions": [
+    {
+     "q": "I ___ never ___ to London.",
+     "o": [
+      "have / been",
+      "has / been",
+      "have / went",
+      "did / go"
+     ],
+     "c": 0,
+     "e": "Present Perfect: I have been. \"Never\" tajriba haqida — have + V3."
+    },
+    {
+     "q": "While I ___ dinner, the phone rang.",
+     "o": [
+      "cooked",
+      "was cooking",
+      "am cooking",
+      "have cooked"
+     ],
+     "c": 1,
+     "e": "Uzoq davom etgan ish (Past Continuous) va uni bo‘lgan qisqa ish (Past Simple)."
+    },
+    {
+     "q": "If it ___ tomorrow, we will stay at home.",
+     "o": [
+      "will rain",
+      "rained",
+      "rains",
+      "raining"
+     ],
+     "c": 2,
+     "e": "First Conditional: If + Present Simple, ... will + fe’l."
+    },
+    {
+     "q": "This bridge ___ in 1990.",
+     "o": [
+      "built",
+      "is built",
+      "was building",
+      "was built"
+     ],
+     "c": 3,
+     "e": "Majhul nisbat, o‘tgan zamon: was/were + V3 — was built."
+    },
+    {
+     "q": "I ___ play the piano when I was a child, but I don't now.",
+     "o": [
+      "used to",
+      "use to",
+      "was used to",
+      "am used to"
+     ],
+     "c": 0,
+     "e": "O‘tmishdagi odat: used to + fe’l."
+    },
+    {
+     "q": "The woman ___ lives next door is a doctor.",
+     "o": [
+      "which",
+      "who",
+      "whose",
+      "where"
+     ],
+     "c": 1,
+     "e": "Odam haqida gapirilganda \"who\" ishlatiladi."
+    },
+    {
+     "q": "She has lived here ___ 2015.",
+     "o": [
+      "for",
+      "during",
+      "since",
+      "from"
+     ],
+     "c": 2,
+     "e": "Boshlanish nuqtasi (yil, sana) bilan \"since\"; davomiylik bilan \"for\"."
+    },
+    {
+     "q": "You ___ wear a uniform at school. It's the rule.",
+     "o": [
+      "mustn't",
+      "don't have to",
+      "can",
+      "have to"
+     ],
+     "c": 3,
+     "e": "Qoida bo‘yicha majburiyat: have to. (mustn't — taqiq, don't have to — shart emas.)"
+    },
+    {
+     "q": "He asked me where ___.",
+     "o": [
+      "I lived",
+      "did I live",
+      "do I live",
+      "I live?"
+     ],
+     "c": 0,
+     "e": "O‘zlashtirma gapda so‘z tartibi darak gapdek va zamon bir pog‘ona orqaga: where I lived."
+    },
+    {
+     "q": "I'm looking forward ___ you.",
+     "o": [
+      "to see",
+      "to seeing",
+      "see",
+      "seeing"
+     ],
+     "c": 1,
+     "e": "\"Look forward to\" dan keyin fe’l -ing bilan keladi: to seeing."
+    }
+   ]
+  }
+ ]
+}

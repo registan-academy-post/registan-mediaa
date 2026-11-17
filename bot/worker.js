@@ -1,9 +1,10 @@
 // Registan Academy — test boti (Du: ingliz tili, Chor: matematika, Ju: rus tili) (Cloudflare Worker, Telegram webhook)
 // KV kalitlari:
 //   user:<uid>              {name, username, state, joined}
-//   quiz:<YYYY-MM-DD>       {subject, level, topic, questions:[{q, o:[4], c:0-3, e}]}
+//   quiz:<YYYY-MM-DD>       {subject, level, topic, questions:[...]}  yoki darajali:
+//                           {subject, levels:[{id, name, topic, questions:[{q, o:[4], c:0-3, e}]}]}
 //   att:<date>:<uid>        {i, ans:[], start, end, score, time, done}
-//   res:<date>:<uid>        "" (metadata: {name, score, time})  — natijalar ro'yxati uchun
+//   res:<date>:<uid>        "" (metadata: {name, score, time, lvl})  — natijalar ro'yxati uchun
 
 const TZ_OFFSET = 5 * 3600 * 1000; // Toshkent UTC+5
 const LETTERS = ["A", "B", "C", "D"];
@@ -29,10 +30,16 @@ const getJ = async (env, k) => { const v = await env.KV.get(k); return v ? JSON.
 const putJ = (env, k, v, opt) => env.KV.put(k, JSON.stringify(v), opt);
 const isAdmin = (env, uid) => String(env.ADMINS || "").split(",").map(s => s.trim()).includes(String(uid));
 
+// darajali testdan bitta darajani ajratib olish
+function pack(quiz, lvl) {
+  if (!quiz.levels) return { subject: quiz.subject, level: quiz.level, topic: quiz.topic, questions: quiz.questions, lvl: null };
+  const L = quiz.levels.find(x => x.id === lvl) || quiz.levels[0];
+  return { subject: quiz.subject, level: L.name, topic: L.topic, questions: L.questions, lvl: L.id };
+}
 const MENU = { reply_markup: { inline_keyboard: [[{ text: "📝 Testni boshlash", callback_data: "start_test" }], [{ text: "🏆 Natijalar", callback_data: "top" }]] } };
 
 // ---------- test oqimi ----------
-async function startTest(env, uid, chat) {
+async function startTest(env, uid, chat, lvl = null) {
   const user = await getJ(env, `user:${uid}`);
   if (!user || !user.name) { await askName(env, uid, chat); return; }
   const d = today(), h = tashHour();
@@ -43,12 +50,17 @@ async function startTest(env, uid, chat) {
   const quiz = await getJ(env, `quiz:${d}`);
   if (!quiz) return send(env, chat, "📭 Bugungi test hali joylanmagan. Kanalda e’lonni kuting!");
   const att = await getJ(env, `att:${d}:${uid}`);
-  if (att && att.done) return send(env, chat, `✅ Siz bugungi testni ishlab bo‘lgansiz: <b>${att.score}/${quiz.questions.length}</b> (${fmtTime(att.time)}).\nKeyingi testda ham omad!`, MENU);
-  if (att) return sendQuestion(env, chat, quiz, att.i); // davom ettirish
-  const fresh = { i: 0, ans: [], start: Date.now(), done: false };
+  if (att && att.done) { const Q = pack(quiz, att.lvl); return send(env, chat, `✅ Siz bugungi testni ishlab bo‘lgansiz: <b>${att.score}/${Q.questions.length}</b> (${fmtTime(att.time)}).\nKeyingi testda ham omad!`, MENU); }
+  if (att) return sendQuestion(env, chat, pack(quiz, att.lvl), att.i); // davom ettirish
+  if (quiz.levels && lvl == null) {
+    const kb = quiz.levels.map(L => [{ text: L.name, callback_data: `lvl:${L.id}` }]);
+    return send(env, chat, `📊 <b>${esc(quiz.subject)}</b> — darajangizni tanlang:\n\n` + quiz.levels.map(L => `• <b>${esc(L.name)}</b> — ${esc(L.topic)}`).join("\n") + `\n\n⚠️ Tanlagandan keyin o‘zgartirib bo‘lmaydi.`, { reply_markup: { inline_keyboard: kb } });
+  }
+  const Q = pack(quiz, lvl);
+  const fresh = { i: 0, ans: [], start: Date.now(), done: false, lvl: Q.lvl };
   await putJ(env, `att:${d}:${uid}`, fresh, { expirationTtl: 60 * 60 * 24 * 40 });
-  await send(env, chat, `🚀 <b>${esc(quiz.subject)} · ${esc(quiz.level)}</b>\nMavzu: ${esc(quiz.topic)}\n\n${quiz.questions.length} ta savol. Vaqt hisoblanmoqda — tez va to‘g‘ri javob bering!`);
-  return sendQuestion(env, chat, quiz, 0);
+  await send(env, chat, `🚀 <b>${esc(Q.subject)} · ${esc(Q.level)}</b>\nMavzu: ${esc(Q.topic)}\n\n${Q.questions.length} ta savol. Vaqt hisoblanmoqda — tez va to‘g‘ri javob bering!`);
+  return sendQuestion(env, chat, Q, 0);
 }
 
 function sendQuestion(env, chat, quiz, i) {
@@ -60,8 +72,9 @@ function sendQuestion(env, chat, quiz, i) {
 
 async function onAnswer(env, cb, i, k) {
   const uid = cb.from.id, chat = cb.message.chat.id, d = today();
-  const quiz = await getJ(env, `quiz:${d}`);
+  const raw = await getJ(env, `quiz:${d}`);
   const att = await getJ(env, `att:${d}:${uid}`);
+  const quiz = raw && att ? pack(raw, att.lvl) : null;
   if (!quiz || !att || att.done || att.i !== i) { await tg(env, "answerCallbackQuery", { callback_query_id: cb.id }); return; }
   const q = quiz.questions[i], ok = k === q.c;
   att.ans.push(k); att.i = i + 1;
@@ -78,7 +91,7 @@ async function onAnswer(env, cb, i, k) {
   att.score = att.ans.reduce((s, a, n) => s + (a === quiz.questions[n].c ? 1 : 0), 0);
   await putJ(env, `att:${d}:${uid}`, att, { expirationTtl: 60 * 60 * 24 * 40 });
   const user = await getJ(env, `user:${uid}`);
-  await env.KV.put(`res:${d}:${uid}`, "", { metadata: { name: user?.name || cb.from.first_name, score: att.score, time: att.time }, expirationTtl: 60 * 60 * 24 * 40 });
+  await env.KV.put(`res:${d}:${uid}`, "", { metadata: { name: user?.name || cb.from.first_name, score: att.score, time: att.time, lvl: att.lvl || null }, expirationTtl: 60 * 60 * 24 * 40 });
   const wrong = quiz.questions.map((qq, n) => ({ qq, n, a: att.ans[n] })).filter(x => x.a !== x.qq.c);
   let text = `🏁 <b>Test tugadi!</b>\n\nNatija: <b>${att.score}/${quiz.questions.length}</b>\nVaqt: <b>${fmtTime(att.time)}</b>\n`;
   text += att.score === quiz.questions.length ? "\n🔥 Ajoyib! Hammasi to‘g‘ri!" : `\n📚 <b>Xatolar tahlili:</b>\n` +
@@ -99,11 +112,19 @@ async function results(env, d) {
   return out;
 }
 const medal = (n) => ["🥇", "🥈", "🥉"][n] || `${n + 1}.`;
-async function sendTop(env, chat, d = today()) {
+// natijalarni darajalar bo'yicha guruhlash: [{name, rows}]
+async function grouped(env, d) {
   const r = await results(env, d);
-  if (!r.length) return send(env, chat, "Hozircha bu testni hech kim ishlamagan.");
-  const lines = r.slice(0, 10).map((x, n) => `${medal(n)} ${esc(x.name)} — <b>${x.score}</b> (${fmtTime(x.time)})`);
-  return send(env, chat, `🏆 <b>${d} natijalari</b>\nQatnashdi: ${r.length} nafar\n\n${lines.join("\n")}`);
+  const quiz = await getJ(env, `quiz:${d}`);
+  if (!quiz || !quiz.levels) return [{ name: null, rows: r }];
+  return quiz.levels.map(L => ({ name: L.name, rows: r.filter(x => x.lvl === L.id) })).filter(g => g.rows.length);
+}
+async function sendTop(env, chat, d = today()) {
+  const gs = await grouped(env, d);
+  const total = gs.reduce((s, g) => s + g.rows.length, 0);
+  if (!total) return send(env, chat, "Hozircha bu testni hech kim ishlamagan.");
+  const body = gs.map(g => (g.name ? `\n<b>${esc(g.name)}</b>\n` : "\n") + g.rows.slice(0, 10).map((x, n) => `${medal(n)} ${esc(x.name)} — <b>${x.score}</b> (${fmtTime(x.time)})`).join("\n")).join("\n");
+  return send(env, chat, `🏆 <b>${d} natijalari</b>\nQatnashdi: ${total} nafar\n${body}`);
 }
 
 // ---------- ro'yxatdan o'tish ----------
@@ -145,14 +166,17 @@ async function onMessage(env, m) {
 // ---------- kechki yakun: g'oliblarni tabriklash ----------
 async function dailyWrap(env) {
   const d = today();
-  const r = await results(env, d);
+  const gs = await grouped(env, d);
+  const r = gs.flatMap(g => g.rows);
   const admins = String(env.ADMINS || "").split(",").map(s => s.trim()).filter(Boolean);
   if (!r.length) { for (const a of admins) await send(env, a, `📊 ${d}: testni hech kim ishlamadi.`); return; }
-  for (const [n, x] of r.slice(0, 3).entries()) {
-    await send(env, x.uid, `${medal(n)} <b>Tabriklaymiz, ${esc(x.name)}!</b>\n\nSiz bugungi testda <b>${n + 1}-o‘rinni</b> egalladingiz: ${x.score} ball, ${fmtTime(x.time)}.\n\n🎁 Sizga <b>Registan sertifikati</b> va <b>bepul sinov darsi</b>! Markazimiz administratori siz bilan bog‘lanadi.`);
+  const minScore = Number(env.MIN_SCORE ?? 5); // sovg'a uchun eng kam ball
+  for (const g of gs) for (const [n, x] of g.rows.slice(0, 3).entries()) {
+    if (x.score < minScore) continue;
+    await send(env, x.uid, `${medal(n)} <b>Tabriklaymiz, ${esc(x.name)}!</b>\n\nSiz bugungi testda${g.name ? " (" + esc(g.name) + ")" : ""} <b>${n + 1}-o‘rinni</b> egalladingiz: ${x.score} ball, ${fmtTime(x.time)}.\n\n🎁 Sizga <b>Registan sertifikati</b> va <b>bepul sinov darsi</b>! Markazimiz administratori siz bilan bog‘lanadi.`);
   }
-  const lines = r.slice(0, 10).map((x, n) => `${medal(n)} ${esc(x.name)} — ${x.score} (${fmtTime(x.time)})`);
-  for (const a of admins) await send(env, a, `📊 <b>${d} test yakuni</b>\nQatnashdi: ${r.length} nafar\n\n${lines.join("\n")}`);
+  const body = gs.map(g => (g.name ? `\n<b>${esc(g.name)}</b>\n` : "\n") + g.rows.slice(0, 10).map((x, n) => `${medal(n)} ${esc(x.name)} — ${x.score} (${fmtTime(x.time)})`).join("\n")).join("\n");
+  for (const a of admins) await send(env, a, `📊 <b>${d} test yakuni</b>\nQatnashdi: ${r.length} nafar\n${body}`);
 }
 
 export default {
@@ -167,6 +191,7 @@ export default {
           const cb = u.callback_query, data = cb.data || "";
           if (data === "start_test") { await tg(env, "answerCallbackQuery", { callback_query_id: cb.id }); await startTest(env, cb.from.id, cb.message.chat.id); }
           else if (data === "top") { await tg(env, "answerCallbackQuery", { callback_query_id: cb.id }); await sendTop(env, cb.message.chat.id); }
+          else if (data.startsWith("lvl:")) { await tg(env, "answerCallbackQuery", { callback_query_id: cb.id }); await tg(env, "editMessageReplyMarkup", { chat_id: cb.message.chat.id, message_id: cb.message.message_id, reply_markup: { inline_keyboard: [] } }); await startTest(env, cb.from.id, cb.message.chat.id, data.slice(4)); }
           else if (data.startsWith("a:")) { const [, i, k] = data.split(":").map(Number); await onAnswer(env, cb, i, k); }
         }
       } catch (e) { console.log("error", e.stack || e); }
