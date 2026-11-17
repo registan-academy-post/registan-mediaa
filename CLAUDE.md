@@ -28,7 +28,8 @@ Du/Chor/Ju jadvali, rus tili (13-noyabr) va ingliz tili (16-noyabr) savollari KV
 Qilinadigan ishlar:
 1. Egasi bot setup havolasini ochib, botni sinab ko'rishi kerak (13-noyabr holatida hali hech kim /start qilmagan).
    Setup havolasi kaliti WEBHOOK_SECRET da (Cloudflare secret); kerak bo'lsa yangisini qo'yib, yangi havola berish mumkin.
-2. Egasining Telegram ID sini tasdiqlash (/id) — ADMINS hozir 5663766757 (eski RULES.md dan).
+2. Bot ULANDI (17-noyabr, egasi /start qildi). Egasi test botida: ID 7010322914 (@UchtepaAcademyManager). ADMINS = 7010322914,5663766757
+   (5663766757 — post boti/inbox egasi, ehtimol egasining boshqa akkaunti).
 3. Egasi testlar uchun kitoblar yuboradi (ingliz tili, matematika, rus tili; mundarija + joriy unitlar).
    17-noyabr: egasi kitoblarni @Registan_Academy_Post_bot ga yubordi. Repo OCHIQ (public), shuning uchun kitoblar repodan olib tashlandi
    va egasining Cloudflare KV `registan-books` (yopiq) ga `book:<fayl nomi>` kaliti bilan saqlandi (14 fayl). Endi inbox hujjatlarni repoga yuklamaydi (faqat file_id).
