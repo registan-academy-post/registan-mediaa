@@ -76,6 +76,7 @@ duration/width/height, used) and the files in `inbox/photos/`, `inbox/videos/`. 
 ```
 Post matni (egasi, 24-noyabr): BUTUN matn qalin (<b>), har qatorda emoji, to'liq bezatilgan; sarlavha KATTA HARF va emojilar bilan.
 Footer havolalari ham qalin, oldida emoji: ✈️ Telegram | 📸 Instagram | 📍 Manzil.
+Har bir qator orasida BO'SH QATOR (matn yopishib qolmasin). Hafta kunlari BOSH HARF bilan: Dushanba, Seshanba, Juft kunlar...
 
 ## Inline buttons
 Every `sendPhoto`, `sendMessage` and `sendVideo` step to the channel also gets `reply_markup` with one row of two
