@@ -37,8 +37,8 @@ Qilinadigan ishlar:
    va egasining Cloudflare KV `registan-books` (yopiq) ga `book:<fayl nomi>` kaliti bilan saqlandi (14 fayl). Endi inbox hujjatlarni repoga yuklamaydi (faqat file_id).
    20 MB dan katta 5 ta fayl yuklanmadi (index.jsonl da path null). Git tarixida kitoblar hali bor — tozalash egasining qaroriga bog'liq.
    Matematika mavzulari: bot/syllabus/matematika.md (Yosh matematiklar I-II, Milliy sertifikat).
-4. KV dagi testlar: 20261118 ingliz tili A1–A2, 20261120 rus tili, 20261123 matematika.
-   Hali yo'q: 25-noyabr ingliz tili, 27-noyabr rus tili, 30-noyabr matematika.
+4. KV dagi testlar: 18, 20, 23-noyabr (o'tdi; faqat egasi sinab ko'rdi), 25-noyabr ingliz tili, 27-noyabr rus tili, 30-noyabr matematika.
+   Keyingilar (2-dekabrdan) hali yo'q. Har hafta oldindan tuzib qo'yish kerak (bot/quizzes/ formatida).
    17-noyabr holati: botdan hali hech kim foydalanmagan (KV da user: kaliti yo'q) — setup havolasi ochilmagan bo'lishi mumkin.
 5. Kanalga avtomatik "Kunlik test" e'loni (18:00) va ertasi "Test natijalari" TOP-3 rasmi (5_test_natijalari shabloni).
 6. Postlashni yangi dizayn bilan qayta yoqish: kuniga 3 post — faqat egasi "boshla" desa.
