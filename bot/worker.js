@@ -4,7 +4,7 @@
 //   10 ta savol, 15 daqiqa, har kim bir marta; test ~1 sutka ochiq (opens..closes, Toshkent vaqti)
 //   yopilgach: TOP-3 ga tabrik (sertifikat va bepul sinov darsi), adminga yakun.
 // KV kalitlari:
-//   quiz:<id>        {id, title, opens:"YYYY-MM-DD HH:MM", closes:"YYYY-MM-DD HH:MM", limit_min, questions:[{q, o:[..], c, e}]}
+//   quiz:<id>        {id, title, topics?, point? (har savol balli), opens:"YYYY-MM-DD HH:MM", closes:"YYYY-MM-DD HH:MM", limit_min, questions:[{q, o:[..], c, e}]}
 //   user:<uid>       {name, username, joined, state}
 //   att:<id>:<uid>   {i, ans:[], start, end, time, score, done, timeout}
 //   res:<id>:<uid>   "" (metadata: {name, score, time})
@@ -88,10 +88,10 @@ async function intro(env, from, chat, id) {
     if (now >= tash(quiz.closes)) return send(env, chat, `⌛ <b>${esc(quiz.title)}</b> testi yopilgan.\nKeyingi testni kanalda kuting!`);
   }
   const att = await getJ(env, `att:${quiz.id}:${from.id}`);
-  if (att && att.done) return send(env, chat, `✅ Siz bu testda qatnashgansiz: <b>${att.score}/${quiz.questions.length}</b> (${fmtTime(att.time)}).\nHar kim bir marta qatnashadi.`);
+  if (att && att.done) return send(env, chat, `✅ Siz bu testda qatnashgansiz: <b>${pts(quiz, att.score)}</b> (${fmtTime(att.time)}).\nHar kim bir marta qatnashadi.`);
   if (att) { const [t, kb] = questionView(quiz, att.i); return show(env, chat, null, t, kb); }
   return send(env, chat,
-    `🏆 <b>Kunlik test: ${esc(quiz.title)}</b>\n\n📝 ${quiz.questions.length} ta savol · ⏱ ${quiz.limit_min || 15} daqiqa\n📅 Test ${human(quiz.closes)} gacha ochiq\n🥇🥈🥉 TOP-3 ga <b>Registon sertifikati</b> va <b>bepul sinov darsi</b>!\n\n👇 Boshlash uchun tugmani bosing. Har kim bir marta qatnashadi.`,
+    `🏆 <b>Kunlik test: ${esc(quiz.title)}</b>\n\n${quiz.topics ? `📚 Mavzular: ${esc(quiz.topics)}\n` : ""}📝 ${quiz.questions.length} ta savol · ⏱ ${quiz.limit_min || 15} daqiqa${quiz.point ? ` · har biri ${quiz.point} ball` : ""}\n📅 Test ${human(quiz.closes)} gacha ochiq\n🥇🥈🥉 TOP-3 ga <b>Registon sertifikati</b> va <b>bepul sinov darsi</b>!\n\n👇 Boshlash uchun tugmani bosing. Har kim bir marta qatnashadi.`,
     { reply_markup: startBtn(quiz.id) });
 }
 
@@ -103,7 +103,7 @@ async function begin(env, cb, id) {
   const now = Date.now();
   if (!isAdmin(env, from.id) && (now < tash(quiz.opens) || now >= tash(quiz.closes))) return show(env, chat, mid, "⌛ Bu test hozir ochiq emas.");
   let att = await getJ(env, `att:${id}:${from.id}`);
-  if (att && att.done) return show(env, chat, mid, `✅ Siz bu testda qatnashgansiz: <b>${att.score}/${quiz.questions.length}</b>.`);
+  if (att && att.done) return show(env, chat, mid, `✅ Siz bu testda qatnashgansiz: <b>${pts(quiz, att.score)}</b>.`);
   if (!att) { att = { i: 0, ans: [], start: now, done: false }; await putJ(env, `att:${id}:${from.id}`, att, TTL); }
   const [t, kb] = questionView(quiz, att.i, `⏱ ${quiz.limit_min || 15} daqiqa. Omad!`);
   return show(env, chat, mid, t, kb);
@@ -116,7 +116,7 @@ async function finish(env, from, chat, mid, quiz, att, note = "") {
   const user = await ensureUser(env, from);
   await env.KV.put(`res:${quiz.id}:${from.id}`, "", { metadata: { name: user.name, score: att.score, time: att.time }, ...TTL });
   const wrong = quiz.questions.map((q, n) => ({ q, n, a: att.ans[n] })).filter(x => x.a !== x.q.c);
-  let text = (note ? note + "\n\n" : "") + `🏁 <b>Test tugadi!</b>\n\nNatija: <b>${att.score}/${quiz.questions.length}</b> · Vaqt: <b>${fmtTime(att.time)}</b>\n`;
+  let text = (note ? note + "\n\n" : "") + `🏁 <b>Test tugadi!</b>\n\nNatija: <b>${pts(quiz, att.score)}</b> (${att.score}/${quiz.questions.length} to‘g‘ri) · Vaqt: <b>${fmtTime(att.time)}</b>\n`;
   text += !wrong.length ? "\n🔥 Ajoyib! Hammasi to‘g‘ri!" : `\n📚 <b>Xatolar tahlili:</b>\n` +
     wrong.map(x => `\n<b>${x.n + 1}.</b> ${esc(x.q.q)}\n${x.a == null ? "⏱ Javob berilmadi" : "❌ " + esc(x.q.o[x.a])}\n✅ ${esc(x.q.o[x.q.c])}\n💡 ${esc(x.q.e)}`).join("\n");
   text += `\n\n🏆 Natijalar ${human(quiz.closes)} dan keyin e’lon qilinadi. TOP-3 ga sertifikat va bepul sinov darsi!`;
@@ -152,10 +152,12 @@ async function results(env, id) {
   } while (cursor);
   return out.sort((a, b) => b.score - a.score || a.time - b.time);
 }
+// ball: har bir to'g'ri javob quiz.point (masalan 2.5) ball
+const pts = (quiz, n) => quiz.point ? `${+(n * quiz.point).toFixed(1)} ball` : `${n}/${quiz.questions.length}`;
 const medal = (n) => ["🥇", "🥈", "🥉"][n] || `${n + 1}.`;
 function resultsText(quiz, r, n = 10) {
   return `🏆 <b>${esc(quiz.title)} — natijalar</b>\n\n👥 Qatnashdi: ${r.length} nafar\n\n` +
-    r.slice(0, n).map((x, i) => `${medal(i)} ${esc(shortName(x.name))} — ${x.score}/${quiz.questions.length} (${fmtTime(x.time)})`).join("\n");
+    r.slice(0, n).map((x, i) => `${medal(i)} ${esc(shortName(x.name))} — ${pts(quiz, x.score)} (${fmtTime(x.time)})`).join("\n");
 }
 async function sendTop(env, chat) {
   const quiz = (await findQuiz(env, "active")) || (await findQuiz(env, "last"));
@@ -177,7 +179,7 @@ async function wrapClosed(env) {
     const r = await results(env, id);
     for (const [n, x] of r.slice(0, 3).entries()) {
       if (x.score < minScore) continue;
-      await send(env, x.uid, `${medal(n)} <b>Tabriklaymiz, ${esc(x.name)}!</b>\n\n<b>${esc(quiz.title)}</b> testida <b>${n + 1}-o‘rinni</b> egalladingiz: ${x.score}/${quiz.questions.length} (${fmtTime(x.time)}).\n\n🎓 Sizga <b>Registon sertifikati</b> va <b>bepul sinov darsi</b>! Markazimiz administratori siz bilan bog‘lanadi.`);
+      await send(env, x.uid, `${medal(n)} <b>Tabriklaymiz, ${esc(x.name)}!</b>\n\n<b>${esc(quiz.title)}</b> testida <b>${n + 1}-o‘rinni</b> egalladingiz: ${pts(quiz, x.score)} (${fmtTime(x.time)}).\n\n🎓 Sizga <b>Registon sertifikati</b> va <b>bepul sinov darsi</b>! Markazimiz administratori siz bilan bog‘lanadi.`);
     }
     for (const a of admins) await send(env, a, r.length ? `📊 ${resultsText(quiz, r)}` : `📊 <b>${esc(quiz.title)}</b>: hech kim qatnashmadi.`);
   }
