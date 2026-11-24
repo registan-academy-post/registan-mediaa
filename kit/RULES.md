@@ -66,17 +66,15 @@ duration/width/height, used) and the files in `inbox/photos/`, `inbox/videos/`. 
 - Rotate styles; never use the same style twice in a row in the same slot (check the log).
 - Russian text: styles 1, 2 and 4 render Cyrillic best.
 
-## Caption footer (append to every post caption, parse_mode HTML, exactly this)
+## Caption footer (append to every post caption, parse_mode HTML, exactly this) — o'zbekcha, egasi 24-noyabr
 ```
-📌 <a href="https://registan.edutizim.uz/order/entry/?survey=s33">Bepul darsga yozilish</a>
+📌 <a href="https://registan.edutizim.uz/order/entry/?survey=s33"><b>Bepul darsga yozilish</b></a>
+📞 <b>+998 93 551 27 00</b>
 
-📞 +998935512700
-
-📱 <a href="https://t.me/Registan_LC">Follow us on social media</a>:
-
-📱<a href="https://t.me/RegistanLC_Academy">Telegram</a>   📱<a href="https://instagram.com/registanlc_academy">Instagram</a>   📱<a href="https://goo.gl/maps/ziHA5ukgVtbGmwwR6">Location</a>
+📲 <b>Bizni ijtimoiy tarmoqlarda kuzating:</b>
+<a href="https://t.me/RegistanLC_Academy">Telegram</a> | <a href="https://instagram.com/registanlc_academy">Instagram</a> | <a href="https://goo.gl/maps/ziHA5ukgVtbGmwwR6">Manzil</a>
 ```
-Separate the post body from the footer with one empty line. Whole caption ≤ 1024 visible characters.
+Post matni: har qatorda mos emoji + qalin kalit so'z (masalan "👩‍🏫 <b>Ustoz:</b> ..."), egasining talabi (24-noyabr).
 
 ## Inline buttons
 Every `sendPhoto`, `sendMessage` and `sendVideo` step to the channel also gets `reply_markup` with one row of two
