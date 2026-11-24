@@ -1,0 +1,174 @@
+{
+ "id": "2026-11-24-1930-test-rus",
+ "steps": [
+  {
+   "method": "sendPhoto",
+   "params": {
+    "chat_id": "@RegistanLC_Academy",
+    "photo": "https://raw.githubusercontent.com/registan-academy-post/registan-mediaa/main/posts/2026-11-24/1930_test_rus_elon_v2.jpg",
+    "caption": "🏆🔥 <b>KUNLIK TEST: RUS TILI</b> 🔥🏆\n\n📚 <b>Mavzular: Ranglar va sonlar, Hafta kunlari, Мой / Моя / Моё, Fe’l shakllari (Я, Ты, Он), Ko‘plik, Salomlashish</b>\n\n📝 <b>15 ta savol · Har biri 2.5 ball</b>\n\n⏱ <b>Vaqt: 15 daqiqa</b>\n\n📅 <b>Test 25.11 soat 19:30 gacha ochiq</b>\n\n🥇🥈🥉 <b>TOP-3 ga Registon sertifikati va bepul sinov darsi!</b>\n\n👇 <b>Boshlash uchun pastdagi tugmani bosing. Har kim bir marta qatnashadi!</b>\n\n📞 <b>+998 93 551 27 00</b>\n\n📲 <b>Bizni ijtimoiy tarmoqlarda kuzating:</b>\n\n✈️ <a href=\"https://t.me/RegistanLC_Academy\"><b>Telegram</b></a>  |  📸 <a href=\"https://instagram.com/registanlc_academy\"><b>Instagram</b></a>  |  📍 <a href=\"https://goo.gl/maps/ziHA5ukgVtbGmwwR6\"><b>Manzil</b></a>",
+    "parse_mode": "HTML",
+    "reply_markup": {
+     "inline_keyboard": [
+      [
+       {
+        "text": "🚀 Testni boshlash",
+        "url": "https://t.me/RegistanAcademyYordamchiBot?start=test_20261124"
+       }
+      ]
+     ]
+    }
+   }
+  }
+ ],
+ "results": [
+  {
+   "ok": true,
+   "result": {
+    "message_id": 3826,
+    "sender_chat": {
+     "id": -1001675672165,
+     "title": "Registan LC | Academy filiali",
+     "username": "RegistanLC_Academy",
+     "type": "channel"
+    },
+    "chat": {
+     "id": -1001675672165,
+     "title": "Registan LC | Academy filiali",
+     "username": "RegistanLC_Academy",
+     "type": "channel"
+    },
+    "date": 1795530718,
+    "photo": [
+     {
+      "file_id": "AgACAgQAAx0EY-C6ZQACDvJrBZ_eTKLYXGadRZVyIcdEDiUNkAACchFrG7u2LVAcF6ed6vJxqQEAAwIAA3MAAz0E",
+      "file_unique_id": "AQADchFrG7u2LVB4",
+      "file_size": 1440,
+      "width": 72,
+      "height": 90
+     },
+     {
+      "file_id": "AgACAgQAAx0EY-C6ZQACDvJrBZ_eTKLYXGadRZVyIcdEDiUNkAACchFrG7u2LVAcF6ed6vJxqQEAAwIAA20AAz0E",
+      "file_unique_id": "AQADchFrG7u2LVBy",
+      "file_size": 16693,
+      "width": 256,
+      "height": 320
+     },
+     {
+      "file_id": "AgACAgQAAx0EY-C6ZQACDvJrBZ_eTKLYXGadRZVyIcdEDiUNkAACchFrG7u2LVAcF6ed6vJxqQEAAwIAA3gAAz0E",
+      "file_unique_id": "AQADchFrG7u2LVB9",
+      "file_size": 51921,
+      "width": 640,
+      "height": 800
+     },
+     {
+      "file_id": "AgACAgQAAx0EY-C6ZQACDvJrBZ_eTKLYXGadRZVyIcdEDiUNkAACchFrG7u2LVAcF6ed6vJxqQEAAwIAA3kAAz0E",
+      "file_unique_id": "AQADchFrG7u2LVB-",
+      "file_size": 92900,
+      "width": 1024,
+      "height": 1280
+     },
+     {
+      "file_id": "AgACAgQAAx0EY-C6ZQACDvJrBZ_eTKLYXGadRZVyIcdEDiUNkAACchFrG7u2LVAcF6ed6vJxqQEAAwIAA3cAAz0E",
+      "file_unique_id": "AQADchFrG7u2LVB8",
+      "file_size": 214138,
+      "width": 2048,
+      "height": 2560
+     }
+    ],
+    "caption": "🏆🔥 KUNLIK TEST: RUS TILI 🔥🏆\n\n📚 Mavzular: Ranglar va sonlar, Hafta kunlari, Мой / Моя / Моё, Fe’l shakllari (Я, Ты, Он), Ko‘plik, Salomlashish\n\n📝 15 ta savol · Har biri 2.5 ball\n\n⏱ Vaqt: 15 daqiqa\n\n📅 Test 25.11 soat 19:30 gacha ochiq\n\n🥇🥈🥉 TOP-3 ga Registon sertifikati va bepul sinov darsi!\n\n👇 Boshlash uchun pastdagi tugmani bosing. Har kim bir marta qatnashadi!\n\n📞 +998 93 551 27 00\n\n📲 Bizni ijtimoiy tarmoqlarda kuzating:\n\n✈️ Telegram  |  📸 Instagram  |  📍 Manzil",
+    "caption_entities": [
+     {
+      "offset": 5,
+      "length": 21,
+      "type": "bold"
+     },
+     {
+      "offset": 36,
+      "length": 110,
+      "type": "bold"
+     },
+     {
+      "offset": 151,
+      "length": 31,
+      "type": "bold"
+     },
+     {
+      "offset": 186,
+      "length": 15,
+      "type": "bold"
+     },
+     {
+      "offset": 206,
+      "length": 33,
+      "type": "bold"
+     },
+     {
+      "offset": 248,
+      "length": 51,
+      "type": "bold"
+     },
+     {
+      "offset": 304,
+      "length": 69,
+      "type": "bold"
+     },
+     {
+      "offset": 378,
+      "length": 17,
+      "type": "bold"
+     },
+     {
+      "offset": 400,
+      "length": 36,
+      "type": "bold"
+     },
+     {
+      "offset": 441,
+      "length": 8,
+      "type": "text_link",
+      "url": "https://t.me/RegistanLC_Academy"
+     },
+     {
+      "offset": 441,
+      "length": 8,
+      "type": "bold"
+     },
+     {
+      "offset": 457,
+      "length": 9,
+      "type": "text_link",
+      "url": "https://instagram.com/registanlc_academy"
+     },
+     {
+      "offset": 457,
+      "length": 9,
+      "type": "bold"
+     },
+     {
+      "offset": 474,
+      "length": 6,
+      "type": "text_link",
+      "url": "https://goo.gl/maps/ziHA5ukgVtbGmwwR6"
+     },
+     {
+      "offset": 474,
+      "length": 6,
+      "type": "bold"
+     }
+    ],
+    "reply_markup": {
+     "inline_keyboard": [
+      [
+       {
+        "text": "🚀 Testni boshlash",
+        "url": "https://t.me/RegistanAcademyYordamchiBot?start=test_20261124"
+       }
+      ]
+     ]
+    }
+   }
+  }
+ ],
+ "posted_at": "2026-11-24T14:31:58.940603+00:00"
+}
