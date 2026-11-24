@@ -1,0 +1,25 @@
+{
+ "id": "2026-11-24-1930-test-rus",
+ "not_before": "2026-11-24T19:30:00+05:00",
+ "steps": [
+  {
+   "method": "sendPhoto",
+   "params": {
+    "chat_id": "@RegistanLC_Academy",
+    "photo": "https://raw.githubusercontent.com/registan-academy-post/registan-mediaa/main/posts/2026-11-24/1930_test_rus_elon.jpg",
+    "caption": "🏆 <b>Kunlik test: Rus tili: kundalik so‘zlar</b>\n\n📝 10 ta savol · ⏱️ 15 daqiqa\n📅 Test <b>25.11 soat 19:30</b> gacha ochiq\n🥇🥈🥉 TOP-3 ga <b>Registon sertifikati</b> va <b>bepul sinov darsi</b>!\n\n👇 Boshlash uchun tugmani bosing. Har kim bir marta qatnashadi.\n\n📞 +998935512700",
+    "parse_mode": "HTML",
+    "reply_markup": {
+     "inline_keyboard": [
+      [
+       {
+        "text": "🚀 Testni boshlash",
+        "url": "https://t.me/RegistanAcademyYordamchiBot?start=test_20261124"
+       }
+      ]
+     ]
+    }
+   }
+  }
+ ]
+}
