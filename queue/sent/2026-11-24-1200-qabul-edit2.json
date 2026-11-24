@@ -1,0 +1,199 @@
+{
+ "id": "2026-11-24-1200-qabul-edit2",
+ "steps": [
+  {
+   "method": "editMessageCaption",
+   "params": {
+    "chat_id": "@RegistanLC_Academy",
+    "message_id": 3825,
+    "caption": "🎉🔥 <b>INGLIZ TILI BEGINNER GURUHIGA QABUL OCHIQ!</b> 🔥🎉\n\n👩‍🏫 <b>Ustoz: E’zoza Normurodova</b>\n🏅 <b>Tajriba: 3 yil (IELTS 7.5, CEFR C1)</b>\n📅 <b>Dars kunlari: juft kunlar (seshanba, payshanba, shanba)</b>\n⏰ <b>Soati: 14:00–15:30</b>\n\n✨ <b>Ingliz tilini noldan boshlamoqchi bo‘lganlar uchun!</b>\n🎁 <b>Birinchi dars mutlaqo bepul!</b>\n⚡️ <b>Guruhda joylar soni cheklangan, shoshiling!</b>\n\n📌 <a href=\"https://registan.edutizim.uz/order/entry/?survey=s33\"><b>Bepul darsga yozilish</b></a>\n📞 <b>+998 93 551 27 00</b>\n\n📲 <b>Bizni ijtimoiy tarmoqlarda kuzating:</b>\n✈️ <a href=\"https://t.me/RegistanLC_Academy\"><b>Telegram</b></a> | 📸 <a href=\"https://instagram.com/registanlc_academy\"><b>Instagram</b></a> | 📍 <a href=\"https://goo.gl/maps/ziHA5ukgVtbGmwwR6\"><b>Manzil</b></a>",
+    "parse_mode": "HTML",
+    "reply_markup": {
+     "inline_keyboard": [
+      [
+       {
+        "text": "✍️ Bepul darsga yozilish",
+        "url": "https://registan.edutizim.uz/order/entry/?survey=s33"
+       },
+       {
+        "text": "📍 Xaritada ochish",
+        "url": "https://goo.gl/maps/ziHA5ukgVtbGmwwR6"
+       }
+      ]
+     ]
+    }
+   }
+  }
+ ],
+ "results": [
+  {
+   "ok": true,
+   "result": {
+    "message_id": 3825,
+    "sender_chat": {
+     "id": -1001675672165,
+     "title": "Registan LC | Academy filiali",
+     "username": "RegistanLC_Academy",
+     "type": "channel"
+    },
+    "chat": {
+     "id": -1001675672165,
+     "title": "Registan LC | Academy filiali",
+     "username": "RegistanLC_Academy",
+     "type": "channel"
+    },
+    "date": 1795503947,
+    "edit_date": 1795504191,
+    "photo": [
+     {
+      "file_id": "AgACAgQAAx0EY-C6ZQACDvFrBTdMsf0f1FkFg_HeTgMj6XovVAACXhFrGyWPLVBS6kGQOlNy2AEAAwIAA3MAAz0E",
+      "file_unique_id": "AQADXhFrGyWPLVB4",
+      "file_size": 1549,
+      "width": 72,
+      "height": 90
+     },
+     {
+      "file_id": "AgACAgQAAx0EY-C6ZQACDvFrBTdMsf0f1FkFg_HeTgMj6XovVAACXhFrGyWPLVBS6kGQOlNy2AEAAwIAA20AAz0E",
+      "file_unique_id": "AQADXhFrGyWPLVBy",
+      "file_size": 18579,
+      "width": 256,
+      "height": 320
+     },
+     {
+      "file_id": "AgACAgQAAx0EY-C6ZQACDvFrBTdMsf0f1FkFg_HeTgMj6XovVAACXhFrGyWPLVBS6kGQOlNy2AEAAwIAA3gAAz0E",
+      "file_unique_id": "AQADXhFrGyWPLVB9",
+      "file_size": 59577,
+      "width": 640,
+      "height": 800
+     },
+     {
+      "file_id": "AgACAgQAAx0EY-C6ZQACDvFrBTdMsf0f1FkFg_HeTgMj6XovVAACXhFrGyWPLVBS6kGQOlNy2AEAAwIAA3kAAz0E",
+      "file_unique_id": "AQADXhFrGyWPLVB-",
+      "file_size": 105174,
+      "width": 1024,
+      "height": 1280
+     },
+     {
+      "file_id": "AgACAgQAAx0EY-C6ZQACDvFrBTdMsf0f1FkFg_HeTgMj6XovVAACXhFrGyWPLVBS6kGQOlNy2AEAAwIAA3cAAz0E",
+      "file_unique_id": "AQADXhFrGyWPLVB8",
+      "file_size": 240482,
+      "width": 2048,
+      "height": 2560
+     }
+    ],
+    "caption": "🎉🔥 INGLIZ TILI BEGINNER GURUHIGA QABUL OCHIQ! 🔥🎉\n\n👩‍🏫 Ustoz: E’zoza Normurodova\n🏅 Tajriba: 3 yil (IELTS 7.5, CEFR C1)\n📅 Dars kunlari: juft kunlar (seshanba, payshanba, shanba)\n⏰ Soati: 14:00–15:30\n\n✨ Ingliz tilini noldan boshlamoqchi bo‘lganlar uchun!\n🎁 Birinchi dars mutlaqo bepul!\n⚡️ Guruhda joylar soni cheklangan, shoshiling!\n\n📌 Bepul darsga yozilish\n📞 +998 93 551 27 00\n\n📲 Bizni ijtimoiy tarmoqlarda kuzating:\n✈️ Telegram | 📸 Instagram | 📍 Manzil",
+    "caption_entities": [
+     {
+      "offset": 5,
+      "length": 42,
+      "type": "bold"
+     },
+     {
+      "offset": 60,
+      "length": 25,
+      "type": "bold"
+     },
+     {
+      "offset": 89,
+      "length": 35,
+      "type": "bold"
+     },
+     {
+      "offset": 128,
+      "length": 55,
+      "type": "bold"
+     },
+     {
+      "offset": 186,
+      "length": 18,
+      "type": "bold"
+     },
+     {
+      "offset": 208,
+      "length": 51,
+      "type": "bold"
+     },
+     {
+      "offset": 263,
+      "length": 28,
+      "type": "bold"
+     },
+     {
+      "offset": 295,
+      "length": 43,
+      "type": "bold"
+     },
+     {
+      "offset": 343,
+      "length": 21,
+      "type": "text_link",
+      "url": "https://registan.edutizim.uz/order/entry/?survey=s33"
+     },
+     {
+      "offset": 343,
+      "length": 21,
+      "type": "bold"
+     },
+     {
+      "offset": 368,
+      "length": 17,
+      "type": "bold"
+     },
+     {
+      "offset": 390,
+      "length": 36,
+      "type": "bold"
+     },
+     {
+      "offset": 430,
+      "length": 8,
+      "type": "text_link",
+      "url": "https://t.me/RegistanLC_Academy"
+     },
+     {
+      "offset": 430,
+      "length": 8,
+      "type": "bold"
+     },
+     {
+      "offset": 444,
+      "length": 9,
+      "type": "text_link",
+      "url": "https://instagram.com/registanlc_academy"
+     },
+     {
+      "offset": 444,
+      "length": 9,
+      "type": "bold"
+     },
+     {
+      "offset": 459,
+      "length": 6,
+      "type": "text_link",
+      "url": "https://goo.gl/maps/ziHA5ukgVtbGmwwR6"
+     },
+     {
+      "offset": 459,
+      "length": 6,
+      "type": "bold"
+     }
+    ],
+    "reply_markup": {
+     "inline_keyboard": [
+      [
+       {
+        "text": "✍️ Bepul darsga yozilish",
+        "url": "https://registan.edutizim.uz/order/entry/?survey=s33"
+       },
+       {
+        "text": "📍 Xaritada ochish",
+        "url": "https://goo.gl/maps/ziHA5ukgVtbGmwwR6"
+       }
+      ]
+     ]
+    }
+   }
+  }
+ ],
+ "posted_at": "2026-11-24T07:09:51.995087+00:00"
+}
