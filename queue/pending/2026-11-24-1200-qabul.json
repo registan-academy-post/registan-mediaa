@@ -1,0 +1,29 @@
+{
+ "id": "2026-11-24-1200-qabul",
+ "not_before": "2026-11-24T12:00:00+05:00",
+ "steps": [
+  {
+   "method": "sendPhoto",
+   "params": {
+    "chat_id": "@RegistanLC_Academy",
+    "photo": "https://raw.githubusercontent.com/registan-academy-post/registan-mediaa/main/posts/2026-11-24/1200_qabul_ezoza_beginner.jpg",
+    "caption": "<b>Ingliz tili Beginner guruhiga qabul ochiq!</b> 🎉\n\nUstoz: E’zoza Normurodova\nTajriba: 3 yil (IELTS 7.5, CEFR C1)\nDars kunlari: juft kunlar (seshanba, payshanba, shanba)\nSoati: 14:00–15:30\n\nIngliz tilini noldan boshlamoqchi bo‘lganlar uchun. Birinchi dars bepul, guruhda joylar soni cheklangan.\n\n📌 <a href=\"https://registan.edutizim.uz/order/entry/?survey=s33\">Bepul darsga yozilish</a>\n\n📞 +998935512700\n\n📱 <a href=\"https://t.me/Registan_LC\">Follow us on social media</a>:\n\n📱<a href=\"https://t.me/RegistanLC_Academy\">Telegram</a>   📱<a href=\"https://instagram.com/registanlc_academy\">Instagram</a>   📱<a href=\"https://goo.gl/maps/ziHA5ukgVtbGmwwR6\">Location</a>",
+    "parse_mode": "HTML",
+    "reply_markup": {
+     "inline_keyboard": [
+      [
+       {
+        "text": "✍️ Bepul darsga yozilish",
+        "url": "https://registan.edutizim.uz/order/entry/?survey=s33"
+       },
+       {
+        "text": "📍 Xaritada ochish",
+        "url": "https://goo.gl/maps/ziHA5ukgVtbGmwwR6"
+       }
+      ]
+     ]
+    }
+   }
+  }
+ ]
+}

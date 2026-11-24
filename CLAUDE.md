@@ -3,12 +3,25 @@
 Egasi "post" yoki "kanal yuritish" deganda shu loyihani nazarda tutadi: @RegistanLC_Academy Telegram kanali postlari, dizayni va botlari.
 
 - Loyiha sahifasi (tahlil va reja, pin qilingan): https://claude.ai/artifact/RkC3qPc8w7JgaDREmQyxxF
-- Holat (2026-11-13): postlash TO'XTATILGAN. Obunachilarga eski dizayn (och bej fon, serif+kursiv aralash, faqat yozuv) yoqmadi.
+- Holat (2026-11-24): postlash YANGI REJA bilan qayta boshlandi (12:00 qabul postidan). 13-noyabrdan 24-noyabrgacha to'xtatilgan edi.
+- Eski holat (2026-11-13): postlash TO'XTATILGAN. Obunachilarga eski dizayn (och bej fon, serif+kursiv aralash, faqat yozuv) yoqmadi.
   12:00/15:00/20:00 avtomatik vazifalar o'chirilgan, "Post to Telegram" workflow o'chirilgan, kit/RULES.md boshida PAUSED belgisi.
   Egasi yangi dizaynni tasdiqlamaguncha hech narsa postlanmaydi.
 - Yangi reja: kuniga 3 post (09:00 foydali/yangilik, 13:00 markaz hayoti, 18:00 kunlik test).
 - Namuna kanallar: t.me/registan_uchtepa, t.me/registan_uchtepa_farxadskiy
   (botlar: @registan_uchtepa_javobber_bot — test, @RegistanUchtepaYordamchiBot — darsga yozilish).
+
+## Kanal jadvali (24-noyabrdan, egasi tasdiqlagan)
+- 09:15 Foydali post yoki ta'lim yangiligi (eng saralari).
+- 12:00 Qabul ochiq: EduTizim (Registon_Academy, edutizim_groups_list) dan ingliz/rus/matematika guruhlaridan o'quvchisi 4 tadan kam guruh.
+  Post: fan + daraja, Ustoz, Tajriba (saytdan: registanlc-academy-branch.netlify.app, var USTOZLAR), Dars kunlari, Soati. Ixcham, hamma tushunadigan.
+  EduTizim kunlari: [2,4,6] = toq kunlar (Du/Chor/Ju), [3,5,7] = juft kunlar (Se/Pay/Sha).
+- 13:30 Ustoz bilan tanishuv (sayt ma'lumoti + guruhlari vaqti). Seshanba 13:30 o'rniga viktorina (rasm + 3 so'rovnoma).
+- 15:00 Maslahat posti, kunma-kun: ingliz tili, rus tili, matematika (6 kunda har biri 2 marta).
+- 19:30 Test: Du ingliz e'lon, Se ingliz test kuni, Chor ingliz natija+keyingi test; Pay rus e'lon, Ju rus natija+keyingi;
+  Sha matematika e'lon, Ya matematika natija+keyingi. Natija va e'lon formati — Farxadskiy namunasi (TOP-3, sertifikat, bepul sinov darsi).
+  24-noyabr (Se): istisno — rus tili testi e'loni (birinchi test), natijasi 25-noyabr 19:30.
+- Post matni: egasining namunasi kabi ixcham ro'yxat mumkin (eski RULES "labelled header yo'q" qoidasidan ustun).
 
 ## Yangi dizayn qoidalari (namuna kanallardan)
 - 2 asosiy rang: Registon to'q sariq #EA5A0C + oq; foto ustida qora; sariq faqat yorliq uchun.

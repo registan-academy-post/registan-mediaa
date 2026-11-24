@@ -1,4 +1,8 @@
-# ⛔ POSTING PAUSED (2026-11-13, owner's order)
+# ⚠️ OLD RULES — REPLACED (2026-11-24)
+The owner restarted the channel with a NEW plan and design: see CLAUDE.md, section "Kanal jadvali (24-noyabrdan)".
+Old scheduled runs (08:00/12:00/15:00/20:00) stay disabled. Footer and inline buttons below still apply.
+
+# (history) POSTING PAUSED (2026-11-13, owner's order)
 The owner stopped ALL posting to @RegistanLC_Academy: subscribers disliked the current design.
 Any scheduled run that reads this: do NOT render images, do NOT write queue files, do NOT post.
 Just exit and report "posting paused". A new design and schedule (3 posts a day) will replace these rules.
