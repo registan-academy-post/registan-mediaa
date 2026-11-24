@@ -21,6 +21,9 @@ Egasi "post" yoki "kanal yuritish" deganda shu loyihani nazarda tutadi: @Regista
 - 19:30 Test: Du ingliz e'lon, Se ingliz test kuni, Chor ingliz natija+keyingi test; Pay rus e'lon, Ju rus natija+keyingi;
   Sha matematika e'lon, Ya matematika natija+keyingi. Natija va e'lon formati — Farxadskiy namunasi (TOP-3, sertifikat, bepul sinov darsi).
   24-noyabr (Se): istisno — rus tili testi e'loni (birinchi test), natijasi 25-noyabr 19:30.
+- USTOZ SURATLARI HOZIRCHA ISHLATILMAYDI (egasi, 24-noyabr): egasi ustozlarni yangidan suratga tushirib yuboradi; ungacha postlarda
+  umumiy dars/o'quv suratlari. Odinaxon Akromxo'jayeva (rus tili) tajribasi: 3 yil (egasidan).
+- Testlar: 15 ta savol, har biri 2.5 ball (jami 37.5). Test e'lonida mavzular ko'rsatiladi.
 - Post matni: egasining namunasi kabi ixcham ro'yxat mumkin (eski RULES "labelled header yo'q" qoidasidan ustun).
 
 ## Yangi dizayn qoidalari (namuna kanallardan)
