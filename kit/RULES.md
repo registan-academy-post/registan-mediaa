@@ -72,9 +72,10 @@ duration/width/height, used) and the files in `inbox/photos/`, `inbox/videos/`. 
 📞 <b>+998 93 551 27 00</b>
 
 📲 <b>Bizni ijtimoiy tarmoqlarda kuzating:</b>
-<a href="https://t.me/RegistanLC_Academy">Telegram</a> | <a href="https://instagram.com/registanlc_academy">Instagram</a> | <a href="https://goo.gl/maps/ziHA5ukgVtbGmwwR6">Manzil</a>
+✈️ <a href="https://t.me/RegistanLC_Academy"><b>Telegram</b></a> | 📸 <a href="https://instagram.com/registanlc_academy"><b>Instagram</b></a> | 📍 <a href="https://goo.gl/maps/ziHA5ukgVtbGmwwR6"><b>Manzil</b></a>
 ```
-Post matni: har qatorda mos emoji + qalin kalit so'z (masalan "👩‍🏫 <b>Ustoz:</b> ..."), egasining talabi (24-noyabr).
+Post matni (egasi, 24-noyabr): BUTUN matn qalin (<b>), har qatorda emoji, to'liq bezatilgan; sarlavha KATTA HARF va emojilar bilan.
+Footer havolalari ham qalin, oldida emoji: ✈️ Telegram | 📸 Instagram | 📍 Manzil.
 
 ## Inline buttons
 Every `sendPhoto`, `sendMessage` and `sendVideo` step to the channel also gets `reply_markup` with one row of two
