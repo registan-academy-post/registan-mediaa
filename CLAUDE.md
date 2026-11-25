@@ -25,7 +25,7 @@ Egasi "post" yoki "kanal yuritish" deganda shu loyihani nazarda tutadi: @Regista
   5663766757 akkauntidagi natija "Muhammadqodir Yuldashev" nomida (egasi tasdiqladi).
 - USTOZ SURATLARI HOZIRCHA ISHLATILMAYDI (egasi, 24-noyabr): egasi ustozlarni yangidan suratga tushirib yuboradi; ungacha postlarda
   SURATSIZ dizayn (to'q sariq fon + katta sarlavha + oq ma'lumot kartochkasi) — egasi 24-noyabr 12:00 postidagi begona
-  (boshqa filial/AI) suratni o'chirdi va suratsiz variantni ma'qulladi. Mavzuga aloqasiz yoki boshqa filial suratlarini ishlatma. Odinaxon Akromxo'jayeva (rus tili) tajribasi: 3 yil (egasidan). Mr Johns: IELTS 8 (egasi, 25-noyabr; saytdagi 7.5 eskirgan).
+  (boshqa filial/AI) suratni o'chirdi va suratsiz variantni ma'qulladi. Mavzuga aloqasiz yoki boshqa filial suratlarini ishlatma. Odinaxon Akromxo'jayeva (rus tili) tajribasi: 3 yil (egasidan). Mr Johns: IELTS 8.5 (egasi, 25-noyabr; saytdagi 7.5 eskirgan).
   Istisno: Mr Johns ning ma'qullangan surati (kit/design2/photos/johns_cut.png) ishlatilishi mumkin (egasi, 25-noyabr).
 - Testlar: 15 ta savol, har biri 2.5 ball (jami 37.5). Test e'lonida mavzular ko'rsatiladi.
 - Post matni: egasining namunasi kabi ixcham ro'yxat mumkin (eski RULES "labelled header yo'q" qoidasidan ustun).
