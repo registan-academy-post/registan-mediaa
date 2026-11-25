@@ -1,0 +1,187 @@
+{
+ "id": "2026-11-25-1930-rus-natija",
+ "steps": [
+  {
+   "method": "sendPhoto",
+   "params": {
+    "chat_id": "@RegistanLC_Academy",
+    "photo": "https://raw.githubusercontent.com/registan-academy-post/registan-mediaa/main/posts/2026-11-25/1930_rus_natija.jpg",
+    "caption": "🏆🔥 <b>RUS TILI: KUNDALIK SO‘ZLAR — NATIJALAR</b> 🔥🏆\n\n👥 <b>Qatnashdi: 3 nafar</b>\n\n🥇 <b>Dilrabo — 37.5 ball (1:22)</b>\n🥈 <b>Manzuraxon — 37.5 ball (3:07)</b>\n🥉 <b>Yuldashev M. — 30 ball (1:14)</b>\n\n🎓 <b>G‘oliblarga Registon sertifikati va bepul sinov darsi botda yuboriladi!</b>\n\n📅 <b>Keyingi test: Payshanba, 19:30 — Matematika</b>\n\n🙏 <b>Barchaga rahmat! Har bir qatnashchiga xatolar tahlili botda yuborildi</b> 📚\n\n📞 <b>+998 93 551 27 00</b>\n\n📲 <b>Bizni ijtimoiy tarmoqlarda kuzating:</b>\n\n✈️ <a href=\"https://t.me/RegistanLC_Academy\"><b>Telegram</b></a>  |  📸 <a href=\"https://instagram.com/registanlc_academy\"><b>Instagram</b></a>  |  📍 <a href=\"https://goo.gl/maps/ziHA5ukgVtbGmwwR6\"><b>Manzil</b></a>",
+    "parse_mode": "HTML",
+    "reply_markup": {
+     "inline_keyboard": [
+      [
+       {
+        "text": "✍️ Bepul darsga yozilish",
+        "url": "https://registan.edutizim.uz/order/entry/?survey=s33"
+       },
+       {
+        "text": "📍 Xaritada ochish",
+        "url": "https://goo.gl/maps/ziHA5ukgVtbGmwwR6"
+       }
+      ]
+     ]
+    }
+   }
+  }
+ ],
+ "results": [
+  {
+   "ok": true,
+   "result": {
+    "message_id": 3832,
+    "sender_chat": {
+     "id": -1001675672165,
+     "title": "Registan LC | Academy filiali",
+     "username": "RegistanLC_Academy",
+     "type": "channel"
+    },
+    "chat": {
+     "id": -1001675672165,
+     "title": "Registan LC | Academy filiali",
+     "username": "RegistanLC_Academy",
+     "type": "channel"
+    },
+    "date": 1795617040,
+    "photo": [
+     {
+      "file_id": "AgACAgQAAx0EY-C6ZQACDvhrBvEQ4yoPZAOeZflAlUpkP7LH4AACeRFrGxJHPVCcOn3msPPAeQEAAwIAA3MAAz0E",
+      "file_unique_id": "AQADeRFrGxJHPVB4",
+      "file_size": 1574,
+      "width": 72,
+      "height": 90
+     },
+     {
+      "file_id": "AgACAgQAAx0EY-C6ZQACDvhrBvEQ4yoPZAOeZflAlUpkP7LH4AACeRFrGxJHPVCcOn3msPPAeQEAAwIAA20AAz0E",
+      "file_unique_id": "AQADeRFrGxJHPVBy",
+      "file_size": 17326,
+      "width": 256,
+      "height": 320
+     },
+     {
+      "file_id": "AgACAgQAAx0EY-C6ZQACDvhrBvEQ4yoPZAOeZflAlUpkP7LH4AACeRFrGxJHPVCcOn3msPPAeQEAAwIAA3gAAz0E",
+      "file_unique_id": "AQADeRFrGxJHPVB9",
+      "file_size": 56774,
+      "width": 640,
+      "height": 800
+     },
+     {
+      "file_id": "AgACAgQAAx0EY-C6ZQACDvhrBvEQ4yoPZAOeZflAlUpkP7LH4AACeRFrGxJHPVCcOn3msPPAeQEAAwIAA3kAAz0E",
+      "file_unique_id": "AQADeRFrGxJHPVB-",
+      "file_size": 105471,
+      "width": 1024,
+      "height": 1280
+     },
+     {
+      "file_id": "AgACAgQAAx0EY-C6ZQACDvhrBvEQ4yoPZAOeZflAlUpkP7LH4AACeRFrGxJHPVCcOn3msPPAeQEAAwIAA3cAAz0E",
+      "file_unique_id": "AQADeRFrGxJHPVB8",
+      "file_size": 237030,
+      "width": 2048,
+      "height": 2560
+     }
+    ],
+    "caption": "🏆🔥 RUS TILI: KUNDALIK SO‘ZLAR — NATIJALAR 🔥🏆\n\n👥 Qatnashdi: 3 nafar\n\n🥇 Dilrabo — 37.5 ball (1:22)\n🥈 Manzuraxon — 37.5 ball (3:07)\n🥉 Yuldashev M. — 30 ball (1:14)\n\n🎓 G‘oliblarga Registon sertifikati va bepul sinov darsi botda yuboriladi!\n\n📅 Keyingi test: Payshanba, 19:30 — Matematika\n\n🙏 Barchaga rahmat! Har bir qatnashchiga xatolar tahlili botda yuborildi 📚\n\n📞 +998 93 551 27 00\n\n📲 Bizni ijtimoiy tarmoqlarda kuzating:\n\n✈️ Telegram  |  📸 Instagram  |  📍 Manzil",
+    "caption_entities": [
+     {
+      "offset": 5,
+      "length": 38,
+      "type": "bold"
+     },
+     {
+      "offset": 53,
+      "length": 18,
+      "type": "bold"
+     },
+     {
+      "offset": 76,
+      "length": 26,
+      "type": "bold"
+     },
+     {
+      "offset": 106,
+      "length": 29,
+      "type": "bold"
+     },
+     {
+      "offset": 139,
+      "length": 29,
+      "type": "bold"
+     },
+     {
+      "offset": 173,
+      "length": 71,
+      "type": "bold"
+     },
+     {
+      "offset": 249,
+      "length": 43,
+      "type": "bold"
+     },
+     {
+      "offset": 297,
+      "length": 69,
+      "type": "bold"
+     },
+     {
+      "offset": 374,
+      "length": 17,
+      "type": "bold"
+     },
+     {
+      "offset": 396,
+      "length": 36,
+      "type": "bold"
+     },
+     {
+      "offset": 437,
+      "length": 8,
+      "type": "text_link",
+      "url": "https://t.me/RegistanLC_Academy"
+     },
+     {
+      "offset": 437,
+      "length": 8,
+      "type": "bold"
+     },
+     {
+      "offset": 453,
+      "length": 9,
+      "type": "text_link",
+      "url": "https://instagram.com/registanlc_academy"
+     },
+     {
+      "offset": 453,
+      "length": 9,
+      "type": "bold"
+     },
+     {
+      "offset": 470,
+      "length": 6,
+      "type": "text_link",
+      "url": "https://goo.gl/maps/ziHA5ukgVtbGmwwR6"
+     },
+     {
+      "offset": 470,
+      "length": 6,
+      "type": "bold"
+     }
+    ],
+    "reply_markup": {
+     "inline_keyboard": [
+      [
+       {
+        "text": "✍️ Bepul darsga yozilish",
+        "url": "https://registan.edutizim.uz/order/entry/?survey=s33"
+       },
+       {
+        "text": "📍 Xaritada ochish",
+        "url": "https://goo.gl/maps/ziHA5ukgVtbGmwwR6"
+       }
+      ]
+     ]
+    }
+   }
+  }
+ ],
+ "posted_at": "2026-11-25T14:30:40.559211+00:00"
+}
