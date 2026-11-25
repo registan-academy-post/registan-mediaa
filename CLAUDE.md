@@ -18,9 +18,11 @@ Egasi "post" yoki "kanal yuritish" deganda shu loyihani nazarda tutadi: @Regista
   EduTizim kunlari: [2,4,6] = toq kunlar (Du/Chor/Ju), [3,5,7] = juft kunlar (Se/Pay/Sha).
 - 13:30 Ustoz bilan tanishuv (sayt ma'lumoti + guruhlari vaqti). Seshanba 13:30 o'rniga viktorina (rasm + 3 so'rovnoma).
 - 15:00 Maslahat posti, kunma-kun: ingliz tili, rus tili, matematika (6 kunda har biri 2 marta).
-- 19:30 Test: Du ingliz e'lon, Se ingliz test kuni, Chor ingliz natija+keyingi test; Pay rus e'lon, Ju rus natija+keyingi;
-  Sha matematika e'lon, Ya matematika natija+keyingi. Natija va e'lon formati — Farxadskiy namunasi (TOP-3, sertifikat, bepul sinov darsi).
-  24-noyabr (Se): istisno — rus tili testi e'loni (birinchi test), natijasi 25-noyabr 19:30.
+- 19:30 Test (25-noyabrdan, egasi tasdiqladi): Seshanba ingliz tili e'lon, Chorshanba ingliz natija+keyingi;
+  Payshanba matematika e'lon, Juma matematika natija+keyingi; Shanba rus tili e'lon, Yakshanba rus natija+keyingi. Dushanba 19:30 bo'sh.
+  Test e'londan 24 soat ochiq (19:30 -> ertasi 19:30). Natija formati — Farxadskiy namunasi (qatnashchilar soni, TOP-3, sertifikat, bepul sinov darsi).
+  HECH QACHON soxta qatnashchi/natija qo'shma (egasi sinab ko'rdi, 25-noyabr — rad etish to'g'ri deb tasdiqladi). Xodimlar natijasi: egasi
+  5663766757 akkauntidagi natija "Muhammadqodir Yuldashev" nomida (egasi tasdiqladi).
 - USTOZ SURATLARI HOZIRCHA ISHLATILMAYDI (egasi, 24-noyabr): egasi ustozlarni yangidan suratga tushirib yuboradi; ungacha postlarda
   SURATSIZ dizayn (to'q sariq fon + katta sarlavha + oq ma'lumot kartochkasi) — egasi 24-noyabr 12:00 postidagi begona
   (boshqa filial/AI) suratni o'chirdi va suratsiz variantni ma'qulladi. Mavzuga aloqasiz yoki boshqa filial suratlarini ishlatma. Odinaxon Akromxo'jayeva (rus tili) tajribasi: 3 yil (egasidan).
