@@ -1,0 +1,175 @@
+{
+ "id": "2026-11-26-1930-test-matematika",
+ "not_before": "2026-11-26T19:30:00+05:00",
+ "steps": [
+  {
+   "method": "sendPhoto",
+   "params": {
+    "chat_id": "@RegistanLC_Academy",
+    "photo": "https://raw.githubusercontent.com/registan-academy-post/registan-mediaa/main/posts/2026-11-26/1930_test_matematika_elon.jpg",
+    "caption": "🏆🔥 <b>KUNLIK TEST: MATEMATIKA</b> 🔥🏆\n\n📚 <b>Mavzular: Amallar tartibi, Rim raqamlari, O‘lchov birliklari, Bo‘linish belgilari, Oddiy va o‘nli kasrlar, EKUB va EKUK, Qoldiqli bo‘lish, Perimetr va yuza, Uchburchak, Daraja</b>\n\n📝 <b>15 ta savol · Har biri 2.5 ball</b>\n\n⏱ <b>Vaqt: 15 daqiqa</b>\n\n📅 <b>Test 27.11 soat 19:30 gacha ochiq</b>\n\n🥇🥈🥉 <b>TOP-3 ga Registon sertifikati va bepul sinov darsi!</b>\n\n👇 <b>Boshlash uchun pastdagi tugmani bosing. Har kim bir marta qatnashadi!</b>\n\n📞 <b>+998 93 551 27 00</b>\n\n📲 <b>Bizni ijtimoiy tarmoqlarda kuzating:</b>\n\n✈️ <a href=\"https://t.me/RegistanLC_Academy\"><b>Telegram</b></a>  |  📸 <a href=\"https://instagram.com/registanlc_academy\"><b>Instagram</b></a>  |  📍 <a href=\"https://goo.gl/maps/ziHA5ukgVtbGmwwR6\"><b>Manzil</b></a>",
+    "parse_mode": "HTML",
+    "reply_markup": {
+     "inline_keyboard": [
+      [
+       {
+        "text": "🚀 Testni boshlash",
+        "url": "https://t.me/RegistanAcademyYordamchiBot?start=test_20261126"
+       }
+      ]
+     ]
+    }
+   }
+  }
+ ],
+ "results": [
+  {
+   "ok": true,
+   "result": {
+    "message_id": 3833,
+    "sender_chat": {
+     "id": -1001675672165,
+     "title": "Registan LC | Academy filiali",
+     "username": "RegistanLC_Academy",
+     "type": "channel"
+    },
+    "chat": {
+     "id": -1001675672165,
+     "title": "Registan LC | Academy filiali",
+     "username": "RegistanLC_Academy",
+     "type": "channel"
+    },
+    "date": 1795703413,
+    "photo": [
+     {
+      "file_id": "AgACAgQAAx0EY-C6ZQACDvlrCEJ18OwIijB9fUM27nBJVHI60gACPBFrG5nMRVCgVG6IsOlZGwEAAwIAA3MAAz0E",
+      "file_unique_id": "AQADPBFrG5nMRVB4",
+      "file_size": 1440,
+      "width": 72,
+      "height": 90
+     },
+     {
+      "file_id": "AgACAgQAAx0EY-C6ZQACDvlrCEJ18OwIijB9fUM27nBJVHI60gACPBFrG5nMRVCgVG6IsOlZGwEAAwIAA20AAz0E",
+      "file_unique_id": "AQADPBFrG5nMRVBy",
+      "file_size": 16826,
+      "width": 256,
+      "height": 320
+     },
+     {
+      "file_id": "AgACAgQAAx0EY-C6ZQACDvlrCEJ18OwIijB9fUM27nBJVHI60gACPBFrG5nMRVCgVG6IsOlZGwEAAwIAA3gAAz0E",
+      "file_unique_id": "AQADPBFrG5nMRVB9",
+      "file_size": 52651,
+      "width": 640,
+      "height": 800
+     },
+     {
+      "file_id": "AgACAgQAAx0EY-C6ZQACDvlrCEJ18OwIijB9fUM27nBJVHI60gACPBFrG5nMRVCgVG6IsOlZGwEAAwIAA3kAAz0E",
+      "file_unique_id": "AQADPBFrG5nMRVB-",
+      "file_size": 94280,
+      "width": 1024,
+      "height": 1280
+     },
+     {
+      "file_id": "AgACAgQAAx0EY-C6ZQACDvlrCEJ18OwIijB9fUM27nBJVHI60gACPBFrG5nMRVCgVG6IsOlZGwEAAwIAA3cAAz0E",
+      "file_unique_id": "AQADPBFrG5nMRVB8",
+      "file_size": 217509,
+      "width": 2048,
+      "height": 2560
+     }
+    ],
+    "caption": "🏆🔥 KUNLIK TEST: MATEMATIKA 🔥🏆\n\n📚 Mavzular: Amallar tartibi, Rim raqamlari, O‘lchov birliklari, Bo‘linish belgilari, Oddiy va o‘nli kasrlar, EKUB va EKUK, Qoldiqli bo‘lish, Perimetr va yuza, Uchburchak, Daraja\n\n📝 15 ta savol · Har biri 2.5 ball\n\n⏱ Vaqt: 15 daqiqa\n\n📅 Test 27.11 soat 19:30 gacha ochiq\n\n🥇🥈🥉 TOP-3 ga Registon sertifikati va bepul sinov darsi!\n\n👇 Boshlash uchun pastdagi tugmani bosing. Har kim bir marta qatnashadi!\n\n📞 +998 93 551 27 00\n\n📲 Bizni ijtimoiy tarmoqlarda kuzating:\n\n✈️ Telegram  |  📸 Instagram  |  📍 Manzil",
+    "caption_entities": [
+     {
+      "offset": 5,
+      "length": 23,
+      "type": "bold"
+     },
+     {
+      "offset": 38,
+      "length": 175,
+      "type": "bold"
+     },
+     {
+      "offset": 218,
+      "length": 31,
+      "type": "bold"
+     },
+     {
+      "offset": 253,
+      "length": 15,
+      "type": "bold"
+     },
+     {
+      "offset": 273,
+      "length": 33,
+      "type": "bold"
+     },
+     {
+      "offset": 315,
+      "length": 51,
+      "type": "bold"
+     },
+     {
+      "offset": 371,
+      "length": 69,
+      "type": "bold"
+     },
+     {
+      "offset": 445,
+      "length": 17,
+      "type": "bold"
+     },
+     {
+      "offset": 467,
+      "length": 36,
+      "type": "bold"
+     },
+     {
+      "offset": 508,
+      "length": 8,
+      "type": "text_link",
+      "url": "https://t.me/RegistanLC_Academy"
+     },
+     {
+      "offset": 508,
+      "length": 8,
+      "type": "bold"
+     },
+     {
+      "offset": 524,
+      "length": 9,
+      "type": "text_link",
+      "url": "https://instagram.com/registanlc_academy"
+     },
+     {
+      "offset": 524,
+      "length": 9,
+      "type": "bold"
+     },
+     {
+      "offset": 541,
+      "length": 6,
+      "type": "text_link",
+      "url": "https://goo.gl/maps/ziHA5ukgVtbGmwwR6"
+     },
+     {
+      "offset": 541,
+      "length": 6,
+      "type": "bold"
+     }
+    ],
+    "reply_markup": {
+     "inline_keyboard": [
+      [
+       {
+        "text": "🚀 Testni boshlash",
+        "url": "https://t.me/RegistanAcademyYordamchiBot?start=test_20261126"
+       }
+      ]
+     ]
+    }
+   }
+  }
+ ],
+ "posted_at": "2026-11-26T14:30:13.860273+00:00"
+}
