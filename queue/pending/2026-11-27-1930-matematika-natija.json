@@ -1,0 +1,28 @@
+{
+ "id": "2026-11-27-1930-matematika-natija",
+ "steps": [
+  {
+   "method": "sendPhoto",
+   "params": {
+    "chat_id": "@RegistanLC_Academy",
+    "photo": "https://raw.githubusercontent.com/registan-academy-post/registan-mediaa/main/posts/2026-11-27/1930_matematika_natija.jpg",
+    "caption": "🏆🔥 <b>MATEMATIKA: AMALLAR, KASRLAR VA GEOMETRIYA — NATIJALAR</b> 🔥🏆\n\n👥 <b>Qatnashdi: 3 nafar</b>\n\n🥇 <b>Farrux — 37.5 ball (2:38)</b>\n🥈 <b>Manzuraxon — 37.5 ball (2:55)</b>\n🥉 <b>Shohista B. — 12.5 ball (1:16)</b>\n\n🎓 <b>G‘oliblarga Registon sertifikati va bepul sinov darsi botda yuboriladi!</b>\n\n📅 <b>Keyingi test: Shanba, 19:30 — Rus tili</b>\n\n🙏 <b>Barchaga rahmat! Har bir qatnashchiga xatolar tahlili botda yuborildi</b> 📚\n\n📞 <b>+998 93 551 27 00</b>\n\n📲 <b>Bizni ijtimoiy tarmoqlarda kuzating:</b>\n\n✈️ <a href=\"https://t.me/RegistanLC_Academy\"><b>Telegram</b></a>  |  📸 <a href=\"https://instagram.com/registanlc_academy\"><b>Instagram</b></a>  |  📍 <a href=\"https://goo.gl/maps/ziHA5ukgVtbGmwwR6\"><b>Manzil</b></a>",
+    "parse_mode": "HTML",
+    "reply_markup": {
+     "inline_keyboard": [
+      [
+       {
+        "text": "✍️ Bepul darsga yozilish",
+        "url": "https://registan.edutizim.uz/order/entry/?survey=s33"
+       },
+       {
+        "text": "📍 Xaritada ochish",
+        "url": "https://goo.gl/maps/ziHA5ukgVtbGmwwR6"
+       }
+      ]
+     ]
+    }
+   }
+  }
+ ]
+}
