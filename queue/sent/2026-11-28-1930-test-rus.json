@@ -1,0 +1,175 @@
+{
+ "id": "2026-11-28-1930-test-rus",
+ "not_before": "2026-11-28T19:30:00+05:00",
+ "steps": [
+  {
+   "method": "sendPhoto",
+   "params": {
+    "chat_id": "@RegistanLC_Academy",
+    "photo": "https://raw.githubusercontent.com/registan-academy-post/registan-mediaa/main/posts/2026-11-28/1930_test_rus_elon.jpg",
+    "caption": "🏆🔥 <b>KUNLIK TEST: RUS TILI</b> 🔥🏆\n\n📚 <b>Mavzular: Oila a’zolari, Kasblar, Ovqat va ichimliklar, Savol so‘zlari (Кто, Где, Что), Predloglar В / НА, O‘tgan zamon (Был, Была), Sifat va ot moslashuvi</b>\n\n📝 <b>15 ta savol · Har biri 2.5 ball</b>\n\n⏱ <b>Vaqt: 15 daqiqa</b>\n\n📅 <b>Test 29.11 soat 19:30 gacha ochiq</b>\n\n🥇🥈🥉 <b>TOP-3 ga Registon sertifikati va bepul sinov darsi!</b>\n\n👇 <b>Boshlash uchun pastdagi tugmani bosing. Har kim bir marta qatnashadi!</b>\n\n📞 <b>+998 93 551 27 00</b>\n\n📲 <b>Bizni ijtimoiy tarmoqlarda kuzating:</b>\n\n✈️ <a href=\"https://t.me/RegistanLC_Academy\"><b>Telegram</b></a>  |  📸 <a href=\"https://instagram.com/registanlc_academy\"><b>Instagram</b></a>  |  📍 <a href=\"https://goo.gl/maps/ziHA5ukgVtbGmwwR6\"><b>Manzil</b></a>",
+    "parse_mode": "HTML",
+    "reply_markup": {
+     "inline_keyboard": [
+      [
+       {
+        "text": "🚀 Testni boshlash",
+        "url": "https://t.me/RegistanAcademyYordamchiBot?start=test_20261128"
+       }
+      ]
+     ]
+    }
+   }
+  }
+ ],
+ "results": [
+  {
+   "ok": true,
+   "result": {
+    "message_id": 3835,
+    "sender_chat": {
+     "id": -1001675672165,
+     "title": "Registan LC | Academy filiali",
+     "username": "RegistanLC_Academy",
+     "type": "channel"
+    },
+    "chat": {
+     "id": -1001675672165,
+     "title": "Registan LC | Academy filiali",
+     "username": "RegistanLC_Academy",
+     "type": "channel"
+    },
+    "date": 1795876215,
+    "photo": [
+     {
+      "file_id": "AgACAgQAAx0EY-C6ZQACDvtrCuV3VJHZ0oE3Z5DyRy2FmF5JdAAC1RBrG08sXVD1BLvO6KTKvAEAAwIAA3MAAz0E",
+      "file_unique_id": "AQAD1RBrG08sXVB4",
+      "file_size": 1440,
+      "width": 72,
+      "height": 90
+     },
+     {
+      "file_id": "AgACAgQAAx0EY-C6ZQACDvtrCuV3VJHZ0oE3Z5DyRy2FmF5JdAAC1RBrG08sXVD1BLvO6KTKvAEAAwIAA20AAz0E",
+      "file_unique_id": "AQAD1RBrG08sXVBy",
+      "file_size": 16688,
+      "width": 256,
+      "height": 320
+     },
+     {
+      "file_id": "AgACAgQAAx0EY-C6ZQACDvtrCuV3VJHZ0oE3Z5DyRy2FmF5JdAAC1RBrG08sXVD1BLvO6KTKvAEAAwIAA3gAAz0E",
+      "file_unique_id": "AQAD1RBrG08sXVB9",
+      "file_size": 51924,
+      "width": 640,
+      "height": 800
+     },
+     {
+      "file_id": "AgACAgQAAx0EY-C6ZQACDvtrCuV3VJHZ0oE3Z5DyRy2FmF5JdAAC1RBrG08sXVD1BLvO6KTKvAEAAwIAA3kAAz0E",
+      "file_unique_id": "AQAD1RBrG08sXVB-",
+      "file_size": 92911,
+      "width": 1024,
+      "height": 1280
+     },
+     {
+      "file_id": "AgACAgQAAx0EY-C6ZQACDvtrCuV3VJHZ0oE3Z5DyRy2FmF5JdAAC1RBrG08sXVD1BLvO6KTKvAEAAwIAA3cAAz0E",
+      "file_unique_id": "AQAD1RBrG08sXVB8",
+      "file_size": 214242,
+      "width": 2048,
+      "height": 2560
+     }
+    ],
+    "caption": "🏆🔥 KUNLIK TEST: RUS TILI 🔥🏆\n\n📚 Mavzular: Oila a’zolari, Kasblar, Ovqat va ichimliklar, Savol so‘zlari (Кто, Где, Что), Predloglar В / НА, O‘tgan zamon (Был, Была), Sifat va ot moslashuvi\n\n📝 15 ta savol · Har biri 2.5 ball\n\n⏱ Vaqt: 15 daqiqa\n\n📅 Test 29.11 soat 19:30 gacha ochiq\n\n🥇🥈🥉 TOP-3 ga Registon sertifikati va bepul sinov darsi!\n\n👇 Boshlash uchun pastdagi tugmani bosing. Har kim bir marta qatnashadi!\n\n📞 +998 93 551 27 00\n\n📲 Bizni ijtimoiy tarmoqlarda kuzating:\n\n✈️ Telegram  |  📸 Instagram  |  📍 Manzil",
+    "caption_entities": [
+     {
+      "offset": 5,
+      "length": 21,
+      "type": "bold"
+     },
+     {
+      "offset": 36,
+      "length": 155,
+      "type": "bold"
+     },
+     {
+      "offset": 196,
+      "length": 31,
+      "type": "bold"
+     },
+     {
+      "offset": 231,
+      "length": 15,
+      "type": "bold"
+     },
+     {
+      "offset": 251,
+      "length": 33,
+      "type": "bold"
+     },
+     {
+      "offset": 293,
+      "length": 51,
+      "type": "bold"
+     },
+     {
+      "offset": 349,
+      "length": 69,
+      "type": "bold"
+     },
+     {
+      "offset": 423,
+      "length": 17,
+      "type": "bold"
+     },
+     {
+      "offset": 445,
+      "length": 36,
+      "type": "bold"
+     },
+     {
+      "offset": 486,
+      "length": 8,
+      "type": "text_link",
+      "url": "https://t.me/RegistanLC_Academy"
+     },
+     {
+      "offset": 486,
+      "length": 8,
+      "type": "bold"
+     },
+     {
+      "offset": 502,
+      "length": 9,
+      "type": "text_link",
+      "url": "https://instagram.com/registanlc_academy"
+     },
+     {
+      "offset": 502,
+      "length": 9,
+      "type": "bold"
+     },
+     {
+      "offset": 519,
+      "length": 6,
+      "type": "text_link",
+      "url": "https://goo.gl/maps/ziHA5ukgVtbGmwwR6"
+     },
+     {
+      "offset": 519,
+      "length": 6,
+      "type": "bold"
+     }
+    ],
+    "reply_markup": {
+     "inline_keyboard": [
+      [
+       {
+        "text": "🚀 Testni boshlash",
+        "url": "https://t.me/RegistanAcademyYordamchiBot?start=test_20261128"
+       }
+      ]
+     ]
+    }
+   }
+  }
+ ],
+ "posted_at": "2026-11-28T14:30:15.698420+00:00"
+}
